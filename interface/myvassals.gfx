@@ -1,0 +1,16 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_sphere"
+		texturefile = "gfx//interface//sphere.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_has_sphere"
+		texturefile = "gfx//interface//has_sphere.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_is_sphere"
+		texturefile = "gfx//interface//is_sphere.dds"
+	}
+}
