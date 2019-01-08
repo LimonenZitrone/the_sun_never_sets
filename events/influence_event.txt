@@ -1,0 +1,36 @@
+namespace = influencing
+
+country_event = {
+    id = influencing.1
+    title = influencing.1.t
+    desc = influencing.1.d
+    picture = DIPLOMACY_eventPicture
+    
+    hidden = yes
+    
+    trigger = {
+        NOT = { is_month = 1 }
+        NOT = { has_country_modifier = influence_sphere_var_increased }
+    }
+    
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = { influence_sphere = 5 }
+            add_country_modifier = {
+                name = influence_sphere_var_increased
+                duration = 32
+                hidden = yes
+            }
+        }
+    }
+    
+    option = {
+        name = no_u
+        
+        ai_chance = { factor = 100 }
+    }
+}
