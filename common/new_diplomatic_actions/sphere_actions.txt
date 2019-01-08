@@ -1,0 +1,75 @@
+add_to_soi = {
+	category = great_powers
+	require_acceptance = no
+	
+	is_visible = {
+		is_great_power = yes
+	}
+	
+	is_allowed = {
+		FROM = {
+			is_subject = no
+		}
+		check_variable = { influence_sphere = 100 }
+	}
+	
+	on_accept = {
+		create_subject = {
+			subject_type = sphere
+			subject = FROM
+		}
+	}
+}
+
+influence_nation = {
+    category = great_powers
+    require_acceptance = no
+    
+    is_visible = {
+        is_great_power = yes
+        NOT = { has_country_flag = influencing_@FROM }
+        FROM = {
+            NOT = { has_country_flag = influenced_by_@ROOT }
+        }
+    }
+    
+    is_allowed = {
+        FROM = {
+            is_subject = no
+        }
+    }
+    
+    on_accept = {
+        set_variable = { influence_sphere = 0 }
+        set_country_flag = influencing_@FROM
+        FROM = {
+            set_country_flag = influenced_by_@ROOT
+        }
+    }
+}
+
+stop_influence_nation = {
+	category = great_powers
+	require_acceptance = no
+	
+	is_visible = {
+		is_great_power = yes
+		OR = {
+			has_country_flag = influencing_@FROM
+			FROM = {
+				has_country_flag = influenced_by_@ROOT
+			}
+		}
+	}
+	
+	is_allowed = {
+		always = yes
+	}
+	
+	on_accept = {
+		clr_country_flag = influencing_@FROM
+		 FROM = {
+            clr_country_flag = influenced_by_@ROOT
+        }
+	}
+}
