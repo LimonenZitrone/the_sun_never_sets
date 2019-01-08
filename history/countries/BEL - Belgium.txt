@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = western
+primary_culture = flemish
+add_accepted_culture = wallonian
+religion = catholic
+capital = 92
+
+#1477.1.5 = {
+#	government_rank = 1
+#}
+
+1831.6.21 = {
+	monarch = {
+		name = "Leopold I"
+		culture = flemish
+		dynasty = "van Saxe-Coburg"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
