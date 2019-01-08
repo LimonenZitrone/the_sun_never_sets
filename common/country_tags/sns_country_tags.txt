@@ -1,1 +1,3 @@
 EIC = "EastIndiaCompany.txt"
+TTS = "countries/TheTwoSicilies.txt"
+BEL = "countries/Belgium.txt"
