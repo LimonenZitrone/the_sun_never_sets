@@ -1,0 +1,22 @@
+﻿l_english:
+ # Diplo Actions:
+ add_to_soi_title: "Add To Sphere"
+ add_to_soi_desc: "Do you want to add §Y[From.GetName]§ to your sphere?"
+ add_to_soi_tooltip: "Add §Y[From.GetName]§! to your sphere.\n"
+ 
+ influence_nation_title: "Influence Nation"
+ influence_nation_desc: "Do you want to influence §Y[From.GetName]§!?"
+ influence_nation_tooltip: "Influence §Y[From.GetName]§!.\n"
+ 
+ stop_influence_nation_title: "Stop Influencing Nation"
+ stop_influence_nation_desc: "Do you want to stop influencing §Y[From.GetName]§? \nThis will reset your progress."
+ stop_influence_nation_tooltip: "Stop influencing §Y[From.GetName]§.\n"
+ 
+ IS_SPHERE_INFLUENCING_FROM: "Is influencing §Y[From.GetName]§!"
+ IS_NOT_SPHERE_INFLUENCING_FROM: "Is NOT influencing §Y[From.GetName]§!"
+ 
+ IS_NO_ROM_GREAT_POWER: "Less than §Y8§! Western countries have a higher §Ydevelopment§! than §Y[This.GetName]§!"
+ 
+ # Variables:
+ influence_sphere: "Influence"
+ 

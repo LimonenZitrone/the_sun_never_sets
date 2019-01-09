@@ -1,0 +1,44 @@
+namespace = sns_sphere_events
+
+country_event = {
+    id = sns_sphere_events.1
+    title = sns_sphere_events.1.t
+    desc = sns_sphere_events.1.d
+    picture = DIPLOMACY_eventPicture
+    
+    hidden = yes
+    
+    trigger = {
+        NOT = { is_month = 1 }
+        NOT = { has_country_modifier = influence_sphere_var_increased }
+		any_country = {
+			OR = {
+				ROOT = {
+					has_country_flag = is_influencing_@PREV
+				}
+				has_country_flag = influenced_by_@ROOT
+			}
+		}
+    }
+    
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    immediate = {
+        hidden_effect = {
+            change_variable = { influence_sphere = 5 }
+            add_country_modifier = {
+                name = influence_sphere_var_increased
+                duration = 32
+                hidden = yes
+            }
+        }
+    }
+    
+    option = {
+        name = sns_sphere_events.1.a
+        
+        ai_chance = { factor = 100 }
+    }
+}
