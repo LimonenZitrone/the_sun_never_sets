@@ -1,4 +1,4 @@
 #EIC = "EastIndiaCompany.txt"
-TTS = "countries/TheTwoSicilies.txt"
 BEL = "countries/Belgium.txt"
-NGC = "countries/North German Confederation.txt"
+NGC = "countries/NorthGermanConfederation.txt"
+TTS = "countries/TheTwoSicilies.txt"
