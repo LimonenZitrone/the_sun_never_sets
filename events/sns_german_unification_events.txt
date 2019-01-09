@@ -4,6 +4,7 @@ country_event = {
 	id = sns_german_unification_events.1
 	title = sns_german_unification_events.1.t
 	desc = sns_german_unification_events.1.d
+	picture = DIPLOMACY_eventPicture
 	
 	fire_only_once = yes
 	
@@ -55,6 +56,7 @@ country_event = {
 	id = sns_german_unification_events.2
 	title = sns_german_unification_events.2.t
 	desc = sns_german_unification_events.2.d
+	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -99,6 +101,7 @@ country_event = {
 	id = sns_german_unification_events.3
 	title = sns_german_unification_events.3.t
 	desc = sns_german_unification_events.3.d
+	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	fire_only_once = yes
 	
@@ -135,6 +138,7 @@ country_event = {
 	id = sns_german_unification_events.4
 	title = sns_german_unification_events.4.t
 	desc = sns_german_unification_events.4.d
+	picture = DIPLOMACY_eventPicture
 	
 	fire_only_once = yes
 	

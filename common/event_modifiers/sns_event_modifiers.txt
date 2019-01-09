@@ -4,3 +4,25 @@ westernization_help = {
 
 westernization_help_cooldown = {
 }
+
+westernization_capital_lost = {
+	westernization_influence = -1.5
+}
+
+westernization_western_capital_captured = {
+	westernization_influence = 1
+}
+
+westernization_province_dev_for_westernization = {
+	westernization_influence = 0.3
+}
+
+westernization_hurts_province_dev_bad = {
+	local_unrest = 5
+	local_development_cost = 1
+}
+
+westernization_hurts_province_dev_good = {
+	local_unrest = -5
+	local_production_efficiency = 0.1
+}

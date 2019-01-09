@@ -1,0 +1,3 @@
+is_sphere = {
+	opinion = 25
+}

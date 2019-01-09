@@ -4,7 +4,7 @@ country_event = {
     id = sns_westernization_events.1
     title = sns_westernization_events.EVTNAME1
     desc = sns_westernization_events.EVTDESC1
-    picture = DIPLOMACY_eventPicture
+    picture = INVENTION_eventPicture
     
 	major = yes
     is_triggered_only = yes
@@ -20,7 +20,7 @@ country_event = {
     id = sns_westernization_events.2
     title = sns_westernization_events.EVTNAME2
     desc = sns_westernization_events.EVTDESC2
-    picture = DIPLOMACY_eventPicture
+    picture = WESTERNISATION_eventPicture
     
 	major = yes
     is_triggered_only = yes
@@ -96,6 +96,17 @@ country_event = {
 			technology_group = western
 		}
 	}
+	
+	immediate = {
+		hidden_effect = {
+			random_ally = {
+				limit = {
+					technology_group = western
+				}
+				save_event_target_as = westernization_help_ally
+			}
+		}
+	}
 
     option = {
         name = sns_westernization_events4.EVTOPT1
@@ -123,7 +134,7 @@ country_event = {
     id = sns_westernization_events.5
     title = sns_westernization_events.EVTNAME5
     desc = sns_westernization_events.EVTDESC5
-    picture = DIPLOMACY_eventPicture
+    picture = BANKRUPTCY_eventPicture
     
     is_triggered_only = yes
 
@@ -144,7 +155,7 @@ country_event = {
     }
 	
 	option = {
-        name = sns_westernization_events5.EVTOPT1
+        name = sns_westernization_events5.EVTOPT2
         
         ai_chance = {
 			factor = 1
@@ -163,7 +174,7 @@ country_event = {
     id = sns_westernization_events.6
     title = sns_westernization_events.EVTNAME6
     desc = sns_westernization_events.EVTDESC6
-    picture = DIPLOMACY_eventPicture
+    picture = UNIVERSITY_eventPicture
     
     is_triggered_only = yes
 
@@ -184,7 +195,7 @@ country_event = {
     }
 	
 	option = {
-        name = sns_westernization_events6.EVTOPT1
+        name = sns_westernization_events6.EVTOPT2
         
         ai_chance = {
 			factor = 1
@@ -196,5 +207,317 @@ country_event = {
 		}
 		
 		change_westernization = { value = -10 }
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.7
+    title = sns_westernization_events.EVTNAME7
+    desc = sns_westernization_events.EVTDESC7
+    picture = LIBERUM_VETO_eventPicture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = sns_westernization_events7.EVTOPT1
+        
+        ai_chance = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = { dip_power = 100 }
+			}
+		}
+		
+		add_dip_power = -100
+		change_westernization = { value = 10 }
+    }
+	
+	option = {
+        name = sns_westernization_events7.EVTOPT2
+        
+        ai_chance = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				dip_power = 100
+			}
+		}
+		
+		change_westernization = { value = -10 }
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.8
+    title = sns_westernization_events.EVTNAME8
+    desc = sns_westernization_events.EVTDESC8
+    picture = NATIVES_eventPicture
+    
+    is_triggered_only = yes
+
+    option = {
+        name = sns_westernization_events8.EVTOPT1
+        
+        ai_chance = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = { mil_power = 100 }
+			}
+		}
+		
+		add_mil_power = -100
+		change_westernization = { value = 10 }
+    }
+	
+	option = {
+        name = sns_westernization_events8.EVTOPT2
+        
+        ai_chance = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				mil_power = 100
+			}
+		}
+		
+		change_westernization = { value = -10 }
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.9
+    title = sns_westernization_events.EVTNAME9
+	desc = {
+		trigger = {
+			is_at_war = yes
+		}
+		desc = sns_westernization_events.EVTDESC9.1
+	}
+	desc = {
+		trigger = {
+			num_of_rebel_armies = 1
+		}
+		desc = sns_westernization_events.EVTDESC9.2
+	}
+    picture = BORDER_TENSION_eventPicture
+    
+    is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			is_at_war = yes
+			num_of_rebel_armies = 1
+		}
+	}
+
+    option = {
+        name = sns_westernization_events9.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+		
+		change_westernization = { value = -10 }
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.10
+    title = sns_westernization_events.EVTNAME10
+    desc = sns_westernization_events.EVTDESC10
+    picture = SIEGE_eventPicture
+	
+	trigger = {
+		has_disaster = westernization
+		NOT = { has_country_modifier = westernization_capital_lost }
+		capital_scope = {
+			NOT = { controlled_by = ROOT }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+    option = {
+        name = sns_westernization_events10.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+		
+		change_westernization = { value = -10 }
+		custom_tooltip = add_westernization_capital_lost_tt
+		hidden_effect = {
+			change_variable = { monthly_westernization = -1.5 }
+			add_disaster_modifier = {
+				name = westernization_capital_lost
+				duration = 1095
+				disaster = westernization
+			}
+		}
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.11
+    title = sns_westernization_events.EVTNAME11
+    desc = sns_westernization_events.EVTDESC11
+    picture = BATTLE_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_disaster = westernization
+		is_at_war = yes
+		any_country = {
+			war_with = ROOT
+			technology_group = western
+			any_owned_province = {
+				controlled_by = ROOT
+				NOT = { has_province_flag = tech_looted_by_@ROOT }
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_province = {
+				limit = {
+					controlled_by = ROOT
+					NOT = { has_province_flag = tech_looted_by_@ROOT }
+					owner = {
+						war_with = ROOT
+						technology_group = western
+					}
+				}
+				save_event_target_as = looted_tech_province
+				set_province_flag = tech_looted_by_@ROOT
+			}
+		}
+	}
+	
+    option = {
+        name = sns_westernization_events11.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+		
+		trigger = {
+			event_target:looted_tech_province = {
+				is_capital = yes
+			}
+		}
+		
+		custom_tooltip = add_westernization_western_capital_captured_tt
+		hidden_effect = {
+			change_variable = { monthly_westernization = 1 }
+			add_disaster_modifier = {
+				name = westernization_western_capital_captured
+				duration = 365
+				disaster = westernization
+			}
+		}
+    }
+	
+	option = {
+        name = sns_westernization_events11.EVTOPT2
+        
+        ai_chance = { factor = 100 }
+		
+		trigger = {
+			event_target:looted_tech_province = {
+				is_capital = no
+			}
+		}
+		
+		change_westernization = { value = 5 }
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.12
+    title = sns_westernization_events.EVTNAME12
+    desc = sns_westernization_events.EVTDESC12
+    picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_disaster = westernization
+		any_owned_province = {
+			NOT = { has_province_modifier = westernization_hurts_province_dev_bad }
+			NOT = { has_province_modifier = westernization_hurts_province_dev_good }
+			development = 10
+			base_tax = 2
+			base_production = 2
+			base_manpower = 2
+			controlled_by = ROOT
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = { has_province_modifier = westernization_hurts_province_dev_bad }
+					NOT = { has_province_modifier = westernization_hurts_province_dev_good }
+					development = 10
+					base_tax = 2
+					base_production = 2
+					base_manpower = 2
+					controlled_by = ROOT
+				}
+				save_event_target_as = province_dev_for_westernization
+			}
+		}
+	}
+	
+    option = {
+        name = sns_westernization_events12.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+		
+		event_target:province_dev_for_westernization = {
+			add_province_modifier = {
+				name = westernization_hurts_province_dev_bad
+				duration = 730
+			}
+			random_list = {
+				33 = {
+					add_base_tax = -1
+				}
+				33 = {
+					add_base_production = -1
+				}
+				33 = {
+					add_base_manpower = -1
+				}
+			}
+		}
+		custom_tooltip = add_westernization_province_dev_for_westernization_tt
+		hidden_effect = {
+			change_variable = { monthly_westernization = 0.3 }
+			add_disaster_modifier = {
+				name = westernization_province_dev_for_westernization
+				duration = 730
+				disaster = westernization
+			}
+		}
+    }
+	
+	option = {
+        name = sns_westernization_events12.EVTOPT2
+        
+        ai_chance = { factor = 100 }
+		
+		event_target:province_dev_for_westernization = {
+			add_province_modifier = {
+				name = westernization_hurts_province_dev_good
+				duration = 730
+			}
+		}
+		change_westernization = { value = -5 }
     }
 }

@@ -23,10 +23,53 @@
  
  # Westernization Events:
  sns_westernization_events.EVTNAME1: "Begin of the Westernization"
- sns_westernization_events.EVTDESC1: ""
+ sns_westernization_events.EVTDESC1: "The next years won't be easy, but with enough effort, moneyh and power we can manage to reach the western technological advancements and become a technological advanced country as well."
  sns_westernization_events1.EVTOPT1: "Wonderful."
  
- sns_westernization_events.EVTNAME1: "Westernization Completed"
- sns_westernization_events.EVTDESC1: ""
- sns_westernization_events1.EVTOPT1: "Finally."
+ sns_westernization_events.EVTNAME2: "Westernization Completed"
+ sns_westernization_events.EVTDESC2: "All our efforts were successful. We finally managed to understand and reconstruct most of the foreign technolgies. We now are on the same technological level as the most advanced nations in the world!"
+ sns_westernization_events2.EVTOPT1: "Finally."
+ 
+ sns_westernization_events.EVTNAME4: "Foreign Help"
+ sns_westernization_events.EVTDESC4: "Our friends in [westernization_help_ally.GetName] decided to help us understand and reconstruct some of their technologies. \nThis definetly will help us in our westernization efforts."
+ sns_westernization_events4.EVTOPT1: "This for sure will be helpful."
+ 
+ sns_westernization_events.EVTNAME5: "Costly Researchs"
+ sns_westernization_events.EVTDESC5: "While we're trying to reconstruct the technologies of the western foreigners, we are struggeling to understand a specific technology. \nUnless we pay foreign advisors to help us, it will take us much longer than expected to understand all the western technologies."
+ sns_westernization_events5.EVTOPT1: "Money is not a problem."
+ sns_westernization_events5.EVTOPT2: "We can't afford that, they have to do it on their own."
+ 
+ sns_westernization_events.EVTNAME6: "Lack of Organisation"
+ sns_westernization_events.EVTDESC6: "While we're trying to understand the technologies of the western foreigners, we noticed that some of our scientists are not qualified to do this job correctly. \nUnless we provide better education, it will take us much longer than expected to understand all the western technologies."
+ sns_westernization_events6.EVTOPT1: "We already should have provided better education ages ago."
+ sns_westernization_events6.EVTOPT2: "We can't afford that, their education has to be sufficient."
+ 
+ sns_westernization_events.EVTNAME7: "Diplomatic Conflicts"
+ sns_westernization_events.EVTDESC7: "While we're trying to research the technologies of the western foreigners, there were a few diplomatic conflicts with the foreign supporters and people that helped us. \nUnless manage to get rid of these diplomatic problems, it will take us much longer than expected to understand all the western technologies."
+ sns_westernization_events7.EVTOPT1: "Let's show or best side."
+ sns_westernization_events7.EVTOPT2: "That's not our fault, they have to apologize."
+ 
+ sns_westernization_events.EVTNAME8: "Military Protests"
+ sns_westernization_events.EVTDESC8: "While we're trying to research the technologies of the western foreigners, our military leaders tend to protest or even prevent our scientists from making progress. \nUnless we can convince them from the importance of this project, it will take us much longer than expected to understand all the western technologies."
+ sns_westernization_events8.EVTOPT1: "Try to convince them."
+ sns_westernization_events8.EVTOPT2: "They might slow us down, but they won't prevent us from westernizing."
+ 
+ sns_westernization_events.EVTNAME9: "Looted Cities"
+ sns_westernization_events.EVTDESC9.1: "While being at war, our scientists can't work as efficient as we would want them to. But even worse, they become victims of looting enemies or local marauders, which not only makes their work even more difficult. They may even get killed, which greatly hurts our westernization efforts."
+ sns_westernization_events.EVTDESC9.2: "While having rebels, revolts and other internal problems, our scientists can't work as efficient as we would want them to. But even worse, they become victims of looting rebels or local marauders, which not only makes their work even more difficult. They may even get killed, which greatly hurts our westernization efforts."
+ sns_westernization_events9.EVTOPT1: "That's terrible!"
+ 
+ sns_westernization_events.EVTNAME10: "The Capital has fallen"
+ sns_westernization_events.EVTDESC10: "Our capital, [Root.Capital.GetName], has been occupied and our scientists had to flee! Some of them were killed and they had to leave behind their notes."
+ sns_westernization_events10.EVTOPT1: "That's horrible!"
+ 
+ sns_westernization_events.EVTNAME11: "Looted Technology"
+ sns_westernization_events.EVTDESC11: "We have captured the city of a more technological advanced enemy. While looting the city we found some of said technology, which will help us to understand it better and faster."
+ sns_westernization_events11.EVTOPT1: "Not only technology itself, there also were many, many plans!"
+ sns_westernization_events11.EVTOPT2: "That's what I call good news."
+ 
+ sns_westernization_events.EVTNAME12: "The People Protest"
+ sns_westernization_events.EVTDESC12: "While we're trying to research the technologies of the western foreigners, the people in some of our provinces that have the most important research facilities, are getting angry and protest. While giving resources to our scientists and helping them with all of their problems, we neglected the simple people."
+ sns_westernization_events12.EVTOPT1: "The people aren't important, the research is."
+ sns_westernization_events12.EVTOPT2: "That's true, we should prioritize the people for now."
  
