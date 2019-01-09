@@ -5,9 +5,9 @@ variable_has_one_decimal = {
 			value = 0
 		}
 		change_variable = { which = $variable$_temp which = $variable$ }
-		divide_variable = { $variable$_temp = 100 }
-		multiply_variable = { $variable$_temp = 100 }
-		is_variable_equal = { which = $variable$_temp which = $variable$ }
+		divide_variable = { $variable$_temp = 1000 }
+		multiply_variable = { $variable$_temp = 1000 }
+		NOT = { is_variable_equal = { which = $variable$_temp which = $variable$ } }
 	}
 }
 
@@ -18,8 +18,21 @@ variable_has_two_decimals = {
 			value = 0
 		}
 		change_variable = { which = $variable$_temp which = $variable$ }
-		divide_variable = { $variable$_temp = 1000 }
-		multiply_variable = { $variable$_temp = 1000 }
-		is_variable_equal = { which = $variable$_temp which = $variable$ }
+		divide_variable = { $variable$_temp = 100 }
+		multiply_variable = { $variable$_temp = 100 }
+		NOT = { is_variable_equal = { which = $variable$_temp which = $variable$ } }
+	}
+}
+
+variable_has_three_decimals = {
+	variable_arithmetic_trigger = {
+		export_to_variable = {
+			which = $variable$_temp
+			value = 0
+		}
+		change_variable = { which = $variable$_temp which = $variable$ }
+		divide_variable = { $variable$_temp = 10 }
+		multiply_variable = { $variable$_temp = 10 }
+		NOT = { is_variable_equal = { which = $variable$_temp which = $variable$ } }
 	}
 }

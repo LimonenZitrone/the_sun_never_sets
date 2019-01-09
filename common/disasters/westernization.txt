@@ -50,10 +50,20 @@ westernization = {
 	on_end = sns_westernization_events.2
 	
 	on_start_effect = {
-		change_variable = { westernization = 1 }
-		custom_tooltip = WESTERNIZATION_DISASTER_TT
+		if = {
+			limit = {
+				NOT = { has_country_flag = has_disaster_westernization }
+			}
+			change_variable = { westernization = 1 }
+			custom_tooltip = WESTERNIZATION_DISASTER_TT_1
+		}
+		else = {
+			custom_tooltip = WESTERNIZATION_DISASTER_TT_2
+		}
+		custom_tooltip = WESTERNIZATION_DISASTER_TT_3
 		hidden_effect = {
-			set_variable = { monthly_westernization = 0 }
+			set_country_flag = has_disaster_westernization
+			set_variable = { monthly_westernization = 1 }
 		}
 	}
 	
@@ -64,6 +74,8 @@ westernization = {
 		random_events = {
 			1000 = 0
 			100 = sns_westernization_events.4
+			100 = sns_westernization_events.5
+			100 = sns_westernization_events.6
 		}
 	}
 }

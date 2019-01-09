@@ -1,0 +1,36 @@
+change_westernization = {
+	[[value]
+		change_variable = { westernization = $value$ }
+		hidden_effect = {
+			if = {
+				limit = {
+					check_variable = { westernization = 100 }
+				}
+				set_variable = { westernization = 100 }
+			}
+			else_if = {
+				limit = {
+					NOT = { check_variable = { westernization = 0 } }
+				}
+				set_variable = { westernization = 0 }
+			}
+		}
+	]
+	[[variable]
+		change_variable = { which = westernization which = $variable$ }
+		hidden_effect = {
+			if = {
+				limit = {
+					check_variable = { westernization = 100 }
+				}
+				set_variable = { westernization = 100 }
+			}
+			else_if = {
+				limit = {
+					NOT = { check_variable = { westernization = 0 } }
+				}
+				set_variable = { westernization = 0 }
+			}
+		}
+	]
+}

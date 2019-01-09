@@ -67,6 +67,7 @@ country_decisions = {
 			end_disaster = westernization
 			set_variable = { westernization = 0 }
 			hidden_effect = {
+				clr_country_flag = has_disaster_westernization
 				clr_country_flag = westernization_started
 				clr_country_flag = stopped_westernization
 				set_country_flag = stopped_westernization
