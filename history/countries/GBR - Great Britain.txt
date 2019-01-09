@@ -1,0 +1,109 @@
+﻿government = monarchy 
+add_government_reform = english_monarchy
+government_rank = 2
+technology_group = western
+primary_culture = english
+add_accepted_culture = scottish
+add_accepted_culture = welsh
+religion = protestant
+capital = 236	# London
+
+1536.1.1 = { decision = dissolution_of_the_monasteries }
+
+1549.1.1 = { decision = act_of_uniformity }
+
+1580.1.1 = { decision = enlist_privateers }
+
+1673.1.1 = { decision = test_act }
+
+1750.1.1 = { set_country_flag = american_revolution }
+
+1793.12.1 = { 
+	leader = { 
+		name = "Sidney Smith"
+		type = admiral
+		fire = 4
+		shock = 4
+		manuever = 5
+		siege = 1
+		death_date = 1840.5.26
+	} 
+}
+
+1807.1.1 = { decision = abolish_slavery_act }
+
+1830.1.5 = {
+	monarch = {
+		name = "William IV"
+		dynasty = "of Hanover"
+		birth_date = 1765.8.16
+		death_date = 1837.1.5
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+
+	heir = {
+		name = "Victoria"
+		monarch_name = "Victoria I"
+		dynasty = "of Hanover"
+		birth_date = 1819.1.7
+		death_date = 1901.11.6
+		claim = 100
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1838.6.38 = {
+	monarch = {
+		name = "Victoria"
+		monarch_name = "Victoria I"
+		dynasty = "of Hanover"
+		birth_date = 1819.1.7
+		death_date = 1901.11.6
+		claim = 100
+		adm = 5
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1841.11.9 = {
+	heir = {
+		name = "George VI"
+		dynasty = "Saxe-Coburg Gotha"
+		birth_date = 1841.11.9
+		death_date = 1910.5.6
+		claim = 100
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1901.11.6 = {
+	monarch = {
+		name = "Edward VII"
+		dynasty = "Saxe-Coburg Gotha"
+		birth_date = 1841.11.9
+		death_date = 1910.5.6
+		claim = 100
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "George V"
+		dynasty = "Windsor"
+		birth_date = 1865.6.3
+		death_date = 1936.1.1
+		claim = 100
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
