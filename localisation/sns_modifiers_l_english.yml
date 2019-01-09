@@ -1,0 +1,12 @@
+﻿l_english:
+ # Triggered Modifiers:
+ sns_not_westernized_modifier: "Primitive Technology"
+ desc_sns_not_westernized_modifier: "Our technology is primitive. Unless we westernize, we will take much longer to gain advanced technology."
+ 
+ DID_NOT_WESTERNIZE_YET: "Has NOT westernized"
+ 
+ # Event Modifiers:
+ westernization_help: "Foreign Help with Technology"
+ desc_westernization_help: "Monthly Westernization: §G+0.50§!"
+ add_westernization_help_tt: "[This.GetName] gets '§YForeign Help with Technology§!' for §Y730§! days unless §YWesternization§! is completed before, giving the following effects: \nMonthly Westernization: §G+0.50§!"
+ 

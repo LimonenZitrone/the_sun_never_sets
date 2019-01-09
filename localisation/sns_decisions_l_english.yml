@@ -1,0 +1,11 @@
+﻿l_english:
+ # Westernization:
+ start_westernization_title: "Start Westernization"
+ start_westernization_desc: "In order to keep up with new western technologies, we must westernize."
+ 
+ stop_westernization_title: "Stop Westernization"
+ stop_westernization_desc: "We have other things to do, this westernization is slowing us down and not helping us."
+ 
+ DID_NOT_STOP_WESTERNIZATION_RECENTLY: "Did NOT stop the §YWesternization§! within the last §Y31 days§!"
+ START_WESTERNIZATION_TT: "The §YWesternization§! will start in the next month."
+ 

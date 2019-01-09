@@ -1,0 +1,6 @@
+westernization_help = {
+	westernization_influence = 0.5
+}
+
+westernization_help_cooldown = {
+}

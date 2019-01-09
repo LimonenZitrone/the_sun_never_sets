@@ -1,0 +1,11 @@
+westernization = {
+	allow = {
+		always = no
+	}
+	
+	monarch_power = ADM
+	always = yes
+
+	modifier = {	
+	}
+}

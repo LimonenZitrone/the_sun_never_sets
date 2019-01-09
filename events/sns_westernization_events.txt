@@ -1,0 +1,103 @@
+namespace = sns_westernization_events
+
+country_event = {
+    id = sns_westernization_events.1
+    title = sns_westernization_events.EVTNAME1
+    desc = sns_westernization_events.EVTDESC1
+    picture = DIPLOMACY_eventPicture
+    
+	major = yes
+    is_triggered_only = yes
+
+    option = {
+        name = sns_westernization_events1.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.2
+    title = sns_westernization_events.EVTNAME2
+    desc = sns_westernization_events.EVTDESC2
+    picture = DIPLOMACY_eventPicture
+    
+	major = yes
+    is_triggered_only = yes
+
+    option = {
+        name = sns_westernization_events2.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+		
+		change_technology_group = western
+		change_unit_type = western
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.3
+    title = sns_westernization_events.EVTNAME3
+    desc = sns_westernization_events.EVTDESC3
+    picture = DIPLOMACY_eventPicture
+    
+	hidden = yes
+    is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			export_to_variable = {
+				which = monthly_westernization
+				value = modifier:westernization_influence
+			}
+			# Round to two decimals
+			divide_variable = { monthly_westernization = 100 }
+			multiply_variable = { monthly_westernization = 100 }
+			# Add to westernization progress
+			change_variable = { which = westernization which = monthly_westernization }
+		}
+	}
+
+    option = {
+        name = sns_westernization_events3.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+    }
+}
+
+country_event = {
+    id = sns_westernization_events.4
+    title = sns_westernization_events.EVTNAME4
+    desc = sns_westernization_events.EVTDESC4
+    picture = DIPLOMACY_eventPicture
+    
+    is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_country_modifier = westernization_help }
+		NOT = { has_country_modifier = westernization_help_cooldown }
+		any_ally = {
+			technology_group = western
+		}
+	}
+
+    option = {
+        name = sns_westernization_events4.EVTOPT1
+        
+        ai_chance = { factor = 100 }
+		
+		custom_tooltip = add_westernization_help_tt
+		hidden_effect = {
+			add_disaster_modifier = {
+				name = westernization_help
+				duration = 730
+				disaster = westernization
+			}
+			add_country_modifier = {
+				name = westernization_help_cooldown
+				duration = 1825
+				hidden = yes
+			}
+		}
+    }
+}

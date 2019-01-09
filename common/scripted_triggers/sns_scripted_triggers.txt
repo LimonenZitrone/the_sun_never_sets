@@ -12,3 +12,11 @@ is_great_power_no_rom_trigger = {
 		}
 	}
 }
+
+has_no_or_special_disaster = {
+	# check for special disasters that should not disallow normal disasters
+	OR = {
+		has_any_disaster = no
+		has_disaster = westernization
+	}
+}

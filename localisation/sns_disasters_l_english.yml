@@ -1,0 +1,7 @@
+﻿l_english:
+ # Westernization:
+ westernization: "Westernization"
+ 
+ WESTERNIZATION_DISASTER_TT: "\nMonthly Westernization: §G+1.00§!"
+ IS_WESTERNIZING: "Is westernizing"
+ HAS_WESTERNIZATION_COMPLETED: "§YWesternization§! (§Y[Root.westernization.GetValue]§!/§Y100§!) is completed \n   (last monthly progress: [Root.GetLastMonthlyWesternizationProgress])"

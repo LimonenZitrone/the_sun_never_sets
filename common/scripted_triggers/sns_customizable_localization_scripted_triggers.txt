@@ -1,0 +1,25 @@
+variable_has_one_decimal = {
+	variable_arithmetic_trigger = {
+		export_to_variable = {
+			which = $variable$_temp
+			value = 0
+		}
+		change_variable = { which = $variable$_temp which = $variable$ }
+		divide_variable = { $variable$_temp = 100 }
+		multiply_variable = { $variable$_temp = 100 }
+		is_variable_equal = { which = $variable$_temp which = $variable$ }
+	}
+}
+
+variable_has_two_decimals = {
+	variable_arithmetic_trigger = {
+		export_to_variable = {
+			which = $variable$_temp
+			value = 0
+		}
+		change_variable = { which = $variable$_temp which = $variable$ }
+		divide_variable = { $variable$_temp = 1000 }
+		multiply_variable = { $variable$_temp = 1000 }
+		is_variable_equal = { which = $variable$_temp which = $variable$ }
+	}
+}

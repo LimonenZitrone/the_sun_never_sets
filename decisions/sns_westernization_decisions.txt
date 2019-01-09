@@ -1,0 +1,79 @@
+country_decisions = {
+	start_westernization = {
+		major = yes
+		potential = {
+			NOT = { technology_group = western }
+			NOT = { has_disaster = westernization }
+			NOT = { has_country_flag = westernization_started }
+		}
+		allow = {
+			treasury = 2000
+			adm_power = 200
+			dip_power = 200
+			mil_power = 200
+			any_known_country = {
+				technology_group = western
+				has_opinion = {
+					who = ROOT
+					value = 150
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = DID_NOT_STOP_WESTERNIZATION_RECENTLY
+				OR = {
+					NOT = { has_country_flag = stopped_westernization }
+					had_country_flag = { flag = stopped_westernization days = 31 }
+				}
+			}
+		}
+		effect = {
+			add_treasury = -2000
+			add_adm_power = -200
+			add_dip_power = -200
+			add_mil_power = -200
+			custom_tooltip = START_WESTERNIZATION_TT
+			hidden_effect = {
+				set_country_flag = westernization_started
+				add_disaster_progress = {
+					disaster = westernization
+					value = 100
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				num_of_loans = 1
+			}
+		}
+	}
+	
+	stop_westernization = {
+		major = yes
+		potential = {
+			NOT = { technology_group = western }
+			has_disaster = westernization
+			has_country_flag = westernization_started
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = IS_WESTERNIZING
+				always = yes
+			}
+		}
+		effect = {
+			end_disaster = westernization
+			set_variable = { westernization = 0 }
+			hidden_effect = {
+				clr_country_flag = westernization_started
+				clr_country_flag = stopped_westernization
+				set_country_flag = stopped_westernization
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
