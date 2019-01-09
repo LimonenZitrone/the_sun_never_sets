@@ -7,10 +7,6 @@ add_accepted_culture = wallonian
 religion = catholic
 capital = 92
 
-#1477.1.5 = {
-#	government_rank = 1
-#}
-
 1831.6.21 = {
 	monarch = {
 		name = "Leopold I"
