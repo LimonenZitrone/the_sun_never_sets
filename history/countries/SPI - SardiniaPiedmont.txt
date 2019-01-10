@@ -1,0 +1,40 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = piedmontese
+capital = 103 # Piedomont
+
+monarch = {
+	name = "Ferdinand II"
+	dynasty = "di Savoia"
+	birth_date = 1798.10.2
+	death_date = 1849.6.28
+	adm = 3
+	dip = 3
+	mil = 3
+}
+
+heir = {
+	name = "Victor Emmanuel"
+	monarch_name = "Victor Emmanuel II"
+	dynasty = "di Savoia"
+	birth_date = 1820.3.14
+	death_date = 1878.1.9
+	adm = 6
+	dip = 3
+	mil = 4
+}
+
+1849.3.23 = {
+	monarch = {
+		name = "Victor Emmanuel II"
+		dynasty = "di Savoia"
+		birth_date = 1820.3.14
+		death_date = 1878.1.9
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+}
