@@ -1,0 +1,20 @@
+# No previous file for Hasinai
+
+culture = caddo
+religion = totemism
+capital = "Hasinai"
+trade_goods = cotton
+owner = TEX
+controller = TEX
+add_core = TEX
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+is_city = yes 
+
+
+
+discovered_by = north_american
+
+1542.1.1 = { discovered_by = SPA } # Hernando de Soto

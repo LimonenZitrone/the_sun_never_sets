@@ -1,0 +1,24 @@
+# No previous file for Mandan
+
+culture = dakota
+religion = totemism
+capital = "Mandan"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = USA
+controller = USA
+add_core = USA
+culture = nakota
+trade_goods = fur
+is_city = yes
+
+
+
+discovered_by = north_american
+
+1692.1.1 = { discovered_by = ENG } #Henry Kelsey
+1707.5.12 = { discovered_by = GBR }
+1732.1.1 = { discovered_by = FRA } # Pierre Gaultier de Varennes
