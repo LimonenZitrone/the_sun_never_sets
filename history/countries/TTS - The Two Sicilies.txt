@@ -6,14 +6,16 @@ religion = catholic
 primary_culture = sicilian
 capital = 125	# Palermo
 
-monarch = {
-	name = "Ferdinand II"
-	dynasty = "de Bourbon"
-	birth_date = 1810.1.12
-	death_date = 1859.5.22
-	adm = 3
-	dip = 3
-	mil = 3
+1836.1.1 = {
+	monarch = {
+		name = "Ferdinand II"
+		dynasty = "de Bourbon"
+		birth_date = 1810.1.12
+		death_date = 1859.5.22
+		adm = 3
+		dip = 3
+		mil = 3
+	}
 }
 
 1836.1.16 = {
