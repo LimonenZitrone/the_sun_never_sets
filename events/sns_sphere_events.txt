@@ -2,8 +2,8 @@ namespace = sns_sphere_events
 
 country_event = {
 	id = sns_sphere_events.1
-	title = sns_sphere_events.1.t
-	desc = sns_sphere_events.1.d
+	title = sns_sphere_events.EVTNAME1
+	desc = sns_sphere_events.EVTDESC1
 	picture = DIPLOMACY_eventPicture
 
 	hidden = yes
@@ -28,6 +28,12 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			change_variable = { influence_sphere = 5 }
+			if = {
+				limit = {
+					check_variable = { influence_sphere = 100
+				}
+				set_variable = { influence_sphere = 100
+			}
 			add_country_modifier = {
 				name = influence_sphere_var_increased
 				duration = 32
@@ -37,8 +43,129 @@ country_event = {
 	}
 
 	option = {
-		name = sns_sphere_events.1.a
+		name = sns_sphere_events1.EVTOPT1
 
 		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = sns_sphere_events.2
+	title = sns_sphere_events.EVTNAME2
+	desc = sns_sphere_events.EVTDESC2
+	picture = DIPLOMACY_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = sns_sphere_events2.EVTOPT1
+
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = sns_sphere_events.3
+	title = sns_sphere_events.EVTNAME3
+	desc = sns_sphere_events.EVTDESC3
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		is_subject_of_type = sphere
+		war_with = FROM
+		overlord = {
+			NOT = { war_with = FROM }
+		}
+		liberty_desire = 50
+		overlord = {
+			reverse_has_opinion_modifier = {
+				who = ROOT
+				modifier = refused_join_war
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			overlord = {
+				ROOT = { grant_independence = yes }
+				country_event = { id = sns_sphere_events.2 }
+			}
+		}
+	}
+	
+	option = {
+		name = sns_sphere_events3.EVTOPT1
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = sns_sphere_events.4
+	title = sns_sphere_events.EVTNAME4
+	desc = sns_sphere_events.EVTDESC4
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_subject_of_type = sphere
+		overlord = {
+			NOT = {
+				OR = {
+					AND = {
+						has_dlc = "Rights of Man"
+						is_great_power = yes
+					}
+					AND = {
+						NOT = { has_dlc = "Rights of Man" }
+						is_great_power_no_rom_trigger = yes
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			overlord = {
+				ROOT = { grant_independence = yes }
+				country_event = { id = sns_sphere_events.2 }
+			}
+		}
+	}
+	
+	option = {
+		name = sns_sphere_events4.EVTOPT1
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = sns_sphere_events.5
+	title = sns_sphere_events.EVTNAME5
+	desc = sns_sphere_events.EVTDESC5
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sns_sphere_events5.EVTOPT1
+		
+		overlord = {
+			ROOT = { grant_independence = yes }
+			hidden_effect = {
+				country_event = { id = sns_sphere_events.2 }
+			}
+		}
 	}
 }

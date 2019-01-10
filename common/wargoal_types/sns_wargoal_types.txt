@@ -1,0 +1,13 @@
+take_capital_disloyal_sphere = {
+	type = take_capital
+	
+	badboy_factor = 1
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	
+	peace_options = {
+		po_become_sphere
+	}
+	
+	war_name = SPHERE_WAR_NAME
+}

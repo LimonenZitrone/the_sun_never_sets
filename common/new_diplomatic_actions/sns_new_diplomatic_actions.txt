@@ -14,6 +14,9 @@ add_to_soi = {
 				is_great_power_no_rom_trigger = yes
 			}
 		}
+		FROM = {
+			is_subject = no
+		}
 	}
 
 	is_allowed = {
@@ -46,6 +49,87 @@ add_to_soi = {
 			subject = FROM
 			subject_type = sphere
 		}
+		set_variable = { influence_sphere = 0 }
+		clr_country_flag = is_influencing_@FROM
+		FROM = {
+			clr_country_flag = influenced_by_@ROOT
+		}
+		log = "[Root.GetName] added [From.GetName] to its sphere."
+	}
+	
+	ai_will_do = {
+		always = yes
+	}
+}
+
+support_sphere_independence = {
+	category = great_powers
+
+	require_acceptance = no
+
+	is_visible = {
+		OR = {
+			AND = {
+				has_dlc = "Rights of Man"
+				is_great_power = yes
+			}
+			AND = {
+				NOT = { has_dlc = "Rights of Man" }
+				is_great_power_no_rom_trigger = yes
+			}
+		}
+		FROM = {
+			NOT = { is_subject_of = ROOT }
+			is_subject_of_type = sphere
+		}
+	}
+
+	is_allowed = {
+		FROM = {
+			is_subject_of_type = sphere
+		}
+		custom_trigger_tooltip = {
+			tooltip = IS_SPHERE_INFLUENCING_FROM
+			OR = {
+				has_country_flag = is_influencing_@FROM
+				FROM = {
+					has_country_flag = influenced_by_@ROOT
+				}
+			}
+		}
+		check_variable = { influence_sphere = 100 }
+	}
+
+	on_accept = {
+		FROM = {
+			overlord = {
+				add_casus_belli = {
+					target = PREV
+					type = cb_restore_sphere
+					months = 24
+				}
+				PREV = {
+					grant_independence = yes
+				}
+			}
+		}
+		create_guarantee = FROM
+		set_country_flag = supported_independence_of_sphere_@FROM
+		set_variable = { influence_sphere = 0 }
+		clr_country_flag = is_influencing_@FROM
+		FROM = {
+			clr_country_flag = influenced_by_@ROOT
+		}
+		log = "[Root.GetName] supported [From.GetName]'s independence (former sphere)."
+	}
+	
+	ai_will_do = {
+		is_at_war = no
+		FROM = {
+			overlord = {
+				NOT = { alliance_with = ROOT }
+			}
+		}
 	}
 }
 
@@ -68,19 +152,35 @@ influence_nation = {
 		NOT = { has_country_flag = is_influencing_@FROM }
 		FROM = {
 			NOT = { has_country_flag = influenced_by_@ROOT }
+			NOT = { is_subject_of = ROOT }
 		}
 	}
 
 	is_allowed = {
-		FROM = {
-			is_subject = no
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			FROM = {
+				OR = {
+					is_subject = no
+					AND = {
+						is_subject_of_type = sphere
+						NOT = { is_subject_of = ROOT }
+					}
 				}
 				is_great_power = no
 			}
-			else = {
+		}
+		else = {
+			FROM = {
+				OR = {
+					is_subject = no
+					AND = {
+						is_subject_of_type = sphere
+						NOT = { is_subject_of = ROOT }
+					}
+				}
 				NOT = { is_great_power_no_rom_trigger = yes }
 			}
 		}
@@ -91,6 +191,19 @@ influence_nation = {
 				NOT = { has_country_flag = influenced_by_@ROOT }
 			}
 		}
+		custom_trigger_tooltip = {
+			tooltip = IS_NOT_SPHERE_INFLUENCING_ANY_COUNTRY
+			NOT = {
+				any_country = {
+					OR = {
+						ROOT = {
+							has_country_flag = is_influencing_@PREV
+						}
+						has_country_flag = influenced_by_@ROOT
+					}
+				}
+			}
+		}
 	}
 
 	on_accept = {
@@ -99,11 +212,45 @@ influence_nation = {
 		FROM = {
 			set_country_flag = influenced_by_@ROOT
 		}
+		log = "[Root.GetName] started to influence [From.GetName]."
+	}
+	
+	ai_will_do = {
+		FROM = {
+			OR = {
+				AND = {
+					is_subject = no
+					OR = {
+						is_neighbor_of = FROM
+						any_subject_country = {
+							is_neighbor_of = FROM
+						}
+						NOT = {
+							border_distance = {
+								who = FROM
+								distance = 101
+							}
+						}
+					}
+				}
+				AND = {
+					is_subject = yes
+					is_subject_of_type = sphere
+					overlord = {
+						OR = {
+							is_rival = ROOT
+							is_enemy = ROOT
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
 stop_influence_nation = {
 	category = great_powers
+	
 	require_acceptance = no
 
 	is_visible = {
@@ -133,5 +280,107 @@ stop_influence_nation = {
 		FROM = {
 			clr_country_flag = influenced_by_@ROOT
 		}
+		log = "[Root.GetName] stopped to influence [From.GetName]."
+	}
+	
+	ai_will_do = {
+		FROM = {
+			is_subject = yes
+			OR = {
+				NOT = { is_subject_of_type = sphere }
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+make_sphere_vassal = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = sphere
+		}
+	}
+
+	is_allowed = {
+		is_at_war = no
+		FROM = {
+			is_at_war = no
+			NOT = { liberty_desire = 50 }
+		}
+		dip_power = 100
+		years_in_vassalage_under = {
+			who = ROOT
+			years = 10
+			all_subject_country = yes
+		}
+	}
+
+	on_accept = {
+		add_dip_power = -100
+		create_subject = {
+			subject = FROM
+			subject_type = vassal
+		}
+		reverse_add_opinion = {
+			who = FROM
+			modifier = opinion_traitor
+		}
+		FROM = {
+			add_liberty_desire = 25
+		}
+		log = "[Root.GetName] transformed [From.GetName] (sphere) into a vassal."
+	}
+	
+	ai_will_do = {
+		num_of_free_diplomatic_relations = 1
+		dip_power = 200
+	}
+}
+
+grant_sphere_independence = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = sphere
+		}
+	}
+
+	is_allowed = {
+		is_at_war = no
+		FROM = {
+			is_at_war = no
+		}
+		prestige = 0
+	}
+
+	on_accept = {
+		FROM = {
+			if = {
+				limit = {
+					NOT = { liberty_desire = 50 }
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = vassal_abandoned
+				}
+			}
+			grant_independence = yes
+		}
+		add_truce_with = FROM
+		add_prestige = -20
+		log = "[Root.GetName] released its former sphere [From.GetName]."
+	}
+	
+	ai_will_do = {
+		always = no
 	}
 }

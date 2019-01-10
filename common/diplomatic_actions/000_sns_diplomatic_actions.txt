@@ -1,0 +1,25 @@
+declarewar = {
+	condition = {
+		tooltip = XXX
+		potential = {
+		}
+		allow = {
+			always = yes
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of_type = sphere
+					overlord = {
+						NOT = { war_with = ROOT }
+					}
+				}
+			}
+			FROM = {
+				country_event = { id = sns_sphere_events.3 days = 70 }
+			}
+		}
+	}
+}

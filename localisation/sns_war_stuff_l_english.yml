@@ -1,0 +1,16 @@
+﻿l_english:
+ # CB Types:
+ cb_restore_sphere: "Restore Sphere"
+ cb_restore_sphere_desc: "They have left our Sphere. As a Great Power, we cannot accept that."
+ 
+ # War Goal Types:
+ take_capital_disloyal_sphere: "Take Capital"
+ take_capital_disloyal_sphere_desc: "The wargoal is to take the capital of the target."
+ 
+ SPHERE_WAR_NAME: "$ORDER$ War of the $FIRST$ Sphere against $SECOND_NAME$"
+ 
+ # Peace Treaties:
+ po_become_sphere_desc: "@[From.GetTag] §Y[From.GetName]§! becomes a @[Root.GetTag] §Y[Root.GetAdjective]§! Sphere."
+ CB_ALLOWED_po_become_sphere: "Add to Sphere"
+ PEACE_po_become_sphere: "Add to $TAKERS$ Sphere"
+ 

@@ -1,0 +1,7 @@
+﻿l_english:
+ sphere_title: "Sphere"
+ sphere_title_plural: "Spheres"
+ sphere_is_our: "§Y$NAME$§! is our Sphere."
+ sphere_long_desc: "A §YSphere§!, meaning a country belonging to its overlord's §YSphere of Influence§!, describes a rather sovereign subject type that does not pay its overlord directly. However it transfers trade power in exchange for military protection and cannot be annexed normaly. \nIn order to be able to annex a §YSphere§!, the overlord must transform it into a normal vassal, which will cost a diplomatic relation - in contrast to §YSpheres§! - and increase the subject's liberty desire. \n\nFurthermore §YSpheres§! cannot declare an independence war or declare themselves independence by themselves. They will become independent, if their overlord rejects their call to arms, their overlord is not a Great Power anymore or if another Great Power supports its independence. In the last case, the previous overlord will gain a Casus Belli to restore the §YSphere§!.\n\n"
+ sphere_no_overlord_dow: "You can not declare war on your own Sphere."
+ 
