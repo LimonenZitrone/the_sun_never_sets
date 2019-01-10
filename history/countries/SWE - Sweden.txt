@@ -1,0 +1,45 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+unit_type = western
+primary_culture = swedish
+religion = catholic
+add_accepted_culture = finnish
+capital = 1	#Stockholm
+
+national_focus = MIL
+
+
+1818.2.6 = {
+	monarch = {
+		name = "Karl XIV Johan"
+		dynasty = "Bernadotte"
+		birth_date = 1763.1.26
+		culture = gascon
+		adm = 2
+		dip = 2
+		mil = 4
+		leader = {	name = "Karl XIV Johan"        	type = general	fire = 4	shock = 4	manuever = 3	siege = 0 }
+	}
+	queen = {
+		country_of_origin = FRA
+		name = "Desideria"
+		dynasty = "Clary"
+		birth_date = 1777.11.8
+		death_date = 1860.12.17
+		female = yes
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+	
+	heir = {
+		name = "Oscar I"
+		dynasty = "Bernadotte"
+		birth_date = 1799.7.4
+		culture = gascon
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
