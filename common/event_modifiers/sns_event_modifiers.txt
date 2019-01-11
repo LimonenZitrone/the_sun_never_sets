@@ -28,6 +28,10 @@ westernization_hurts_province_dev_good = {
 	local_production_efficiency = 0.1
 }
 
+jap_westernization = {
+	westernization_influence = 1
+}
+
 # Sphere Influence
 influence_sphere_var_increased = {
 }
