@@ -1,0 +1,57 @@
+government = republic
+add_government_reform = federal_republic
+government_rank = 1
+technology_group = western
+primary_culture = english
+religion = protestant
+capital = 888
+
+1836.1.1 = {
+	monarch = {
+		name = "David Burnet"
+		birth_date = 1788.4.14
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1836.10.22 = {
+	monarch = {
+		name = "Sam Houston"
+		birth_date = 1793.3.2
+		adm = 0
+		dip = 0
+		mil = 4
+	}
+}
+
+1838.12.10 = {
+	monarch = {
+		name = "Mirabeau Lamar"
+		birth_date = 1798.8.16
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+}
+
+1841.12.13 = {
+	monarch = {
+		name = "Sam Houston"
+		birth_date = 1793.3.2
+		adm = 0
+		dip = 0
+		mil = 4
+	}
+}
+
+1844.12.9 = {
+	monarch = {
+		name = "Anson Jones"
+		birth_date = 1798.1.20
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+}
