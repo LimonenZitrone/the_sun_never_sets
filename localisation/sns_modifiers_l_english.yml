@@ -22,6 +22,9 @@
  desc_westernization_province_dev_for_westernization: "Monthly Westernization: §G+0.30§!"
  add_westernization_province_dev_for_westernization_tt: "[This.GetName] gets '§YPrioritizing Research§!' for §Y730§! days unless §YWesternization§! is completed before, giving the following effects: \nMonthly Westernization: §G+0.30§!"
  
+ jap_westernization: "Japanese Traditions"
+ desc_jap_westernization: "Monthly Westernization: §G+1.00§!"
+ 
  westernization_hurts_province_dev_bad: "Prioritized Research"
  westernization_hurts_province_dev_good: "Prioritized People"
  

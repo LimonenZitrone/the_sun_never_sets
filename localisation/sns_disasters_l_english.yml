@@ -3,6 +3,7 @@
  westernization: "Westernization"
  
  WESTERNIZATION_DISASTER_TT_1: "\nMonthly Westernization: §G+1.00§!"
+ WESTERNIZATION_DISASTER_TT_1_2: "\nMonthly Westernization: §G+2.00§!"
  WESTERNIZATION_DISASTER_TT_2: "Monthly Westernization: [Root.GetLastMonthlyWesternizationProgress]"
  WESTERNIZATION_DISASTER_TT_3: "Monthly Administrative Power: §R-1§! \nMonthly Diplomatic Power: §R-1§! \nMonthly Military Power: §R-1§!"
  IS_WESTERNIZING: "Is westernizing"

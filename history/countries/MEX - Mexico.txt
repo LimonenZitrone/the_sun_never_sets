@@ -1,0 +1,538 @@
+government = republic
+add_government_reform = federal_republic
+government_rank = 2
+technology_group = western
+primary_culture = mexican
+religion = catholic
+capital = 852	# Mexico
+
+
+1835.1.28 = {
+	monarch = {
+		name = "Miguel Barragán"
+		birth_date = 1789.3.8
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1836.2.27 = {
+	monarch = {
+		name = "José Justo Corro"
+		birth_date = 1794.6.19
+		adm = 1
+		dip = 5
+		mil = 3
+	}
+}
+
+1837.4.19 = {
+	monarch = {
+		name = "Anastasio Bustamante"
+		birth_date = 1780.7.27
+		adm = 1
+		dip = 3
+		mil = 6
+	}
+}
+
+1839.3.18 = {
+	monarch = {
+		name = "Antonio López de Santa Anna"
+		birth_date = 1794.2.21
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1839.7.11 = {
+	monarch = {
+		name = "Nicolás Bravo"
+		birth_date = 1786.9.10
+		adm = 6
+		dip = 0
+		mil = 1
+	}
+}
+
+1839.7.19 = {
+	monarch = {
+		name = "Anastasio Bustamante"
+		birth_date = 1780.7.27
+		adm = 1
+		dip = 3
+		mil = 6
+	}
+}
+
+1841.9.22 = {
+	monarch = {
+		name = "Francisco Javier Echeverría"
+		birth_date = 1797.7.2
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+}
+
+1841.10.10 = {
+	monarch = {
+		name = "Antonio López de Santa Anna"
+		birth_date = 1794.2.21
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1842.10.26 = {
+	monarch = {
+		name = "Nicolás Bravo"
+		birth_date = 1786.9.10
+		adm = 6
+		dip = 0
+		mil = 1
+	}
+}
+
+1843.3.4 = {
+	monarch = {
+		name = "Antonio López de Santa Anna"
+		birth_date = 1794.2.21
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1843.10.4 = {
+	monarch = {
+		name = "Valentín Canalizo"
+		birth_date = 1795.2.12
+		adm = 1
+		dip = 0
+		mil = 1
+	}
+}
+
+1844.6.4 = {
+	monarch = {
+		name = "Antonio López de Santa Anna"
+		birth_date = 1794.2.21
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1844.9.12 = {
+	monarch = {
+		name = "José Joaquín de Herrera"
+		birth_date = 1792.2.23
+		adm = 6
+		dip = 0
+		mil = 4
+	}
+}
+
+1844.9.21 = {
+	monarch = {
+		name = "Valentín Canalizo"
+		birth_date = 1795.2.12
+		adm = 1
+		dip = 0
+		mil = 1
+	}
+}
+
+1844.12.6 = {
+	monarch = {
+		name = "José Joaquín de Herrera"
+		birth_date = 1792.2.23
+		adm = 6
+		dip = 0
+		mil = 4
+	}
+}
+
+1845.12.31 = {
+	monarch = {
+		name = "Mariano Paredes"
+		birth_date = 1797.1.7
+		adm = 5
+		dip = 1
+		mil = 5
+	}
+}
+
+1846.7.28 = {
+	monarch = {
+		name = "Nicolás Bravo"
+		birth_date = 1786.9.10
+		adm = 6
+		dip = 0
+		mil = 1
+	}
+}
+
+1846.8.5 = {
+	monarch = {
+		name = "José Mariano Salas"
+		birth_date = 1797.5.11
+		adm = 0
+		dip = 0
+		mil = 1
+	}
+}
+
+1846.12.23 = {
+	monarch = {
+		name = "Valentín Gómez Farías"
+		birth_date = 1781.2.14
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+}
+
+1847.3.21 = {
+	monarch = {
+		name = "Antonio López de Santa Anna"
+		birth_date = 1794.2.21
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1847.4.2 = {
+	monarch = {
+		name = "Pedro María de Anaya"
+		birth_date = 1795.5.20
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1847.5.20 = {
+	monarch = {
+		name = "Antonio López de Santa Anna"
+		birth_date = 1794.2.21
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1847.9.16 = {
+	monarch = {
+		name = "Manuel de la Peña y Peña"
+		birth_date = 1789.3.10
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}
+
+1847.11.13 = {
+	monarch = {
+		name = "Pedro María de Anaya"
+		birth_date = 1795.5.20
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1848.1.8 = {
+	monarch = {
+		name = "Manuel de la Peña y Peña"
+		birth_date = 1789.3.10
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}
+
+1848.6.3 = {
+	monarch = {
+		name = "José Joaquín de Herrera"
+		birth_date = 1792.2.23
+		adm = 6
+		dip = 0
+		mil = 4
+	}
+}
+
+1851.1.15 = {
+	monarch = {
+		name = "Mariano Arísta"
+		birth_date = 1802.7.26
+		adm = 5
+		dip = 3
+		mil = 0
+	}
+}
+
+1853.1.5 = {
+	monarch = {
+		name = "Juan Bautista Ceballos"
+		birth_date = 1811.5.13
+		adm = 6
+		dip = 0
+		mil = 5
+	}
+}
+
+1853.2.8 = {
+	monarch = {
+		name = "Manuel María Lombardini"
+		birth_date = 1802.7.23
+		adm = 5
+		dip = 2
+		mil = 0
+	}
+}
+
+1853.4.20 = {
+	monarch = {
+		name = "Antonio López de Santa Anna"
+		birth_date = 1794.2.21
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+}
+
+1855.8.9 = {
+	monarch = {
+		name = "Martín Carrera"
+		birth_date = 1806.12.20
+		adm = 5
+		dip = 6
+		mil = 6
+	}
+}
+
+1855.9.12 = {
+	monarch = {
+		name = "Rómulo Díaz de la Vega"
+		birth_date = 1800.5.23
+		adm = 3
+		dip = 0
+		mil = 0
+	}
+}
+
+1855.10.4 = {
+	monarch = {
+		name = "Juan Álvarez"
+		birth_date = 1790.1.27
+		adm = 6
+		dip = 1
+		mil = 6
+	}
+}
+
+1855.12.11 = {
+	monarch = {
+		name = "Ignacio Comonfort"
+		birth_date = 1806.12.20
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+
+1858.1.11 = {
+	monarch = {
+		name = "Félíx María Zuloaga"
+		birth_date = 1813.3.31
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+
+1858.12.24 = {
+	monarch = {
+		name = "Manuel Robles Pezuela"
+		birth_date = 1817.5.25
+		adm = 2
+		dip = 1
+		mil = 6
+	}
+}
+
+1859.1.24 = {
+	monarch = {
+		name = "Félíx María Zuloaga"
+		birth_date = 1813.3.31
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+
+1859.2.2 = {
+	monarch = {
+		name = "Miguel Miramón"
+		birth_date = 1832.9.29
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+}
+
+1860.8.13 = {
+	monarch = {
+		name = "José Ignacio Pavón"
+		birth_date = 1791.1.1
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1860.8.15 = {
+	monarch = {
+		name = "Miguel Miramón"
+		birth_date = 1832.9.29
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+}
+
+1860.5.23 = {
+	monarch = {
+		name = "Félíx María Zuloaga"
+		birth_date = 1813.3.31
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}
+
+1862.12.29 = {
+	monarch = {
+		name = "Superior Governing Board"
+		adm = 4
+		dip = 6
+		mil = 3
+		regent = yes
+	}
+}
+
+1863.7.11 = {
+	government = monarchy
+	add_government_reform = autocracy_reform
+	government_rank = 3
+	monarch = {
+		name = "Maximilian I"
+		dynasty = "von Habsburg"
+		birth_date = 1832.7.6
+		death_date = 1867.6.19
+		adm = 2
+		dip = 0
+		mil = 4
+	}
+	
+	queen = {
+		name = "Carlota"
+		dynasty = "van Saxe-Coburg"
+		birth_date = 1840.6.7
+		death_date = 1927.1.19
+		country_of_origin = BEL
+		female = yes
+		adm = 0
+		dip = 4
+		mil = 0
+	}
+}
+
+1867.6.20 = {
+	government = republic
+	add_government_reform = federal_republic
+	government_rank = 2
+	monarch = {
+		name = "Benito Juárez"
+		birth_date = 1806.3.21
+		adm = 6
+		dip = 2
+		mil = 2
+	}
+}
+
+1872.7.18 = {
+	monarch = {
+		name = "Sebastián Lerdo de Tejada"
+		birth_date = 1823.4.24
+		adm = 2
+		dip = 0
+		mil = 6
+	}
+}
+
+1872.7.18 = {
+	monarch = {
+		name = "José María Iglesias"
+		birth_date = 1823.1.5
+		adm = 0
+		dip = 6
+		mil = 0
+	}
+}
+
+1876.11.28 = {
+	monarch = {
+		name = "Porfirio Díaz"
+		birth_date = 1830.9.15
+		adm = 2
+		dip = 0
+		mil = 5
+	}
+}
+
+1876.12.6 = {
+	monarch = {
+		name = "Juan Nepomuceno Méndez"
+		birth_date = 1820.7.2
+		adm = 1
+		dip = 1
+		mil = 6
+	}
+}
+
+1877.2.17 = {
+	monarch = {
+		name = "Porfirio Díaz"
+		birth_date = 1830.9.15
+		adm = 2
+		dip = 0
+		mil = 5
+	}
+}
+
+1880.12.1 = {
+	monarch = {
+		name = "Manuel González Flores"
+		birth_date = 1833.6.18
+		adm = 4
+		dip = 0
+		mil = 2
+	}
+}
+
+1884.12.1 = {
+	monarch = {
+		name = "Porfirio Díaz"
+		birth_date = 1830.9.15
+		adm = 2
+		dip = 0
+		mil = 5
+	}
+}

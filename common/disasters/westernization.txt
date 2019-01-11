@@ -54,8 +54,17 @@ westernization = {
 			limit = {
 				NOT = { has_country_flag = has_disaster_westernization }
 			}
-			change_variable = { westernization = 1 }
-			custom_tooltip = WESTERNIZATION_DISASTER_TT_1
+			if = {
+				limit = {
+					tag = JAP
+				}
+				change_variable = { westernization = 2 }
+				custom_tooltip = WESTERNIZATION_DISASTER_TT_1_2
+			}
+			else = {
+				change_variable = { westernization = 1 }
+				custom_tooltip = WESTERNIZATION_DISASTER_TT_1
+			}
 		}
 		else = {
 			custom_tooltip = WESTERNIZATION_DISASTER_TT_2
@@ -63,7 +72,20 @@ westernization = {
 		custom_tooltip = WESTERNIZATION_DISASTER_TT_3
 		hidden_effect = {
 			set_country_flag = has_disaster_westernization
-			set_variable = { monthly_westernization = 1 }
+			if = {
+				limit = {
+					tag = JAP
+				}
+				set_variable = { monthly_westernization = 2 }
+				add_disaster_modifier = {
+					name = jap_westernization
+					duration = -1
+					disaster = westernization
+				}
+			}
+			else = {
+				set_variable = { monthly_westernization = 1 }
+			}
 		}
 	}
 	
