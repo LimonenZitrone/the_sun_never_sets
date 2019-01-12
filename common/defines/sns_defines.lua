@@ -5,6 +5,7 @@
 NDefines.NGame.START_DATE = "1836.1.1"
 NDefines.NGame.END_DATE = "9999.12.31"
 NDefines.NGame.AGE_USHER_IN_TIME = 12
+NDefines.NCountry.GOLDEN_ERA_YEARS = 25
 
 --- Map stuff
 NDefines.NFrontend.CAMERA_LOOKAT_X = 2787.0
