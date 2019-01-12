@@ -1,0 +1,39 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_victorian_era"
+		texturefile = "gfx/interface/ages/victorian_era.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_victorian_era_g"
+		texturefile = "gfx/interface/ages/icon_victorian_era_g.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_a_house_divided"
+		texturefile = "gfx/interface/ages/a_house_divided.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_a_house_divided_g"
+		texturefile = "gfx/interface/ages/icon_a_house_divided_g.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_age_of_empires"
+		texturefile = "gfx/interface/ages/age_of_empires.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_age_of_empires_g"
+		texturefile = "gfx/interface/ages/icon_age_of_empires_g.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_age_s"
+		texturefile = "gfx/interface/ages/icon_age_s.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_icon_age_l"
+		texturefile = "gfx/interface/ages/icon_age_l.dds"
+		noOfFrames = 3
+	}
+}

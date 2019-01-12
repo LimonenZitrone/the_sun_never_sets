@@ -28,8 +28,6 @@
  IS_NOT_SPHERE_INFLUENCING_FROM: "Is NOT influencing §Y[From.GetName]§!"
  IS_NOT_SPHERE_INFLUENCING_ANY_COUNTRY: "Is NOT influencing any country currently"
  
- IS_NO_ROM_GREAT_POWER: "Less than §Y8§! Western countries have a higher §Ydevelopment§! than §Y[This.GetName]§!"
- 
  # Variables:
  influence_sphere: "Sphere Influence"
  

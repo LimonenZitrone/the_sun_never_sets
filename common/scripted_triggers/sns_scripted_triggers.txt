@@ -13,10 +13,37 @@ is_great_power_no_rom_trigger = {
 	}
 }
 
+is_great_power_rank_no_rom_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = IS_NO_ROM_GREAT_POWER_RANK_$rank$
+		NOT = {
+			calc_true_if = {
+				all_country = {
+					technology_group = western
+					total_development = ROOT
+				}
+				amount = $rank$
+			}
+		}
+	}
+}
+
 has_no_or_special_disaster = {
 	# check for special disasters that should not disallow normal disasters
 	OR = {
 		has_any_disaster = no
 		has_disaster = westernization
 	}
+}
+
+has_any_sns_great_project = {
+#	OR = {
+#		has_great_project = eiffel_tower
+#	}
+}
+
+is_socialist = {
+#	OR = {
+#		has_reform = socialist_reform
+#	}
 }
