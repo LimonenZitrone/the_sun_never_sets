@@ -3,6 +3,9 @@
  cb_restore_sphere: "Restore Sphere"
  cb_restore_sphere_desc: "They have left our Sphere. As a Great Power, we cannot accept that."
  
+ cb_scramble_of_africa: "Scramble for Africa"
+ cb_scramble_of_africa_desc: "Africa is a continent we need to secure provinces on. Luckily, this country has provinces in Africa and is weaker than us."
+ 
  # War Goal Types:
  take_capital_disloyal_sphere: "Take Capital"
  take_capital_disloyal_sphere_desc: "The wargoal is to take the capital of the target."

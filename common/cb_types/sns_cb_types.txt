@@ -6,3 +6,21 @@ cb_restore_sphere = {
 
 	war_goal = take_capital_disloyal_sphere
 }
+
+cb_scramble_of_africa = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_country_flag = cb_scramble_of_africa_enabled
+		capital_scope = {
+			continent = europe
+		}
+		FROM = {
+			capital_scope = {
+				continent = africa
+			}
+		}
+	}
+
+	war_goal = take_capital_imperial
+}

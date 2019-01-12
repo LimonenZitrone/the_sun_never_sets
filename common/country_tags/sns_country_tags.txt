@@ -1,4 +1,6 @@
-#EIC = "EastIndiaCompany.txt"
+AHE = "countries/AustriaHungary.txt"
 BEL = "countries/Belgium.txt"
+CSA = "countries/ConfederateStates.txt"
+#EIC = "EastIndiaCompany.txt"
 NGC = "countries/NorthGermanConfederation.txt"
 TTS = "countries/TheTwoSicilies.txt"

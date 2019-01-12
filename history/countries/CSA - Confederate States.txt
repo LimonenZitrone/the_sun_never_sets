@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = revolutionary_republic_reform
+technology_group = western
+primary_culture = american
+religion = protestant
+capital = 925	# Fort Jackson
+
+1861.2.4  = {
+	monarch = {
+		name = "Jefferson Davis"
+		birth_date = 1808.6.3
+		death_date = 1889.12.6
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

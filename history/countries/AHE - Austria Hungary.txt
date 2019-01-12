@@ -1,0 +1,49 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+primary_culture = austrian
+religion = catholic
+technology_group = western
+capital = 134 # Wien
+historical_friend = HUN
+historical_rival = TUR
+historical_rival = FRA
+national_focus = ADM
+add_accepted_culture = hungarian
+
+1867.6.8 = {
+	monarch = {
+		name = "Franz Joseph I"
+		dynasty = "von Habsburg"
+		birth_date = 1830.8.18
+		death_date = 1916.11.21
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}
+
+1863.12.18 = {
+	heir = {
+		name = "Franz Ferdinand"
+		dynasty = "von Habsburg"
+		birth_date = 1863.12.18
+		death_date = 1914.6.28
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+
+1914.6.28 = {
+	heir = {
+		name = "Karl"
+		monarch_name = "Karl I"
+		dynasty = "von Habsburg"
+		birth_date = 1887.8.17
+		death_date = 1922.4.1
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+}
