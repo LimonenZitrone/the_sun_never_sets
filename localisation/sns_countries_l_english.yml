@@ -1,6 +1,10 @@
 ﻿l_english:
+ AHE: "Austria-Hungary"
+ AHE_ADJ: "Austria-Hungarian"
  BEL: "Belgium"
  BEL_ADJ: "Belgian"
+ CSA: "Confederate States"
+ CSA_ADJ: "American"
  EIC: "East India Company"
  EIC_ADJ: "East Indian"
  NGC: "North German Confederation"

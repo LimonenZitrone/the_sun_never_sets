@@ -100,7 +100,7 @@ victorian_era = {
 		ab_victorian_era_6 = {
 			modifier = {
 				vassal_income = 0.1
-				reduced_liberty_desire = 0.1
+				reduced_liberty_desire = 10
 			}
 			ai_will_do = {
 				factor = 1
@@ -240,20 +240,24 @@ a_house_divided = {
 			}
 		}
 		obj_a_house_divided_4 = {
+			any_country = {
+				is_rival = ROOT
+			}
 			all_rival_country = {
 				NOT = { army_size = ROOT }
 			}
 		}
-		obj_a_house_divided_5 = {
-			if = {
-				limit = {
-					has_dlc = "Cradle of Civilization"
-				}
-				army_professionalism = 0.5
+		obj_a_house_divided_5_1 = {
+			allow = {
+				has_dlc = "Cradle of Civilization"
 			}
-			else = {
-				army_tradition = 50
+			army_professionalism = 0.5
+		}
+		obj_a_house_divided_5_2 = {
+			allow = {
+				NOT = { has_dlc = "Cradle of Civilization" }
 			}
+			army_tradition = 50
 		}
 		obj_a_house_divided_6 = {
 			custom_trigger_tooltip = {
@@ -363,11 +367,14 @@ a_house_divided = {
 		}
 		ab_jap_a_house_divided = {
 			allow = {
-				tag = JAN
+				tag = JAP
 			}
 			modifier = {
 				technology_cost = -0.05
 				westernization_influence = 2
+			}
+			effect = {
+				custom_tooltip = age_ability_westernization_plus_two
 			}
 			ai_will_do = {
 				factor = 100
@@ -585,6 +592,9 @@ age_of_empires = {
 			}
 			modifier = {
 				diplomatic_upkeep = 3
+			}
+			effect = {
+				custom_tooltip = age_ability_sphere_influence_plus_two
 			}
 			ai_will_do = {
 				factor = 150
