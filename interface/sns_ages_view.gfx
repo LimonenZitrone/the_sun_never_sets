@@ -1,4 +1,4 @@
-spriteTypes = {	
+spriteTypes = {
 	spriteType = {
 		name = "GFX_victorian_era"
 		texturefile = "gfx/interface/ages/victorian_era.dds"
@@ -7,7 +7,7 @@ spriteTypes = {
 		name = "GFX_icon_victorian_era_g"
 		texturefile = "gfx/interface/ages/icon_victorian_era_g.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_a_house_divided"
 		texturefile = "gfx/interface/ages/a_house_divided.dds"
@@ -16,7 +16,7 @@ spriteTypes = {
 		name = "GFX_icon_a_house_divided_g"
 		texturefile = "gfx/interface/ages/icon_a_house_divided_g.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_age_of_empires"
 		texturefile = "gfx/interface/ages/age_of_empires.dds"
@@ -25,7 +25,7 @@ spriteTypes = {
 		name = "GFX_icon_age_of_empires_g"
 		texturefile = "gfx/interface/ages/icon_age_of_empires_g.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_icon_age_s"
 		texturefile = "gfx/interface/ages/icon_age_s.dds"
@@ -35,5 +35,237 @@ spriteTypes = {
 		name = "GFX_icon_age_l"
 		texturefile = "gfx/interface/ages/icon_age_l.dds"
 		noOfFrames = 3
+	}
+
+	# Objectives:
+	spriteType = {
+		name = "GFX_obj_victorian_era_1"
+		texturefile = "gfx/interface/ages/obj_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_victorian_era_2"
+		texturefile = "gfx/interface/ages/obj_spheres.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_victorian_era_3"
+		texturefile = "gfx/interface/ages/obj_westernization.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_victorian_era_4"
+		texturefile = "gfx/interface/ages/obj_great_power.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_victorian_era_5"
+		texturefile = "gfx/interface/ages/obj_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_victorian_era_6"
+		texturefile = "gfx/interface/ages/obj_monuments.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_victorian_era_7"
+		texturefile = "gfx/interface/ages/obj_dip_rep.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_a_house_divided_1_1"
+		texturefile = "gfx/interface/ages/obj_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_1_2"
+		texturefile = "gfx/interface/ages/obj_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_2"
+		texturefile = "gfx/interface/ages/obj_unite_home_region.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_3"
+		texturefile = "gfx/interface/ages/obj_large_forcelimit.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_4"
+		texturefile = "gfx/interface/ages/obj_stronger_than_rivals.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_5_1"
+		texturefile = "gfx/interface/ages/obj_professional_army.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_5_2"
+		texturefile = "gfx/interface/ages/obj_professional_army.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_6"
+		texturefile = "gfx/interface/ages/obj_humiliate_rival.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_a_house_divided_7"
+		texturefile = "gfx/interface/ages/obj_oil.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_age_of_empires_1"
+		texturefile = "gfx/interface/ages/obj_unify_culture.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_age_of_empires_2"
+		texturefile = "gfx/interface/ages/obj_africa.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_age_of_empires_3"
+		texturefile = "gfx/interface/ages/obj_first_gp.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_age_of_empires_4"
+		texturefile = "gfx/interface/ages/obj_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_age_of_empires_5"
+		texturefile = "gfx/interface/ages/obj_two_continents.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_age_of_empires_6"
+		texturefile = "gfx/interface/ages/obj_world_ports.dds"
+	}
+	spriteType = {
+		name = "GFX_obj_age_of_empires_7"
+		texturefile = "gfx/interface/ages/obj_socialism.dds"
+	}
+
+	# Abilities:
+	spriteType = {
+		name = "GFX_ab_victorian_era_1"
+		texturefile = "gfx/interface/ages/ab_unrest.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_victorian_era_2"
+		texturefile = "gfx/interface/ages/ab_production.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_victorian_era_3"
+		texturefile = "gfx/interface/ages/ab_development_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_victorian_era_4"
+		texturefile = "gfx/interface/ages/ab_industrialization.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_victorian_era_5"
+		texturefile = "gfx/interface/ages/ab_global_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_victorian_era_6"
+		texturefile = "gfx/interface/ages/ab_vassals.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_victorian_era_7"
+		texturefile = "gfx/interface/ages/ab_transfer_vassal_wargoal.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_gbr_victorian_era"
+		texturefile = "gfx/interface/ages/ab_britain.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_pru_victorian_era"
+		texturefile = "gfx/interface/ages/ab_prussia.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_rus_victorian_era"
+		texturefile = "gfx/interface/ages/ab_russia.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_mex_victorian_era"
+		texturefile = "gfx/interface/ages/ab_mexico.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ab_a_house_divided_1"
+		texturefile = "gfx/interface/ages/ab_inf_fire.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_a_house_divided_2"
+		texturefile = "gfx/interface/ages/ab_no_distance_for_core.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_a_house_divided_3"
+		texturefile = "gfx/interface/ages/ab_dip_rep.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_a_house_divided_4"
+		texturefile = "gfx/interface/ages/ab_fabricate_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_a_house_divided_5"
+		texturefile = "gfx/interface/ages/ab_province_cost.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_a_house_divided_6"
+		texturefile = "gfx/interface/ages/ab_seperatism.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_a_house_divided_7"
+		texturefile = "gfx/interface/ages/ab_ae.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_ita_a_house_divided"
+		texturefile = "gfx/interface/ages/ab_italy.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_usa_a_house_divided"
+		texturefile = "gfx/interface/ages/ab_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_csa_a_house_divided"
+		texturefile = "gfx/interface/ages/ab_csa.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_jap_a_house_divided"
+		texturefile = "gfx/interface/ages/ab_japan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ab_age_of_empires_1"
+		texturefile = "gfx/interface/ages/ab_imperialism.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_age_of_empires_2"
+		texturefile = "gfx/interface/ages/ab_scramble_for_africa.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_age_of_empires_3"
+		texturefile = "gfx/interface/ages/ab_colony_boost_development.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_age_of_empires_4"
+		texturefile = "gfx/interface/ages/ab_mass_production.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_age_of_empires_5"
+		texturefile = "gfx/interface/ages/ab_states.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_age_of_empires_6"
+		texturefile = "gfx/interface/ages/ab_coast.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_age_of_empires_7"
+		texturefile = "gfx/interface/ages/ab_adm_efficiency.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_bel_age_of_empires"
+		texturefile = "gfx/interface/ages/ab_belgium.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_ger_age_of_empires"
+		texturefile = "gfx/interface/ages/ab_germany.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_ahe_age_of_empires"
+		texturefile = "gfx/interface/ages/ab_austria_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_ab_gp_age_of_empires"
+		texturefile = "gfx/interface/ages/ab_great_power.dds"
 	}
 }
