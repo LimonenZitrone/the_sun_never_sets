@@ -459,9 +459,6 @@ age_of_empires = {
 			south_america = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			oceania = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 		}
 		obj_age_of_empires_6 = {
 			num_of_owned_provinces_with = {
