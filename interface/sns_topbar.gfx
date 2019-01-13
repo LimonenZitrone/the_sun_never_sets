@@ -1,0 +1,13 @@
+spriteTypes = {
+	maskedShieldType = {
+		name = "GFX_topbar_shield_fancy"
+		textureFile1 = "gfx/interface/top_shield_fancy_overlay.dds"
+		textureFile2 = "gfx/interface/top_shield_fancy_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx//interface//client_state_symbols_large.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+}

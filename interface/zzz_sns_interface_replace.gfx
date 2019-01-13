@@ -1,0 +1,12 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_government_reforms_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx//interface//government_reforms_button_base_green.dds"
+		textureFile2 = "gfx//interface//government_reforms_button_base_red.dds"
+		size = { x = 60 y = 38 }
+		horizontal = no
+		effectFile = "gfx//FX//progress.lua"
+	}
+}
