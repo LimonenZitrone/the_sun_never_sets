@@ -1,0 +1,706 @@
+country_decisions = {
+
+	construct_eiffel_tower = {
+		major = yes
+		potential = {
+			is_year = 1886
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 183
+				}
+			}
+			has_discovered = 183
+			183 = {
+				range = ROOT
+				NOT = { has_great_project = eiffel_tower }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 183
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1886
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 183
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			183 = {
+				add_great_project = eiffel_tower
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_eiffel_tower = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 183
+			183 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			183 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			183 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_old_museum = {
+		major = yes
+		potential = {
+			is_year = 1830
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 50
+				}
+			}
+			has_discovered = 50
+			50 = {
+				range = ROOT
+				NOT = { has_great_project = old_museum }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 50
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1830
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 50
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			50 = {
+				add_great_project = old_museum
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_old_museum = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 50
+			50 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			50 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			50 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_crystal_palace = {
+		major = yes
+		potential = {
+			is_year = 1849
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 236
+				}
+			}
+			has_discovered = 236
+			236 = {
+				range = ROOT
+				NOT = { has_great_project = crystal_palace }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 236
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1849
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 236
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			236 = {
+				add_great_project = crystal_palace
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_crystal_palace = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 236
+			236 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			236 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			236 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_gyeonbokgung_palace = {
+		major = yes
+		potential = {
+			is_year = 1863
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 735
+				}
+			}
+			has_discovered = 735
+			735 = {
+				range = ROOT
+				NOT = { has_great_project = gyeonbokgung_palace }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 735
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1863
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 735
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			735 = {
+				add_great_project = gyeonbokgung_palace
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_gyeonbokgung_palace = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 735
+			735 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			735 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			735 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_palais_garnier = {
+		major = yes
+		potential = {
+			is_year = 1860
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 4388
+				}
+			}
+			has_discovered = 4388
+			4388 = {
+				range = ROOT
+				NOT = { has_great_project = palais_garnier }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 4388
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1860
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 4388
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			4388 = {
+				add_great_project = palais_garnier
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_palais_garnier = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 4388
+			4388 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			4388 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			4388 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_california_state_capitol = {
+		major = yes
+		potential = {
+			is_year = 1861
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 2479
+				}
+			}
+			has_discovered = 2479
+			2479 = {
+				range = ROOT
+				NOT = { has_great_project = california_state_capitol }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 2479
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1861
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 2479
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			2479 = {
+				add_great_project = california_state_capitol
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_california_state_capitol = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 2479
+			2479 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			2479 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			2479 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_scots_church = {
+		major = yes
+		potential = {
+			is_year = 1869
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 1087
+				}
+			}
+			has_discovered = 1087
+			1087 = {
+				range = ROOT
+				NOT = { has_great_project = scots_church }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 1087
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1869
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 1087
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			1087 = {
+				add_great_project = scots_church
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_scots_church = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 1087
+			1087 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			1087 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			1087 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_cologne_cathedral = {
+		major = yes
+		potential = {
+			is_year = 1870
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 85
+				}
+			}
+			has_discovered = 85
+			85 = {
+				range = ROOT
+				NOT = { has_great_project = cologne_cathedral }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 85
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1870
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 85
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			85 = {
+				add_great_project = cologne_cathedral
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_cologne_cathedral = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 85
+			85 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			85 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			85 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_arc_de_triomphe = {
+		major = yes
+		potential = {
+			is_year = 1806
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 182
+				}
+			}
+			has_discovered = 182
+			182 = {
+				range = ROOT
+				NOT = { has_great_project = arc_de_triomphe }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 182
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1806
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 182
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			182 = {
+				add_great_project = arc_de_triomphe
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_arc_de_triomphe = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 182
+			182 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			182 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			182 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_sanssouci = {
+		major = yes
+		potential = {
+			is_year = 1837
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 1759
+				}
+			}
+			has_discovered = 1759
+			1759 = {
+				range = ROOT
+				NOT = { has_great_project = sanssouci }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 1759
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1837
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 1759
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			1759 = {
+				add_great_project = sanssouci
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_sanssouci = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 1759
+			1759 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			1759 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			1759 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	construct_herimitage_museum = {
+		major = yes
+		potential = {
+			is_year = 1842
+			OR = {
+				ai = no
+				AND = {
+					treasury = 10000
+					owns_or_non_sovereign_subject_of = 33
+				}
+			}
+			has_discovered = 33
+			33 = {
+				range = ROOT
+				NOT = { has_great_project = herimitage_museum }
+				NOT = { has_construction = great_project }
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 33
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			is_year = 1842
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 33
+			treasury = 10000
+		}
+		effect = {
+			add_treasury = -10000
+			33 = {
+				add_great_project = herimitage_museum
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cancel_herimitage_museum = {
+		major = yes
+		potential = {
+			ai = no
+			is_free_or_tributary_trigger = yes
+			owns_or_non_sovereign_subject_of = 33
+			33 = {
+				has_construction = great_project
+			}
+		}
+		allow = {
+			33 = {
+				has_construction = great_project
+			}
+		}
+		effect = {
+			33 = {
+				cancel_construction = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

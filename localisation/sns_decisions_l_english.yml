@@ -9,3 +9,64 @@
  DID_NOT_STOP_WESTERNIZATION_RECENTLY: "Did NOT stop the §YWesternization§! within the last §Y31 days§!"
  START_WESTERNIZATION_TT: "The §YWesternization§! will start in the next month."
  
+ # Great Projects:
+ construct_eiffel_tower_title: "Construct the Eiffel Tower"
+ construct_eiffel_tower_desc: ""
+ cancel_eiffel_tower_title: "Cancel the Eiffel Tower construction"
+ cancel_eiffel_tower_desc: "Cancel the construction of the great project §YEiffel Tower§!."
+ 
+ construct_old_museum_title: "Construct the Royal Museum"
+ construct_old_museum_desc: ""
+ cancel_old_museum_title: "Cancel the Royal Museum construction"
+ cancel_old_museum_desc: "Cancel the construction of the great project §YRoyal Museum§!."
+ 
+ construct_crystal_palace_title: "Construct the Crystal Palace"
+ construct_crystal_palace_desc: ""
+ cancel_crystal_palace_title: "Cancel the Crystal Palace construction"
+ cancel_crystal_palace_desc: "Cancel the construction of the great project §YCrystal Palace§!."
+ 
+ construct_gyeonbokgung_palace_title: "Rebuild the Gyeonbokgung Palace"
+ construct_gyeonbokgung_palace_desc: ""
+ cancel_gyeonbokgung_palace_title: "Cancel the Gyeonbokgung Palace construction"
+ cancel_gyeonbokgung_palace_desc: "Cancel the construction of the great project §YGyeonbokgung Palace§!."
+ 
+ construct_palais_garnier_title: "Construct the Palais Garnier"
+ construct_palais_garnier_desc: ""
+ cancel_palais_garnier_title: "Cancel the Palais Garnier construction"
+ cancel_palais_garnier_desc: "Cancel the construction of the great project §YPalais Garnier§!."
+ 
+ construct_california_state_capitol_title: "Construct the California State Capitol"
+ construct_california_state_capitol_desc: ""
+ cancel_california_state_capitol_title: "Cancel the California State Capitol construction"
+ cancel_california_state_capitol_desc: "Cancel the construction of the great project §YCalifornia State Capitol§!."
+ 
+ construct_scots_church_title: "Construct the Scot§Ys Church"
+ construct_scots_church_desc: ""
+ cancel_scots_church_title: "Cancel the Scot§Ys Church construction"
+ cancel_scots_church_desc: "Cancel the construction of the great project §YScot§Ys Church§!."
+ 
+ construct_cologne_cathedral_title: "Finish the Cologne Cathedral"
+ construct_cologne_cathedral_desc: ""
+ cancel_cologne_cathedral_title: "Cancel the Cologne Cathedral construction"
+ cancel_cologne_cathedral_desc: "Cancel the construction of the great project §YCologne Cathedral§!."
+ 
+ construct_arc_de_triomphe_title: "Construct the Arc de Triomphe de l§YÉtoile"
+ construct_arc_de_triomphe_desc: ""
+ cancel_arc_de_triomphe_title: "Cancel the Arc de Triomphe de l§YÉtoile construction"
+ cancel_arc_de_triomphe_desc: "Cancel the construction of the great project §YArc de Triomphe de l§YÉtoile§!."
+ 
+ construct_arc_de_triomphe_title: "Construct the Arc de Triomphe de l§YÉtoile"
+ construct_arc_de_triomphe_desc: ""
+ cancel_arc_de_triomphe_title: "Cancel the Arc de Triomphe de l§YÉtoile construction"
+ cancel_arc_de_triomphe_desc: "Cancel the construction of the great project §YArc de Triomphe de l'Étoile§!."
+ 
+ construct_sanssouci_title: "Modify the Sanssouci Palace"
+ construct_sanssouci_desc: ""
+ cancel_sanssouci_title: "Cancel the Sanssouci Palace construction"
+ cancel_sanssouci_desc: "Cancel the construction of the great project §YSanssouci Palace§!."
+ 
+ construct_herimitage_museum_title: "Construct the Herimitage Museum"
+ construct_herimitage_museum_desc: ""
+ cancel_herimitage_museum_title: "Cancel the Herimitage Museum construction"
+ cancel_herimitage_museum_desc: "Cancel the construction of the great project §YHerimitage Museum§!."
+ 

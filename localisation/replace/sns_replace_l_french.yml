@@ -32,3 +32,5 @@
  arctic: "Boréal"
  desc_arctic: "Le climat boréal est rigoureux, et il n'y a pas beaucoup de végétations mise à part de peut-être des arbres conifères."
  
+ IS_SUBJECT_TYPE:0 "Est une dépendance de type §Y$SUBJECTTYPE$§!"
+ 

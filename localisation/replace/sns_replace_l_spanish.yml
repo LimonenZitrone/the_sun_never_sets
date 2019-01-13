@@ -31,3 +31,7 @@
  beaufort_sea_area: "Mar de Beaufort"
  arctic: "Boreal"
  desc_arctic: "El clima boreal es duro, donde no hay vegetación mucho mayor que eventuales coníferas."
+
+ 
+ IS_SUBJECT_TYPE:0 "Es §Y$SUBJECTTYPE$§!"
+ 

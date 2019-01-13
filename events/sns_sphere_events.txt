@@ -36,9 +36,9 @@ country_event = {
 			}
 			if = {
 				limit = {
-					check_variable = { influence_sphere = 100
+					check_variable = { influence_sphere = 100 }
 				}
-				set_variable = { influence_sphere = 100
+				set_variable = { influence_sphere = 100 }
 			}
 			add_country_modifier = {
 				name = influence_sphere_var_increased

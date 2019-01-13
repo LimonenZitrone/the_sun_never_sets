@@ -1,0 +1,120 @@
+eiffel_tower = {
+	ambient_object = eiffel_tower
+	province = 183
+	is_canal = no
+	time = 24
+	
+	modifier = {
+		prestige = 1
+	}
+}
+
+old_museum = {
+	ambient_object = old_museum
+	province = 50
+	is_canal = no
+	time = 60
+	
+	modifier = {
+		prestige_decay = -0.01
+	}
+}
+
+crystal_palace = {
+	ambient_object = crystal_palace
+	province = 236
+	is_canal = no
+	time = 36
+	
+	modifier = {
+		legitimacy = 1
+	}
+}
+
+gyeonbokgung_palace = {
+	ambient_object = gyeonbokgung_palace
+	province = 735
+	is_canal = no
+	time = 60
+	
+	modifier = {
+		legitimacy = 1
+	}
+}
+
+palais_garnier = {
+	ambient_object = palais_garnier
+	province = 4388
+	is_canal = no
+	time = 180
+	
+	modifier = {
+		culture_conversion_cost = -0.2
+	}
+}
+
+california_state_capitol = {
+	ambient_object = california_state_capitol
+	province = 2479
+	is_canal = no
+	time = 156
+	
+	modifier = {
+		reform_progress_growth = 0.1
+	}
+}
+
+scots_church = {
+	ambient_object = scots_church
+	province = 1087
+	is_canal = no
+	time = 60
+	
+	modifier = {
+		global_missionary_strength = 0.02
+	}
+}
+
+cologne_cathedral = {
+	ambient_object = cologne_cathedral
+	province = 1087
+	is_canal = no
+	time = 120
+	
+	modifier = {
+		tolerance_own = 2
+	}
+}
+
+arc_de_triomphe = {
+	ambient_object = arc_de_triomphe
+	province = 182
+	is_canal = no
+	time = 360
+	
+	modifier = {
+		tolerance_own = 2
+	}
+}
+
+sanssouci = {
+	ambient_object = sanssouci
+	province = 1750
+	is_canal = no
+	time = 60
+	
+	modifier = {
+		yearly_absolutism = 0.5
+	}
+}
+
+herimitage_museum = {
+	ambient_object = herimitage_museum
+	province = 33
+	is_canal = no
+	time = 120
+	
+	modifier = {
+		technology_cost = -0.05
+	}
+}
