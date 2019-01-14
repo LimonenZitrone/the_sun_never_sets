@@ -29,7 +29,7 @@ guiTypes = {
 		
 		WindowType = {
 			name = "victorian_era"
-			position = { x= 32 y = -19 }
+			position = { x= 32 y = -15 }
 			upsound = age_of_discovery
 
 			iconType = {
@@ -59,7 +59,7 @@ guiTypes = {
 		
 		WindowType = {
 			name = "a_house_divided"
-			position = { x= 32 y = -19}
+			position = { x= 32 y = -15}
 			upsound = age_of_reformation
 
 			iconType = {
@@ -88,7 +88,7 @@ guiTypes = {
 		
 		WindowType = {
 			name = "age_of_empires"
-			position = { x= 32 y = -19}
+			position = { x= 32 y = -15}
 			upsound = age_of_absolutism
 
 			iconType = {

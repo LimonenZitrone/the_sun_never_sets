@@ -23,12 +23,7 @@ victorian_era = {
 	#		factory = 15
 		}
 		obj_victorian_era_2 = {
-			calc_true_if = {
-				all_subject_country = {
-					is_subject_of_type = sphere
-				}
-				amount = 5
-			}
+			sphere = 5
 		}
 		obj_victorian_era_3 = {
 			technology_group = western
