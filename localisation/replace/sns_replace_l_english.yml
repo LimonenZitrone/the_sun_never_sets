@@ -34,5 +34,9 @@
  arctic: "Boreal"
  desc_arctic: "The boreal climate is harsh, where there is not much large vegetation other than possibly conifer trees."
  
+ 
  IS_SUBJECT_TYPE:0 "Is a §Y$SUBJECTTYPE$§!"
+ 
+ AFTER_GOLDEN_AGE_TEXT:0 "Golden Era was $START$ - $END$"
+ IN_GOLDEN_AGE_TEXT:0 "§Y$WHOS$ Golden Era!§!"
  

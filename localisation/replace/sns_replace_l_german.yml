@@ -32,5 +32,9 @@
  arctic: "Boreal"
  desc_arctic: "Das boreale Klima ist streng, wo es keine größere Vegetation außer eventuell Nadelbäume gibt."
 
+ 
  IS_SUBJECT_TYPE:0 "Ist ein(e) §Y$SUBJECTTYPE$§!"
+ 
+ AFTER_GOLDEN_AGE_TEXT:0 "Goldenes Zeitalter $START$-$END$"
+ IN_GOLDEN_AGE_TEXT:0 "§Y$WHOS$es Goldenes Zeitalter!§!"
  

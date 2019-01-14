@@ -35,3 +35,6 @@
  
  IS_SUBJECT_TYPE:0 "Es §Y$SUBJECTTYPE$§!"
  
+ AFTER_GOLDEN_AGE_TEXT:0 "Edad de Oro de $START$ a $END$"
+ IN_GOLDEN_AGE_TEXT:0 "§Y¡Edad de Oro de $WHOS$!§!"
+ 

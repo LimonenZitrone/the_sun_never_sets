@@ -273,4 +273,10 @@ spriteTypes = {
 		name = "GFX_ab_gp_age_of_empires"
 		texturefile = "gfx/interface/ages/ab_great_power.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_age_abilities_frame"
+		texturefile = "gfx/interface/ages/age_abilities_frame.dds"
+		allwaystransparent = yes
+	}
 }
