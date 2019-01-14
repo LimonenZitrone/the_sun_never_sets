@@ -36,6 +36,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/icon_age_l.dds"
 		noOfFrames = 3
 	}
+	spriteType = {
+		name = "GFX_icon_age_m"
+		texturefile = "gfx/interface/ages/icon_age_m.dds"
+		noOfFrames = 3
+	}
 
 	# Objectives:
 	spriteType = {

@@ -93,7 +93,7 @@ guiTypes = {
 		iconType = {
 			name = "player_shield_glow"
 			quadTextureSprite ="GFX_shield_fancy_great_power_glow"
-			position = { x= -5 y = 2 }
+			position = { x= 5 y = 5 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -634,37 +634,37 @@ guiTypes = {
 			hint_tag = "hint_mil"
 		}
 
-		iconType = {
-			name = "button_base"
-			spriteType ="GFX_age_frame_addon"
-			position = { x= 890 y = 30 }
-			alwaystransparent = yes
-		}
+	#	iconType = {
+	#		name = "button_base"
+	#		spriteType ="GFX_age_frame_addon"
+	#		position = { x= 890 y = 30 }
+	#		alwaystransparent = yes
+	#	}
 
 		guiButtonType = {
 			name = "current_age_button"
-			position = { x = 922 y = 32 }
+			position = { x = 877 y = 0 }
 			quadTextureSprite ="GFX_age_button"
 			clicksound = macro_build
 		}
 
 		guiButtonType = {
 			name = "age_icon"
-			spriteType ="GFX_icon_age_s"
-			position = { x= 905 y = 47 }
+			spriteType = "GFX_icon_age_m"
+			position = { x = 877 y = 0 }
 			frame = 1
 		}
 
 		instantTextBoxType = {
 			name = "age_title"
-			position = { x = 940 y = 52 }
+			position = { x = 874 y = 36 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 4 y = 4}
 			text = "AgeText"
 			maxWidth = 160
 			maxHeight = 32
-			format = left
+			format = center
 			alwaystransparent = yes
 		}
 
@@ -718,7 +718,7 @@ guiTypes = {
 			#Needs localisation change
 			instantTextBoxType = {
 				name = "pause_banner_text"
-				position = { x = 140 y = 9 }
+				position = { x = 140 y = 7 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}
