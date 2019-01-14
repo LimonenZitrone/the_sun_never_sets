@@ -37,9 +37,19 @@ has_no_or_special_disaster = {
 }
 
 has_any_sns_great_project = {
-#	OR = {
-#		has_great_project = eiffel_tower
-#	}
+	OR = {
+		has_great_project = eiffel_tower
+		has_great_project = old_museum
+		has_great_project = crystal_palace
+		has_great_project = gyeonbokgung_palace
+		has_great_project = palais_garnier
+		has_great_project = california_state_capitol
+		has_great_project = scots_church
+		has_great_project = cologne_cathedral
+		has_great_project = arc_de_triomphe
+		has_great_project = sanssouci
+		has_great_project = herimitage_museum
+	}
 }
 
 is_socialist = {

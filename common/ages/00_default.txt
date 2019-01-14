@@ -48,7 +48,9 @@ victorian_era = {
 	#		has_institution = industrialization
 		}
 		obj_victorian_era_6 = {
-			has_any_sns_great_project = yes
+			any_owned_province = {
+				has_any_sns_great_project = yes
+			}
 		}
 		obj_victorian_era_7 = {
 			diplomatic_reputation = 5
