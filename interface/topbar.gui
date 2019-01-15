@@ -644,17 +644,17 @@ guiTypes = {
 	#	}
 
 		guiButtonType = {
-			name = "current_age_button"
-			position = { x = 878 y = 0 }
-			quadTextureSprite ="GFX_age_button"
-			clicksound = macro_build
-		}
-
-		guiButtonType = {
 			name = "age_icon"
 			spriteType = "GFX_icon_age_m"
 			position = { x = 878 y = 0 }
 			frame = 1
+		}
+		
+		guiButtonType = {
+			name = "current_age_button"
+			position = { x = 878 y = 0 }
+			quadTextureSprite ="GFX_age_button"
+			clicksound = macro_build
 		}
 
 		instantTextBoxType = {
