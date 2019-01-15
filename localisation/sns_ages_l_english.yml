@@ -1,7 +1,7 @@
 ﻿l_english:
  # Victorian Era:
  victorian_era: "Victorian Era"
- victorian_era_desc: ""
+ victorian_era_desc: "(Placeholder) \nIn the history of the United Kingdom, the Victorian era was the period of Queen Victoria's reign, from 20 June 1837 until her death on 22 January 1901. In terms of moral sensibilities and political reforms, this period began with the passage of the Reform Act 1832. There was a strong religious drive for higher moral standards led by the nonconformist churches, such as the Methodist, and the Evangelical wing of the established Church of England. Britain's relations with the other Great Powers were driven by the colonial antagonism of the Great Game with Russia."
  
  obj_victorian_era_1: "Factories"
  obj_victorian_era_1_desc: "Have at least §R15§! factories."
@@ -34,7 +34,7 @@
  
  # A House Divided:
  a_house_divided: "Age of a Divided House"
- a_house_divided_desc: ""
+ a_house_divided_desc: "(Placeholder) \nAmong the 34 U.S. states in February 1861, secessionist partisans in seven Southern slave states declared state secessions from the country and unveiled their defiant formation of a Confederate States of America in rebellion against the U.S. Constitutional government. The Confederacy grew to control over half the territory in eleven states, and it claimed the additional states of Kentucky and Missouri by assertions from exiled native secessionists without territory or population. These were then given full representation in the Confederate Congress throughout the Civil War."
  
  obj_a_house_divided_1_1: "Take a Side in the Civil War"
  obj_a_house_divided_1_1_desc: "Be allied to @USA §RUnited States§! or @CSA §RConfederate States§!."
@@ -69,9 +69,9 @@
  
  age_ability_westernization_plus_two: "Monthly Westernization: §G+2.00§!"
  
- # A House Divided:
+ # Age of Empires:
  age_of_empires: "Age of Empires"
- age_of_empires_desc: ""
+ age_of_empires_desc: "(Placeholder) \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great!"
  
  obj_age_of_empires_1: "Unified Culture"
  obj_age_of_empires_1_desc: "Own all provinces of your culture group."

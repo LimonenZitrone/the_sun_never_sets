@@ -29,7 +29,7 @@ guiTypes = {
 		
 		WindowType = {
 			name = "victorian_era"
-			position = { x= 32 y = -15 }
+			position = { x= 32 y = -10 }
 			upsound = age_of_discovery
 
 			iconType = {
@@ -59,7 +59,7 @@ guiTypes = {
 		
 		WindowType = {
 			name = "a_house_divided"
-			position = { x= 32 y = -15}
+			position = { x= 32 y = -10}
 			upsound = age_of_reformation
 
 			iconType = {
@@ -88,7 +88,7 @@ guiTypes = {
 		
 		WindowType = {
 			name = "age_of_empires"
-			position = { x= 32 y = -15}
+			position = { x= 32 y = -10}
 			upsound = age_of_absolutism
 
 			iconType = {
@@ -123,7 +123,6 @@ guiTypes = {
 			maxWidth = 400
 			maxHeight = 32
 			format = centre
-			pdx_tooltip = "desc"
 		}
 
 		iconType = {
@@ -157,14 +156,14 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 250 y = 175 }
-			font = "vic_18"
+			position = { x = 465 y = 7 }
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 10
-			maxHeight = 10
+			maxWidth = 83
+			maxHeight = 160
 			format = left
-			fixedsize = yes
+			scrollbartype = standardlistbox_slider
 		}
 		
 		iconType = {
