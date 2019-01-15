@@ -31,13 +31,13 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x = 14 y = 9 }
+			position = { x = 19 y = 14 }
 		}
 		
 		listboxType = 
 			{
 			name ="outliner_list"
-			position = { x = 0 y = 33 }
+			position = { x = 0 y = 34 }
 			backGround=""
 			size = { x= 252 y = 200}
 			Orientation = "UPPER_LEFT"
