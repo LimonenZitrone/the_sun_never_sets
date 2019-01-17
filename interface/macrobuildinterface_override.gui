@@ -730,76 +730,76 @@ guiTypes = {
 
 		checkboxType = {
 			name = "land_units_button"
-			position = { x=416 y=62}
+			position = { x=431 y=74}
 			quadTextureSprite ="GFX_build_interface_army_tab"
 			shortcut = "1"
 		}
 		
 		checkboxType = {
 			name = "navy_units_button"
-			position = { x=416 y=106}
+			position = { x=431 y=118}
 			quadTextureSprite ="GFX_build_interface_navy_tab"
 			shortcut = "2"
 		}
 
 		checkboxType = {
 			name = "core_button"
-			position = { x=416 y=150}
+			position = { x=431 y=162}
 			quadTextureSprite ="GFX_build_interface_core_tab"
 			shortcut = "3"
 		}
 		
 		checkboxType = {
 			name = "missionary_button"
-			position = { x=416 y=194}
+			position = { x=431 y=206}
 			quadTextureSprite ="GFX_build_interface_missionary_tab"
 			shortcut = "4"
 		}
 		
 		checkboxType = {
 			name = "autonomy_button"
-			position = { x=416 y=238}
+			position = { x=431 y=250}
 			quadTextureSprite ="GFX_build_interface_revolt_tab"
 			shortcut = "5"
 		}
 		
 		checkboxType = {
 			name = "culture_button"
-			position = { x=416 y=282}
+			position = { x=431 y=294}
 			quadTextureSprite ="GFX_build_interface_culture_tab"
 			shortcut = "6"
 		}
 		
 		checkboxType = {
 			name = "buildings_button"
-			position = { x=416 y=326}
+			position = { x=431 y=338}
 			quadTextureSprite ="GFX_build_interface_building_tab"
 			shortcut = "7"
 		}
 
 		checkboxType = {
 			name = "development_button"
-			position = { x=416 y=370}
+			position = { x=431 y=382}
 			quadTextureSprite ="GFX_build_interface_development_tab"
 			shortcut = "8"
 		}
 
 		checkboxType = {
 			name = "estates_button"
-			position = { x=416 y=414}
+			position = { x=431 y=426}
 			quadTextureSprite ="GFX_build_interface_estates_tab"
 			shortcut = "9"
 		}
 
 		checkboxType = {
 			name = "diplomacy_button"
-			position = { x=416 y=458 }
+			position = { x=431 y=470 }
 			quadTextureSprite ="GFX_build_interface_diplomacy_tab"
 			shortcut = "0"
 		}
 		checkboxType = {
 			name = "exploit_button"
-			position = { x=416 y=502}
+			position = { x=431 y=514}
 			quadTextureSprite ="GFX_build_interface_exploit_tab"
 		}
 		
@@ -808,15 +808,15 @@ guiTypes = {
 		iconType =
 		{
 			name ="close_gold"
-			spriteType = "GFX_close_gold"
-			position = { x= 399 y = 11 }
+			spriteType = "GFX_macrobuildbackground_close_button_frame"
+			position = { x= 427 y = 39 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		guiButtonType = {
 			name = "close_button"
-			position = { x = 403 y = 14 }
-			quadTextureSprite ="GFX_closebutton2"
+			position = { x= 432 y = 44 }
+			quadTextureSprite ="GFX_square_close"
 		}
 				
 		instantTextBoxType={
@@ -1515,54 +1515,54 @@ guiTypes = {
 			iconType = {
 				name ="macro_diplomacy_line"
 				spriteType = "GFX_macro_diplomacy_line"
-				position = { x= -11 y = 39 }
+				position = { x= -12 y = 52 }
 			}			
 			
 			guiButtonType = {
 				name = "relations_button"
-				position = { x= -8 y = -6 }
+				position = { x= -8 y = 0 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_relations"
 				shortcut = "a"
 			}
 			guiButtonType = {
 				name = "alliances_button"
-				position = { x= 43 y = -6 }
+				position = { x= 43 y = 0 }
 				quadTextureSprite = "GFX_macro_diplomacy_tab_alliance"
 				shortcut = "s"
 			}
 			guiButtonType = {
 				name = "influence_button"
-				position = { x= 94 y = -6 }
+				position = { x= 94 y = 0 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_influence"
 				shortcut = "d"
 			}
 			guiButtonType = {
 				name = "dynastic_button"
-				position = { x= 145 y = -6 }
+				position = { x= 145 y = 0 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_dynastic"
 				shortcut = "g"
 			}
 			guiButtonType = {
 				name = "economic_button"
-				position = { x= 196 y = -6 }
+				position = { x= 196 y = 0 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_economic"
 				shortcut = "z"
 			}
 			guiButtonType = {
 				name = "papal_button"
-				position = { x= 247 y = -6 }
+				position = { x= 247 y = 0 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_papal"
 				shortcut = "x"
 			}
 			guiButtonType = {
 				name = "hre_button"
-				position = { x= 298 y = -6 }
+				position = { x= 298 y = 0 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_hre"
 				shortcut = "c"
 			}
 			guiButtonType = {
 				name = "great_power_button"
-				position = { x= 349 y = -6 }
+				position = { x= 349 y = 0 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_great_power"
 				shortcut = "v"
 			}
@@ -1625,7 +1625,7 @@ guiTypes = {
 		{
 			name = "select_diplo_action_type_window"
 			backGround=""
-			position = { x=50 y=100 }
+			position = { x=50 y=110 }
 			size = { x=400 y=400 }
 			moveable = 0
 			dontRender = ""

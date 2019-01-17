@@ -461,7 +461,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="background"
-			spriteType = "GFX_macro_build_interface"
+			spriteType = "GFX_macrobuildbackground_buildings"
 			position = { x= -10 y = -62 }
 			Orientation = "UPPER_LEFT"
 		}

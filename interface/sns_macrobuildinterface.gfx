@@ -3,6 +3,14 @@ spriteTypes = {
 		name = "GFX_macrobuildbackground_bottom"
 		texturefile = "gfx//interface//macrobuildbackground_bottom.dds"
 	}
+	spriteType = {
+		name = "GFX_macrobuildbackground_buildings"
+		texturefile = "gfx//interface//macrobuildbackground_buildings.dds"
+	}
+	spriteType = {
+		name = "GFX_macrobuildbackground_close_button_frame"
+		texturefile = "gfx//interface//macrobuildbackground_close_button_frame.dds"
+	}
 	textSpriteType = {
 		name = "GFX_sort_name_core"
 		texturefile = "gfx//interface//sort_name_core.dds"
