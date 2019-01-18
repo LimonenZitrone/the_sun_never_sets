@@ -43,4 +43,9 @@ spriteTypes = {
 		name = "GFX_sort_territory_estates"
 		texturefile = "gfx//interface//sort_territory_estates.dds"
 	}
+	textSpriteType = {
+		name = "GFX_build_interface_building_tab_macro_builder"
+		texturefile = "gfx//interface//build_interface_building_tab_macro_builder.dds"
+		noOfFrames = 2
+	}
 }

@@ -773,7 +773,7 @@ guiTypes = {
 		checkboxType = {
 			name = "buildings_button"
 			position = { x=431 y=338}
-			quadTextureSprite ="GFX_build_interface_building_tab"
+			quadTextureSprite ="GFX_build_interface_building_tab_macro_builder"
 			shortcut = "7"
 		}
 
