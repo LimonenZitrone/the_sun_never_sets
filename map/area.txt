@@ -3227,7 +3227,7 @@ coastal_prarie_area = { #4
 }
 
 oregon_area = { #4
-    872 2481 2482 2483
+    872 2481 2482 2483 4651
 }
 
 columbia_river_area = { #4
@@ -3369,7 +3369,7 @@ apacheria_area = { #3
 }
 
 colorado_plateau_area = { #4
-    875 878 2493 2494 2608
+    875 878 2493 2494 2608 4652 4653
 }
 
 arizona_area = { #5
