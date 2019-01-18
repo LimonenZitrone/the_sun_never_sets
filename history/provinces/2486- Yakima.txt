@@ -1,4 +1,18 @@
-culture = salish
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = muslim
+discovered_by = indian
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = sub_saharan
+discovered_by = north_american
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+discovered_by = high_americanculture = salish
 religion = totemism
 capital = "Yakima"
 trade_goods = unknown
@@ -12,8 +26,6 @@ native_hostileness = 2
 
 
 
-discovered_by = north_american
-
 
 1811.1.1 = {
 	owner = USA
@@ -22,4 +34,4 @@ discovered_by = north_american
 	is_city = yes
 	trade_goods = fur
 	religion = protestant
-	culture = american } #Fort Okanogan
+	culture = american } 

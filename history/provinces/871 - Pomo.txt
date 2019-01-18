@@ -1,4 +1,18 @@
-#871 - Pomo
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = muslim
+discovered_by = indian
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = sub_saharan
+discovered_by = north_american
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+discovered_by = high_american
 
 culture = chinook
 religion = totemism
@@ -14,13 +28,8 @@ native_hostileness = 4
 
 
 
-discovered_by = north_american
 
-1542.1.1 = { discovered_by = SPA } # Juan Rodríguez Cabrillo
-1579.6.16 = { discovered_by = ENG } # Sir Francis Drake
-1707.5.12 = { discovered_by = GBR }
-1786.1.1 = { discovered_by = FRA } # Jean Francois la Perouse
-
+1542.1.1 = { 1579.6.16 = { 1707.5.12 = { 1786.1.1 = { 
 1812.1.1 = {
 	owner = MEX
 	controller = MEX
@@ -29,4 +38,4 @@ discovered_by = north_american
 	trade_goods = wool
 	culture = american
 	religion = catholic
-} # Fort Ross
+} 
