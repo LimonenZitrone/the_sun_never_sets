@@ -1,4 +1,4 @@
-# - Rio Das Mortes
+#763 - Rio de Janeiro
 
 culture = brazilian
 discovered_by = western
@@ -16,13 +16,15 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
-religion = catholic
-capital = "Araes"
-trade_goods = tropical_wood
+religion = catholic 
+capital = "Rio de Janeiro"
+trade_goods = sugar
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 4
+base_production = 5
 base_manpower = 1
 owner = BRZ
 add_core = BRZ 
 controller = BRZ 
+extra_cost = 8
+center_of_trade = 1

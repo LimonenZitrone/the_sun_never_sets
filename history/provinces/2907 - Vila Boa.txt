@@ -1,4 +1,4 @@
-# - Rio Das Mortes
+# - Vila Boa
 
 culture = brazilian
 discovered_by = western
@@ -17,8 +17,8 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 religion = catholic
-capital = "Araes"
-trade_goods = tropical_wood
+capital = "Vila Boa"
+trade_goods = gold
 hre = no
 base_tax = 1 
 base_production = 1

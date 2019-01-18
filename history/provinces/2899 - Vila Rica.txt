@@ -1,4 +1,4 @@
-# - Rio Das Mortes
+# - Vila Rica
 
 culture = brazilian
 discovered_by = western
@@ -16,12 +16,12 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
-religion = catholic
-capital = "Araes"
-trade_goods = tropical_wood
+religion = catholic 
+capital = "Vila Rica"
+trade_goods = gold
 hre = no
-base_tax = 1 
-base_production = 1
+base_tax = 2 
+base_production = 3
 base_manpower = 1
 owner = BRZ
 add_core = BRZ 
