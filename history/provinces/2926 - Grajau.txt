@@ -1,0 +1,14 @@
+# - Grajau
+
+culture = brazilian
+discovered_by = south_american
+religion = animism
+capital = "Grajau"
+trade_goods = tropical_wood
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = BRZ
+controller = BRZ
+add_core = BRZ 

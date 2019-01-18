@@ -1,0 +1,15 @@
+#748 - Grao Para
+
+owner = BRZ
+controller = BRZ
+add_core = BRZ 
+culture = brazilian
+discovered_by = south_american
+religion = catholic
+capital = "Belém"
+trade_goods = cocoa
+is_city = yes
+hre = no
+base_tax = 1
+base_production = 2
+base_manpower = 1

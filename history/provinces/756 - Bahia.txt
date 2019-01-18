@@ -1,0 +1,16 @@
+#756 - Bahia
+
+culture = brazilian
+discovered_by = south_american
+religion = catholic
+capital = "Bahia"
+trade_goods = sugar
+hre = no
+base_tax = 3
+base_production = 5
+base_manpower = 2
+owner = BRZ
+controller = BRZ
+add_core = BRZ 
+extra_cost = 8
+center_of_trade = 1

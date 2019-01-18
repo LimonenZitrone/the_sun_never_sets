@@ -1,0 +1,15 @@
+# - Guapore
+
+culture = brazilian
+discovered_by = south_american
+discovered_by = western
+religion = catholic
+capital = "Guapore"
+trade_goods = cocoa
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = BRZ
+controller = BRZ
+add_core = BRZ

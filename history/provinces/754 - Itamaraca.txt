@@ -1,0 +1,14 @@
+#754 - Itamaraca
+
+culture = brazilian
+discovered_by = south_american
+religion = catholic
+capital = "Filipeia"
+trade_goods = sugar
+hre = no
+base_tax = 2
+base_production = 4
+base_manpower = 1
+owner = BRZ
+controller = BRZ
+add_core = BRZ 

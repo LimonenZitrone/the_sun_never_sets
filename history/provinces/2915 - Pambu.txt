@@ -1,0 +1,15 @@
+# - Pambu
+
+culture = brazilian
+discovered_by = south_american
+discovered_by = western
+religion = catholic
+capital = "Pambu"
+trade_goods = tropical_wood
+hre = no
+base_tax = 2
+base_production = 1
+base_manpower = 1
+owner = BRZ
+controller = BRZ
+add_core = BRZ

@@ -1,0 +1,26 @@
+# - Vila Bela
+
+culture = brazilian
+discovered_by = south_american
+discovered_by = western
+religion = catholic
+capital = "Vila Bela"
+trade_goods = copper
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = BRZ
+controller = BRZ
+add_core = BRZ
+
+1752.3.19 = {
+	discovered_by = POR
+	add_core = POR
+	owner = POR
+	controller = POR
+	culture = portugese
+	religion = catholic
+	trade_goods = copper
+	is_city = yes
+}

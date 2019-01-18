@@ -1,0 +1,15 @@
+#759 - Diamantina
+
+culture = brazilian
+discovered_by = south_american
+discovered_by = western
+religion = catholic 
+capital = "Arraial do Tejuco"
+trade_goods = gold
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 1
+owner = BRZ
+controller = BRZ
+add_core = BRZ

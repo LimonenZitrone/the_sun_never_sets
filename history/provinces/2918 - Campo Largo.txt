@@ -1,0 +1,16 @@
+# - Campo Largo
+
+culture = brazilian
+discovered_by = south_american
+discovered_by = western
+religion = catholic
+capital = "Campo Largo"
+trade_goods = wool
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = BRZ
+add_core = BRZ 
+controller = BRZ
+
