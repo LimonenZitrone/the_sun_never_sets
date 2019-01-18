@@ -1,0 +1,17 @@
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+owner = SPI
+controller = SPI
+add_core = SPI
+culture = lombard
+religion = catholic
+capital = "Placeholder"
+trade_goods = grain
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes

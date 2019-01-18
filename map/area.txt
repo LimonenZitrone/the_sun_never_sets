@@ -1,4 +1,4 @@
-# A province can only belong to one area!
+﻿# A province can only belong to one area!
 
 #Sea Areas:
 #No restriction on size.
@@ -1001,7 +1001,7 @@ mecklenburg_area = { #3
 ########################################
 
 macedonia_area = { #4 (Macedonia)
-	148 1853 3001
+	148 1853 3001 4655
 }
 
 morea_area = { #4 Central Greece & Crete
@@ -1009,7 +1009,7 @@ morea_area = { #4 Central Greece & Crete
 }
 
 northern_greece_area = { #3 #Northern Greece
-	142 144 147
+	142 144 147 4654
 }
 
 thrace_area = { #3
