@@ -29,6 +29,15 @@ add_core = POL
 add_core = VOL
 
 
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+discovered_by = muslim
 
 1492.1.1 = { unrest = 0 } 
 
@@ -55,6 +64,7 @@ add_core = VOL
 	add_core = HAB
 	remove_core = PLC
 } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

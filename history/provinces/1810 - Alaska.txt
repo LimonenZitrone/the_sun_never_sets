@@ -12,7 +12,8 @@ discovered_by = north_american
 discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
-discovered_by = high_american
+discovered_by = high_americandiscovered_by = north_american
+
 owner = RUS
 controller = RUS
 add_core = RUS
@@ -27,4 +28,5 @@ base_manpower = 1
 is_city = yes
 
 
-1741.1.1 = { 1778.1.1 = { 
+1741.1.1 = { discovered_by = RUS }
+1778.1.1 = { discovered_by = GBR }

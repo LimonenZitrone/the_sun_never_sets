@@ -13,6 +13,7 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
 is_city = yes
 capital = "Oregon"
 base_tax = 1

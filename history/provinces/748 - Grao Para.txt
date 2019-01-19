@@ -1,4 +1,3 @@
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -14,10 +13,12 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
 owner = BRZ
 controller = BRZ
 add_core = BRZ 
 culture = brazilian
+discovered_by = south_american
 religion = catholic
 capital = "Belém"
 trade_goods = cocoa

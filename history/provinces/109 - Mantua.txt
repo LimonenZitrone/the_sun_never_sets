@@ -27,6 +27,10 @@ base_manpower = 4
 fort_15th = yes
 capital = "Mantova" 
 is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
 
@@ -49,6 +53,7 @@ center_of_trade = 1
 	add_core = HAB
 	remove_core = ITA
 } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

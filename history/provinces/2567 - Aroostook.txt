@@ -28,8 +28,11 @@ native_hostileness = 2
 
 
 
+discovered_by = north_american
 
-1609.1.1 = { 1629.1.1 = { 
+1609.1.1 = { discovered_by = FRA } 
+1629.1.1 = { discovered_by = ENG }
+
 1650.1.1 = {
 	owner = USA
 	controller = USA
@@ -38,4 +41,4 @@ native_hostileness = 2
 	trade_goods = naval_supplies 
 } 
 
-1707.5.12 = { 
+1707.5.12 = { discovered_by = GBR }

@@ -1,6 +1,3 @@
-# - Rio Das Mortes
-
-culture = brazilian
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -16,6 +13,13 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+culture = brazilian
+<<<<<<< HEAD
+
+=======
+discovered_by = south_american
+>>>>>>> parent of b659620... all current province history files discovered for everyone
 religion = catholic
 capital = "Araes"
 trade_goods = tropical_wood
@@ -24,5 +28,25 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 owner = BRZ
+<<<<<<< HEAD
 add_core = BRZ 
 controller = BRZ 
+=======
+controller = BRZ
+add_core = BRZ
+
+
+
+
+1580.1.1 = { discovered_by = POR }
+
+1710.1.1 = {
+	owner = POR
+	controller = POR
+	add_core = POR
+	is_city = yes
+	culture = portugese
+	religion = catholic
+	trade_goods = tropical_wood
+}
+>>>>>>> parent of b659620... all current province history files discovered for everyone

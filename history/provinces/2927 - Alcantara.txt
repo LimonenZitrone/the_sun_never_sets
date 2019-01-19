@@ -1,4 +1,3 @@
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -14,7 +13,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
 culture = ge
+discovered_by = south_american
 religion = animism
 capital = "Alcantara"
 trade_goods = sugar

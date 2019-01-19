@@ -28,6 +28,8 @@ native_hostileness = 1
 
 
 
+discovered_by = north_american
+
 
 1760.1.1 = {
 	owner = CHY

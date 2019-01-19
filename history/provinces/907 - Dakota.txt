@@ -28,6 +28,8 @@ native_hostileness = 9
 
 
 
+discovered_by = north_american
+
 
 1710.1.1 = {
 	owner = USA
@@ -37,4 +39,4 @@ native_hostileness = 9
 	trade_goods = fur
 	culture = dakota 
 } 
-1743.1.1 = { 
+1743.1.1 = { discovered_by = FRA }

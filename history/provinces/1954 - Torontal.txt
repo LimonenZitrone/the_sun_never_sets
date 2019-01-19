@@ -26,6 +26,15 @@ base_production = 3
 base_manpower = 2
 is_city = yes
 add_core = HUN
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
 
 
 1514.1.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } 
@@ -62,6 +71,7 @@ add_core = HUN
 1739.1.1 = { revolt = {} controller = HAB }
 1769.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } 
 1770.1.1 = { revolt = {} controller = HAB } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

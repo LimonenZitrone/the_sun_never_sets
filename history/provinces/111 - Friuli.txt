@@ -30,6 +30,11 @@ add_core = AQU
 
 
 
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
 
 1420.1.1 = {
 	owner = VEN
@@ -55,6 +60,7 @@ add_core = AQU
 	add_core = HAB
 	remove_core = ITA
 } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

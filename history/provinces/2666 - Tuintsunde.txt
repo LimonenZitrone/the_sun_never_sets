@@ -28,8 +28,12 @@ native_hostileness = 2
 
 
 
+discovered_by = mesoamerican
+discovered_by = north_american
 
-1519.1.1 = { 1685.2.18 = { 
+1519.1.1 = { discovered_by = SPA } 
+1685.2.18 = { discovered_by = FRA } 
+
 1702.1.1 = {
 	owner = SPA
 	controller = SPA

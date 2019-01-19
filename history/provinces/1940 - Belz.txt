@@ -30,6 +30,15 @@ add_core = MAZ
 add_core = VOL
 
 
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
 
 
 1462.7.1 = { owner = POL controller = POL add_core = POL remove_core = MAZ } 
@@ -50,6 +59,7 @@ add_core = VOL
 	controller = HAB
 	add_core = HAB
 } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

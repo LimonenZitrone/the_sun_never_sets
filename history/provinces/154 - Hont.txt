@@ -29,6 +29,15 @@ estate = estate_nobles
 
 add_core = HUN
 add_core = SLO
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
 
 1432.1.1 = { unrest = 10 } 
 1434.1.1 = { unrest = 0 }
@@ -66,6 +75,7 @@ add_core = SLO
 1703.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } 
 1710.1.1 = { revolt = {} } 
 1711.1.1 = { controller = HAB } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

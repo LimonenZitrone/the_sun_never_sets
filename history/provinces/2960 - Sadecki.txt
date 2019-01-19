@@ -26,6 +26,15 @@ trade_goods = iron
 base_manpower = 2
 is_city = yes
 add_core = POL
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
 
 1558.1.1 = { religion = protestant }
 1569.7.1 = {
@@ -40,6 +49,7 @@ add_core = POL
 1733.1.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } 
 1735.1.1 = { revolt = {} controller = PLC }
 1772.8.5 = { owner = HAB controller = HAB add_core = HAB } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

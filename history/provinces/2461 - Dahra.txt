@@ -1,4 +1,3 @@
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -14,6 +13,7 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
 owner = TLC
 controller = TLC
 culture = algerian
@@ -28,6 +28,10 @@ is_city = yes
 add_core = TLC
 add_core = ALG
 fort_15th = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern
 
 1517.1.1 = {
 	owner = ALG

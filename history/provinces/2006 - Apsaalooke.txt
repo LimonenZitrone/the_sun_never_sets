@@ -32,6 +32,8 @@ native_hostileness = 1
 
 
 
+discovered_by = north_american
+
 
 1710.1.1 = {
 	owner = ---

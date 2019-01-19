@@ -32,4 +32,8 @@ native_hostileness = 6
 
 
 
-1543.1.1 = { 1741.1.1 = { 
+discovered_by = north_american
+
+1543.1.1 = { discovered_by = SPA } 
+1741.1.1 = { discovered_by = RUS } 
+

@@ -1,6 +1,3 @@
-# - Vila Bela
-
-culture = brazilian
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -16,6 +13,14 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+culture = brazilian
+<<<<<<< HEAD
+
+=======
+discovered_by = south_american
+discovered_by = western
+>>>>>>> parent of b659620... all current province history files discovered for everyone
 religion = catholic
 capital = "Vila Bela"
 trade_goods = copper
@@ -24,5 +29,21 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 owner = BRZ
+<<<<<<< HEAD
 add_core = BRZ 
 controller = BRZ 
+=======
+controller = BRZ
+add_core = BRZ
+
+1752.3.19 = {
+	discovered_by = POR
+	add_core = POR
+	owner = POR
+	controller = POR
+	culture = portugese
+	religion = catholic
+	trade_goods = copper
+	is_city = yes
+}
+>>>>>>> parent of b659620... all current province history files discovered for everyone

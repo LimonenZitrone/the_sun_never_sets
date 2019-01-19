@@ -26,9 +26,12 @@ native_hostileness = 2
 
 
 
+discovered_by = north_american
+
 
 1810.1.1 = {
- 		owner = USA
+ 	discovered_by = GBR
+	owner = USA
 	controller = USA
 	add_core = USA
 	is_city = yes

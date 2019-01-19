@@ -1,4 +1,3 @@
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -14,6 +13,7 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
 culture = creek
 religion = totemism
 capital = "Calusa"
@@ -28,5 +28,8 @@ native_hostileness = 2
 
 
 
+discovered_by = north_american
 
-1513.4.2 = { 1516.1.23 = { 1830.1.1 = { owner = USA controller = USA add_core = USA }
+1513.4.2 = { discovered_by = CAS } 
+1516.1.23 = { discovered_by = SPA }
+1830.1.1 = { owner = USA controller = USA add_core = USA }

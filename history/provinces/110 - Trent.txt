@@ -28,6 +28,10 @@ base_manpower = 1
 capital = "Trent"
 estate = estate_church
 is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
 
 
 1452.1.1 = {
@@ -70,6 +74,7 @@ base_production = 4 }
 	add_core = HAB
 	remove_core = ITA
 } 
+
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

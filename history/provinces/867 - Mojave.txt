@@ -28,6 +28,7 @@ native_hostileness = 4
 
 
 
+discovered_by = north_american
 1731.1.1 = {
 	owner = MEX
 	controller = MEX
@@ -36,4 +37,5 @@ native_hostileness = 4
 	is_city = yes 
 } 
 
-1774.1.1 = { 
+1774.1.1 = { discovered_by = SPA } 
+
