@@ -14,5 +14,6 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
+
 discovered_by = eastern
 discovered_by = western

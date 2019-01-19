@@ -12,4 +12,5 @@ discovered_by = north_american
 discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
-discovered_by = high_american1741.1.1 = { discovered_by = RUS }
+discovered_by = high_american
+1741.1.1 = { discovered_by = RUS }

@@ -13,4 +13,5 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
 1773.1.17 = { discovered_by = GBR }

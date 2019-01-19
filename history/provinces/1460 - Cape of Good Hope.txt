@@ -13,5 +13,6 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
 1481.1.1 = { discovered_by = POR }
 1529.6.1 = { discovered_by = FRA } 

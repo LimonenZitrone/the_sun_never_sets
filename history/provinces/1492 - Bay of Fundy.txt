@@ -12,6 +12,7 @@ discovered_by = north_american
 discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
-discovered_by = high_americandiscovered_by = north_american
+discovered_by = high_american
+discovered_by = north_american
 
 1497.6.24 = { discovered_by = ENG } 

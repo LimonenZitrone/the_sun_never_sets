@@ -12,7 +12,8 @@ discovered_by = north_american
 discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
-discovered_by = high_americanowner = MAL
+discovered_by = high_american
+owner = MAL
 controller = MAL
 add_core = MAL
 is_city = yes

@@ -12,7 +12,8 @@ discovered_by = north_american
 discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
-discovered_by = high_americanculture = luba
+discovered_by = high_american
+culture = luba
 religion = shamanism 
 trade_goods = unknown
 capital = "Lega"

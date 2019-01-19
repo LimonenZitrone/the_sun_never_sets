@@ -12,7 +12,8 @@ discovered_by = north_american
 discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
-discovered_by = high_americanowner = TRI
+discovered_by = high_american
+owner = TRI
 controller = TRI
 culture = hessian
 religion = catholic

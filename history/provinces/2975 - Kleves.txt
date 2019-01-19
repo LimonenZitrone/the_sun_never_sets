@@ -12,7 +12,8 @@ discovered_by = north_american
 discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
-discovered_by = high_americanowner = KLE 
+discovered_by = high_american
+owner = KLE 
 controller = KLE
 add_core = KLE
 culture = hessian
