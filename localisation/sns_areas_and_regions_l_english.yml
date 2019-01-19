@@ -1,4 +1,10 @@
 ﻿l_english:
+ # Areas:
+ east_sahara_area: "Eastern Sahara"
+ congo_area: "Central Kongo"
+ namibia_area: "Namibia"
+ central_africa: "Central Africa"
+
  # Colonial Regions:
  colonial_texas: "Colonial Texas"
  
