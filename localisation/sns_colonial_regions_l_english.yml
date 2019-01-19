@@ -1,0 +1,13 @@
+﻿l_english:
+ # Colonial Regions:
+ colonial_texas: "Colonial Texas"
+ 
+ # Colonial Nation Names:
+ COLONIAL_CANADA_Root_Culture_GetName_Alaska: "[Root.GetAdjective] Alaska"
+ COLONIAL_CANADA_Root_Culture_GetName_Alaska_ADJ: "[Root.GetAdjective] Alaskan"
+ 
+ COLONIAL_TEXAS_Root_Culture_GetName_Texas: "[Root.GetAdjective] Texas"
+ COLONIAL_TEXAS_Root_Culture_GetName_Texas_ADJ: "[Root.GetAdjective] Texan"
+ COLONIAL_REGION_Texas: "Texas"
+ COLONIAL_REGION_Texas_ADJ: "Texan"
+ 
