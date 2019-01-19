@@ -14,33 +14,14 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = PBL
+controller = PBL
+add_core = PBL
 culture = guarani
-religion = animism
+religion = catholic
 capital = "Santa Cruz de la Sierra"
-trade_goods = unknown
+trade_goods = tropical_wood
 hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 1
-native_size = 15
-native_ferocity = 1 
-native_hostileness = 1
-
-
-
-discovered_by = south_american
-discovered_by = andean
-
-
-1561.1.1 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	religion = catholic
-	culture = castillian
-	trade_goods = tropical_wood
-}
-1809.7.16 = { revolt = { type = nationalist_rebels size = 0 } controller = REB } 

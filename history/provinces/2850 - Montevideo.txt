@@ -14,32 +14,14 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = URU
+controller = URU
+add_core = URU
 culture = charruan
-discovered_by = south_american
-religion = animism
+religion = catholic
 capital = "Montevideo"
-trade_goods = unknown
+trade_goods = grain
 hre = no
-base_tax = 2 
-base_production = 1
-base_manpower = 1
-native_size = 5
-native_ferocity = 1
-native_hostileness = 5	
-
-
-
-
-1516.1.23 = { discovered_by = SPA }
-1530.1.1 = { discovered_by = POR } 
-
-1724.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	culture = castillian
-	religion = catholic
-	trade_goods = grain
-} 
-1726.1.1 = {	is_city = yes }
+base_tax = 5
+base_production = 6
+base_manpower = 5
