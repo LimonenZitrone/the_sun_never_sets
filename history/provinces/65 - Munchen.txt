@@ -25,4 +25,4 @@ trade_goods = grain
 base_manpower = 3
 capital = "München"
 is_city = yes
-hre = yes
+hre = no
