@@ -15,15 +15,13 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = CCQ
-controller = CCQ
-add_core = CCQ
+owner = PBL
+controller = PBL
+add_core = PBL
 culture = diaguita
-discovered_by = south_american
-discovered_by = andean
-religion = inti
+religion = catholic 
 capital = "Jujuy"
-trade_goods = wool
+trade_goods = iron 
 hre = no
 is_city = yes
 native_size = 5
@@ -34,20 +32,3 @@ base_production = 3
 base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
-
-1533.8.29 = {	discovered_by = SPA }
-
-1600.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	trade_goods = iron
-	culture = castillian
-	religion = catholic
-} 
-1816.7.9 = {
-	owner = LAP
-	controller = LAP
-	add_core = LAP
-	remove_core = SPA
-} 

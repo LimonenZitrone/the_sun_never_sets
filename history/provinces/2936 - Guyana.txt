@@ -15,4 +15,15 @@ discovered_by = andean
 discovered_by = high_american
 discovered_by = south_american
 
-1593.1.1 = { discovered_by = SPA }
+culture = brazilian
+discovered_by = south_american
+religion = catholic
+capital = "Barcelos"
+trade_goods = cocoa
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+owner = BRZ
+controller = BRZ
+add_core = BRZ 

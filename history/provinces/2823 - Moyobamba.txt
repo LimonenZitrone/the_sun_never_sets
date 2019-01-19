@@ -15,10 +15,10 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = CYA
-controller = CYA
+owner = PBL
+controller = PBL
 culture = chachapoyan
-religion = inti
+religion = catholic 
 capital = "Moyobamba"
 trade_goods = tropical_wood
 hre = no
@@ -26,7 +26,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = CYA
+add_core = PBL
 
 
 
