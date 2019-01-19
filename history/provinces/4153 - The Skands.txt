@@ -15,5 +15,15 @@ discovered_by = andean
 discovered_by = high_american
 
 
-discovered_by = eastern
-discovered_by = western
+owner = NOR
+controller = NOR
+add_core = NOR
+trade_goods = naval_supplies
+culture = norwegian
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Scandes"
+is_city = yes
