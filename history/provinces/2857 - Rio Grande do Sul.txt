@@ -15,34 +15,16 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = guarani
+culture = brazilian
 discovered_by = south_american
-religion = animism
+religion = catholic 
 capital = "Rio Grande"
-trade_goods = unknown
+trade_goods = tobacco 
 hre = no
 base_tax = 2 
 base_production = 1
 base_manpower = 1
-native_size = 10
-native_ferocity = 1
-native_hostileness = 5
-
-1530.1.1 = { discovered_by = POR } 
-1737.2.19 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	is_city = yes
-	culture = portugese
-	religion = catholic
-	trade_goods = tobacco
-}
-1763.4.1 = {
-	owner = SPA
-	controller = SPA
-}
-1767.1.1 = {
-	owner = POR
-	controller = POR
-}
+owner = RGR
+controller = RGR
+add_core = RGR
+add_core = BRZ
