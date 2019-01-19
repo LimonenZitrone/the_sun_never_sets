@@ -14,10 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-add_core = PUE
-owner = PUE
-controller = PUE
+add_core = MEX
+owner = MEX
+controller = MEX
 culture = pueblo 
 religion = totemism
 capital = "Ohkay Owingeh" 
@@ -33,24 +32,3 @@ native_hostileness = 5
 discovered_by = north_american
 extra_cost = 8
 center_of_trade = 1
-
-1541.1.1 = { discovered_by = SPA } 
-1598.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
- }
-1610.1.1 = { capital = "Santa Fe" }
-1680.8.10 = { revolt = { type = nationalist_rebels size = 0 } controller = REB } 
-1680.8.21 = {
-	owner = PUE
-	controller = PUE 
-} 
-1692.9.13 = { 
-	owner = SPA 
-	controller = SPA 
-	remove_core = PUE 
-	culture = castillian 
-	religion = catholic 
-} 
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } 

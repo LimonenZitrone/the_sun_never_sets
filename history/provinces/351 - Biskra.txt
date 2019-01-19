@@ -17,6 +17,7 @@ discovered_by = high_american
 
 owner = TGT
 controller = TGT 
+add_core = FRA
 culture = berber
 religion = sunni
 capital = "Biskra"

@@ -17,6 +17,7 @@ discovered_by = high_american
 
 owner = TUN
 controller = TUN 
+add_core = FRA
 culture = berber
 religion = sunni
 capital = "Constantine"

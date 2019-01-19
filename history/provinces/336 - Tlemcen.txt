@@ -17,6 +17,7 @@ discovered_by = high_american
 
 owner = TLC
 controller = TLC 
+add_core = FRA
 culture = berber
 religion = sunni
 capital = "Tlemcen"
