@@ -322,7 +322,7 @@ massif_central_area = { #3
 	190 195 199
 }
 
-savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
+savoy_dauphine_area = { #3 Savoy and DauphinÃ©, Upper Burgundy 
 	203 204 205
 }
 
@@ -570,11 +570,11 @@ skaneland_area = { #4
 	6  26 1982 4165
 }
 
-gotaland_area = { #3 Östra Götaland
+gotaland_area = { #3 Ã–stra GÃ¶taland
 	2 3 25 4166
 }
 
-vastra_gotaland_area = { #Västra Götaland #4
+vastra_gotaland_area = { #VÃ¤stra GÃ¶taland #4
 	7 16 4163 4164
 }
 
@@ -1385,6 +1385,13 @@ northern_morocco_area = { #5
 	334 335 1751 4563 4561
 }
 
+east_sahara_area = {
+	4664 4665 1795 4666
+}
+
+centeral_africa = {
+	3670 3671 3672 1796
+}
 ########################################
 # East Africa					       #
 ########################################
@@ -1530,7 +1537,7 @@ ogaden_area = { #5
 }
 
 darfur_central_sahara_area = { #5
-	774 1219 2801 2802 2932 1797 1796 1795
+	774 1219 2801 2802 2932
 }
 
 kurdufan_area = { #3
@@ -1683,6 +1690,9 @@ te_waipounamu_area = { #3
 	1109 1246 2738
 }
 
+namibia_area = {
+	3673 3674 1174 1173
+
 ########################################
 # West Africa					       #
 ########################################
@@ -1820,7 +1830,7 @@ kongo_area = { #5
 }
 
 angola_namibia_area = { #5
-	1098 1167 1171 1172 1174  1173
+	1098 1167 1171 1172
 }
 
 cape_of_good_hope_area = { #5
@@ -1831,6 +1841,9 @@ south_african_plateau_area = { #5
 	1176 1178 2856 2880 2864 1801
 }
 
+congo_area = {
+	3667 3668 3669 1797
+}
 
 ########################################
 # Greater Persia		               #
