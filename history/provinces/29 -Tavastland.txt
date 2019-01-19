@@ -14,36 +14,16 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-owner = SWE
-controller = SWE
-add_core = SWE
+owner = RUS
+controller = RUS
+add_core = RUS
 add_core = FIN
 culture = finnish
-religion = catholic
+religion = protestant
 hre = no
 base_tax = 1 
 base_production = 1
-trade_goods = fur
+trade_goods = naval_supplies
 base_manpower = 1
 capital = "Tavastehus"
 is_city = yes
-
-discovered_by = western
-discovered_by = eastern
-
-
-1527.6.1 = { religion = protestant}
-1598.8.1 = { controller = PLC } 
-1599.7.15 = { controller = SWE } 
-1600.1.1 = { trade_goods = naval_supplies }
-1713.10.6 = { controller = RUS } 
-1721.8.30 = { controller = SWE } 
-1742.10.30 = { controller = RUS } 
-1743.8.7 = { controller = SWE } 
-1808.2.21 = { controller = RUS } 
-1809.9.17 = {
-	owner = RUS
-	add_core = RUS
-	remove_core = SWE
-} 

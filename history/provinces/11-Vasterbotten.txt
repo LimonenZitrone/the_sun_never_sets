@@ -14,27 +14,15 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = SWE
 controller = SWE
 add_core = SWE
 culture = swedish
-religion = catholic
+religion = protestant
 hre = no
 base_tax = 1 
 base_production = 1
-trade_goods = fur
+trade_goods = naval_supplies
 base_manpower = 1
 capital = "Umeå"
 is_city = yes
-
-
-
-discovered_by = eastern
-discovered_by = western
-
-
-1527.6.1 = { religion = protestant}
-1650.1.1 = { trade_goods = naval_supplies }
-1809.3.24 = { controller = RUS } 
-1809.9.17 = { controller = SWE } 
