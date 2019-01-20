@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = wichita
-religion = totemism
+culture = american
+religion = protestant
 capital = "Baachinena"
 trade_goods = unknown
 hre = no
@@ -37,7 +37,7 @@ discovered_by = north_american
 	owner = USA
 	controller = USA
 	add_core = USA
-	culture = arapaho
+	culture = american
 	trade_goods = grain
 	is_city = yes 
 } 

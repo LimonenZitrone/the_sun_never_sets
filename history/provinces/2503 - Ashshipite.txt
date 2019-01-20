@@ -36,7 +36,8 @@ discovered_by = north_american
 	owner = USA
 	controller = USA
 	add_core = USA
-	culture = nakota
+	culture = american
+	religion = protestant
 	trade_goods = fur
 	is_city = yes 
 } 

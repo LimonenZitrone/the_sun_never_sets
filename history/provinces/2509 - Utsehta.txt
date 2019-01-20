@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = osage
-religion = totemism
+culture = american
+religion = protestant
 capital = "Utsehta"
 trade_goods = unknown
 hre = no

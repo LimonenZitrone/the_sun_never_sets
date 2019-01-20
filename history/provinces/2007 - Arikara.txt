@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = pawnee
-religion = totemism
+culture = american
+religion = protestant
 capital = "Arikara"
 trade_goods = unknown
 hre = no
@@ -37,7 +37,8 @@ discovered_by = north_american
 	owner = USA
 	controller = USA
 	add_core = USA
-	culture = dakota
+	culture = american
+	religion = protestant
 	trade_goods = fur
 	is_city = yes 
 } 

@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = pawnee 
-religion = totemism
+culture = american
+religion = protestant
 capital = "Jicarilla"
 trade_goods = unknown
 hre = no
@@ -28,7 +28,6 @@ controller = USA
 add_core = USA
 trade_goods = grain
 is_city = yes
-culture = shoshone 
 
 
 

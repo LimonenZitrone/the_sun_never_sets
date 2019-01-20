@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = shoshone
-religion = totemism
+culture = american
+religion = protestant
 capital = "Goshute"
 trade_goods = unknown
 hre = no

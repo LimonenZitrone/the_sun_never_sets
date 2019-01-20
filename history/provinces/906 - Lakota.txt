@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = dakota
-religion = totemism
+culture = american
+religion = protestant
 capital = "Lakota"
 trade_goods = unknown
 hre = no
@@ -45,6 +45,6 @@ discovered_by = north_american
 	owner = USA
 	controller = USA
 	add_core = USA
-	culture = dakota
+	culture = american
 	is_city = yes
 } 

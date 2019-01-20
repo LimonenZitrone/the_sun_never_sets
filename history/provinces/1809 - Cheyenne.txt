@@ -38,6 +38,7 @@ discovered_by = north_american
 	controller = USA
 	add_core = USA
 	trade_goods = grain
-	culture = cheyenne
+	culture = american
+	religion = protestant
 	is_city = yes 
 } 

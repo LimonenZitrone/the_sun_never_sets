@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = shoshone
-religion = totemism
+culture = american
+religion = protestant
 capital = "Outoulibi"
 trade_goods = unknown
 hre = no
@@ -39,5 +39,5 @@ discovered_by = north_american
 	add_core = USA
 	is_city = yes 
 	trade_goods = fur
-	culture = cheyenne 
+	culture = american
 } 
