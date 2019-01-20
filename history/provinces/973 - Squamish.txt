@@ -15,8 +15,12 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = salish
-religion = totemism
+owner = GBR
+controller = GBR
+add_core = GBR
+culture = english
+religion = anglican
+is_city = yes
 capital = "Squamish"
 trade_goods = unknown
 hre = no
@@ -30,15 +34,3 @@ native_hostileness = 6
 
 
 discovered_by = north_american
-
-1741.1.1 = { discovered_by = RUS } 
-1778.1.1 = { discovered_by = GBR } 
-1786.1.1 = { discovered_by = FRA } 
-
-1800.1.1 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	trade_goods = fish
-	is_city = yes 
-} 

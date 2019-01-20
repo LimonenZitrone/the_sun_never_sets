@@ -14,7 +14,13 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = NAJ
+controller = NAJ
+add_core = NAJ
+is_city = yes
+base_production = 1
+base_tax = 1
+base_manpower = 1
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim

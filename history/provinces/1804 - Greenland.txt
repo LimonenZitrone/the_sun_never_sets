@@ -17,8 +17,16 @@ discovered_by = high_american
 
 
 
-
-1610.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
-1720.1.1 = { discovered_by = DAN }
+owner = DAN
+controller = DAN
+add_core = DAN
+culture = danish
+religion = protestant
+trade_goods = fish
+is_city = yes
+capital = "Eiriksfjord"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
 
