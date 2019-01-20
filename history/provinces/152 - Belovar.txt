@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-owner = HUN
-controller = HUN
+owner = HAB
+controller = HAB
+add_core = HAB
 culture = croatian
 religion = catholic
 capital = "Varazdin"
@@ -27,30 +27,6 @@ base_production = 4
 base_manpower = 1
 estate = estate_nobles
 is_city = yes
-add_core = HUN
-add_core = CRO
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
-discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-discovered_by = ottoman
-
-
-1526.8.30 = {
-	owner = HAB
-	controller = HAB
-	add_core = HAB
-	add_core = TRA
-} 
-1567.1.1 = { religion = reformed } 
-1570.1.1 = { remove_core = TRA } 
-1604.1.1 = { revolt = { type = noble_rebels size = 2 } controller = REB } 
-1606.1.1 = { revolt = {} controller = HAB }
-
 
 1867.6.8 = {
 	owner = AHE
