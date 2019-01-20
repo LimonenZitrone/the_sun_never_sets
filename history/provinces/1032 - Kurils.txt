@@ -14,9 +14,12 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-culture = ainu
-religion = animism
+owner = JAP
+controller = JAP
+add_core = JAP
+is_city = yes
+culture = japanese
+religion = shinto
 capital = "Kuril"
 trade_goods = fish
 hre = no
@@ -70,15 +73,3 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
-
-
-1646.1.1 = {
-	discovered_by = RUS
-	owner = TKG
-	controller = TKG
-	culture = togoku
-	religion = shinto
-	trade_goods = fish
-} 
-1671.1.1 = { add_core = TKG }
-1767.1.1 = { add_core = RUS }

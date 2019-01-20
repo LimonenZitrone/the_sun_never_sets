@@ -15,11 +15,11 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = MYR
-controller = MYR
-add_core = MYR
-culture = ainu
-religion = animism
+owner = JAP
+controller = JAP
+add_core = JAP
+culture = japanese
+religion = shinto
 capital = "Sakhalin"
 trade_goods = fish
 hre = no
@@ -74,18 +74,3 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
-
-1542.1.1 = { discovered_by = POR }
-
-1636.5.15 = { add_core = TKG }
-1640.1.1 = { discovered_by = RUS } 
-1679.1.1 = {
-	owner = TKG
-	controller = TKG
-	culture = togoku
-	religion = shinto
-	trade_goods = fish
-} 
-
-1767.1.1 = { add_core = RUS }
-1787.1.1 = { discovered_by = FRA } 

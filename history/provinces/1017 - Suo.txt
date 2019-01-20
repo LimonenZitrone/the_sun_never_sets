@@ -15,11 +15,11 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = OUC
-controller = OUC
+owner = JAP
+controller = JAP
 culture = japanese
 religion = shinto
-capital = "Yamaguchi"
+capital = "Hagi"
 trade_goods = silk
 hre = no
 base_tax = 4
@@ -28,15 +28,9 @@ base_manpower = 3
 is_city = yes
 add_core = OUC
 discovered_by = chinese
-discovered_by = MCH
+discovered_by = JAP
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 extra_cost = 8
 center_of_trade = 1
-
-1542.1.1 = { discovered_by = POR }
-1555.10.1 = { add_core = MRI }
-1557.4.3 = { owner = MRI controller = MRI remove_core = OUC }
-1603.1.1 = { capital = "Hagi" }
-1603.1.1 = { fort_15th = yes } 
