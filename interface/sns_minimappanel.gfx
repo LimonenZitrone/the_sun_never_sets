@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_minimap_zoom_in"
+		texturefile = "gfx/interface/minimap_zoom_in.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_minimap_zoom_out"
+		texturefile = "gfx/interface/minimap_zoom_out.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
