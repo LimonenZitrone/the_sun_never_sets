@@ -7,6 +7,15 @@ NDefines.NGame.END_DATE = "9999.12.31"
 NDefines.NGame.AGE_USHER_IN_TIME = 12
 NDefines.NCountry.GOLDEN_ERA_YEARS = 25
 
+-- Minimap stuff
+NDefines.NGraphics.MINIMAP_WATER_COLOR_R = 255
+NDefines.NGraphics.MINIMAP_WATER_COLOR_G = 255
+NDefines.NGraphics.MINIMAP_WATER_COLOR_B = 255
+NDefines.NGraphics.MINIMAP_LAND_COLOR_R = 149
+NDefines.NGraphics.MINIMAP_LAND_COLOR_G = 131
+NDefines.NGraphics.MINIMAP_LAND_COLOR_B = 94
+NDefines.NGraphics.MINIMAP_LAND_COLOR_BASE_LERP = 1
+
 --- Map stuff
 NDefines.NFrontend.CAMERA_LOOKAT_X = 2787.0
 NDefines.NFrontend.CAMERA_LOOKAT_Z = 1845.0
