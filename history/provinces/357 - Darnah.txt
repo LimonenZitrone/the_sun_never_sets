@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = MAM
-controller = MAM
+owner = TUR
+controller = TUR
 culture = al_misr_arabic
 religion = sunni
 capital = "Derna"
@@ -27,16 +27,9 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_local_autonomy = 50
-add_core = MAM
+add_core = TUR
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
-
-
-1517.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} 

@@ -15,27 +15,18 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = NOR
-controller = NOR 
+owner = DAN
+controller = DAN 
 culture = norwegian
-religion = catholic
+religion = protestant
 hre = no
 base_tax = 1 
 base_production = 1
-trade_goods = fish
+trade_goods = wool
 base_manpower = 1
 add_local_autonomy = 25
 capital = "Reykjavik"
 is_city = yes 	
-add_core = NOR
+add_core = DAN
 add_core = ICE
 discovered_by = western
-
-
-1536.1.1 = {
-	religion = protestant
-	owner = DAN
-	controller = DAN
-	add_core = DAN
-}
-1752.1.1 = { trade_goods = wool } 

@@ -14,9 +14,12 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-culture = berber
-religion = animism
+owner = POR
+controller = POR
+add_core = POR
+is_city = yes
+culture = portugese
+religion = catholic
 capital = "The Azores"
 trade_goods = fish
 hre = no
@@ -26,17 +29,3 @@ base_manpower = 1
 native_size = 0
 native_ferocity = 0
 native_hostileness = 0
-
-
-
-
-1427.6.30 = { discovered_by = western discovered_by = POR}
-
-1427.11.29 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	is_city = yes
-	culture = portugese
-	religion = catholic
-}
