@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = MOR
 controller = MOR
+add_core = MOR
 culture = berber
 religion = sunni
 capital = "Taroudant"
@@ -26,12 +26,3 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 is_city = yes
-add_core = MOR
-add_core = SOS
-add_core = TFL
-
-
-
-discovered_by = western
-discovered_by = muslim
-discovered_by = ottoman

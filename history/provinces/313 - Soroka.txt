@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = RUS
 controller = RUS 
+add_core = RUS 
 culture = novgorodian
 religion = orthodox
 hre = no
@@ -26,11 +26,3 @@ trade_goods = fur
 base_manpower = 1
 capital = "Soroka"
 is_city = yes
-add_core = RUS
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
-discovered_by = eastern
-discovered_by = western

@@ -24,7 +24,6 @@ base_tax = 9
 base_production = 9    
 trade_goods = livestock
 base_manpower = 4    
-fort_15th = yes
 capital = "Mantova" 
 is_city = yes
 extra_cost = 8

@@ -14,7 +14,6 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = DAN
 controller = DAN
 add_core = DAN
@@ -27,9 +26,4 @@ base_production = 1
 trade_goods = wool
 base_manpower = 1
 capital = "Akureyri"
-add_local_autonomy = 25
 is_city = yes	
-
-
-
-discovered_by = western

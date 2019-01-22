@@ -14,9 +14,10 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = FRA
 controller = FRA
+add_core = FRA
+add_core = ALG
 culture = berber
 religion = sunni
 capital = "Medjana"
@@ -26,12 +27,3 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = TUN
-add_core = FRA
-
-
-
-discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-discovered_by = ottoman
