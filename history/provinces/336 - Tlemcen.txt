@@ -17,7 +17,6 @@ discovered_by = high_american
 owner = ALG
 controller = ALG 
 add_core = ALG
-add_claim = FRA
 culture = berber
 religion = sunni
 capital = "Tlemcen"
