@@ -9,4 +9,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/minimap_zoom_out.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_mapmode_button_list_bg"
+		texturefile = "gfx/interface/mapmode_button_list_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_mapmode_list_bg"
+		texturefile = "gfx/interface/mapmode_list_bg.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_mapmode_list_close_button_frame"
+		texturefile = "gfx/interface/mapmode_list_close_button_frame.dds"
+	}
 }

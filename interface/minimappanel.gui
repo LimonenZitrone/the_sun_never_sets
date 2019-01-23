@@ -125,7 +125,15 @@ guiTypes = {
 			quadTextureSprite = "GFX_mapmode_category_button_economical"
 			position = { x= -114 y = -173 }
 			Orientation = "LOWER_RIGHT"
-		}	
+		}
+		
+		guiButtonType = {
+			name = "custom_mapmode_overlay"
+			position = { x = -258 y = -216 }
+			spriteType = "GFX_mapmode_overlay"
+
+			Orientation = "LOWER_RIGHT"
+		}
 
 		guiButtonType = {
 			name = "custom_mapmode_1"
@@ -277,18 +285,10 @@ guiTypes = {
 			clicksound = click
 		}
 		
-		guiButtonType = {
-			name = "custom_mapmode_overlay"
-			position = { x = -258 y = -216 }
-			spriteType = "GFX_mapmode_overlay"
-
-			Orientation = "LOWER_RIGHT"
-		}
-		
 		windowType = {
 			name = "mapmode_list_window"
 			backGround=""
-			position = { x=-290 y=-515 }	
+			position = { x=-292 y=-515 }	
 			size = { x=282 y=242 }
 			moveable = 0
 			dontRender = ""
@@ -298,21 +298,27 @@ guiTypes = {
 		
 			iconType = {
 				name ="bg"
-				spriteType = "GFX_subject_actions_bg"
+				spriteType = "GFX_mapmode_list_bg"
+				position = { x= 0 y = 0 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType = {
+				name ="bg2"
+				spriteType = "GFX_mapmode_list_bg"
 				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
 			
 			instantTextBoxType = {
 				name = "category_title"
-				position = { x = 26 y = 10 }
-				format = left
+				position = { x = 43 y = 17 }
+				format = center
 				text = ""
 				font = "vic_22"
 				borderSize = { x = 0 y = 0 }	
-				maxWidth = 200
-				maxHeight = 32	
-				Orientation = "UPPER_LEFT"
+				maxWidth = 210
+				maxHeight = 10
 				fixedsize = yes
 				alwaystransparent = yes
 			}		
@@ -320,8 +326,8 @@ guiTypes = {
 			smoothListboxType = {
 				name = "list"
 				backGround = ""
-				position = { x=8 y=36 }
-				size = { x=260 y=252 }
+				position = { x=8 y=50 }
+				size = { x=260 y=240 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2.5
@@ -329,10 +335,17 @@ guiTypes = {
 				borderSize = {x = 0 y = 0}
 			}
 			
+			iconType = {
+				name ="close_button_frame"
+				spriteType = "GFX_mapmode_list_close_button_frame"
+				position = { x= -24 y = 4 }
+				Orientation = "UPPER_LEFT"
+			}
+			
 			guiButtonType = {
 				name = "close_button"
-				position = { x = -10 y = -10 }
-				quadTextureSprite ="GFX_closebutton2"
+				position = { x = -19 y = 9 }
+				quadTextureSprite ="GFX_square_close"
 				shortcut = "ESCAPE"
 				Orientation = "UPPER_LEFT"
 				clicksound = close_window
@@ -352,6 +365,13 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no	
 
+		iconType = {
+			name ="mapmode_button_list_bg"
+			spriteType = "GFX_mapmode_button_list_bg"
+			position = { x = 10 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		
 		guiButtonType =
 		{
 			name ="mapmode_button"
@@ -372,7 +392,7 @@ guiTypes = {
 			position = { x = 55 y = 7 }
 			format = left
 			textureFile = ""
-			font = "vic_22"
+			font = "vic_22_black"
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 200
 			maxHeight = 32	
@@ -396,7 +416,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="add_mapmode_button"
-			spriteType = "GFX_mapmode_notselected"
+			spriteType = "GFX_mapmode_button_list_bg"
 			position = { x= 10 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -407,7 +427,7 @@ guiTypes = {
 			position = { x = 55 y = 6 }
 			format = left
 			textureFile = ""
-			font = "vic_22"
+			font = "vic_22_black"
 			borderSize = { x = 0 y = 0 }	
 			maxWidth = 200
 			maxHeight = 32	
