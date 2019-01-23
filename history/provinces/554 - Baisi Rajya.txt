@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-owner = JML
-controller = JML
+owner = NPL
+controller = NPL
+add_core = NPL
 culture = nepali
 religion = hinduism
 capital = "Jumbla"
@@ -26,17 +26,3 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = JML
-discovered_by = indian
-discovered_by = nomad_group
-discovered_by = muslim 
-discovered_by = ottoman
-discovered_by = chinese
-
-1690.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
-1787.1.1 = {
-	owner = NPL
-	controller = NPL
-	add_core = NPL
-}

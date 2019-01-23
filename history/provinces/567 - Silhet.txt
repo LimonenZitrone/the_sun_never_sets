@@ -16,6 +16,7 @@ discovered_by = high_american
 
 owner = EIC
 controller = EIC
+add_core = EIC
 culture = bengali
 religion = hinduism
 capital = "Sylhet"
@@ -25,8 +26,3 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-estate = estate_dhimmi
-add_core = EIC
-discovered_by = indian
-discovered_by = chinese
-discovered_by = nomad_group
