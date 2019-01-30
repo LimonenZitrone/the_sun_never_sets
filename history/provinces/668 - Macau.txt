@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = MNG
-controller = MNG
+owner = POR
+controller = POR
 add_core = MNG
 culture = cantonese
 religion = confucianism
@@ -35,16 +35,3 @@ discovered_by = ottoman
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
-
-1514.1.1 = { discovered_by = POR }
-
-1662.1.1 = {
-	owner = CZH
-	controller = CZH
-	add_core = CZH
-	remove_core = MNG
-} 
-1670.1.1 = {	owner = POR
-	controller = POR
-	add_core = POR
-} 

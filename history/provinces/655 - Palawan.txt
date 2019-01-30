@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = filipino
-religion = sunni
+culture = castilian
+religion = catholic
 capital = "Palawan"
 trade_goods = sugar
 hre = no
@@ -24,17 +24,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-discovered_by = chinese
-owner = BEI
-controller = BEI
-add_core = BEI
+owner = SPA
+controller = SPA
+add_core = SPA
 add_local_autonomy = 25
-
-1521.1.1 = { discovered_by = SPA } 
-1749.1.1 = {
-	owner = SPA
-	controller = SPA
-	culture = castillian
-	religion = catholic
-} 
-1774.1.1 = { add_core = SPA }
