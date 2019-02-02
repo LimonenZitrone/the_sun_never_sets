@@ -1,4 +1,7 @@
 spriteTypes = {
+	# special event pictures have a date field
+	# so if you use special event pictures, add a date to the title like this:
+	# string: "Your Title\n\n\n\n\n[GetDateText]" (if your title has two lines, remove one "\n")
 	spriteType = {
 		name = "special_event_picture"
 		texturefile = "gfx/event_pictures/special_event_picture.dds"
