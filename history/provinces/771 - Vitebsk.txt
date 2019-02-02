@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 owner = RUS
-controller = US
+controller = RUS
 add_core = RUS
 culture = byelorussian
 religion = orthodox
