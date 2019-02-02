@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = TID
 controller = TID
+add_core = TID
 culture = moluccan
 religion = sunni
 capital = "Tidore"
@@ -26,8 +26,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = TID
-
 
 add_permanent_province_modifier = {
 	name = spice_islands_modifier

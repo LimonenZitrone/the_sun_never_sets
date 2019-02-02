@@ -14,7 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = SPA
+controller = SPA
+add_core = SPA
 culture = castilian
 religion = catholic
 capital = "Palawan"
@@ -24,7 +26,4 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-owner = SPA
-controller = SPA
-add_core = SPA
 add_local_autonomy = 25

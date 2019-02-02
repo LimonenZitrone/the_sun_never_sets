@@ -14,10 +14,11 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = QNG
 controller = QNG
 add_core = QNG
+add_core = CHC
+add_core = CXI
 culture = hubei
 religion = confucianism
 capital = "Wuchang"
@@ -27,8 +28,5 @@ base_tax = 8
 base_production = 8
 base_manpower = 3
 is_city = yes
-fort_15th = yes 
-add_core = CHC
-add_core = CXI
 extra_cost = 8
 center_of_trade = 1

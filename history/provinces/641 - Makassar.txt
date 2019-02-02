@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = MKS
 controller = MKS
+add_core = MKS
 culture = sulawesi
 religion = sunni
 capital = "Makassar"
@@ -26,6 +26,5 @@ base_tax = 8
 base_production = 8
 base_manpower = 5
 is_city = yes
-add_core = MKS
 extra_cost = 16
 center_of_trade = 2

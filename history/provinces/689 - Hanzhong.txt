@@ -14,10 +14,11 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = QNG
 controller = QNG
 add_core = QNG
+add_core = CSH
+add_core = QIN
 culture = xibei
 religion = confucianism
 capital = "Hanzhong"
@@ -27,5 +28,3 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = CSH
-add_core = QIN

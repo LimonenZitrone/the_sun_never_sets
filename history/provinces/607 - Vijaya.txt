@@ -14,9 +14,10 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = ANN
 controller = ANN
+add_core = ANN
+add_core = CHA
 religion = buddhism
 culture = vietnamese
 capital = "Vijaya"
@@ -26,7 +27,5 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 is_city = yes
-add_core = CHA
 extra_cost = 8
 center_of_trade = 1
-add_core = ANN

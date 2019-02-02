@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = ANN
 controller = ANN
+add_core = ANN
 culture = vietnamese
 religion = mahayana
 capital = "Dong Kinh"
@@ -25,8 +25,6 @@ hre = no
 base_tax = 7
 base_production = 7
 base_manpower = 4
-fort_15th = yes
 is_city = yes
-add_core = ANN
 extra_cost = 8
 center_of_trade = 1

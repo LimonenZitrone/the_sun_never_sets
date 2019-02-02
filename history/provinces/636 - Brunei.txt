@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = BEI
 controller = BEI
+add_core = BEI
 culture = bornean
 religion = sunni
 capital = "Brunei"
@@ -26,6 +26,5 @@ base_tax = 7
 base_production = 7
 base_manpower = 4
 is_city = yes
-add_core = BEI
 extra_cost = 16
 center_of_trade = 2

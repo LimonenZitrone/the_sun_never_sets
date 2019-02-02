@@ -14,36 +14,19 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 latent_trade_goods = {
 	coal
 }
 
+owner = GBR
+controller = GBR
+add_core = GBR
 culture = sumatran
 religion = sunni
 capital = "Bengkulu"
-trade_goods = unknown
+trade_goods = tropical_wood
 hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
-owner = GBR
-controller = GBR
-add_core = GBR
-add_to_trade_company = GBR
-add_trade_company_investment = {
-	investment = company_depot
-	investor = GBR
-}
-add_trade_company_investment = {
-	investment = company_administration
-	investor = GBR
-}
-add_trade_company_investment = {
-	investment = brokers_exchange
-	investor = GBR
-}
-add_trade_company_investment = {
-	investment = local_quarter
-	investor = GBR
-}
+is_city = yes

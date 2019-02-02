@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = LUA
 controller = LUA
+add_core = LUA
 culture = lao
 religion = buddhism
 capital = "Xieng Tong"
@@ -26,6 +26,3 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = LUA
-discovered_by = chinese
-discovered_by = indian

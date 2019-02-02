@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = ATJ
 controller = ATJ
+add_core = ATJ
 culture = sumatran
 religion = sunni
 capital = "Lamuri"
@@ -26,6 +26,5 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-add_core = ATJ
 extra_cost = 8
 center_of_trade = 1

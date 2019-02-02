@@ -14,7 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = MGD
+controller = MGD
+add_core = MGD
 culture = filipino
 religion = sunni
 capital = "Maguindanao"
@@ -24,6 +26,3 @@ is_city = yes
 base_tax = 5
 base_production = 5
 base_manpower = 3
-owner = MGD
-controller = MGD
-add_core = MGD

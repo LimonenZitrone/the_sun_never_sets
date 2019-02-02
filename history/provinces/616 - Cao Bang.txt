@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = ANN
 controller = ANN
+add_core = ANN
 culture = zhuang
 religion = mahayana
 capital = "Cao Bang"
@@ -26,5 +26,3 @@ base_tax = 2
 base_production = 2
 base_manpower = 3
 is_city = yes
-estate = estate_nobles
-add_core = ANN

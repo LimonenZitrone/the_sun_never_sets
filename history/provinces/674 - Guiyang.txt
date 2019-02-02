@@ -14,11 +14,11 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = QNG
 controller = QNG
 add_core = QNG
 add_core = CYI
+add_core = CDL
 culture = yi
 religion = animism
 capital = "Guiyang"
@@ -28,4 +28,3 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = CDL
