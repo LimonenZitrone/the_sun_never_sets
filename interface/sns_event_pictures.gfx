@@ -18,7 +18,7 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "USA_CSA_special_eventPicture"
+		name = "CSA_CSA_special_eventPicture"
 		texturefile = "gfx/event_pictures/CSA_CSA_special_eventPicture.dds"
 		allwaystransparent = yes
 	}

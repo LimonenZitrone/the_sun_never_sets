@@ -69,9 +69,9 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			text = "Long text here!"	
 			maxWidth = 510
-			maxHeight = 250
+			maxHeight = 230
 			format = left
-			fixedsize = yes
+			scrollbartype = "standardtext_slider"
 		}
 		
 		listboxType = 
@@ -82,7 +82,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1
-			scrollbartype = "event_window_slider"
+			scrollbartype = "standardlistbox_slider"
 			borderSize = { x = 0 y = 0 }
 		}		
 	}
@@ -106,46 +106,5 @@ guiTypes = {
 	positionType = {
 		name = "event_option_start"
 		position = { x = 13 y = 33 }
-	}
-	
-	scrollbarType = {
-		name = "event_window_slider"	
-		slider = "listboxSliderButton"
-		track= "listboxTrackButton"
-		leftbutton = "downButton"
-		rightbutton = "upButton"
-		size = {x =12 y =12 }
-		position = {x= 0 y =1000}
-		priority = 100
-		borderSize = {x = 12 y = 12}
-		maxValue =1
-		minValue =0
-		stepSize =0.01
-		startValue = 0
-		horizontal = 0
-		
-		guiButtonType = {
-			name = "listboxTrackButton"
-			quadTextureSprite = "GFX_scroll_track"
-			position = { x=15 y =12}
-		}
-		
-		guiButtonType = {
-			name = "downButton"
-			quadTextureSprite = "GFX_scroll_down"
-			position = { x=0 y =120}
-		}
-		
-		guiButtonType = {
-			name = "upButton"
-			quadTextureSprite = "GFX_scroll_up"
-			position = { x=0 y =0}	
-		}
-		
-		guiButtonType = {
-			name = "listboxSliderButton"	
-			quadTextureSprite = "GFX_scroll_drager"
-			position = { x=0 y =0}
-		}
 	}
 }
