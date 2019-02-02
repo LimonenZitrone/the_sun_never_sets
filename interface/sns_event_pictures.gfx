@@ -8,18 +8,18 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "USA_USA_special_EventPicture"
-		texturefile = "gfx/event_pictures/USA_USA_special_EventPicture.dds"
+		name = "USA_USA_special_eventPicture"
+		texturefile = "gfx/event_pictures/USA_USA_special_eventPicture.dds"
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "USA_CSA_special_EventPicture"
-		texturefile = "gfx/event_pictures/USA_CSA_special_EventPicture.dds"
+		name = "USA_CSA_special_eventPicture"
+		texturefile = "gfx/event_pictures/USA_CSA_special_eventPicture.dds"
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "USA_CSA_special_EventPicture"
-		texturefile = "gfx/event_pictures/CSA_CSA_special_EventPicture.dds"
+		name = "USA_CSA_special_eventPicture"
+		texturefile = "gfx/event_pictures/CSA_CSA_special_eventPicture.dds"
 		allwaystransparent = yes
 	}
 }
