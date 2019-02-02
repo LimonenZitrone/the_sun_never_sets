@@ -1,0 +1,151 @@
+guiTypes = {
+	windowType = {
+		name = "EventWindow"
+		backGround="Background"
+		position = { x=-282 y=-310 }	
+		size = { x=564 y=620 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		iconType =
+		{
+			name ="event_bg_top"
+			spriteType = "GFX_event_bg_transparency"
+			position = { x = -7 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="event_bg_middle"
+			spriteType = "GFX_sns_event_bg_transparency"
+			position = { x = 0 y = -232 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType =
+		{
+			name ="event_bg_bottom"
+			spriteType = "GFX_event_bg_transparency"
+			position = { x= -7 y = 500 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_event_window_bg"
+			tooltip = ""	
+			tooltipText =""
+			delayedTooltipText = ""
+		}
+		
+		iconType =
+		{
+			name ="event_picture"
+			spriteType = "GFX_event_event_test"
+			position = { x = 65 y = 115 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		instantTextBoxType = {
+			name = "Title"
+			position = { x = 63 y = 53 }
+			font = "vic_29_black"
+			borderSize = {x = 0 y = 0}
+			text = "Long text here!"	
+			maxWidth = 520
+			maxHeight = 32
+			format = centre
+		}
+		
+		instantTextBoxType = {
+			name = "Description"
+			position = { x = 67 y = 257 }
+			font = "vic_18_black"
+			borderSize = {x = 0 y = 0}
+			text = "Long text here!"	
+			maxWidth = 510
+			maxHeight = 250
+			format = left
+			fixedsize = yes
+		}
+		
+		listboxType = 
+		{
+			name = "event_option_listbox"
+			position = { x = 0 y = 0 }
+			size = { x = 567 y = 100 }
+			Orientation = "UPPER_LEFT"
+			horizontal = 0
+			spacing = 1
+			scrollbartype = "event_window_slider"
+			borderSize = { x = 0 y = 0 }
+		}		
+	}
+	
+	### Listbox entry for events
+	windowType = {
+		name = "event_option_entry"
+		backGround = ""
+		size = { x = 560 y = 30 }
+		moveable = 0
+		fullScreen = no
+		
+		guiButtonType = {
+			name = "event_option_button"
+			quadTextureSprite = "GFX_event_button_547"
+			buttonFont = "vic_18_black_event"
+			position = { x = 51 y = 0 }
+		}
+	}
+	
+	positionType = {
+		name = "event_option_start"
+		position = { x = 13 y = 33 }
+	}
+	
+	scrollbarType = {
+		name = "event_window_slider"	
+		slider = "listboxSliderButton"
+		track= "listboxTrackButton"
+		leftbutton = "downButton"
+		rightbutton = "upButton"
+		size = {x =12 y =12 }
+		position = {x= 0 y =1000}
+		priority = 100
+		borderSize = {x = 12 y = 12}
+		maxValue =1
+		minValue =0
+		stepSize =0.01
+		startValue = 0
+		horizontal = 0
+		
+		guiButtonType = {
+			name = "listboxTrackButton"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x=15 y =12}
+		}
+		
+		guiButtonType = {
+			name = "downButton"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x=0 y =120}
+		}
+		
+		guiButtonType = {
+			name = "upButton"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			name = "listboxSliderButton"	
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x=0 y =0}
+		}
+	}
+}

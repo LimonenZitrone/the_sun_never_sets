@@ -1,0 +1,49 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_event_window_bg"
+		texturefile = "gfx/interface/event_window_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sns_event_bg_transparency"
+		texturefile = "gfx/interface/sns_event_bg_transparency.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = 
+	{
+		name = "GFX_event_bg_bottom_L"
+		texturefile = "gfx/interface/transparency.dds"
+		transparencecheck = yes
+		allwaystransparent = yes
+	}
+
+	spriteType = 
+	{
+		name = "GFX_event_bg_bottom_M"
+		texturefile = "gfx/interface/transparency.dds"
+		transparencecheck = yes
+		allwaystransparent = yes
+	}
+
+	spriteType = 
+	{
+		name = "GFX_event_bg_bottom_S"
+		texturefile = "gfx/interface/transparency.dds"
+		transparencecheck = yes
+		allwaystransparent = yes
+	}
+	
+	bitmapfont = {
+		name = "vic_18_black_event"
+		path = "gfx/fonts/vic_18"
+		color = 0xff000000	
+
+		textcolors = {
+			W = { 0 0 0 }
+			G = { 24 112 26 }
+			R = { 124 24 24 }
+			Y = { 232 232 0 }
+		}
+	}
+}

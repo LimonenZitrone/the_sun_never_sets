@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "special_event_picture"
+		texturefile = "gfx/event_pictures/special_event_picture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "USA_USA_special_EventPicture"
+		texturefile = "gfx/event_pictures/USA_USA_special_EventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "USA_CSA_special_EventPicture"
+		texturefile = "gfx/event_pictures/USA_CSA_special_EventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "USA_CSA_special_EventPicture"
+		texturefile = "gfx/event_pictures/CSA_CSA_special_EventPicture.dds"
+		allwaystransparent = yes
+	}
+}
