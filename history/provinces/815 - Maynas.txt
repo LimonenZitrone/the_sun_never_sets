@@ -14,7 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = ECU
+controller = ECU 
+add_core = ECU 
 culture = colombian
 religion = catholic 
 capital = "Iquitos"
@@ -23,6 +25,3 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-owner = ECU
-controller = ECU 
-add_core = ECU 

@@ -14,13 +14,12 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-owner = MCA
-controller = MCA
-culture = muisca
-discovered_by = south_american
-discovered_by = andean
-religion = inti
+owner = COL
+controller = COL
+add_core = COL
+add_core = MCA
+religion = catholic
+culture = castillian
 capital = "Bogotá"
 is_city = yes
 trade_goods = gems
@@ -28,21 +27,5 @@ hre = no
 base_tax = 6 
 base_production = 6
 base_manpower = 2
-add_core = MCA
 extra_cost = 8
 center_of_trade = 1
-
-1538.9.6 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-	culture = castillian
-} 
-1810.7.20 = {
-	owner = COL
-	controller = COL
-	add_core = COL
-} 
-1819.8.7 = { remove_core = SPA } 

@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = PBL
 controller = PBL
+add_core = PBL
 culture = inca
 religion = catholic
 capital = "Lima"
@@ -26,6 +26,5 @@ base_tax = 3
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = PBL
 extra_cost = 16
 center_of_trade = 2

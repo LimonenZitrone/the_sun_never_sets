@@ -14,43 +14,16 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-culture = muisca
-
-owner = TAI
-controller = TAI
-add_core = TAI
+owner = COL
+controller = COL
+add_core = COL
+culture = castillian
+religion = catholic
 is_city = yes
-discovered_by = south_american
-discovered_by = MCA
-religion = animism
-capital = "Tairo"
+capital = "Santa Marta"
 trade_goods = coffee
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-native_size = 15
-native_ferocity = 1
-native_hostileness = 3
-
-
-
-
-1498.1.1 = { discovered_by = CAS } 
-1516.1.23 = { discovered_by = SPA }
-
-1525.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	capital = "Santa Marta"
-	culture = castillian
-	religion = catholic
-} 
-1810.7.20 = {
-	owner = COL
-	controller = COL
-	add_core = COL
-} 
-1819.8.7 = { remove_core = SPA } 
+is_city = yes

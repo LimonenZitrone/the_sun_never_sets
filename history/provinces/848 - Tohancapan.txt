@@ -14,12 +14,11 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-add_core = MEX
 owner = MEX
 controller = MEX
-culture = totonac
-religion = nahuatl
+add_core = MEX
+culture = castillian
+religion = catholic
 capital = "Tohancapan"
 trade_goods = spices
 hre = no

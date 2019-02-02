@@ -14,7 +14,10 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = MEX
+controller = MEX
+add_core = MEX
+add_core = USA
 is_city = yes
 capital = "Siuslaw"
 base_tax = 2
@@ -23,8 +26,4 @@ base_manpower = 1
 religion = catholic
 culture = mexican
 trade_goods = fur
-owner = MEX
-controller = MEX
-add_core = MEX
-add_core = USA
 hre = no
