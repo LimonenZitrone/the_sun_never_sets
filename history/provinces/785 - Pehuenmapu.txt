@@ -14,33 +14,15 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
-culture = mapuche
-discovered_by = south_american
-religion = animism
+owner = LAP
+controller = LAP
+add_core = LAP
+culture = castillian
+religion = catholic
 capital = "Pehuenmapu"
-trade_goods = unknown
+trade_goods = grain
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-native_size = 20
-native_ferocity = 2
-native_hostileness = 9	
-
-1561.3.2 = {
-	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	is_city = yes
-	trade_goods = grain
-	culture = castillian
-	religion = catholic
-} 
-1816.7.9 = {
-	owner = LAP
-	controller = LAP
-	add_core = LAP
-	remove_core = SPA
-} 
+is_city = yes

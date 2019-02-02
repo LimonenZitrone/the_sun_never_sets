@@ -14,12 +14,10 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = BRZ
 controller = BRZ
 add_core = BRZ 
 culture = brazilian
-discovered_by = south_american
 religion = catholic
 capital = "Fortaleza"
 is_city = yes

@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
 owner = KON
 controller = KON
+add_core = KON
 culture = mbundu
 religion = shamanism 
 capital = "Nsoyo"
@@ -26,10 +26,3 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 1
-add_core = KON
-discovered_by = central_african
-
-1481.1.1 = { discovered_by = POR } 
-1580.1.1 = { discovered_by = ENG } 
-1665.10.30 = { unrest = 8 } 
-1702.1.1 = { unrest = 0 } 

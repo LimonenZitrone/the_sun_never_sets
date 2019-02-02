@@ -14,9 +14,10 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-
+owner = VNZ
+controller = VNZ
+add_core = VNZ 
 culture = colombian
-discovered_by = south_american
 religion = catholic
 capital = "Angostura"
 trade_goods = coffee
@@ -24,6 +25,3 @@ hre = no
 base_tax = 2 
 base_production = 1
 base_manpower = 1
-owner = VNZ
-controller = VNZ
-add_core = VNZ 
