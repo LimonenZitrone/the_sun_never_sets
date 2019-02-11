@@ -18,27 +18,12 @@ discovered_by = high_american
 culture = american
 religion = protestant
 capital = "Mandan"
-trade_goods = unknown
+trade_goods = fur
 hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-native_size = 35
-native_ferocity = 2
-native_hostileness = 9
-
-
-
-discovered_by = north_american
-
-1732.1.1 = { discovered_by = FRA } 
-
-1810.1.1 = {
-	owner = USA
-	controller = USA
-	add_core = USA
-	culture = american
-	religion = protestant
-	trade_goods = fur
-	is_city = yes 
-} 
+owner = USA
+controller = USA
+add_core = USA
+is_city = yes
