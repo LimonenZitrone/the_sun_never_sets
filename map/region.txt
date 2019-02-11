@@ -293,6 +293,7 @@ egypt_region = {
 		bahari_area
 		vostani_area
 		said_area
+		east_sahara_area
 	}
 }
 
@@ -539,6 +540,8 @@ central_africa_region = {
 		rwanda_area
 		chokwe_area
 		bunyoro_area
+		centeral_africa
+		congo_area
 	}
 	monsoon = {
 		00.10.01
@@ -594,6 +597,7 @@ south_africa_region = {
 		quelimane_area
 		butua_area
 		limpopo_area
+		namibia_area
 	}
 	monsoon = {
 		00.11.01
