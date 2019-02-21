@@ -19,6 +19,10 @@ country_event = {
 		}
 	}
 	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
 	option = {
 		name = sns_flavour_USA.1.a
 		
@@ -40,6 +44,44 @@ country_event = {
 	id = sns_flavour_USA.2
 	title = sns_flavour_USA.2.t
 	desc = sns_flavour_USA.2.d
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		exists = TEX
+		exists = MEX
+		historical_rival_with = MEX
+		is_in_war = {
+			attacker_leader = MEX
+			defender_leader = TEX
+			defenders = ROOT
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = USA_helped_TEX_against_MEX
+		}
+	}
+	
+	option = {
+		name = sns_flavour_USA.2.a
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = sns_flavour_USA.3
+	title = sns_flavour_USA.3.t
+	desc = sns_flavour_USA.3.d
 	picture = USA_USA_special_eventPicture
 	
 	fire_only_once = yes
@@ -47,11 +89,11 @@ country_event = {
 	trigger = {
 		tag = USA
 		NOT = { exists = TEX }
-		historical_rival_with = MEX
+		has_country_flag = USA_helped_TEX_against_MEX
 	}
 	
 	option = {
-		name = sns_flavour_USA.2.a
+		name = sns_flavour_USA.3.a
 		
 		ai_chance = { factor = 100 }
 		
@@ -111,5 +153,129 @@ country_event = {
 			}
 			add_core = ROOT
 		}
+		oregon_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+	}
+}
+
+country_event = {
+	id = sns_flavour_USA.4
+	title = sns_flavour_USA.4.t
+	desc = sns_flavour_USA.4.d
+	picture = USA_TEX_special_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = TEX
+		is_at_war = no
+		exists = USA
+		USA = {
+			has_country_flag = USA_helped_TEX_against_MEX
+			NOT = { war_with = MEX }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = sns_flavour_USA.4.a
+		
+		trigger = {
+			OR = {
+				ai = yes
+				USA = { ai = no }
+			}
+		}
+		
+		ai_chance = { factor = 100 }
+		
+		USA = {
+			inherit = ROOT
+		}
+	}
+	
+	option = {
+		name = sns_flavour_USA.4.b
+		
+		trigger = {
+			ai = no
+			USA = { ai = yes }
+		}
+		
+		ai_chance = { factor = 0 }
+		
+		switch_tag = USA
+		tooltip = {
+			USA = {
+				inherit = ROOT
+			}
+		}
+		hidden_effect = {
+			TEX = {
+				country_event = { id = sns_flavour_USA.5 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = sns_flavour_USA.4.c
+		
+		ai_chance = { factor = 0 }
+		
+		USA = {
+			add_casus_belli = {
+				target = ROOT
+				type = cb_insult
+				months = 12
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = insulted
+			}
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = texas_area
+					area = coastal_prarie_area
+					area = pecos_area
+					area = llano_estacado_area
+				}
+				NOT = { is_core = USA }
+				NOT = { is_permanent_claim = USA }
+			}
+			add_claim = USA
+		}
+	}
+}
+
+country_event = {
+	id = sns_flavour_USA.5
+	title = sns_flavour_USA.5.t
+	desc = sns_flavour_USA.5.d
+	picture = DIPLOMACY_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			USA = { inherit = ROOT }
+		}
+	}
+	
+	option = {
+		name = sns_flavour_USA.5.a
+		
+		ai_chance = { factor = 100 }
 	}
 }
