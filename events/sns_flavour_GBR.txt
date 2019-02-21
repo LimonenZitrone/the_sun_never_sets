@@ -1,0 +1,21 @@
+namespace = sns_flavour_GBR
+
+country_event = {
+	id = sns_flavour_GBR.1
+	title = sns_flavour_GBR.1.t
+	desc = sns_flavour_GBR.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GBR
+		has_heir = "Victoria"
+	}
+	
+	option = {
+		name = sns_flavour_GBR.1.a
+		
+		add_prestige = 10
+	}
+}

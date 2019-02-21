@@ -1,0 +1,104 @@
+namespace = sns_flavour_USA
+
+country_event = {
+	id = sns_flavour_USA.1
+	title = sns_flavour_USA.1.t
+	desc = sns_flavour_USA.1.d
+	picture = USA_TEX_special_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		exists = TEX
+		TEX = {
+			ai = yes
+			was_player = no
+			is_in_war = {
+				attacker_leader = MEX
+				defender_leader = THIS
+			}
+		}
+	}
+	
+	option = {
+		name = sns_flavour_USA.1.a
+		
+		inherit = TEX
+		add_historical_rival = MEX
+	}
+	
+	option = {
+		name = sns_flavour_USA.1.b
+		
+	}
+}
+
+country_event = {
+	id = sns_flavour_USA.2
+	title = sns_flavour_USA.2.t
+	desc = sns_flavour_USA.2.d
+	picture = USA_USA_special_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		NOT = { exists = TEX }
+		historical_rival_with = MEX
+	}
+	
+	option = {
+		name = sns_flavour_USA.2.a
+		
+		arizona_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+		northern_california_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+		apacheria_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+		colorado_plateau_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+		central_valley_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+		new_mexico_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+		california_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+	}
+}

@@ -13,6 +13,11 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "USA_TEX_special_eventPicture"
+		texturefile = "gfx/event_pictures/USA_TEX_special_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "USA_CSA_special_eventPicture"
 		texturefile = "gfx/event_pictures/USA_CSA_special_eventPicture.dds"
 		allwaystransparent = yes
