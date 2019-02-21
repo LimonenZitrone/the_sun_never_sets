@@ -1,0 +1,7 @@
+meiji_reforms = {
+	global_unrest = 2
+}
+
+meiji_isolation = {
+	global_unrest = -2
+}
