@@ -101,7 +101,7 @@ country_event = {
 	id = sns_german_unification_events.3
 	title = sns_german_unification_events.3.t
 	desc = sns_german_unification_events.3.d
-	picture = GOOD_WITH_MONARCH_eventPicture
+	picture = GER_GER_special_eventPicture
 	
 	fire_only_once = yes
 	

@@ -7,6 +7,13 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/special_event_picture.dds"
 		allwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "GER_GER_special_eventPicture"
+		texturefile = "gfx/event_pictures/GER_GER_special_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
 	spriteType = {
 		name = "USA_USA_special_eventPicture"
 		texturefile = "gfx/event_pictures/USA_USA_special_eventPicture.dds"

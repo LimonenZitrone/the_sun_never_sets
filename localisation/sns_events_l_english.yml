@@ -11,7 +11,7 @@
  sns_german_unification_events.2.b: "Become a member of the North German Confederation."
  sns_german_unification_events.2.c: "We will never agree to this!"
  
- sns_german_unification_events.3.t: "North German Confederation"
+ sns_german_unification_events.3.t: "North German Confederation\n\n\n\n\n[GetDateText]"
  sns_german_unification_events.3.d: ""
  sns_german_unification_events.3.a: "Form the North German Confederation."
  sns_german_unification_events.3.b: "We don't need this."
