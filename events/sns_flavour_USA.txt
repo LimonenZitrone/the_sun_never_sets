@@ -12,8 +12,6 @@ country_event = {
 		tag = USA
 		exists = TEX
 		TEX = {
-			ai = yes
-			was_player = no
 			is_in_war = {
 				attacker_leader = MEX
 				defender_leader = THIS
@@ -24,13 +22,17 @@ country_event = {
 	option = {
 		name = sns_flavour_USA.1.a
 		
-		inherit = TEX
+		ai_chance = { factor = 100 }
+		
+		create_alliance = TEX
+		create_guarantee = TEX
 		add_historical_rival = MEX
 	}
 	
 	option = {
 		name = sns_flavour_USA.1.b
 		
+		ai_chance = { factor = 0 }
 	}
 }
 
@@ -50,6 +52,8 @@ country_event = {
 	
 	option = {
 		name = sns_flavour_USA.2.a
+		
+		ai_chance = { factor = 100 }
 		
 		arizona_area = {
 			limit = {
@@ -94,6 +98,13 @@ country_event = {
 			add_core = ROOT
 		}
 		california_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_core = ROOT
+		}
+		snake_river_area = {
 			limit = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
