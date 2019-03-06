@@ -1,0 +1,262 @@
+vassal = {
+	first = GBR
+	second = EIC
+	start_date = 1830.1.1
+	end_date = 1910.1.1
+}
+
+union = {
+	first = SWE
+	second = NOR
+	start_date = 1830.1.1
+	end_date = 1910.1.1
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = MKL
+    start_date = 1830.1.1
+    end_date = 1910.1.1
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = HES      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = NSA      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = HAM       
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = HSA      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = BRE     
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = OLD       
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = FRN      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = ANH      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = PRU
+    second = SAX      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = HAB
+    second = BAV      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = HAB
+    second = WUR      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = HAB
+    second = BAD      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = HAB
+    second = MOD     
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = HAB
+    second = LAN      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = HAB
+    second = LUC      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = DEC     
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = NAG     
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = MYS    
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = MAW    
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = HSI      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = MER    
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = GWA      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = SRG   
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = BGL      
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = BND   
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = DHU   
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = JAN     
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = GBR
+    second = TAU  
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = TUR
+    second = WAL  
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
+dependency = {
+    subject_type = sphere
+    first = TUR
+    second = MOL  
+    start_date = 1830.1.1  
+    end_date = 1910.1.1    
+}
+
