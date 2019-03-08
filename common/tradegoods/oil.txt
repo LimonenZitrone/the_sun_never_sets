@@ -1,0 +1,28 @@
+Oil = {
+	color = { 0.7 1.3 2.1 }
+	is_latent = yes
+	is_valuable = yes # American tanks can be heard in the distance
+
+	rnw_latent_chance = 0 # Kind of on average how many provinces we want to spawn with it
+	
+	trigger = {
+		OR = {
+			owner = { technology_group = western }
+			development = 15
+		}
+		current_age = age_of_empires
+	}
+	
+	modifier = {
+		ship_durability = 0.1
+	}
+	
+	province = {
+		local_friendly_movement_speed = 0.1
+		ship_recruit_speed = -0.15	
+	}
+
+	chance = {
+		factor = 1
+	}
+}
