@@ -35,3 +35,8 @@ jap_westernization = {
 # Sphere Influence
 influence_sphere_var_increased = {
 }
+
+SNS_internal_problems = {
+	global_unrest = 2
+	regiment_recruit_speed = 0.1
+}

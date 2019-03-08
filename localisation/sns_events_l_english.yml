@@ -23,23 +23,23 @@
  
  # Westernization Events:
  sns_westernization_events.EVTNAME1: "Begin of the Westernization"
- sns_westernization_events.EVTDESC1: "The next years won't be easy, but with enough effort, moneyh and power we can manage to reach the western technological advancements and become a technological advanced country as well."
+ sns_westernization_events.EVTDESC1: "The next years won't be easy, but with enough effort, money and power we can manage to reach the western technological advancements and become a technological advanced country as well."
  sns_westernization_events1.EVTOPT1: "Wonderful."
  
  sns_westernization_events.EVTNAME2: "Westernization Completed"
- sns_westernization_events.EVTDESC2: "All our efforts were successful. We finally managed to understand and reconstruct most of the foreign technolgies. We now are on the same technological level as the most advanced nations in the world!"
+ sns_westernization_events.EVTDESC2: "All our efforts were successful. We finally managed to understand and reconstruct most of the foreign technologies. We now are on the same technological level as the most advanced nations in the world!"
  sns_westernization_events2.EVTOPT1: "Finally."
  
  sns_westernization_events.EVTNAME4: "Foreign Help"
- sns_westernization_events.EVTDESC4: "Our friends in [westernization_help_ally.GetName] decided to help us understand and reconstruct some of their technologies. \nThis definetly will help us in our westernization efforts."
+ sns_westernization_events.EVTDESC4: "Our friends in [westernization_help_ally.GetName] decided to help us understand and reconstruct some of their technologies. \nThis definitely will help us in our westernization efforts."
  sns_westernization_events4.EVTOPT1: "This for sure will be helpful."
  
- sns_westernization_events.EVTNAME5: "Costly Researchs"
- sns_westernization_events.EVTDESC5: "While we're trying to reconstruct the technologies of the western foreigners, we are struggeling to understand a specific technology. \nUnless we pay foreign advisors to help us, it will take us much longer than expected to understand all the western technologies."
+ sns_westernization_events.EVTNAME5: "Costly Researches"
+ sns_westernization_events.EVTDESC5: "While we're trying to reconstruct the technologies of the western foreigners, we are struggling to understand a specific technology. \nUnless we pay foreign advisors to help us, it will take us much longer than expected to understand all the western technologies."
  sns_westernization_events5.EVTOPT1: "Money is not a problem."
  sns_westernization_events5.EVTOPT2: "We can't afford that, they have to do it on their own."
  
- sns_westernization_events.EVTNAME6: "Lack of Organisation"
+ sns_westernization_events.EVTNAME6: "Lack of Organization"
  sns_westernization_events.EVTDESC6: "While we're trying to understand the technologies of the western foreigners, we noticed that some of our scientists are not qualified to do this job correctly. \nUnless we provide better education, it will take us much longer than expected to understand all the western technologies."
  sns_westernization_events6.EVTOPT1: "We already should have provided better education ages ago."
  sns_westernization_events6.EVTOPT2: "We can't afford that, their education has to be sufficient."
@@ -73,3 +73,17 @@
  sns_westernization_events12.EVTOPT1: "The people aren't important, the research is."
  sns_westernization_events12.EVTOPT2: "That's true, we should prioritize the people for now."
  
+ # Minor Events:
+ sns_minor.1.t: "Industrialization!"
+ sns_minor.1.d: "In recent year, many people have been able to construct freely things such as factories, roads, or even museums. This had led into a serious development of our land."
+ sns_minor.1.a: "A bright future is ahead."
+ 
+ sns_minor.2.t: "National Decline"
+ sns_minor.2.d: "As our nation grows, our administration grows outdated into the face of vast land. Since our system isn't like the Western one, many protest for their rights, though their demands will surely ruin our nation."
+ sns_minor.2.b: "As if we have another choice"
+ sns_minor.2.a: "They shall listen only to the sword!"
+ 
+ sns_minor.3.t: "Enlightened Ruler"
+ sns_minor.3.d: "The age of Freedom and Liberty is at its finest. Those ideas have spread even to our ruler, which has decided to study them. He now has a different opinion of the world."
+ sns_minor.3.a: "The opinion of a more capable ruler."
+ sns_minor.3.d: "The opinion of a stronger state."

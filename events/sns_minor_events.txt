@@ -1,0 +1,117 @@
+namespace = sns_minor
+
+country_event = {
+	id = sns_minor.1
+	title = sns_minor.1.t
+	desc = sns_minor.1.d
+	
+	trigger = {
+		current_age = victorian_era
+		technology_group = western
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+	
+	option = {
+		name = sns_minor.1.a
+		random_province = {
+			random_list = {
+				33 = {
+					add_base_manpower = 2
+				}
+				33 = {
+					add_base_production = 2
+				}
+				33 = {
+					add_base_tax = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sns_minor.2
+	title = sns_minor.2.t
+	desc = sns_minor.2.d
+	
+	trigger = {
+		NOT = { technology_group = western }
+		total_development = 100
+		NOT = { has_disaster = westernization }
+		NOT = { has_country_modifier = SNS_internal_problems }
+	}
+	
+	mean_time_to_happen = {
+		months = 79
+	}
+	
+	option = {
+		name = sns_minor.2.a
+		add_country_modifier = {
+			name = SNS_internal_problems
+			duration = 7300
+		}
+	}
+	option = {
+		name = sns_minor.2.b
+		random_list = {
+			33 = {
+				add_mil_power = -100
+			}
+			33 = {
+				add_adm_power = -100
+			}
+			33 = {
+				add_dip_power = -100
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sns_minor.3
+	title = sns_minor.3.t
+	desc = sns_minor.3.d
+	
+	trigger = {
+		NOT = {
+			OR = {
+				mil = 5
+				dip = 5
+				adm = 5
+			}
+			has_ruler_flag = SNS_improved_ruler
+		}
+		technology_group = western
+	}
+	
+	mean_time_to_happen = {
+		months = 260
+	}
+	
+	option = {
+		name = sns_minor.3.a
+		random_list = {
+			33 = {
+				change_mil = 1
+			}
+			33 = {
+				change_dip = 1
+			}
+			33 = {
+				change_adm = 1
+			}
+		}
+		set_ruler_flag = SNS_improved_ruler
+	}
+	option = {
+		name = sns_minor.3.b
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		set_ruler_flag = SNS_improved_ruler
+	}
+}
