@@ -1,0 +1,49 @@
+japanese_shogunate = {
+	icon = "shogunate"
+	allow_normal_conversion = no
+	potential = {
+		tag = JAP
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_government = yes
+	maintain_dynasty = yes
+	allow_vassal_war = no
+	allow_vassal_alliance = no
+	lock_level_when_selected = yes
+	monarchy = yes
+	modifiers = {
+		technology_cost = 0.1
+		max_absolutism = 10
+		yearly_absolutism = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+japanese_shogunate_reform = {
+	icon = "shogunate"
+	allow_normal_conversion = no
+	potential = {
+		tag = JAP
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_equivalent = japanese_shogunate
+	maintain_dynasty = yes
+	allow_vassal_war = no
+	allow_vassal_alliance = no
+	lock_level_when_selected = yes
+	
+	modifiers = {
+		technology_cost = 0.1
+		max_absolutism = 10
+		yearly_absolutism = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
