@@ -17,7 +17,31 @@ imperial_restoration = {
 		}
 	}
 	
-	can_end = {
+		
+	
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = { adm = 3 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { dip = 3 }
+		} 
+		modifier = {
+			factor = 0.5
+			NOT = { mil = 3 }
+		}	
+		modifier = {
+			factor = 2
+			NOT = { technology_group = western }
+		}		
 	}
 	
 	
+	modifier = {
+		infantry_power = -0.1
+		technology_cost = 0.4
+	}	
+	
+	on_start = meiji_restoration.1 #The Imperialists Rise Up

@@ -1,0 +1,90 @@
+namespace = meiji_restoration
+
+	country_event = {
+		id = meiji_restoration.1
+		title =meiji_restoration.1.t
+		desc= meiji_restoration.1.d
+	
+		option = {
+			name = meiji_restoration.1.a
+			northern_kyushu = {
+				cede_province = IJP
+				add_core = IJP
+			}
+			kyushu_area = {
+				cede_province = IJP
+				add_core = IJP
+			}
+			shikoku_area = {
+				cede_province = IJP
+				add_core = IJP
+			}
+			sanindo_area = {
+				cede_province = IJP
+				add_core = IJP
+			}
+		
+			IJP = {
+				add_country_modifier = {
+					name = SNS_imperial_restoration
+					duration = -1
+				}
+				define_ruler = {
+					name = "Meiji"
+					dynasty = "Yamato"
+					adm = 6
+					dip = 4
+					mil = 4
+					age = 15
+					claim = 100
+				}
+			}
+			change_tag = IJP
+			declare_war_with_cb = {
+				who = JAP
+				casus_belli = imperial_civil_war
+			}
+			custom_tooltip = sns_imperialists
+		}
+	
+		option = {
+			name = meiji_restoration.1.b
+			northern_kyushu = {
+				cede_province = IJP
+				add_core = IJP
+			}
+			kyushu_area = {
+				cede_province = IJP
+				add_core = IJP
+			}
+			shikoku_area = {
+				cede_province = IJP
+				add_core = IJP
+			}
+			sanindo_area = {
+				cede_province = IJP
+				add_core = IJP
+			}
+		
+			IJP = {
+				add_country_modifier = {
+					name = SNS_imperial_restoration
+					duration = -1
+				}
+				define_ruler = {
+					name = "Meiji"
+					dynasty = "Yamato"
+					adm = 6
+					dip = 4
+					mil = 4
+					age = 15
+					claim = 100
+				}
+				declare_war_with_cb = {
+					who = JAP
+					casus_belli = imperial_civil_war
+				}
+			}
+			custom_tooltip = sns_shogunate
+		}
+	}
