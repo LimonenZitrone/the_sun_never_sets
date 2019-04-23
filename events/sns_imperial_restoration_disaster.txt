@@ -2,33 +2,98 @@ namespace = meiji_restoration
 
 	country_event = {
 		id = meiji_restoration.1
-		title =meiji_restoration.1.t
-		desc= meiji_restoration.1.d
+		title = meiji_restoration.1.t
+		desc = meiji_restoration.1.d
+		
+		is_triggered_only = yes
 	
 		option = {
 			name = meiji_restoration.1.a
-			northern_kyushu = {
-				cede_province = IJP
-				add_core = IJP
+			
+			change_tag = IJP
+			
+			kinai_area = {
+				cede_province = JAP
+				add_core = JAP
 			}
-			kyushu_area = {
-				cede_province = IJP
-				add_core = IJP
+			hokuriku_area = {
+				cede_province = JAP
+				add_core = JAP
 			}
-			shikoku_area = {
-				cede_province = IJP
-				add_core = IJP
+			chubu_area = {
+				cede_province = JAP
+				add_core = JAP
 			}
-			sanindo_area = {
-				cede_province = IJP
-				add_core = IJP
+			eastern_chubu_area = {
+				cede_province = JAP
+				add_core = JAP
+			}
+			kanto_area = {
+				cede_province = JAP
+				add_core = JAP
+			}
+			eastern_kanto_area = {
+				cede_province = JAP
+				add_core = JAP
+			}
+			thohoku_area = {
+				cede_province = JAP
+				add_core = JAP
+			}
+			hokkaido_area = {
+				cede_province = JAP
+				add_core = JAP
+			}
+			
+			hidden_effect = {
+				1835 = {
+					cavalry = JAP
+				}
+				1835 = {
+					cavalry = JAP
+				}
+				1835 = {
+					cavalry = JAP
+				}
+				1835 = {
+					cavalry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					infantry = JAP
+				}
+				1835 = {
+					artillery = JAP
+				}
+				JAP = {
+					add_treasury = 500
+					add_manpower = 15
+				}
 			}
 		
-			IJP = {
-				add_country_modifier = {
-					name = SNS_imperial_restoration
-					duration = -1
-				}
 				define_ruler = {
 					name = "Meiji"
 					dynasty = "Yamato"
@@ -37,12 +102,15 @@ namespace = meiji_restoration
 					mil = 4
 					age = 15
 					claim = 100
+					fixed = yes
 				}
-			}
-			change_tag = IJP
+			
 			declare_war_with_cb = {
 				who = JAP
-				casus_belli = imperial_civil_war
+				casus_belli = cb_annex
+			}
+			add_country_modifier = {
+				name = sns_imperial_forces
 			}
 			custom_tooltip = sns_imperialists
 		}
@@ -65,12 +133,12 @@ namespace = meiji_restoration
 				cede_province = IJP
 				add_core = IJP
 			}
+			saigoku_area = {
+				cede_province = IJP
+				add_core = IJP
+			}
 		
 			IJP = {
-				add_country_modifier = {
-					name = SNS_imperial_restoration
-					duration = -1
-				}
 				define_ruler = {
 					name = "Meiji"
 					dynasty = "Yamato"
@@ -79,10 +147,60 @@ namespace = meiji_restoration
 					mil = 4
 					age = 15
 					claim = 100
+					fixed = yes
 				}
 				declare_war_with_cb = {
 					who = JAP
-					casus_belli = imperial_civil_war
+					casus_belli = cb_annex
+				}
+				add_country_modifier = {
+					name = sns_imperial_forces
+				}
+				add_treasury = 500
+				add_manpower = 15	
+			}
+			hidden_effect = {
+				1818 = {
+					cavalry = IJP
+				}
+				1818 = {
+					cavalry = IJP
+				}
+				1818 = {
+					cavalry = IJP
+				}
+				1818 = {
+					cavalry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					infantry = IJP
+				}
+				1818 = {
+					artillery = IJP
 				}
 			}
 			custom_tooltip = sns_shogunate

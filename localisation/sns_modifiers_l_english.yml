@@ -28,8 +28,9 @@
  westernization_hurts_province_dev_bad: "Prioritized Research"
  westernization_hurts_province_dev_good: "Prioritized People"
  
+ sns_imperial_forces: "Imperial Restoration"
+ 
  SNS_internal_problems: "Internal Problems"
  
  # Opinion Modifiers:
  is_sphere: "Sphere"
- 

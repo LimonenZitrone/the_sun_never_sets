@@ -1,0 +1,141 @@
+namespace = sns_institutions
+
+	country_event = {
+		id = sns_institutions.1
+		title = sns_institutions.1.t
+		desc = sns_institutions.1.d
+		picture = PAINTER_ARTIST_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+		always = yes			
+		}
+
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = {
+			name = sns_institutions.1.a
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_prestige = 20
+			if = {
+				limit = {
+					NOT = { has_completed_all_reforms_trigger = yes }
+				}
+				add_reform_progress_medium_effect = yes
+			}
+			custom_tooltip = sns_institution_events.tooltip.1
+			FROM = {
+				add_permanent_province_modifier = {
+					name = birthplace_of_nationalism
+					duration = -1
+				}
+			}
+			hidden_effect = {
+				every_country = {
+					limit = {
+						ai = no
+						NOT = { tag = ROOT }
+						knows_country = ROOT
+					}
+					country_event = { id = sns_institutions.11 }
+				}
+			}
+		}
+	}
+	
+	country_event = {
+		id = sns_institutions.11
+		title = sns_institutions.11.t
+		desc = sns_institutions.11.d
+		picture = PAINTER_ARTIST_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+		always = yes			
+		}
+
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = {
+			name = sns_institutions.1.a
+			custom_tooltip = sns_institution_events.tooltip.1
+		}
+	}
+	
+	country_event = {
+		id = sns_institutions.2
+		title = sns_institutions.2.t
+		desc = sns_institutions.2.d
+		picture = PAINTER_ARTIST_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+		always = yes			
+		}
+
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = {
+			name = sns_institutions.2.a
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_prestige = 20
+			if = {
+				limit = {
+					NOT = { has_completed_all_reforms_trigger = yes }
+				}
+				add_reform_progress_medium_effect = yes
+			}
+			custom_tooltip = sns_institution_events.tooltip.2
+			FROM = {
+				add_permanent_province_modifier = {
+					name = birthplace_of_imperialism
+					duration = -1
+				}
+			}
+			hidden_effect = {
+				every_country = {
+					limit = {
+						ai = no
+						NOT = { tag = ROOT }
+						knows_country = ROOT
+					}
+					country_event = { id = sns_institutions.22 }
+				}
+			}
+		}
+	}
+	
+	country_event = {
+		id = sns_institutions.22
+		title = sns_institutions.22.t
+		desc = sns_institutions.22.d
+		picture = PAINTER_ARTIST_eventPicture
+		
+		is_triggered_only = yes
+		
+		trigger = {
+		always = yes			
+		}
+
+		mean_time_to_happen = {
+			days = 1
+		}
+		
+		option = {
+			name = sns_institutions.2.a
+			custom_tooltip = sns_institution_events.tooltip.2
+		}
+	}

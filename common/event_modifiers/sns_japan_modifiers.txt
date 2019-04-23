@@ -5,3 +5,8 @@ meiji_reforms = {
 meiji_isolation = {
 	global_unrest = -2
 }
+
+sns_imperial_forces = {
+	infantry_power = 0.2
+	discipline = 0.05
+}

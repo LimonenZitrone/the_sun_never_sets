@@ -87,3 +87,10 @@
  sns_minor.3.d: "The age of Freedom and Liberty is at its finest. Those ideas have spread even to our ruler, which has decided to study them. He now has a different opinion of the world."
  sns_minor.3.a: "The opinion of a more capable ruler."
  sns_minor.3.d: "The opinion of a stronger state."
+ 
+ meiji_restoration.1.t: "The Imperialists Rise Up"
+ meiji_restoration.1.d: "Despite our efforts to keep the Emperor as a mere puppet, many imperialist supporters have risen up, and demand to restore the Emperor peacefully, or Japan will fall into another a civil war."
+ meiji_restoration.1.a: "Who said I supported the Shogun?"
+ meiji_restoration.1.b: "Death to the Imperialists!"
+ sns_shogunate: "For the Shogun!"
+ sns_imperialists: "For Emperor Meiji!"
