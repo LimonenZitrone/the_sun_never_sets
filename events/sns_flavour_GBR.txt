@@ -4,7 +4,7 @@ country_event = {
 	id = sns_flavour_GBR.1
 	title = sns_flavour_GBR.1.t
 	desc = sns_flavour_GBR.1.d
-	picture = GOOD_WITH_MONARCH_eventPictureGOOD_WITH_MONARCH_eventPicture
+	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	fire_only_once = yes
 	
