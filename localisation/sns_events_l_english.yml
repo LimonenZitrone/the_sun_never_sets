@@ -73,6 +73,23 @@
  sns_westernization_events12.EVTOPT1: "The people aren't important, the research is."
  sns_westernization_events12.EVTOPT2: "That's true, we should prioritize the people for now."
  
+ #Institution Events:
+ sns_institutions.1.t: "Birth of Nationalism"
+ sns_institutions.1.d: "PLACEHOLDER"
+ sns_institutions.1.a: "Great!"
+ 
+ sns_institutions.2.t: "Birthplace of Imperialism"
+ sns_institutions.2.d: "PLACEHOLDER"
+ sns_institutions.2.a: "Great!"
+ 
+ sns_institutions.11.t: "Birth of Nationalism"
+ sns_institutions.11.d: "PLACEHOLDER"
+ sns_institutions.11.a: "Great!"
+ 
+ sns_institutions.22.t: "Birthplace of Imperialism"
+ sns_institutions.22.d: "PLACEHOLDER"
+ sns_institutions.22.a: "Great!"
+ 
  # Minor Events:
  sns_minor.1.t: "Industrialization!"
  sns_minor.1.d: "In recent year, many people have been able to construct freely things such as factories, roads, or even museums. This had led into a serious development of our land."
@@ -88,9 +105,16 @@
  sns_minor.3.a: "The opinion of a more capable ruler."
  sns_minor.3.d: "The opinion of a stronger state."
  
+ 
+ #Flavor Events:
  meiji_restoration.1.t: "The Imperialists Rise Up"
  meiji_restoration.1.d: "Despite our efforts to keep the Emperor as a mere puppet, many imperialist supporters have risen up, and demand to restore the Emperor peacefully, or Japan will fall into another a civil war."
  meiji_restoration.1.a: "Who said I supported the Shogun?"
  meiji_restoration.1.b: "Death to the Imperialists!"
  sns_shogunate: "For the Shogun!"
  sns_imperialists: "For Emperor Meiji!"
+ 
+ sns_flavour_NED.1.t: "The London Treaty"
+ sns_flavour_NED.1.d: "In 1830, Belgium managed to break free from our rule, this led into the Treaty of London, which recognized Belgium as an independent Kingdom in Europe. This is a serious insult to our prestige. Something has to be done."
+ sns_flavour_NED.1.a: "Trying to act against the treaty will be our downfall."
+ sns_flavour_NED.1.b: "We will not let the major powers move us like a pawn. We shall not obey!"

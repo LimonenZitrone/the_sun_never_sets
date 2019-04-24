@@ -151,7 +151,7 @@ dependency = {
 dependency = {
     subject_type = sphere
     first = GBR
-    second = NAG     
+    second = PAN    
     start_date = 1830.1.1  
     end_date = 1910.1.1    
 }

@@ -54,5 +54,3 @@ discovered_by = ottoman
 	add_core = NED
 	remove_core = FRA
 } 
-
-1830.1.1 = { owner = BEL controller = BEL add_core = BEL }
