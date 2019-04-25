@@ -38,9 +38,9 @@ discovered_by = north_american
 1534.1.1 = { discovered_by = FRA }
 
 1753.1.1 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
+	owner = CAN
+	controller = CAN
+	add_core = CAN
 	culture = english
 	religion = protestant 
 } 

@@ -15,8 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = GBR
-add_core = GBR
+owner = CAN
+add_core = CAN
+controller = CAN
 culture = english
 religion = protestant
 capital = "Epekwitk"

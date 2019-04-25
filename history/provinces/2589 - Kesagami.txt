@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-add_core = GBR
-owner = GBR
-controller = GBR
+add_core = CAN
+owner = CAN
+controller = CAN
 is_city = yes
 culture = cree
 religion = totemism

@@ -36,11 +36,11 @@ discovered_by = north_american
 1732.1.1 = { discovered_by = FRA } 
 
 1795.1.1 = {
-	owner = GBR
-	controller = GBR
+	owner = CAN
+	controller = CAN
 	is_city = yes
 	culture = english
 	religion = protestant 
 	trade_goods = fur 
 } 
-1820.1.1 = { add_core = GBR }
+1820.1.1 = { add_core = CAN }

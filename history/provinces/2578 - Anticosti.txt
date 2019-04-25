@@ -42,5 +42,5 @@ discovered_by = north_american
 	religion = catholic
 }
 1707.5.12 = { discovered_by = GBR }
-1763.2.10 = { owner = GBR controller = GBR add_core = GBR remove_core = FRA  }
+1763.2.10 = { owner = CAN controller = CAN add_core = CAN remove_core = FRA  }
 

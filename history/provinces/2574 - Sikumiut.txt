@@ -33,9 +33,9 @@ discovered_by = north_american
 
 
 1771.1.1 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
+	owner = CAN
+	controller = CAN
+	add_core = CAN
 	trade_goods = fish
 	culture = english
 	religion = protestant

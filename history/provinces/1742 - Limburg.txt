@@ -63,10 +63,9 @@ discovered_by = ottoman
 } 
 1806.7.12 = { hre = no } 
 1815.3.16 = {
-	owner = BEL
-	controller = BEL
+	owner = NED
+	controller = NED
 	add_core = NED
-	add_core = BEL
 	remove_core = FRA
 	capital = "Limburg"
 } 

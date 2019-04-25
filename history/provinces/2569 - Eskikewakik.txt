@@ -44,10 +44,10 @@ discovered_by = north_american
 	trade_goods = fish
 } 
 1684.1.1 = { add_core = FRA }
-1710.10.1 = { controller = GBR } 
+1710.10.1 = { controller = CAN } 
 1713.4.11 = {
-	owner = GBR
-	add_core = GBR
+	owner = CAN
+	add_core = CAN
 	remove_core = FRA
 } 
 1750.1.1 = { culture = english religion = protestant } 

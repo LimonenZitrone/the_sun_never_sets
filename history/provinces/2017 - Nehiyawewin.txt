@@ -37,9 +37,9 @@ discovered_by = north_american
 } 
 
 1795.1.1 = {
-	owner = GBR
-	controller = GBR
-	add_core = GBR
+	owner = CAN
+	controller = CAN
+	add_core = CAN
 	is_city = yes
 	capital = "Fort Edmonton"
 	trade_goods = fur

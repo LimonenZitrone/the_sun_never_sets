@@ -42,6 +42,6 @@ discovered_by = north_american
 	trade_goods = fur
 } 
 1707.5.12 = { discovered_by = GBR }
-1760.1.1 = { controller = GBR } 
-1763.2.10 = { owner = GBR add_core = GBR } 
+1760.1.1 = { controller = CAN } 
+1763.2.10 = { owner = CAN add_core = CAN } 
 1791.1.1 = { remove_core = ABE culture = english religion = protestant} 

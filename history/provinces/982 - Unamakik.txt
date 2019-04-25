@@ -19,9 +19,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = GBR
-controller = GBR
-add_core = GBR
+owner = CAN
+controller = CAN
+add_core = CAN
 culture = english
 religion = protestant
 capital = "Unamakik"

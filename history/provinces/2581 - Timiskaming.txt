@@ -44,9 +44,9 @@ discovered_by = north_american
 	trade_goods = fur
 } 
 1707.5.12 = { discovered_by = GBR } 
-1760.1.1 = { controller = GBR } 
+1760.1.1 = { controller = CAN } 
 1763.2.10 = {
-	owner = GBR
-	add_core = GBR
+	owner = CAN
+	add_core = CAN
 	remove_core = FRA
 } 

@@ -45,10 +45,10 @@ discovered_by = north_american
 }
 1763.2.10 = {
 	discovered_by = GBR
-	owner = GBR
-	controller = GBR
+	owner = CAN
+	controller = CAN
 	remove_core = FRA
-	add_core = GBR
+	add_core = CAN
 	culture = english
 	religion = protestant
 	trade_goods = fur

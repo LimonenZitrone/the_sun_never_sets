@@ -49,8 +49,9 @@ discovered_by = ottoman
 } 
 1806.7.12 = { hre = no } 
 1815.3.16 = {
-	owner = NED
-	controller = NED
+	owner = BEL
+	controller = BEL
 	add_core = NED
+	add_core = BEL
 	remove_core = FRA
 } 

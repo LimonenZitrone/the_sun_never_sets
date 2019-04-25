@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = GBR
-controller = GBR
-add_core = GBR
+owner = CAN
+controller = CAN
+add_core = CAN
 is_city = yes
 capital = "Montréal"
 religion = catholic

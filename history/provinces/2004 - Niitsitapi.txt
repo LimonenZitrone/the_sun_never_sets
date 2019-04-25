@@ -19,9 +19,9 @@ latent_trade_goods = {
 	coal
 }
 
-add_core = GBR
-owner = GBR
-controller = GBR
+add_core = CAN
+owner = CAN
+controller = CAN
 culture = blackfoot
 religion = totemism
 capital = "Niitsitapi"

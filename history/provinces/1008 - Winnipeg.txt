@@ -44,9 +44,9 @@ center_of_trade = 1
 }
 1763.2.10 = {
 	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
+	owner = CAN
+	controller = CAN
+	add_core = CAN
 	remove_core = FRA
 	culture = english
 	religion = protestant

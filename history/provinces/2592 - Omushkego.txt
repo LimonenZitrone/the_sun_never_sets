@@ -43,8 +43,8 @@ discovered_by = north_american
 } 
 1707.5.12 = {
 	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
+	owner = CAN
+	controller = CAN
+	add_core = CAN
 	remove_core = ENG
 }

@@ -48,11 +48,11 @@ discovered_by = north_american
 } 
 1655.1.1 = { capital = "Plaisance" } 
 1713.4.11 = {
-	owner = GBR
-	controller = GBR
+	owner = CAN
+	controller = CAN
 	capital = "Placentia"
 	culture = english
 	religion = protestant
-	add_core = GBR
+	add_core = CAN
 	remove_core = FRA
 } 

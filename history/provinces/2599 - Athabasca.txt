@@ -34,9 +34,9 @@ discovered_by = north_american
 
 1778.1.1 = {
 	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
+	owner = CAN
+	controller = CAN
+	add_core = CAN
 	is_city = yes
 	culture = english
 	religion = protestant 
