@@ -115,3 +115,36 @@ country_event = {
 		set_ruler_flag = SNS_improved_ruler
 	}
 }
+
+country_event = {
+	id = sns_minor.3
+	title = sns_minor.3.t
+	desc = sns_minor.3.d
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			is_great_power = yes
+		}
+		else = {
+			is_great_power_no_rom_trigger = yes
+		}
+		has_institution = imperialism_institution
+	}
+	
+	mean_time_to_happen = {
+		months = 50
+	}
+	
+	option = {
+		name = sns_minor.3.a
+		set_global_flag = sns_allow_colonies
+		custom_tooltip = sns_allows_colonies.tooltip
+		add_prestige = 20
+	}
+}

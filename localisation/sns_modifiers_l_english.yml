@@ -5,6 +5,10 @@
  
  DID_NOT_WESTERNIZE_YET: "Has NOT westernized"
  
+ sns_not_westernized_modifier: "Non-Imperialist Intentions"
+ desc_sns_not_westernized_modifier: "This time period is mainly focused towards internal growth rather than expansionist policies. Trying to establish colonies in other continents is almost unheard of for us."
+ DOES_NOT_HAVE_EVENT_IMPERIALISM: "The Event §Y'Age of Imperialism'§! Has not Happened"
+ 
  # Event Modifiers:
  westernization_help: "Foreign Help with Technology"
  desc_westernization_help: "Monthly Westernization: §G+0.50§!"
