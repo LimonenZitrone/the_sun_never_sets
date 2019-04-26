@@ -40,3 +40,16 @@ SNS_internal_problems = {
 	global_unrest = 2
 	regiment_recruit_speed = 0.1
 }
+
+birthplace_of_nationalism = {
+	local_culture_conversion_cost = 0.3
+	local_years_of_nationalism = 10
+}
+
+birthplace_of_imperialism = {
+	trade_value = 10
+}
+
+birthplace_of_electricity = {
+	local_development_cost = -0.2
+}

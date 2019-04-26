@@ -35,3 +35,8 @@
  # Opinion Modifiers:
  is_sphere: "Sphere"
  broke_london_treaty_SNS: "Broke London Treaty"
+ 
+ #Institution Modifier:
+ birthplace_of_nationalism: "Birthplace of Nationalism"
+ birthplace_of_imperialism: "Birthplace of Imperialism"
+ birthplace_of_electricity: "Birthplace of Electricity"

@@ -17,6 +17,7 @@ discovered_by = high_american
 owner = BEL
 controller = BEL
 add_core = BEL
+add_core = NED
 is_city = yes
 capital = "Brugge"
 culture = flemish

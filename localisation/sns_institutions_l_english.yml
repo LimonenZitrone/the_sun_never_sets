@@ -1,3 +1,4 @@
 ﻿l_english:
  sns_institution_events.tooltip.1: "Countries that have not yet fully §YEmbraced§! the §YNationalism§! Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
  sns_institution_events.tooltip.2: "Countries that have not yet fully §YEmbraced§! the §YImperialism§! Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
+ sns_institution_events.tooltip.3: "Countries that have not yet fully §YEmbraced§! the §YElectricity§! Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."

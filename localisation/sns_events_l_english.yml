@@ -78,7 +78,7 @@
  sns_institutions.1.d: "PLACEHOLDER"
  sns_institutions.1.a: "Great!"
  
- sns_institutions.2.t: "Birthplace of Imperialism"
+ sns_institutions.2.t: "Birth of Imperialism"
  sns_institutions.2.d: "PLACEHOLDER"
  sns_institutions.2.a: "Great!"
  
@@ -86,9 +86,17 @@
  sns_institutions.11.d: "PLACEHOLDER"
  sns_institutions.11.a: "Great!"
  
- sns_institutions.22.t: "Birthplace of Imperialism"
+ sns_institutions.22.t: "Birth of Imperialism"
  sns_institutions.22.d: "PLACEHOLDER"
  sns_institutions.22.a: "Great!"
+ 
+ sns_institutions.3.t: "Birth of Electricity"
+ sns_institutions.3.d: "PLACEHOLDER"
+ sns_institutions.3.a: "Great!"
+ 
+ sns_institutions.33.t: "Birth of Electricity"
+ sns_institutions.33.d: "PLACEHOLDER"
+ sns_institutions.33.a: "Great!"
  
  # Minor Events:
  sns_minor.1.t: "Industrialization!"
