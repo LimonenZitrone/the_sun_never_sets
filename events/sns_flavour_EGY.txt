@@ -1,0 +1,43 @@
+namespace = sns_flavour_EGY
+
+country_event = {
+	id = sns_flavour_EGY.1  #Oriental Crisis
+	title = sns_flavour_EGY.1.t
+	desc = sns_flavour_EGY.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1840
+		EGY = {
+			exists = yes
+			vassal_of = TUR
+		}
+		TUR = {
+			is_at_war = no
+		}
+	}
+	
+	option = {
+		name = sns_flavour_EGY.1.a
+		ai_chance = { factor = 80 }
+		release = EGY
+		every_owned_province = {
+			add_claim = TUR
+		}
+		TUR = {
+			declare_war_with_cb = {
+				who = EGY
+				casus_belli = cb_conquest
+			}
+		}
+	}
+	
+	option = {
+		name = sns_flavour_EGY.1.b
+		ai_chance = { factor = 20 }
+		add_liberty_desire = -20
+		add_prestige -5
+	}
+}

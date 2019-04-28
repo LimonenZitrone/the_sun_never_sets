@@ -132,3 +132,8 @@
  sns_flavour_NED.1.d: "In 1830, Belgium managed to break free from our rule, this led into the Treaty of London, which recognized Belgium as an independent Kingdom in Europe. This is a serious insult to our prestige. Something has to be done."
  sns_flavour_NED.1.a: "Trying to act against the treaty will be our downfall."
  sns_flavour_NED.1.b: "We will not let the major powers move us like a pawn. We shall not obey!"
+ 
+ sns_flavour_EGY.1.t: "The Oriental Crisis"
+ sns_flavour_EGY.1.d: "The Ottomans are weak! Their failure in the Balkans has been shown around the world, where the Sultan was forced to give us more power in order to support him into a losing conflict. Most of Syria however has not been given to us. Perhaps it is time to strike."
+ sns_flavour_EGY.1.a: "To War! Kill the Turkish Scums!"
+ sns_flavour_EGY.1.b: "It would not be wise to fight our masters just yet."
