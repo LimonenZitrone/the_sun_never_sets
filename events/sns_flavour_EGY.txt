@@ -10,10 +10,8 @@ country_event = {
 	
 	trigger = {
 		is_year = 1840
-		EGY = {
-			exists = yes
-			vassal_of = TUR
-		}
+		tag = EGY
+		vassal_of = TUR
 		TUR = {
 			is_at_war = no
 		}
@@ -21,24 +19,28 @@ country_event = {
 	
 	option = {
 		name = sns_flavour_EGY.1.a
+		
 		ai_chance = { factor = 80 }
 		
 		every_owned_province = {
+			limit = {
+				NOT = { is_core = TUR }
+				NOT = { is_claim = TUR }
+				NOT = { is_permanent_claim = TUR }
+			}
 			add_claim = TUR
-		}
-		
-		TUR = {
-			free_vassal = EGY
 		}
 		declare_war_with_cb = {
 			who = TUR
-			casus_belli = cb_core
+			casus_belli = cb_independence_war
 		}
 	}
 	
 	option = {
 		name = sns_flavour_EGY.1.b
+		
 		ai_chance = { factor = 20 }
+		
 		add_liberty_desire = -20
 		add_prestige -5
 	}
