@@ -22,15 +22,17 @@ country_event = {
 	option = {
 		name = sns_flavour_EGY.1.a
 		ai_chance = { factor = 80 }
-		release = EGY
+		
 		every_owned_province = {
 			add_claim = TUR
 		}
+		
 		TUR = {
-			declare_war_with_cb = {
-				who = EGY
-				casus_belli = cb_conquest
-			}
+			free_vassal = EGY
+		}
+		declare_war_with_cb = {
+			who = TUR
+			casus_belli = cb_core
 		}
 	}
 	
