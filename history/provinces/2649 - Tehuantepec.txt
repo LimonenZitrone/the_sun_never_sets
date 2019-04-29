@@ -15,12 +15,13 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = zapotek
-owner = ZAP
-controller = ZAP
-add_core = ZAP
+
+owner = MEX
+controller = MEX
+add_core = MEX
 is_city = yes
-religion = nahuatl
+culture = castillian
+religion = catholic
 capital = "Tehuantepec"
 trade_goods = fish
 hre = no
@@ -30,24 +31,3 @@ base_manpower = 1
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2
-
-
-
-discovered_by = mesoamerican
-
-1490.1.1 = {
-	owner = AZT
-	controller = AZT
-	add_core = AZT
-} 
-1524.1.1 = {
-	discovered_by = SPA 
-	owner = SPA 
-	controller = SPA
-	add_core = SPA
-}
-1529.1.1 = {
-	culture = castillian
-	religion = catholic
-} 
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } 

@@ -26,3 +26,6 @@ base_manpower = 1
 native_size = 8
 native_ferocity = 1
 native_hostileness = 3
+owner = LAP
+controller = LAP
+add_core = LAP
