@@ -1,0 +1,42 @@
+prussian_ideas = {
+	start = {
+		discipline = 0.05
+		movement_speed = 0.1
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.3
+	}
+	
+	trigger = {
+		tag = PRU
+	}
+	free = yes
+	
+	pru_ideas_1 = { #North German Confederation
+		diplomatic_reputation = 2
+		diplomatic_upkeep = 2
+	}
+	pru_ideas_2 = { #Legacy of Fredrick der Grosse
+		drill_gain_modifier = 0.2
+	}
+	pru_ideas_3 = { #German Unity
+		global_unrest = -2
+	}
+	pru_ideas_4 = { #The Kaiserreich
+		legitimacy = 1
+		republican_tradition = 0.5
+	}
+	pru_ideas_5 = { #Freedom of Religion
+		tolerance_heathen = 2
+		tolerance_heretic = 2
+	}
+	pru_ideas_6 = { #An army with a state
+		infantry_power = 0.15
+		manpower_recovery_speed = 0.2
+	}
+	pru_ideas_7 = { #German Workforce
+		global_trade_goods_size_modifier = 0.1
+	}
+}
+
