@@ -15,11 +15,11 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = KMC
-controller = KMC
-add_core = KMC
-culture = kamchatkan
-religion = tengri_pagan_reformed
+owner = RUS
+controller = RUS
+add_core = RUS
+culture = russian
+religion = orthodox
 capital = "Kamchatka"
 trade_goods = fish
 hre = no
@@ -30,21 +30,3 @@ native_size = 50
 native_ferocity = 2
 native_hostileness = 5
 is_city = yes
-
-
-
-discovered_by = HOD
-discovered_by = CHU
-discovered_by = CHV
-discovered_by = KMC
-
-1647.1.1 = { discovered_by = RUS } 
-
-1732.1.1 = {
-	owner = RUS
-	controller = RUS
-	culture = russian
-	religion = orthodox
-} 
-1740.1.1 = { capital = "Petropavlovsk" }
-1757.1.1 = { add_core = RUS }

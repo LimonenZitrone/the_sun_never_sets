@@ -15,11 +15,11 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = CHV
-controller = CHV
-add_core = CHV
-culture = kamchatkan
-religion = tengri_pagan_reformed
+owner = RUS
+controller = RUS
+add_core = RUS
+culture = russian
+religion = orthodox
 capital = "Gizhiga"
 trade_goods = fur
 hre = no
@@ -30,21 +30,3 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 3
 is_city = yes
-
-
-
-discovered_by = ANU
-discovered_by = HOD
-discovered_by = CHU
-discovered_by = CHV
-discovered_by = KMC
-
-1647.1.1 = { discovered_by = RUS } 
-
-1732.1.1 = {
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-} 
-1757.1.1 = { add_core = RUS }
