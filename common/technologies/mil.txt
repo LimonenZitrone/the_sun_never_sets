@@ -93,6 +93,15 @@ technology = {
 	
 	#Muzzle loaded rifles
 	infantry_fire = 0.5
+	
+	enable = muzzled_rifle_infantry
+	enable = late_musket_infantry
+	enable = meijian_infantry
+	enable = asian_rifle_infantry
+	enable = african_rifle_infantry
+	enable = russian_rifle_infantry
+	enable = rifled_sepoys
+	enable = native_american_infantry
 }
 
 technology = {
@@ -101,6 +110,8 @@ technology = {
 	
 	#Iron Muzzle Loaded Artillery
 	artillery_fire = 1
+	
+	enable = muzzle_loaded_artillery
 }
 
 technology = {
@@ -138,6 +149,8 @@ technology = {
 	cavalry_fire = 2
 	cavalry_shock = 0.5
 	maneuver_value = 0.2
+	
+	enable = mounted_infantry
 }
 
 technology = {
@@ -145,7 +158,7 @@ technology = {
 	year = 1885
 	
 	#Deep Defense System
-	#This is only supposed to unlock units, they do not exist yet
+	military_tactics = 0.1
 }
 
 technology = {
@@ -163,6 +176,8 @@ technology = {
 	
 	#Machine Guns
 	infantry_fire = 1.5
+	
+	enable = modern_artillery
 }
 
 technology = {
@@ -170,7 +185,12 @@ technology = {
 	year = 1900
 	
 	#Trench Warfare
-	#Unlocks new units
+	enable = trench_infantry
+	enable = stormtroopers
+	enable = asian_trench_infantry
+	enable = sepoy_trench_infantry
+	enable = african_late_infantry
+	enable = native_american_modern_infantry
 }
 
 technology = {
