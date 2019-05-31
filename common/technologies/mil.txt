@@ -108,7 +108,7 @@ technology = {
 	# Tech 6
 	year = 1860
 	
-	#Iron Muzzle Loaded Artillery
+	#Iron Breech Loaded Artillery
 	artillery_fire = 1
 	
 	enable = muzzle_loaded_artillery
