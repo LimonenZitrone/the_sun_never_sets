@@ -47,3 +47,55 @@ japanese_shogunate_reform = {
 		locked_government_type = yes
 	}
 }
+
+socialist_regime = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		technology_group = western
+		has_global_flag = sns_allow_communism
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_government = yes
+	republic = yes
+	modifiers = {
+		build_cost = -0.1
+		global_unrest = -2
+		trade_goods_size_modifier = 0.05
+	}
+}	
+
+socialist_regime = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		technology_group = western
+		has_global_flag = sns_allow_communism
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_government = yes
+	republic = yes
+	modifiers = {
+		build_cost = -0.1
+		global_unrest = -2
+		trade_goods_size_modifier = 0.05
+	}
+}
+
+socialist_regime_reform = {
+	allow_normal_conversion = yes
+	potential = {
+		technology_group = western
+		has_global_flag = sns_allow_communism
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_equivalent = socialist_regime
+	modifiers = {
+		build_cost = -0.1
+		global_unrest = -2
+		trade_goods_size_modifier = 0.05
+	}
+}
