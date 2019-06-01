@@ -17,6 +17,8 @@ socialist_regime_name = {
 		3 = SNS_CHAIRMAN
 	}
 	
+	government_reform = socialist_regime_reform
+	
 	trigger = {
 		has_reform = socialist_regime_reform
 	}

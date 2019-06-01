@@ -40,8 +40,7 @@
  AFTER_GOLDEN_AGE_TEXT:0 "Golden Era was $START$ - $END$"
  IN_GOLDEN_AGE_TEXT:0 "§Y$WHOS$ Golden Era!§!"
  
- 
- l_english:
+ # TECH:
  mil_tech_cs_1_name: "Field Howitzers"
  mil_tech_cs_1_desc: "A howitzer is a type of artillery piece characterized by a relatively short barrel and the use of comparatively small propellant charges to propel projectiles over relatively high trajectories, with a steep angle of descent."
  mil_tech_cs_2_name: "Army Professionalism"
@@ -74,3 +73,4 @@
  mil_tech_cs_15_desc: " "
  mil_tech_cs_16_name: "Modern Army Doctrine"
  mil_tech_cs_16_desc: " "
+ 

@@ -53,7 +53,5 @@ has_any_sns_great_project = {
 }
 
 is_socialist = {
-#	OR = {
-#		has_reform = socialist_reform
-#	}
+	has_reform = socialist_regime_reform
 }
