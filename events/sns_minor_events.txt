@@ -135,6 +135,7 @@ country_event = {
 			is_great_power_no_rom_trigger = yes
 		}
 		has_institution = imperialism_institution
+		NOT = { has_global_flag = sns_allow_colonies }
 	}
 	
 	mean_time_to_happen = {
@@ -172,5 +173,59 @@ country_event = {
 		
 		set_global_flag = sns_allow_communism
 		custom_tooltip = sns_communism_activated.tooltip
+	}
+}
+
+country_event = {
+	id = sns_minor.5
+	title = sns_minor.5.t
+	desc = sns_minor.5.d
+	picture = REVOLUTION_eventPicture
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		technology_group = western
+		has_global_flag = sns_allow_communism
+	}
+	
+	option = {
+		name = sns_minor.5.a
+		
+		random_owned_province = {
+			spawn_rebels = {
+				type = socialist_rebels
+				size = 1
+			}
+		}
+		
+		random_owned_province = {
+			spawn_rebels = {
+				type = socialist_rebels
+				size = 1
+			}
+		}
+		
+		random_owned_province = {
+			spawn_rebels = {
+				type = socialist_rebels
+				size = 1
+			}
+		}
+		
+		random_owned_province = {
+			spawn_rebels = {
+				type = socialist_rebels
+				size = 1
+			}
+		}
+		
+		random_owned_province = {
+			spawn_rebels = {
+				type = socialist_rebels
+				size = 1
+			}
+		}
 	}
 }

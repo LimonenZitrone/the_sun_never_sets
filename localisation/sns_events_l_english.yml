@@ -121,6 +121,10 @@
  sns_minor.4.d: "In [GetDateText] Karl Marx, a philosopher of the newly formed Socialist ideology has written a new book called Das Kapital. The book itself explains the evil deeds of capitalism, as well as the exploitation and harm it has caused across the globe."
  sns_minor.4.a: "I have a bad feeling about this..."
  
+ sns_minor.5.t: "The First International"
+ sns_minor.5.d: "Ever since Karl Marx has written Das Kapital, his followers have not been sitting idly. This newly formed ideology has been gaining rapid support, mainly on the working class, seeking to to spread its values across the world. Our nation is their first target."
+ sns_minor.5.a: "Better Dead Than Red!"
+ 
  sns_allows_colonies.tooltip: "Allows Establishments of Colonies"
  sns_communism_activated.tooltip: "Activates Socialist Events and Reforms"
  

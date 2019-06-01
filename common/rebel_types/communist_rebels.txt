@@ -1,0 +1,93 @@
+socialist_rebels = { 
+
+	area = nation
+	government = any			
+	defection = none
+	independence = none
+	unit_transfer = yes
+	gfx_type = culture_province	
+	
+	resilient = no
+	reinforcing = yes
+	general = yes
+	smart = yes
+	
+	infantry = 0.8
+	cavalry = 0.2
+	
+	morale = 1.1
+	
+	handle_action_negotiate = no
+	handle_action_stability = yes
+	handle_action_build_core = yes
+	handle_action_send_missionary = yes		
+	
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = {
+				NOT = {
+					has_reform = socialist_regime_reform
+				}
+			}
+		}		
+		modifier = {
+			factor = 0
+			NOT = { has_global_flag = sns_allow_communism }
+		}
+	}
+
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.001
+			controlled_by = REB
+		}
+		modifier = {
+			factor = 10
+			is_capital = yes
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 2
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 4
+		}
+		modifier = {
+			factor = 1.5
+			unrest = 6
+		}
+	}
+ 
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+	}
+	
+	can_negotiate_trigger = {
+		always = no
+	}
+	
+	can_enforce_trigger = {
+		always = yes
+	}
+	
+	demands_description = "socialist_rebels_demand"
+
+	demands_enforced_effect = {
+		add_prestige = -50
+		change_government = republic
+		add_government_reform = socialist_regime_reform
+		set_legacy_government = socialist_regime
+		define_ruler = {
+			rebel = yes
+		}
+	}
+}
