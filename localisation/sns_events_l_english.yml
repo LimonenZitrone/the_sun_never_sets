@@ -73,7 +73,7 @@
  sns_westernization_events12.EVTOPT1: "The people aren't important, the research is."
  sns_westernization_events12.EVTOPT2: "That's true, we should prioritize the people for now."
  
- #Institution Events:
+ # Institution Events:
  sns_institutions.1.t: "Birth of Nationalism"
  sns_institutions.1.d: "PLACEHOLDER"
  sns_institutions.1.a: "Great!"
@@ -117,11 +117,11 @@
  sns_minor.3.d: "PLACEHOLDER"
  sns_minor.3.a: "Great!"
  
- sns_minor.4.t: "Das Kapital"
+ sns_minor.4.t: "Das Kapital\n\n\n\n\n[GetDateText]"
  sns_minor.4.d: "In [GetDateText] Karl Marx, a philosopher of the newly formed Socialist ideology has written a new book called Das Kapital. The book itself explains the evil deeds of capitalism, as well as the exploitation and harm it has caused across the globe."
  sns_minor.4.a: "I have a bad feeling about this..."
  
- sns_minor.5.t: "The First International"
+ sns_minor.5.t: "The First International\n\n\n\n\n[GetDateText]"
  sns_minor.5.d: "Ever since Karl Marx has written Das Kapital, his followers have not been sitting idly. This newly formed ideology has been gaining rapid support, mainly on the working class, seeking to to spread its values across the world. Our nation is their first target."
  sns_minor.5.a: "Better Dead Than Red!"
  

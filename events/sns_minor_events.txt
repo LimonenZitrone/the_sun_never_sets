@@ -154,7 +154,7 @@ country_event = {
 	id = sns_minor.4
 	title = sns_minor.4.t
 	desc = sns_minor.4.d
-	picture = DIPLOMACY_eventPicture
+	picture = COMMUNISM_special_eventPicture
 	
 	major = yes
 	fire_only_once = yes
@@ -180,7 +180,7 @@ country_event = {
 	id = sns_minor.5
 	title = sns_minor.5.t
 	desc = sns_minor.5.d
-	picture = REVOLUTION_eventPicture
+	picture = COMMUNISM_special_eventPicture
 	
 	major = yes
 	fire_only_once = yes
