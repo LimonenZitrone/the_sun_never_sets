@@ -464,7 +464,7 @@ age_of_empires = {
 			}
 		}
 		obj_age_of_empires_7 = {
-			is_socialist = yes
+			has_reform = socialist_regime_reform
 		}
 	}	
 	
