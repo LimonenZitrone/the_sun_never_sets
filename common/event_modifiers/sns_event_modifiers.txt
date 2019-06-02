@@ -41,6 +41,7 @@ SNS_internal_problems = {
 	regiment_recruit_speed = 0.1
 }
 
+# Institutions
 birthplace_of_nationalism = {
 	local_culture_conversion_cost = 0.3
 	local_years_of_nationalism = 10
