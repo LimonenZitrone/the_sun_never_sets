@@ -1,0 +1,129 @@
+factory = {
+    cost = 160             # Cost of the building in ducats
+    time = 10             # Time (in months) that it takes to construct the building
+	allow_in_gold_provinces = no
+    
+    indestructible = yes            # Optional, exempts this building from being destroyed via bankruptcy
+    
+    
+    # The modifier the building applies to the province.
+    # Country-scope modifiers used here will apply to the owning country of the building instead.
+    modifier = {
+        local_production_efficiency = 0.6
+		trade_goods_size = 0.1
+    }
+    
+    # The importance the AI places on constructing this building.
+    ai_will_do = {
+        factor = 1
+    }
+    
+    # Optional. On action that fires when built. 
+    # THIS = Province, FROM = Builder (not necessarily owner, can be overlord)
+    on_built = {
+		THIS = {
+			add_base_production = 1
+		}
+    }
+    
+    # Optional. On action that fires when destroyed. (not obsoleted)
+    # THIS = Province, FROM = Destroyer
+    on_destroyed = {
+		THIS = {
+			add_base_production = -1
+		}
+    }
+}
+
+bank = {
+    cost = 100       
+    time = 10         
+
+    modifier = {
+        local_tax_modifier = 0.5
+		local_build_cost = -0.1
+    }
+    
+    # The importance the AI places on constructing this building.
+    ai_will_do = {
+        factor = 1.5
+    }
+}
+
+railroads = {
+	cost = 120           
+    time = 10             
+    
+    modifier = {
+		local_friendly_movement_speed = 0.1
+		local_hostile_movement_speed = 0.1
+		local_state_maintenance_modifier = -0.05
+    }
+    
+    ai_will_do = {
+        factor = 0.5
+    }
+}
+
+better_factory = {
+	cost = 300             # Cost of the building in ducats
+    time = 10             # Time (in months) that it takes to construct the building
+	make_obsolete = factory
+	allow_in_gold_provinces = no
+    
+    indestructible = yes            # Optional, exempts this building from being destroyed via bankruptcy
+    
+    
+    # The modifier the building applies to the province.
+    # Country-scope modifiers used here will apply to the owning country of the building instead.
+    modifier = {
+        local_production_efficiency = 1
+		trade_goods_size = 0.3
+    }
+    
+    # The importance the AI places on constructing this building.
+    ai_will_do = {
+        factor = 2
+    }
+    
+    # Optional. On action that fires when built. 
+    # THIS = Province, FROM = Builder (not necessarily owner, can be overlord)
+    on_built = {
+		THIS = {
+			add_base_production = 2
+		}
+    }
+    
+    # Optional. On action that fires when destroyed. (not obsoleted)
+    # THIS = Province, FROM = Destroyer
+    on_destroyed = {
+		THIS = {
+			add_base_production = -2
+		}
+    }
+}
+
+oil_field = {
+	cost = 250            # Cost of the building in ducats
+    time = 10             # Time (in months) that it takes to construct the building
+
+    
+    indestructible = yes            # Optional, exempts this building from being destroyed via bankruptcy
+	
+	manufactory = {
+		oil
+	}
+    
+    
+    # The modifier the building applies to the province.
+    # Country-scope modifiers used here will apply to the owning country of the building instead.
+    modifier = {
+		production_efficiency = 0.1
+		build_time = -0.05
+    }
+    
+    # The importance the AI places on constructing this building.
+    ai_will_do = {
+        factor = 10 #oil over anything
+    }
+}
