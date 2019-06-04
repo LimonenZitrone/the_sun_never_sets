@@ -52,3 +52,27 @@ luck = {
 	legitimacy = 1
 	ae_impact = -0.25
 }
+
+territory_very_easy_difficulty = { # Penalties for territories on very easy difficulty
+
+}
+
+territory_easy_difficulty = { # Penalties for territories on easy difficulty
+
+}
+
+territory_normal_difficulty = { # Penalties for territories on normal difficulty
+
+}
+
+territory_hard_difficulty = { # Penalties for territories on hard difficulty
+
+}
+
+territory_very_hard_difficulty = { # Penalties for territories on very hard difficulty
+
+}
+
+territory_ai_difficulty = { #Penalties for territories owned by AI regardless of difficulty.
+
+}
