@@ -20,7 +20,7 @@ victorian_era = {
 	
 	objectives = {
 		obj_victorian_era_1 = {
-	#		factory = 15
+			factory = 15
 		}
 		obj_victorian_era_2 = {
 			sphere = 5
@@ -40,7 +40,7 @@ victorian_era = {
 			}
 		}
 		obj_victorian_era_5 = {
-	#		has_institution = industrialization
+			has_institution = industrialization_institution
 		}
 		obj_victorian_era_6 = {
 			any_owned_province = {
