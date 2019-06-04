@@ -131,9 +131,9 @@ country_event = {
 }
 
 country_event = {
-	id = sns_minor.3
-	title = sns_minor.3.t
-	desc = sns_minor.3.d
+	id = sns_minor.4
+	title = sns_minor.4.t
+	desc = sns_minor.4.d
 	picture = COLONIZATION_eventPicture
 	
 	major = yes
@@ -159,7 +159,7 @@ country_event = {
 	}
 	
 	option = {
-		name = sns_minor.3.a
+		name = sns_minor.4.a
 		
 		set_global_flag = sns_allow_colonies
 		custom_tooltip = sns_allows_colonies.tooltip
@@ -168,9 +168,9 @@ country_event = {
 }
 
 country_event = {
-	id = sns_minor.4
-	title = sns_minor.4.t
-	desc = sns_minor.4.d
+	id = sns_minor.5
+	title = sns_minor.5.t
+	desc = sns_minor.5.d
 	picture = COMMUNISM_special_eventPicture
 	
 	major = yes
@@ -186,7 +186,7 @@ country_event = {
 	}
 	
 	option = {
-		name = sns_minor.4.a
+		name = sns_minor.5.a
 		
 		set_global_flag = sns_allow_communism
 		custom_tooltip = sns_communism_activated.tooltip
@@ -194,9 +194,9 @@ country_event = {
 }
 
 country_event = {
-	id = sns_minor.5
-	title = sns_minor.5.t
-	desc = sns_minor.5.d
+	id = sns_minor.6
+	title = sns_minor.6.t
+	desc = sns_minor.6.d
 	picture = COMMUNISM_special_eventPicture
 	
 	major = yes
@@ -208,7 +208,7 @@ country_event = {
 	}
 	
 	option = {
-		name = sns_minor.5.a
+		name = sns_minor.6.a
 		
 		random_owned_province = {
 			spawn_rebels = {

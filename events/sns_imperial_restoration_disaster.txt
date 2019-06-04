@@ -4,6 +4,7 @@ country_event = {
 	id = meiji_restoration.1
 	title = meiji_restoration.1.t
 	desc = meiji_restoration.1.d
+	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
 
