@@ -4,6 +4,7 @@ country_event = {
 	id = sns_minor.1
 	title = sns_minor.1.t
 	desc = sns_minor.1.d
+	picture = CITY_VIEW_eventPicture
 	
 	trigger = {
 		current_age = victorian_era
@@ -37,6 +38,7 @@ country_event = {
 	id = sns_minor.2
 	title = sns_minor.2.t
 	desc = sns_minor.2.d
+	picture = ANGRY_MOB_eventPicture
 	
 	trigger = {
 		NOT = { technology_group = western }
@@ -52,6 +54,8 @@ country_event = {
 	option = {
 		name = sns_minor.2.a
 		
+		ai_chance = { factor = 0.5 }
+		
 		add_country_modifier = {
 			name = SNS_internal_problems
 			duration = 7300
@@ -60,6 +64,8 @@ country_event = {
 	
 	option = {
 		name = sns_minor.2.b
+		
+		ai_chance = { factor = 0.5 }
 		
 		random_list = {
 			33 = {
@@ -79,6 +85,7 @@ country_event = {
 	id = sns_minor.3
 	title = sns_minor.3.t
 	desc = sns_minor.3.d
+	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
 		technology_group = western
@@ -94,6 +101,8 @@ country_event = {
 	
 	option = {
 		name = sns_minor.3.a
+		
+		ai_chance = { factor = 0.75 }
 		
 		random_list = {
 			33 = {
@@ -112,6 +121,8 @@ country_event = {
 	option = {
 		name = sns_minor.3.b
 		
+		ai_chance = { factor = 0.25 }
+		
 		add_adm_power = 50
 		add_dip_power = 50
 		add_mil_power = 50
@@ -123,6 +134,7 @@ country_event = {
 	id = sns_minor.3
 	title = sns_minor.3.t
 	desc = sns_minor.3.d
+	picture = COLONIZATION_eventPicture
 	
 	major = yes
 	fire_only_once = yes
@@ -204,28 +216,24 @@ country_event = {
 				size = 1
 			}
 		}
-		
 		random_owned_province = {
 			spawn_rebels = {
 				type = socialist_rebels
 				size = 1
 			}
 		}
-		
 		random_owned_province = {
 			spawn_rebels = {
 				type = socialist_rebels
 				size = 1
 			}
 		}
-		
 		random_owned_province = {
 			spawn_rebels = {
 				type = socialist_rebels
 				size = 1
 			}
 		}
-		
 		random_owned_province = {
 			spawn_rebels = {
 				type = socialist_rebels
