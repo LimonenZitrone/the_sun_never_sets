@@ -42,6 +42,6 @@ country_event = {
 		ai_chance = { factor = 20 }
 		
 		add_liberty_desire = -20
-		add_prestige -5
+		add_prestige = -5
 	}
 }

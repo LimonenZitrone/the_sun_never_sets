@@ -45,3 +45,4 @@ imperial_restoration = {
 	}	
 	
 	on_start = meiji_restoration.1 #The Imperialists Rise Up
+}
