@@ -45,8 +45,8 @@ government_rank = 2
 		name = "Louis Philippe"
 		dynasty = "d'Orleans"
 		birth_date = 1773.11.17
-		adm = 2
-		dip = 3
+		adm = 0
+		dip = 1
 		mil = 0
 	}
 }
