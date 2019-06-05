@@ -125,11 +125,12 @@ external_diplomacy_ideas = {
 	category = DIP
 	
 	bonus = {
-		#allow_sphere_without_great_power = yes
+		diplomatic_annexation_cost = -0.1
 	}
 	
 	external_diplomacy_ideas_1 = { #Increased Influence Gain
-		#influence_gain = 5
+		yearly_sphere_influence = 5
+		#allow_spheres_without_being_greatpower = yes
 	}
 	
 	external_diplomacy_ideas_2 = { #Increased Diplomatic Management
