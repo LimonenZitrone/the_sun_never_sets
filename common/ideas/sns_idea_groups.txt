@@ -120,3 +120,39 @@ imperialism_ideas = {
 		recover_army_morale_speed = 0.2
 	}
 }
+
+external_diplomacy_ideas = {
+	category = DIP
+	
+	bonus = {
+		#allow_sphere_without_great_power = yes
+	}
+	
+	external_diplomacy_ideas_1 = { #Increased Influence Gain
+		#influence_gain = 5
+	}
+	
+	external_diplomacy_ideas_2 = { #Increased Diplomatic Management
+		diplomatic_upkeep = 3
+	}
+		
+	external_diplomacy_ideas_3 = { #Discredit
+		#allow_discrediting = yes
+	}
+	
+	external_diplomacy_ideas_4 = { #Benevolent Reputation
+		diplomatic_reputation = 2
+	}
+	
+	external_diplomacy_ideas_5 = { #More Diplomats
+		diplomats = 1
+	}
+	
+	external_diplomacy_ideas_6 = { #Appeasing Strategy
+		ae_impact = -0.1
+	}
+	
+	external_diplomacy_ideas_7 = { #?
+		improve_relation_modifier = 0.1
+	}
+}
