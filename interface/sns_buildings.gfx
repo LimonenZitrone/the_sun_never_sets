@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_factory"
+		texturefile = "gfx//interface//buildings//placeholder.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_bank"
+		texturefile = "gfx//interface//buildings//placeholder.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_railroads"
+		texturefile = "gfx//interface//buildings//placeholder.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_better_factory"
+		texturefile = "gfx//interface//buildings//placeholder.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_oil_field"
+		texturefile = "gfx//interface//buildings//placeholder.dds"
+		loadType = "INGAME"
+	}
+}
