@@ -18,7 +18,7 @@ country_event = {
 	option = {
 		name = sns_minor.1.a
 		
-		random_province = {
+		random_owned_province = {
 			random_list = {
 				33 = {
 					add_base_manpower = 2
