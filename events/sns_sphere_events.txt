@@ -27,13 +27,15 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			change_variable = { influence_sphere = 5 }
-			if = {
-				limit = {
-					has_age_ability = ab_gp_age_of_empires
-				}
-				change_variable = { influence_sphere = 2 }
+			export_to_variable = {
+				which = yearly_sphere_influence
+				value = modifier:yearly_sphere_influence
 			}
+			# Round to two decimals
+			divide_variable = { yearly_sphere_influence = 100 }
+			multiply_variable = { yearly_sphere_influence = 100 }
+			# Add to progress
+			change_variable = { which = influence_sphere which = yearly_sphere_influence }
 			if = {
 				limit = {
 					check_variable = { influence_sphere = 100 }

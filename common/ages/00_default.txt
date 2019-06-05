@@ -586,6 +586,7 @@ age_of_empires = {
 			}
 			modifier = {
 				diplomatic_upkeep = 3
+				yearly_sphere_influence = 2
 			}
 			effect = {
 				custom_tooltip = age_ability_sphere_influence_plus_two

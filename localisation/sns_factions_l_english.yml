@@ -48,3 +48,12 @@
  kommunistische_partei_deutschlands_FACTION_DESC: "The §YCommunist Party§! supports a totalitarian respectively autocratic government, which has favors for the state and seemingly for the workers."
  kommunistische_partei_deutschlands_influence: "Support for the Communist Party"
  
+ # Special Factions:
+ westernization: "Westernization"
+ westernization_FACTION_DESC: ""
+ westernization_influence: "Monthly Westernization"
+ 
+ yearly_sphere: "Sphere Influence"
+ yearly_sphere_FACTION_DESC: ""
+ yearly_sphere_influence: "Yearly Sphere Influence"
+ 

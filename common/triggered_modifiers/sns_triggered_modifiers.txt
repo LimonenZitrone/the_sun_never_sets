@@ -28,3 +28,14 @@ sns_no_colonization_modifier = {
 	
 	global_colonial_growth = -300
 }
+
+sns_influencing_potential_sphere_modifier = {
+	potential = {
+		always = yes
+	}
+	trigger = {
+		always = yes
+	}
+	
+	yearly_sphere_influence = 5
+}
