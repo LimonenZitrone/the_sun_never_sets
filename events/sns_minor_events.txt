@@ -205,6 +205,11 @@ country_event = {
 	trigger = {
 		technology_group = western
 		has_global_flag = sns_allow_communism
+		total_development = 200
+	}
+	
+	mean_time_to_happen = {
+		months = 70
 	}
 	
 	option = {
