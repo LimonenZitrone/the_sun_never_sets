@@ -1,0 +1,125 @@
+namespace = sns_flavour_FRA
+
+country_event = {
+	id = sns_flavour_FRA.1
+	title = sns_flavour_FRA.1.t
+	desc = sns_flavour_FRA.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1837
+		tag = FRA
+		NOT = {
+			government = republic
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = napoleon_revolt_1
+			set_saved_name = {
+				key = napoleon_iii
+				type = simple
+				name = "Napoleon III Bonaparte"
+			}
+		}
+	}
+	
+	option = {
+		name = sns_flavour_FRA.1.a
+		
+		capital_scope = {
+			spawn_rebels = {
+				size = 2
+				leader = napoleon_iii
+				type = pretender_rebels
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sns_flavour_FRA.2
+	title = sns_flavour_FRA.2.t
+	desc = sns_flavour_FRA.2.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = napoleon_revolt_1
+		is_year = 1840
+		tag = FRA
+		NOT = {
+			government = republic
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = napoleon_revolt_2
+		}
+	}
+	
+	option = {
+		name = sns_flavour_FRA.2.a
+		
+		capital_scope = {
+			spawn_rebels = {
+				size = 3
+				leader = napoleon_iii
+				type = pretender_rebels
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sns_flavour_FRA.2
+	title = sns_flavour_FRA.2.t
+	desc = sns_flavour_FRA.2.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = napoleon_revolt_2
+		is_year = 1848
+		tag = FRA
+		NOT = {
+			government = republic
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = napoleon_revolt_3
+		}
+	}
+	
+	option = {
+		name = sns_flavour_FRA.2.a
+		
+		capital_scope = {
+			spawn_rebels = {
+				size = 5
+				leader = napoleon_iii
+				type = pretender_rebels
+			}
+		}
+	}
+}

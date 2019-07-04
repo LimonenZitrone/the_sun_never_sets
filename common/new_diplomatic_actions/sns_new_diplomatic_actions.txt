@@ -1,5 +1,5 @@
 add_to_soi = {
-	category = great_powers
+	category = influence
 
 	require_acceptance = no
 
@@ -13,6 +13,7 @@ add_to_soi = {
 				NOT = { has_dlc = "Rights of Man" }
 				is_great_power_no_rom_trigger = yes
 			}
+			external_diplomacy_ideas = 1
 		}
 		FROM = {
 			is_subject = no
@@ -63,7 +64,7 @@ add_to_soi = {
 }
 
 support_sphere_independence = {
-	category = great_powers
+	category = influence
 
 	require_acceptance = no
 
@@ -77,6 +78,7 @@ support_sphere_independence = {
 				NOT = { has_dlc = "Rights of Man" }
 				is_great_power_no_rom_trigger = yes
 			}
+			external_diplomacy_ideas = 1
 		}
 		FROM = {
 			NOT = { is_subject_of = ROOT }
@@ -134,7 +136,7 @@ support_sphere_independence = {
 }
 
 influence_nation = {
-	category = great_powers
+	category = influence
 
 	require_acceptance = no
 
@@ -148,6 +150,7 @@ influence_nation = {
 				NOT = { has_dlc = "Rights of Man" }
 				is_great_power_no_rom_trigger = yes
 			}
+			external_diplomacy_ideas = 1
 		}
 		NOT = { has_country_flag = is_influencing_@FROM }
 		FROM = {
@@ -249,7 +252,7 @@ influence_nation = {
 }
 
 stop_influence_nation = {
-	category = great_powers
+	category = influence
 	
 	require_acceptance = no
 
