@@ -40,5 +40,5 @@ discovered_by = mesoamerican
 
 1536.1.1 = { owner = SPA controller = SPA add_core = SPA } 
 1561.1.1 = { religion = catholic culture = castillian }
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } 
+1810.9.16 = { owner = MEX add_core = MEX controller = MEX } 
 

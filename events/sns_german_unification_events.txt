@@ -8,6 +8,10 @@ country_event = {
 	
 	fire_only_once = yes
 	
+	mean_time_to_happen = {
+		months = 30
+	}
+	
 	trigger = {
 		culture_group = germanic
 		capital_scope = {
@@ -60,10 +64,22 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = sns_united_northern_germany
+		}
+	}
+	
 	option = {
 		name = sns_german_unification_events.2.a
 		
-		ai_chance = { factor = 40 }
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_subject_of = FROM
+			}
+		}
 		
 		FROM = {
 			create_subject = {
@@ -76,7 +92,13 @@ country_event = {
 	option = {
 		name = sns_german_unification_events.2.b
 		
-		ai_chance = { factor = 50 }
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 90
+				is_subject_of = FROM
+			}
+		}
 		
 		FROM = {
 			inherit = ROOT
@@ -106,6 +128,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		sns_united_northern_germany
 		NOT = { exists = NGC }
 		culture_group = germanic
 		capital_scope = {

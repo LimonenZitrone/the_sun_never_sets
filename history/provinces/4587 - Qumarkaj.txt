@@ -47,4 +47,4 @@ discovered_by = mesoamerican
 1549.1.1 = { add_core = SPA }
 1578.1.1 = { discovered_by = ENG } 
 1776.1.1 = { capital = "Guatemala city" } 
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } 
+1810.9.16 = { owner = MEX add_core = MEX controller = MEX } 

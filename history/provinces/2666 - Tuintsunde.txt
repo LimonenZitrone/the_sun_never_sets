@@ -48,8 +48,8 @@ discovered_by = north_american
 	owner = LIP
 	controller = LIP
 	add_core = LIP
-	religion = totemism
-	culture = lipan
+	religion = catholic
+	culture = american
 	remove_core = SPA
 } 
 1810.9.16 = {

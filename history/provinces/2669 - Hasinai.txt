@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = caddo
-religion = totemism
+culture = american
+religion = protestant
 capital = "Hasinai"
 trade_goods = cotton
 owner = TEX

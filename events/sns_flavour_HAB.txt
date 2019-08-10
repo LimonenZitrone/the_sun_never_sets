@@ -1,0 +1,85 @@
+namespace = sns_flavour_HAB
+
+country_event = {
+	id = sns_flavour_HAB.1
+	title = sns_flavour_HAB.1.t
+	desc = sns_flavour_HAB.1.d
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HAB
+		NOT = { exists = HUN }
+		is_year = 1848
+		any_owned_province = {
+			culture = hungarian
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	}
+	
+	option = {
+		name = sns_flavour_HAB.1.a
+		
+		ai_chance = {
+			factor = 0.1
+		}
+		
+		change_tag = AHE
+		add_prestige = -20
+		every_owned_province = {
+			limit = {
+				culture = hungarian
+			}
+			add_local_autonomy = 30
+		}
+	}
+	
+	option = {
+		name = sns_flavour_HAB.1.b
+		
+		ai_chance = {
+			factor = 0.9
+		}
+		
+		random_owned_province = {
+			limit = {
+				culture = hungarian
+			}
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+			}
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+			}
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = sns_flavour_HAB.2
+	title = sns_flavour_HAB.2.t
+	desc = sns_flavour_HAB.2.d
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sns_flavour_HAB.2.a
+		
+		ai_chance = {
+			factor = 1
+		}
+		
+		change_tag = AHE
+	}
+}

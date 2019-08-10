@@ -58,7 +58,7 @@ discovered_by = north_american
 	controller = SPA
 	remove_core = GBR
 	add_core = SPA
-	culture = castillian
+	culture = american
 	religion = catholic
 } 
 1819.2.22 = {

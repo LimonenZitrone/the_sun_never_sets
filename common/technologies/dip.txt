@@ -9,21 +9,29 @@ ahead_of_time = {
 # Pre-era techs
 technology = { #Early Ships
 	# Tech 0
-	year = 1350
+	year = 1820
 	
 	naval_morale			=	2.0
 	range					=	60
 	may_fabricate_claims = yes
-
+	enable = eastindiaman
+	enable = great_frigate
+	enable = threedecker
+	enable = archipelago_frigate
+	merchants = yes
+	
 }
 
 technology = { #Merchants & Trade
 	# Tech 1
 	year = 1390
 	
-	merchants = yes
 	trade_range				=	100
 	global_colonial_growth	= 	10
+	enable = eastindiaman
+	enable = great_frigate
+	enable = threedecker
+	enable = archipelago_frigate
 }
 
 technology = { #The Barque

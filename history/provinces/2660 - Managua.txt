@@ -42,4 +42,4 @@ discovered_by = mesoamerican
 	is_city = yes
 	trade_goods = coffee
 } 
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } 
+1810.9.16 = { owner = MEX add_core = MEX controller = MEX } 

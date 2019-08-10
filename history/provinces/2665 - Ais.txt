@@ -40,7 +40,7 @@ discovered_by = north_american
 	is_city = yes
 	religion = catholic
 	trade_goods = cotton
-	culture = castillian 
+	culture = american
 } 
  
 1810.9.16 = { owner = MEX add_core = MEX controller = SPA } 

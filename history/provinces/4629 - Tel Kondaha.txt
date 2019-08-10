@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = lipan
-religion = totemism
+culture = american
+religion = catholic
 capital = "Tel Kondaha" 
 trade_goods = grain
 owner = TEX

@@ -1,0 +1,55 @@
+country_decisions = {
+
+	three_hurrahs_for_germany = {
+		major = yes
+		potential = {
+			culture_group = germanic
+			NOT = { tag = HAB }
+			NOT = {	has_country_flag = sns_formed_germany }
+		}
+		allow = {
+			north_german_region = {
+				type = all
+				OR = {
+					country_or_vassal_holds = ROOT
+					NOT = { culture_group = germanic }
+					culture = swiss
+					culture = austrian
+					culture = dutch
+					culture = flemish
+					culture = czech
+				}
+			}
+			south_german_region = {
+				type = all
+				OR = {
+					country_or_vassal_holds = ROOT
+					NOT = { culture_group = germanic }
+					culture = swiss
+					culture = austrian
+					culture = dutch
+					culture = flemish
+					culture = czech
+				}
+			}
+		}
+		effect = {
+			
+			every_country = {
+				limit = {
+					is_subject_of_type = sphere
+					capital_scope = {
+						OR = {
+							region = north_german_region
+							region = south_german_region
+						}
+					}
+				}
+				ROOT = {
+					change_tag = GER
+					inherit = PREV
+				}
+			}
+		}
+	}
+}

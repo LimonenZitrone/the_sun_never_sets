@@ -48,4 +48,4 @@ discovered_by = mesoamerican
 } 
 1525.1.1 = { capital = "La Navidad" } 
 1536.1.1 = { capital = "Puerto de Caballos" } 
-1810.9.16 = { owner = MEX add_core = MEX controller = SPA } 
+1810.9.16 = { owner = MEX add_core = MEX controller = MEX } 

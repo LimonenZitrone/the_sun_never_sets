@@ -1,0 +1,9 @@
+namespace = sns_flavour_PRU
+
+country_event = {
+	id = sns_flavour_PRU.1
+	title = sns_flavour_PRU.1.t
+	desc = sns_flavour_PRU.1.d
+	picture = GER_GER_special_eventPicture
+	
+	

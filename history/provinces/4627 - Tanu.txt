@@ -37,7 +37,7 @@ discovered_by = north_american
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	culture = castillian
+	culture = american
 	religion = catholic
 	trade_goods = sugar
 } 
