@@ -1,0 +1,36 @@
+country_decisions = {
+
+	SNS_chinese_isolationism = {
+		potential = {
+			tag = QNG
+			NOT = {	has_country_flag = sns_enacted_chinese_isolation }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = SNS_wing_isolation
+				duration = -1
+			}
+			set_country_flag = sns_enacted_chinese_isolation
+		}
+	}
+	
+	SNS_corrupt_chinese_army = {
+		potential = {
+			tag = QNG
+			NOT = {	has_country_flag = sns_corrupt_army }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = SNS_qing_corrupt_army
+				duration = -1
+			}
+			set_country_flag = sns_corrupt_army
+		}
+	}
+}

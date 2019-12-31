@@ -10,12 +10,23 @@ country_event = {
 	
 	trigger = {
 		tag = GBR
-		has_heir = "Victoria"
+		has_ruler = "Victoria"
+	}
+	
+	mean_time_to_happen = {
+		days = 1
 	}
 	
 	option = {
 		name = sns_flavour_GBR.1.a
 		
 		add_prestige = 10
+		break_union = HAN
+		PRU = {
+			create_subject = {
+				subject_type = sphere
+				subject = HAN
+			}
+		}
 	}
 }

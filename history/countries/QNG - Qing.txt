@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+primary_culture = manchu_new
+religion = confucianism
+capital = 1816 # Beijing
+government_rank = 3
+
+1820.9.3 = {
+	monarch = {
+		name = "Min Ning" #Daoguang Emperor
+		dynasty = "Aisin Gioro"
+		birth_date = 1782.9.16
+		death_date = 1850.2.25
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+	decision = SNS_chinese_isolationism
+	decision = SNS_corrupt_chinese_army
+}

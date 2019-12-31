@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = illini
+culture = american
 religion = totemism
 capital = "Michigamea"
 trade_goods = unknown
@@ -65,7 +65,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	remove_core = SPA
-	culture = cosmopolitan_french
+	culture = american
 } 
 1803.4.3 = {
 	owner = USA

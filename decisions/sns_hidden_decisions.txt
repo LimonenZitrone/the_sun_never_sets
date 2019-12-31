@@ -1,0 +1,18 @@
+country_decisions = {
+
+	SNS_east_indian_tolerance = {
+		potential = {
+			tag = QNG
+			NOT = {	has_country_flag = sns_enacted_indian_tolerance }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = SNS_indian_tolerance
+				duration = -1
+			}
+			set_country_flag = sns_enacted_indian_tolerance
+		}
+	}

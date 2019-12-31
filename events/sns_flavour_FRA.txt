@@ -85,9 +85,9 @@ country_event = {
 }
 
 country_event = {
-	id = sns_flavour_FRA.2
-	title = sns_flavour_FRA.2.t
-	desc = sns_flavour_FRA.2.d
+	id = sns_flavour_FRA.3
+	title = sns_flavour_FRA.3.t
+	desc = sns_flavour_FRA.3.d
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	fire_only_once = yes
@@ -112,7 +112,7 @@ country_event = {
 	}
 	
 	option = {
-		name = sns_flavour_FRA.2.a
+		name = sns_flavour_FRA.3.a
 		
 		capital_scope = {
 			spawn_rebels = {

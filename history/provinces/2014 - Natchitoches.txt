@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = caddo
+culture = american
 religion = totemism
 capital = "Natchitoches"
 trade_goods = unknown
@@ -62,7 +62,7 @@ discovered_by = north_american
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-	culture = cosmopolitan_french
+	culture = american
 	remove_core = SPA
 } 
 1803.4.3 = {

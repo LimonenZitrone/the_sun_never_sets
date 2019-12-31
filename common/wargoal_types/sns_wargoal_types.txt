@@ -11,3 +11,17 @@ take_capital_disloyal_sphere = {
 	
 	war_name = SPHERE_WAR_NAME
 }
+
+admit_hegemony = {
+	type = take_capital
+
+	badboy_factor = 1
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+
+	peace_options = {
+		po_admit_hegemony
+	}
+
+	war_name = HEGEMONY_WAR_NAME
+}

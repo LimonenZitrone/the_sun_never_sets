@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = creek
+culture = american
 religion = totemism
 capital = "Seminole"
 trade_goods = grain

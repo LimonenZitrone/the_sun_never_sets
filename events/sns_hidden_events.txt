@@ -1,0 +1,46 @@
+namespace = sns_hidden_events
+
+country_event = {
+	id = sns_hidden_events.1
+	name = sns_hidden_events.1.t
+	desc = sns_hidden_events.1.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			inherit = ROOT
+		}
+	}
+	
+	option = {
+		name = sns_hidden_events.1.a
+	
+	}
+}
+
+country_event = {
+	id = sns_hidden_events.2
+	name = sns_hidden_events.2.t
+	desc = sns_hidden_events.2.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			create_subject = {
+				subject_type = sphere
+				subject = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name = sns_hidden_events.2.a
+	
+	}
+}

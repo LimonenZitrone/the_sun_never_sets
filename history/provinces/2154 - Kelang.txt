@@ -15,6 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
+owner = QNG
+controller = QNG
+add_core = QNG
 culture = polynesian
 religion = animism
 capital = "Kelang"

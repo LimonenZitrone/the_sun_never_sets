@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = creek
+culture = american
 religion = totemism
 capital = "Chatot"
 trade_goods = unknown
@@ -56,7 +56,7 @@ discovered_by = north_american
 	owner = GBR
 	controller = GBR
 	add_core = GBR
-	culture = english
+	culture = american
 	religion = protestant
 } 
 1783.9.3 = { owner = SPA controller = SPA add_core = SPA remove_core = GBR } 

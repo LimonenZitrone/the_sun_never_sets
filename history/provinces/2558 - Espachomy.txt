@@ -73,7 +73,7 @@ discovered_by = north_american
 	controller = ENG
 	add_core = ENG
 	remove_core = NED
-	culture = english
+	culture = american
 	religion = protestant
 	capital = "Kingston"
 } 

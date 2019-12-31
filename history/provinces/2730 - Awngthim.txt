@@ -15,8 +15,11 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = aboriginal
-religion = animism
+culture = english
+religion = protestant
+owner = GBR
+controller = GBR
+add_core = GBR
 capital = "Awngthim"
 trade_goods = unknown
 hre = no

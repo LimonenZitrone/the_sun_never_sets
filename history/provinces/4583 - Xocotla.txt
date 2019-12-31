@@ -17,7 +17,7 @@ discovered_by = high_american
 
 owner = TLX
 controller = TLX
-culture = aztek
+culture = castillian
 religion = nahuatl
 capital = "Xocotla"
 trade_goods = sugar

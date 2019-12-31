@@ -15,4 +15,5 @@ capital = 561
 		dip = 1
 		mil = 1
 	}
+	decision = SNS_east_indian_tolerance
 }

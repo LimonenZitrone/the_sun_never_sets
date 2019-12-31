@@ -10,10 +10,10 @@ technology = {
 	year = 1820
 	
 	#Rifle
-	cavalry_shock =	4
-	cavalry_fire =  1
-	infantry_fire =	2.5
-	infantry_shock = 1
+	cavalry_shock =	3
+	cavalry_fire =  0.75
+	infantry_fire =	1.5
+	infantry_shock = 0.5
 	supply_limit = 1
 	land_morale  = 4
 	enable = african_infantry
@@ -55,7 +55,7 @@ technology = {
 	year = 1835
 	
 	#Field Howitzer
-	artillery_fire = 3
+	artillery_fire = 2
 	artillery_shock = 0.5
 	military_tactics = 0.2
 }
@@ -66,8 +66,8 @@ technology = {
 	
 	#army professionalism
 	
-	land_morale	 = 0.5
-	infantry_fire  = 1
+	land_morale	 = 0.35
+	infantry_fire  = 0.5
 }
 
 technology = {
@@ -198,7 +198,7 @@ technology = {
 	year = 1905
 	
 	#Military Directionism
-	land_morale = 1.5
+	land_morale = 2
 	combat_width = 4
 }
 

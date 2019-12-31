@@ -41,7 +41,7 @@ discovered_by = north_american
 	is_city = yes
 	capital = "New Haven"
 	trade_goods = fish
-	culture = english
+	culture = american
 	religion = reformed
 } 
 1707.5.12 = {

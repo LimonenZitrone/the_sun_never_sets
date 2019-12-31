@@ -34,7 +34,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			
+			change_tag = GER
 			every_country = {
 				limit = {
 					is_subject_of_type = sphere
@@ -45,10 +45,7 @@ country_decisions = {
 						}
 					}
 				}
-				ROOT = {
-					change_tag = GER
-					inherit = PREV
-				}
+				country_event = { ID = sns_hidden_events.1 }
 			}
 		}
 	}

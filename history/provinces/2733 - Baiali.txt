@@ -19,8 +19,11 @@ latent_trade_goods = {
 	coal
 }
 
-culture = aboriginal
-religion = animism
+culture = english
+religion = protestant
+owner = GBR
+controller = GBR
+add_core = GBR
 capital = "Baiali"
 trade_goods = unknown
 hre = no

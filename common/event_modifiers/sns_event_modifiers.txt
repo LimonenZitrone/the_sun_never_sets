@@ -54,3 +54,19 @@ birthplace_of_imperialism = {
 birthplace_of_electricity = {
 	local_development_cost = -0.2
 }
+
+SNS_wing_isolation = {
+	global_unrest = -5
+	diplomatic_reputation = -4
+	imperial_mandate = 0.1
+}
+
+SNS_qing_corrupt_army = {
+	land_forcelimit_modifier = -0.25
+	land_morale = -0.1
+}
+
+SNS_indian_tolerance = {
+	tolerance_heathen = 4
+	global_unrest = -2
+}

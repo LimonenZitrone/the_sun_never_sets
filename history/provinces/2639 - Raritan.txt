@@ -60,7 +60,7 @@ discovered_by = north_american
 	controller = ENG
 	remove_core = NED
 	add_core = ENG
-	culture = english
+	culture = american
 	religion = protestant
 } 
 1707.5.12 = {

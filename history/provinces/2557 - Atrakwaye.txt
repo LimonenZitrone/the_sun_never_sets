@@ -51,7 +51,7 @@ discovered_by = north_american
 	owner = GBR
 	controller = GBR
 	add_core = GBR
-	culture = english
+	culture = american
 	religion = protestant 
 } 
 1776.7.4 = {

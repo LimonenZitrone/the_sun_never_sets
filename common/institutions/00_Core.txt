@@ -138,18 +138,22 @@ nationalism_institution = {
 		modifier = {
 			factor = 0.1
 			scale = yes
-			potential = {
-				NOT = {
-					any_friendly_coast_border_province = {
-						nationalism_institution = 100
-					}
-				}
+			any_friendly_coast_border_province = {
+				nationalism_institution = 100
 			}
 		}
 		modifier = {
 			factor = 0.1
 			scale = yes
-			potential = {
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+				industrialization_institution = 100
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			owner = {
 				technology_group = western
 			}
 		}

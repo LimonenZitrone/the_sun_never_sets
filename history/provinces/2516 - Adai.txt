@@ -48,4 +48,5 @@ discovered_by = north_american
 	controller = USA
 	remove_core = MEX
 	remove_core = SPA 
+	add_core = USA
 } 

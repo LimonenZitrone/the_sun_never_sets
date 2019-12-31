@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = choctaw
+culture = american
 religion = totemism
 capital = "Biloxi"
 trade_goods = unknown
@@ -46,7 +46,7 @@ discovered_by = north_american
 	owner = GBR
 	controller = GBR
 	remove_core = FRA
-	culture = english
+	culture = american
 	religion = protestant
 } 
 1783.9.3 = { owner = SPA controller = SPA } 

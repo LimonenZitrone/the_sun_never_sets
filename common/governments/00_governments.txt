@@ -29,26 +29,18 @@ monarchy = {
 				revolutionary_empire_reform
 			}
 		}
-		hereditary_vs_nobility = {
+		feudalism_vs_industrialization = {
 			reforms = {
-				enforce_privileges_reform
-				quash_noble_power_reform
-				enforce_trader_privileges_reform
-				bengali_reform
-				sufi_syncretism_reform
-				poligar_reform
-				khalsa_reform
-				deccani_society_reform
-				mughal_government
+				capitalist_system
+				feudal_system
+				communist_system
 			}
 		}
-		bureaucracy = {
+		question_of_economy = {
 			reforms = {
-				centralize_reform
-				decentralize_reform
-				sidhi_recruitment
-				mansabdari_reform
-				council_of_the_indies_reform
+				autarcky
+				liberal_economy
+				tax_system
 			}
 		}
 		growth_of_administration = {
