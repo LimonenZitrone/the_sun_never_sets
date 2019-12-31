@@ -59,4 +59,4 @@ native_hostileness = 5
 	controller = COL
 	add_core = COL
 } 
-1819.8.7 = { remove_core = SPA } 
+1819.8.7 = { remove_core = SPA add_core = PNM } 

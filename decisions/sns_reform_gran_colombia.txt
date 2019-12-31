@@ -1,0 +1,32 @@
+country_decisions = {
+	
+	reform_gran_colombia = {
+		major = yes
+		potential = {
+			primary_culture = colombian
+			NOT = { has_country_flag = sns_formed_grancolombia }
+		}
+		allow = {
+			825 = {
+				country_or_vassal_holds =  ROOT
+			}
+			831 = {
+				country_or_vassal_holds = ROOT
+			}
+			830 = {
+				country_or_vassal_holds = ROOT
+			}
+			820 = {
+				country_or_vassal_holds = ROOT
+			}
+			835 = { 
+				country_or_vassal_holds = ROOT 
+			}
+		}
+		effect = {
+			change_tag = GRC
+			add_prestige = 50
+			set_country_flag = sns_formed_grancolombia
+		}
+	}
+}

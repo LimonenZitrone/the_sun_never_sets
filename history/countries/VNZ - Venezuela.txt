@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = presidential_despot_reform
+technology_group = western
+religion = catholic
+primary_culture = colombian
+capital = 831	# Caracas
+
+
+1836.1.1 = {
+	monarch = {
+		name = "Carlos Soublette"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+

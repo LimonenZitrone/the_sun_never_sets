@@ -51,5 +51,6 @@ discovered_by = south_american
 	owner = COL
 	controller = COL
 	add_core = COL
+	add_core = PNM
 } 
 1819.8.7 = { remove_core = SPA } 

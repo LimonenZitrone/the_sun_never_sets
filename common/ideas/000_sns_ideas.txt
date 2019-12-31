@@ -121,3 +121,196 @@ austrian_ideas = {
 		yearly_corruption = -0.05
 	}
 }
+
+brazilian_ideas = {
+	start = {
+		hostile_attrition = 1
+		tolerance_own = 3
+	}
+	
+	bonus = {
+		heavy_ship_power = 0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = BRZ
+			tag = RGR
+		}
+	}
+	free = yes 
+	
+	brz_ideas_1 = { #Plantation Economy
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	brz_ideas_2 = { #Crown of Brazil
+		legitimacy = 1
+		republican_tradition = 0.5
+	}
+	
+	brz_ideas_3 = { #Dreadnought Race
+		heavy_ship_cost = -0.2
+		ship_durability = 0.1
+	}
+	
+	brz_ideas_4 = { #Rapid Modernization
+		development_cost = -0.2
+	}
+	
+	brz_ideas_5 = { #Brazilian Romanticism
+		prestige = 1
+		advisor_cost = -0.1
+	}
+	
+	brz_ideas_6 = { #Second American Power
+		global_ship_trade_power = 0.2
+	}
+	
+	brz_ideas_7 = { #Develop the Amazon
+		production_efficiency = 0.2
+	}
+}
+
+chilean_ideas = {
+	start = {
+		land_attrition = -0.1
+		years_of_nationalism = -5
+	}
+	
+	bonus = {
+		global_foreign_trade_power = 0.1
+	}
+	
+	trigger = {
+		tag = CHL
+	}
+	free = yes 
+	
+	chl_ideas_1 = { #Growing Silver Industry
+		production_efficiency = 0.05
+		inflation_reduction = 0.1
+	}
+	
+	chl_ideas_2 = { #Chilean Expansionism
+		ae_impact = -0.1
+	}
+	
+	chl_ideas_3 = { #Prussian Arms
+		infantry_power = 0.15
+	}
+	
+	chl_ideas_4 = { #Colonization of Patagonia
+		global_autonomy = -0.05
+	}
+	
+	chl_ideas_5 = { #Prussian Officers
+		discipline = 0.05
+		drill_gain_modifier = 0.1
+	}
+	
+	chl_ideas_6 = { #Coastal Urbanization
+		build_cost = -0.1
+	}
+	
+	chl_ideas_7 = { #Lights of Santiago
+		diplomatic_reputation = 1
+		unjustified_demands = -0.1
+	}
+}
+
+argentine_ideas = {
+	start = {
+		cavalry_power = 0.2
+		stability_cost_modifier = -0.1
+	}
+	
+	bonus = {
+		republican_tradition = 0.5
+		legitimacy = 1
+	}
+	
+	trigger = {
+		tag = LAP
+	}
+	free = yes
+	
+	lap_ideas_1 = { #Reunification of La Plata
+		global_autonomy = -0.05
+	}
+	
+	lap_ideas_2 = { #Agricultural Innovation
+		global_tax_modifier = 0.15
+	}
+	
+	lap_ideas_3 = { #Conquest of the Desert
+		land_attrition = -0.2
+	}
+	
+	lap_ideas_4 = { #Chilean Arms Race 
+		global_ship_cost = -0.1
+		global_ship_recruit_speed = -0.1
+	}
+	
+	lap_ideas_5 = { #Tango!
+		prestige = 1
+		prestige_decay = -0.01
+	}
+	
+	lap_ideas_6 = { #The Argentine Dream
+		development_cost = -0.1
+		global_foreign_trade_power = 0.1
+	}
+	
+	lap_ideas_7 = { #The Falklands are Argentine! (Flexible Foreign Policy)
+		diplomatic_upkeep = 1
+		improve_relation_modifier = 0.2
+	}
+}
+
+paraguayan_ideas = {
+	start = {
+		army_tradition = 1
+		land_forcelimit_modifier = 0.5
+	}
+	
+	bonus = {
+		inflation_reduction = 0.1
+	}
+	
+	trigger = {
+		tag = PRG
+	}
+	free = yes 
+	
+	prg_ideas_1 = { #House of Lopez
+		spy_offence = 0.1
+		harsh_treatment_cost = -0.25
+	}
+	
+	prg_ideas_2 = { #Third Force
+		ae_impact = -0.1
+	}
+	
+	prg_ideas_3 = { #Levee en Masse
+		global_manpower_modifier = 0.2
+		global_regiment_recruit_speed = -0.5
+	}
+	
+	prg_ideas_4 = { #Nationalist Fervor
+		war_exhaustion = -0.05
+	}
+	
+	prg_ideas_5 = { #Conquer or Die!
+		land_morale = 0.15
+	}
+	
+	prg_ideas_6 = { #Every Man, Woman, and Child
+		manpower_recovery_speed = 0.15
+	}
+	
+	prg_ideas_7 = { #Try not to die!
+		defensiveness = 0.1
+		garrison_size = 0.1
+	}
+}

@@ -5,6 +5,7 @@ primary_culture = prussian
 religion = protestant
 technology_group = western
 capital = 50 # Berlin
+historical_rival = HAB
 
 1797.11.17 = {
 	monarch = {

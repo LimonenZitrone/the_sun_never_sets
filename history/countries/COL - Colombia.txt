@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = federal_republic
+technology_group = western
+religion = catholic
+primary_culture = colombian
+capital = 825	# Bogota
+
+
+1836.1.1 = {
+	monarch = {
+		name = "Francisco de Paula"
+		dynasty = "Santander"
+		adm = 3
+		dip = 1
+		mil = 4
+		birth_date = 1792.4.2
+	}
+}
