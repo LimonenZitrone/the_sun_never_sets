@@ -314,3 +314,146 @@ paraguayan_ideas = {
 		garrison_size = 0.1
 	}
 }
+
+uruguayan_ideas = {
+	start = {
+		defensiveness = 0.15
+		diplomatic_reputation = 2
+	}
+	
+	bonus = {
+		diplomatic_upkeep = 1
+	}
+	
+	trigger = {
+		tag = URU
+	}
+	free = yes
+	
+	uru_ideas_1 = { #Entrepot of Immigrants
+		idea_cost = -0.1
+	}
+	
+	uru_ideas_2 = { #Bastion of Liberalism
+		stability_cost_modifier = -0.2
+	}
+	
+	uru_ideas_3 = { #Montevideo Trade Dominance
+		global_trade_power = 0.2
+	}
+	
+	uru_ideas_4 = { #Gaucho Culture
+		cavalry_power = 0.1
+		prestige = 1
+	}
+	
+	uru_ideas_5 = { #Italian Immigrant Influence
+		technology_cost = -0.1
+		advisor_cost = -0.2
+	}
+	
+	uru_ideas_6 = { #Livestock Boom
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	uru_ideas_7 = { #Light of Democracy
+		yearly_corruption = -0.05
+		prestige_decay = -0.01
+	}
+}
+
+colombian_ideas = {
+	start = {
+		global_trade_goods_size_modifier = 0.1
+		land_attrition = -0.1
+	}
+	
+	bonus = {
+		idea_cost = -0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = COL
+			tag = VNZ
+			tag = GRC
+		}
+	}
+	free = yes
+	
+	col_ideas_1 = { #Bolivar's Legacy 
+		land_morale = 0.15
+	}
+	
+	col_ideas_2 = { #Agrarian Society
+		global_tax_modifier = 0.1
+		development_cost = -0.1
+	}
+	
+	col_ideas_3 = { #Sierra Nevada Gold Mines
+		inflation_reduction = 0.1
+	}
+	
+	col_ideas_4 = { #Colombian Academy of Language
+		technology_cost = -0.15
+		innovativeness_gain = 0.25
+	}
+	
+	col_ideas_5 = { #Resistance Against America 
+		fire_damage_received = -0.1
+	}
+	
+	col_ideas_6 = { #Indigenous Heritage
+		global_unrest = -2
+	}
+	
+	col_ideas_7 = { #Restore Gran Colombian
+		core_creation = -0.1
+	}
+}
+
+ecuadorian_ideas = {
+	start = {
+		idea_cost = -0.1
+		ae_impact = -0.15
+	}
+	
+	bonus = {
+		republican_tradition = 0.5
+		legitimacy = 1
+	}
+	
+	trigger = {
+		tag = ECU
+	}
+	free = yes
+	
+	ecu_ideas_1 = { #Militarized Society 
+		discipline = 0.05
+	}
+	
+	ecu_ideas_2 = { #Peruvian Border Disputes
+		unjustified_demands = -0.2
+	}
+	
+	ecu_ideas_3 = { #Banana Republic
+		global_prov_trade_power_modifier = 0.2
+	}
+	
+	ecu_ideas_4 = { #Escuela Quitena
+		global_institution_spread = 0.1
+	}
+	
+	ecu_ideas_5 = { #Galapagos Island Research
+		technology_cost = -0.15
+		prestige = 1
+	}
+	
+	ecu_ideas_6 = { #Cultural Melting Pot
+		global_unrest = -3
+	}
+	
+	ecu_ideas_7 = { #Fierce Indpendence
+		land_morale = 0.1
+	}
+}
