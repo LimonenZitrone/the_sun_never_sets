@@ -39,7 +39,7 @@ discovered_by = mesoamerican
 	controller = SPA
 	add_core = SPA
 	religion = catholic
-	culture = castillian
+	culture = mexican
 } 
 1624.1.1 = { unrest = 5 } 
 1626.1.1 = { unrest = 0 } 

@@ -15,12 +15,12 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = castillian
+culture = mexican
 owner = TLX
 controller = TLX
 add_core = TLX
 is_city = yes
-religion = nahuatl
+religion = catholic
 capital = "Cholula"
 estate = estate_church
 trade_goods = sugar

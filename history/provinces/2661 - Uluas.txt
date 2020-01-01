@@ -38,7 +38,7 @@ discovered_by = mesoamerican
 	controller = SPA
 	add_core = SPA
 	religion = catholic
-	culture = castillian
+	culture = centroamerican
 	trade_goods = cocoa
 	is_city = yes
  } 

@@ -16,7 +16,7 @@ discovered_by = high_american
 
 
 culture = yokuts
-religion = totemism
+religion = catholic
 capital = "Tachi"
 trade_goods = unknown
 hre = no

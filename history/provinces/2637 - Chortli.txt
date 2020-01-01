@@ -43,7 +43,7 @@ discovered_by = mesoamerican
 	owner = SPA 
 	controller = SPA
 	add_core = SPA
-	culture = castillian
+	culture = centroamerican
 	religion = catholic
 } 
 1525.1.1 = { capital = "La Navidad" } 

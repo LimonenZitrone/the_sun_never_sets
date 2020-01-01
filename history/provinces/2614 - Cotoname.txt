@@ -41,7 +41,7 @@ discovered_by = mesoamerican
 	is_city = yes
 	religion = catholic
 	capital = "San Luis Rey de Francia"
-	culture = castillian
+	culture = mexican
 	trade_goods = wool 
 } 
 1596.1.1 = { capital = "Monterrey" }

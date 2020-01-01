@@ -15,12 +15,12 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = castillian
+culture = mexican
 add_core = MEX
 owner = MEX
 controller = MEX
 is_city = yes
-religion = nahuatl
+religion = catholic
 capital = "Cuetlaxtlan"
 trade_goods = sugar
 estate = estate_burghers

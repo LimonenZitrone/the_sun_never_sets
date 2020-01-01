@@ -16,7 +16,7 @@ discovered_by = high_american
 
 
 culture = apache
-religion = totemism 
+religion = catholic 
 capital = "Jocome" 
 trade_goods = unknown 
 hre = no 

@@ -41,7 +41,7 @@ discovered_by = mesoamerican
 	add_core = SPA
 }
 1529.1.1 = {
-	culture = castillian
+	culture = centroamerican
 	religion = catholic
 } 
 1810.9.16 = { owner = CAM add_core = CAM controller = CAM } 

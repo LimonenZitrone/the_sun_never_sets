@@ -39,7 +39,7 @@ discovered_by = north_american
 	controller = SPA
 	add_core = SPA
 	is_city = yes
-	culture = castillian
+	culture = mexican
 	religion = catholic 
 	trade_goods = wool 
 } 

@@ -39,7 +39,7 @@ discovered_by = mesoamerican
 	discovered_by = SPA 
 	owner = SPA 
 	controller = SPA
-	culture = castillian
+	culture = yucatanculture
 	religion = catholic
 } 
 1527.1.1 = { capital = "Ciudad Vieja" }

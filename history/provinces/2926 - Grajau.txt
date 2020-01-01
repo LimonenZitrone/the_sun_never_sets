@@ -17,7 +17,7 @@ discovered_by = high_american
 
 culture = brazilian
 discovered_by = south_american
-religion = animism
+religion = catholic
 capital = "Grajau"
 trade_goods = tropical_wood
 hre = no

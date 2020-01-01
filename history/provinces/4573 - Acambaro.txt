@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = castillian
-religion = nahuatl
+culture = mexican
+religion = catholic
 owner = OTO
 controller = OTO
 add_core = OTO

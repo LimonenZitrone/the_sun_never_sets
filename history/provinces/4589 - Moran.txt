@@ -17,7 +17,7 @@ discovered_by = high_american
 
 owner = CTM
 controller = CTM
-culture = putun
+culture = yucatec
 religion = mesoamerican_religion
 capital = "Moran"
 trade_goods = cocoa
@@ -48,8 +48,8 @@ discovered_by = mesoamerican
 	owner = ENG
 	controller = ENG
 	add_core = ENG
-	culture = english
-	religion = protestant
+	culture = yucatanculture
+	religion = catholic
 } 
 1707.5.12 = {
 	owner = CAM

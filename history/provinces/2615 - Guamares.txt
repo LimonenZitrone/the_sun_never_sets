@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = guamares
+culture = mexican
 religion = animism
 owner = GAM
 controller = GAM
@@ -38,7 +38,7 @@ discovered_by = mesoamerican
 	owner = SPA 
 	controller = SPA
 	add_core = SPA
-	culture = castillian
+	culture = mexican
 	capital = "Guanajuato"
 	religion = catholic 
 }

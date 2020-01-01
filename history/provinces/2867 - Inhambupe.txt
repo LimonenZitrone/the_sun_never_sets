@@ -17,7 +17,7 @@ discovered_by = high_american
 
 culture = het
 discovered_by = south_american
-religion = animism
+religion = catholic
 capital = "Chanar"
 trade_goods = livestock
 hre = no

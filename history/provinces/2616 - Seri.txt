@@ -16,7 +16,7 @@ discovered_by = high_american
 
 
 culture = piman
-religion = totemism
+religion = catholic
 capital = "Seri"
 trade_goods = unknown
 hre = no

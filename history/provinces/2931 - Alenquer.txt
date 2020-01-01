@@ -17,7 +17,7 @@ discovered_by = high_american
 
 culture = carib
 discovered_by = south_american
-religion = animism
+religion = protestant
 capital = "Pirara"
 trade_goods = unknown
 hre = no

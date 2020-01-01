@@ -17,7 +17,7 @@ discovered_by = high_american
 
 owner = ITZ
 controller = ITZ
-culture = putun
+culture = yucatec
 religion = mesoamerican_religion
 capital = "Tute"
 trade_goods = cocoa
@@ -39,7 +39,7 @@ discovered_by = mesoamerican
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	culture = castillian
+	culture = yucatanculture
 	religion = catholic
 } 
 1810.9.16 = { owner = CAM add_core = CAM controller = CAM } 
