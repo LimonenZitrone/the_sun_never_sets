@@ -39,3 +39,54 @@ sns_influencing_potential_sphere_modifier = {
 	
 	yearly_sphere_influence = 5
 }
+
+sns_25_blockade = {
+	potential = {
+		is_at_war = yes
+	}
+	trigger = {
+		blockade = 0.25
+		NOT = { blockade = 0.5 }
+	}
+	
+	trade_efficiency = -0.1
+	global_trade_goods_size_modifier = -0.05
+}	
+
+sns_50_blockade = {
+	potential = {
+		is_at_war = yes
+	}
+	trigger = {
+		blockade = 0.5
+		NOT = { blockade = 0.75 }
+	}
+	
+	trade_efficiency = -0.2
+	global_trade_goods_size_modifier = -0.1
+}	
+
+sns_75_blockade = {
+	potential = {
+		is_at_war = yes
+	}
+	trigger = {
+		blockade = 0.75
+		NOT = { blockade = 1 }
+	}
+	
+	trade_efficiency = -0.3
+	global_trade_goods_size_modifier = -0.15
+}
+
+sns_100_blockade = {
+	potential = {
+		is_at_war = yes
+	}
+	trigger = {
+		blockade = 1
+	}
+	
+	trade_efficiency = -0.4
+	global_trade_goods_size_modifier = -0.2
+}	
