@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = MEX
-controller = MEX
-add_core = MEX
+owner = CAM
+controller = CAM
+add_core = CAM
 culture = castillian
 religion = catholic
 capital = "Cartago"

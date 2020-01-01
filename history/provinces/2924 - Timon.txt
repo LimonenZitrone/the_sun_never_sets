@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = ge
+culture = brazilian
 discovered_by = south_american
 religion = catholic
 capital = "Timon"

@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = PBL
-controller = PBL
-culture = inca
+owner = PEU
+controller = PEU
+culture = peruvian
 religion = catholic
 capital = "Huaraz"
 trade_goods = grain
@@ -26,4 +26,4 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = PBL
+add_core = PEU

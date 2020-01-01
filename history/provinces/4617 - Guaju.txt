@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = colombianA
+culture = colombian
 religion = catholic 
 capital = "Guaju"
 trade_goods = tropical_wood

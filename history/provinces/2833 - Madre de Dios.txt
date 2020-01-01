@@ -15,7 +15,7 @@ discovered_by = andean
 discovered_by = high_american
 
 
-culture = maipurean
+culture = bolivian
 religion = catholic 
 capital = "Madre de Dios"
 trade_goods = grain

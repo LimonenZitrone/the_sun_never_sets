@@ -47,12 +47,13 @@ base_manpower = 1
 }
 1593.1.1 = { discovered_by = SPA } 
 1600.1.1 = {	
-	culture = castillian
+	culture = argentinian
 	religion = catholic
 } 
 1816.7.9 = {
-	owner = LAP
-	controller = LAP
+	owner = PBL
+	controller = PBL
+	add_core = PBL
 	add_core = LAP
 	remove_core = SPA
 } 

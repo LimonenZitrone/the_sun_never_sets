@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = PBL
-controller = PBL
-culture = inca
+owner = ECU
+controller = ECU
+culture = peruvian
 religion = catholic
 capital = "Wankapampa"
 trade_goods = wool
@@ -26,5 +26,5 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = PBL
+add_core = ECU
 

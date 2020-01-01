@@ -14,10 +14,10 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = LAP
-controller = LAP
-add_core = LAP
-culture = castillian
+owner = AGT
+controller = AGT
+add_core = AGT
+culture = argentinian
 religion = catholic
 capital = "Corrientes"
 trade_goods = tropical_wood

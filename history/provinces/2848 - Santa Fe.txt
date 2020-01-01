@@ -21,8 +21,8 @@ religion = animism
 capital = "Santa Fe"
 trade_goods = unknown
 hre = no
-base_tax = 2
-base_production = 1
+base_tax = 3
+base_production = 3
 base_manpower = 1
 native_size = 5
 native_ferocity = 1
@@ -34,7 +34,7 @@ native_hostileness = 1
 	controller = SPA
 	add_core = SPA
 	religion = catholic
-	culture = castillian
+	culture = argentinian
 	trade_goods = grain
 	is_city = yes
 }
@@ -44,9 +44,9 @@ native_hostileness = 1
 1810.5.25 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } 
 1816.7.9 = {
 	revolt = {}
-	owner = LAP
-	controller = LAP
-	add_core = LAP
+	owner = AGT
+	controller = AGT
+	add_core = AGT
 	remove_core = SPA
 	unrest = 0
 } 

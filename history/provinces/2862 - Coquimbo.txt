@@ -26,9 +26,9 @@ religion = animism
 capital = "Coquimbo"
 trade_goods = unknown
 hre = no
-base_tax = 2 
-base_production = 1
-base_manpower = 1
+base_tax = 4 
+base_production = 4
+base_manpower = 2
 native_size = 20
 native_ferocity = 2
 native_hostileness = 9	
@@ -44,7 +44,7 @@ native_hostileness = 9
 1520.1.1 = { discovered_by = SPA } 
 1541.2.12 = {	owner = SPA
 	controller = SPA
-	culture = castillian
+	culture = chilean
 	religion = catholic
 }
 1566.2.12 = { add_core = SPA }

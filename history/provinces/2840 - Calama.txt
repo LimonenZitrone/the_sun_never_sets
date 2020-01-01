@@ -46,11 +46,12 @@ native_hostileness = 1
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	culture = castillian
+	culture = chilean
 	religion = catholic
 } 
 1810.9.18 = {
-	owner = CHL
-	controller = CHL
+	owner = PBL
+	controller = PBL
+	add_core = PBL
 	add_core = CHL
 } 

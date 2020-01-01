@@ -14,10 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = MEX
-controller = MEX
-add_core = MEX
-add_core = KIC
+owner = CAM
+controller = CAM
+add_core = CAM
 culture = castillian 
 religion = catholic
 capital = "Guatemala City" 

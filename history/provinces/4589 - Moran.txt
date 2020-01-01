@@ -52,9 +52,7 @@ discovered_by = mesoamerican
 	religion = protestant
 } 
 1707.5.12 = {
-	discovered_by = GBR
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = ENG
+	owner = CAM
+	controller = CAM
+	add_core = CAM
 }

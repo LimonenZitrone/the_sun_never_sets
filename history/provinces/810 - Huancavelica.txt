@@ -14,10 +14,10 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = PBL
-controller = PBL
-add_core = PBL
-culture = inca
+owner = PEU
+controller = PEU
+add_core = PEU
+culture = peruvian
 religion = catholic
 capital = "Huancavelica"
 trade_goods = gold

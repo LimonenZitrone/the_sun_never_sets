@@ -39,13 +39,13 @@ native_hostileness = 7
 	controller = SPA
 	add_core = SPA
 	religion = catholic
-	culture = castillian
+	culture = bolivian
 	trade_goods = wool
 	is_city = yes
 } 
 1816.7.9 = {
-	owner = LAP
-	controller = LAP
-	add_core = LAP
+	owner = PBL
+	controller = PBL
+	add_core = PBL
 	remove_core = SPA
 } 

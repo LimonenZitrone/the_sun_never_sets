@@ -45,5 +45,5 @@ discovered_by = mesoamerican
  } 
 1548.1.1 = { unrest = 5 } 
 1549.1.1 = { unrest = 0 } 
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } 
+1810.9.16 = { owner = CAM add_core = CAM controller = CAM } 
 

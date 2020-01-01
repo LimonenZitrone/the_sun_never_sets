@@ -35,12 +35,12 @@ native_hostileness = 9
 	add_core = SPA
 	is_city = yes
 	trade_goods = grain
-	culture = castillian
+	culture = argentinian
 	religion = catholic
 } 
 1816.7.9 = {
-	owner = LAP
-	controller = LAP
-	add_core = LAP
+	owner = AGT
+	controller = AGT
+	add_core = AGT
 	remove_core = SPA
 } 

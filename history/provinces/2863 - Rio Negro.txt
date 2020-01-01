@@ -27,8 +27,3 @@ base_manpower = 1
 native_size = 10 
 native_ferocity = 3
 native_hostileness = 0	
-owner = LAP
-controller = LAP
-add_core = LAP
-
-1561.3.2 = { discovered_by = SPA }
