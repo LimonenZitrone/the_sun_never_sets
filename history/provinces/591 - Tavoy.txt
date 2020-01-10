@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = TAU
-controller = TAU
-add_core = TAU
+owner = GBR
+controller = GBR
+add_core = GBR
 culture = mon
 religion = buddhism
 capital = "Tavoy"

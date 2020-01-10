@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = SPA
-controller = SPA
-add_core = SPA
+owner = HAT
+controller = HAT
+add_core = HAT
 culture = castillian
 religion = catholic
 capital = "Santo Domingo de Guzmán"

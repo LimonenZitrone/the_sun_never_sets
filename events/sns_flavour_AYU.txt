@@ -1,0 +1,96 @@
+namespace = sns_flavour_AYU
+
+country_event = { #Siam requests Malayan territories.
+	id = sns_flavour_AYU.1
+	title = sns_flavour_AYU.1.t 
+	desc = sns_flavour_AYU.1.d 
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #The Thai may have their land, we need the money.
+		name = sns_flavour_AYU.1.a 
+		AYU = {
+			country_event = {
+				id = sns_flavour_AYU.2
+			}
+		}
+		add_prestige = 10
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { #And give up our valuable ports? The Thai are delusional!
+		name = sns_flavour_AYU.1.b
+		AYU = {
+			country_event = {
+				id = sns_flavour_AYU.3
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = { #Treaty of Bangkok
+	id = sns_flavour_AYU.2
+	title = sns_flavour_AYU.2.t 
+	desc = sns_flavour_AYU.2.d 
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Wonderful!
+		name = sns_flavour_AYU.2.a 
+		add_treasury = -1000
+		GBR = {
+			add_treasury = 1000
+			add_opinion = {
+				who = ROOT
+				modifier = sns_treaty_of_bangkok_opinion
+			}
+		}
+		add_opinion = {
+			who = GBR
+			modifier = sns_treaty_of_bangkok_opinion 
+		}
+		591 = {
+			cede_province = AYU
+			remove_core = GBR
+		}
+		2404 = {
+			cede_province = AYU
+			remove_core = GBR
+		}
+		2391 = {
+			cede_province = AYU
+			remove_core = GBR
+		}
+		add_prestige = 20
+	}
+}
+
+country_event = { #The British refuse!
+	id = sns_flavour_AYU.3
+	title = sns_flavour_AYU.3.t 
+	desc = sns_flavour_AYU.3.d 
+	picture = ACCUSATION_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #We will reclaim our lands, one way or another.
+		name = sns_flavour_AYU.3.a 
+		GBR = {
+			add_opinion = {
+				who = ROOT
+				modifier = sns_refused_treaty_of_bangkok
+			}
+		}
+		create_general = { tradition = 60 }
+	}
+}
+		

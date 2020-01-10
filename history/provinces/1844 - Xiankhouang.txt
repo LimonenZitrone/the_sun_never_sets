@@ -43,10 +43,10 @@ discovered_by = indian
 1627.1.1 = { unrest = 6 }
 1633.1.1 = { unrest = 0 }
 1655.1.1 = { discovered_by = SPA }
-1694.1.1 = { add_core = TOK } 
+1694.1.1 = { add_core = ANN } 
 1707.1.1 = {
-	owner = MPH
-	controller = MPH
+	owner = ANN
+	controller = ANN
 	remove_core = LXA
 	remove_core = DAI
 	remove_core = TOK

@@ -14,8 +14,8 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = TEX
-controller = TEX
+owner = MEX
+controller = MEX
 add_core = TEX
 add_core = MEX
 is_city = yes

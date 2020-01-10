@@ -41,8 +41,7 @@ discovered_by = ARW
 1510.1.1 = { trade_goods = sugar }
 1516.1.23 = {
 	discovered_by = SPA
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = CAS
+	owner = HAT
+	controller = HAT
+	add_core = HAT
 }

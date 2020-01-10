@@ -43,7 +43,8 @@ discovered_by = north_american
 	religion = catholic
 } 
 1810.9.16 = {
-	owner = TEX
+	owner = MEX
 	add_core = TEX
-	controller = TEX 
+	add_core = MEX
+	controller = MEX 
 } 

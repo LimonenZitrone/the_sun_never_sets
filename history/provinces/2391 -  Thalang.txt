@@ -49,8 +49,8 @@ discovered_by = ottoman
 	controller = LIG
 }
 1769.1.1 = {
-	owner = AYU
-	controller = AYU
+	owner = GBR
+	controller = GBR
 	remove_core = LIG
 }
-1809.1.1 = { add_core = TAU }
+1809.1.1 = { add_core = GBR }

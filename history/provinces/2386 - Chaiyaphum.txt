@@ -41,9 +41,9 @@ discovered_by = indian
 1603.1.1 = { unrest = 0 }
 1694.1.1 = { add_core = AYU } 
 1707.1.1 = {
-	owner = VIE
-	controller = VIE
-	add_core = VIE
+	owner = AYU
+	controller = AYU
+	add_core = AYU
 	remove_core = LXA
 } 
 1817.1.1 = { culture = lao }

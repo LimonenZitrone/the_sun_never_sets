@@ -457,3 +457,50 @@ ecuadorian_ideas = {
 		land_morale = 0.1
 	}
 }
+
+siamese_ideas = {
+	start = {
+		diplomatic_reputation = 3
+		land_attrition = -0.1
+	}
+	
+	bonus = {
+		technology_cost = -0.1
+	}
+	
+	trigger = {
+		tag = AYU
+	}
+	free = yes
+	
+	ayu_ideas_1 = { #Crossroads of Imperialism
+		envoy_travel_time = -0.25
+		diplomats = 1
+	}
+	
+	ayu_ideas_2 = { #Bowring Treaty
+		trade_range_modifier = 0.25
+		global_foreign_trade_power = 0.1
+	}
+	
+	ayu_ideas_3 = { #Rapid Military Innovations
+		discipline = 0.05
+	}
+	
+	ayu_ideas_4 = { #Siamese Nationalization
+		global_autonomy = -0.05
+	}
+	
+	ayu_ideas_5 = { #Education Reforms
+		idea_cost = -0.1
+	}
+	
+	ayu_ideas_6 = { #Reclaiming Sovereignty
+		stability_cost_modifier = -0.1
+		prestige = 0.5
+	}
+	
+	ayu_ideas_7 = { #Breaking Away from Europe
+		land_morale = 0.15
+	}
+}

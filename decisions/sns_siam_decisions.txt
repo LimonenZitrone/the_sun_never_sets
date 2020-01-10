@@ -1,0 +1,24 @@
+country_decisions = {
+	
+	SNS_siam_request_british_malaya = {
+		potential = {
+			tag = AYU
+		}
+		allow = {
+			treasury = 1000
+			GBR = {
+				has_opinion = {
+					who = ROOT
+					value = 100
+				}
+			}
+		}
+		effect = {
+			GBR = {
+				country_event = {
+					id = sns_flavour_AYU.1
+				}
+			}
+		}
+	}
+}

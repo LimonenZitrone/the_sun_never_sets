@@ -14,12 +14,13 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-is_city = no
+hre = no
 capital = "Western Central Africa"
 base_tax = 1
 base_production = 1
 base_manpower = 1
 religion = shamanism
+culture = sawabantu
 trade_goods = unkown
 native_size = 10
 native_ferocity = 4

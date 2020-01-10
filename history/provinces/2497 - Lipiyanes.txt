@@ -34,8 +34,9 @@ discovered_by = north_american
 1541.1.1 = { discovered_by = SPA }
 
 1760.1.1 = {
-	owner = TEX
-	controller = TEX
+	owner = MEX
+	controller = MEX
+	add_core = MEX
 	add_core = TEX
 	trade_goods = grain
 	is_city = yes 

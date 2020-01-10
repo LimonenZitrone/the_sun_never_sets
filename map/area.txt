@@ -1953,7 +1953,7 @@ tabriz_area = { #4 Central Azerbaijan
 }
 
 tabarestan_area = { #5
-	417 426 2214 4339 4341
+	417 426 2214 4339 4341 4177
 }
 
 ########################################
@@ -2650,7 +2650,7 @@ kashgaria_area = { #5 #Just Kashgar & Yarkand
 }
 
 tarim_basin_area = { #3 #The rest of the Seven Cities
-	712 2121 2192
+	712 2121 2192 1784
 }
 
 shanshan_area = { #3 
@@ -2755,7 +2755,7 @@ yun_gui_borderland_area = { #5
 }
 
 sichuan_area = { #3
-	679 680 4212
+	679 680 4212 4403
 }
 
 chuannan_area = { #4

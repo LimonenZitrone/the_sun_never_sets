@@ -15,6 +15,15 @@ capital = 852	# Mexico
 		dip = 4
 		mil = 4
 	}
+	
+	leader = {
+		name = "Santa Anna"
+		type = general
+		fire = 3
+		shock = 4
+		manuever = 4
+		siege = 3
+	}
 }
 
 1836.2.27 = {

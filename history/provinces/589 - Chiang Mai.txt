@@ -14,10 +14,8 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = LNA
-controller = LNA
-add_core = LNA
-add_core = TAU
+owner = AYU
+controller = AYU
 add_core = AYU
 culture = northern_thai
 religion = buddhism

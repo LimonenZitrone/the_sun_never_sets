@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = VIE
-controller = VIE
-add_core = VIE
+owner = ANN
+controller = ANN
+add_core = ANN
 culture = lao
 religion = buddhism
 capital = "Sikhottabong"

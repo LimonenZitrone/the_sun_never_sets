@@ -6,3 +6,14 @@ broke_london_treaty_SNS = {
 	opinion = -100
 	yearly_decay = 2
 }
+
+sns_treaty_of_bangkok_opinion = {
+	opinion = 75
+	yearly_decay = 3
+}
+
+sns_refused_treaty_of_bangkok = {
+	opinion = -100
+	yearly_decay = 4
+}
+

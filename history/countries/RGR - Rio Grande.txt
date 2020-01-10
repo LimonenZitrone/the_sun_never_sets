@@ -5,12 +5,3 @@ technology_group = western
 primary_culture = brazilian
 religion = catholic
 capital = 2857
-
-1836.1.1 = {
-	monarch = {
-		name = "Antonio de Sousa Neto"
-		adm = 2
-		dip = 3
-		mil = 3
-	}
-}
