@@ -40,6 +40,21 @@
  AFTER_GOLDEN_AGE_TEXT:0 "Golden Era was $START$ - $END$"
  IN_GOLDEN_AGE_TEXT:0 "§Y$WHOS$ Golden Era!§!"
  
+ #TAGS
+ AYU: "Siam"
+ AYU_ADJ: "Siamese"
+ KHM: "Cambodia"
+ KHM_ADJ: "Cambodian"
+ ANN: "Dai Nam"
+ ANN_ADJ: "Vietnamese"
+ BAL: "Kalat"
+ BAL_ADJ: "Kalat"
+ PUN: "Sikh Empire"
+ PUN_ADJ: "Sikh"
+ BTI: "Tigray"
+ BTI_ADJ: "Tigrayan"
+ ETH: "Gonder"
+ ETH_ADJ: "Gonderi"
  # TECH:
  mil_tech_cs_1_name: "Field Howitzers"
  mil_tech_cs_1_desc: "A howitzer is a type of artillery piece characterized by a relatively short barrel and the use of comparatively small propellant charges to propel projectiles over relatively high trajectories, with a steep angle of descent."

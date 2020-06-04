@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = AFG
-controller = AFG
-add_core = AFG
+owner = PER
+controller = PER
+add_core = PER
 culture = khorasani
 religion = sunni
 capital = "Herat"

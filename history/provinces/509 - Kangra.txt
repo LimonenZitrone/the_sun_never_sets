@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = KGR
-controller = KGR
-add_core = KGR
+owner = PUN
+controller = PUN
+add_core = PUN
 culture = pahari
 religion = hinduism
 capital = "Kangra"

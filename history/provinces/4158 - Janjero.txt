@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = JJI
-controller = JJI
-add_core = JJI
+owner = SOA
+controller = SOA
+add_core = SOA
 culture = sidamo
 religion = shamanism
 capital = "Fofa"

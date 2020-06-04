@@ -14,8 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = SND
-controller = SND
+owner = BAL
+controller = BAL
+add_core = BAL
 add_core = SND
 culture = sindhi
 religion = sunni

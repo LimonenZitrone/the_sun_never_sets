@@ -17,3 +17,15 @@
  pru_ideas_7_desc: "The people of Germany are regarded as the most productive out of all in Europe. We can use this mentality as an advantage in goods produced."
  external_diplomacy_ideas_1: "Increased World Influence"
  external_diplomacy_ideas_1_desc: "PLACEHOLDER\nYearly Sphere Influence When Influencing Nations: §G+5.00§!\n-Unlocks Sphere of Influence Diplomatic interactions without being a great power"
+ 
+ #Siamese
+ siamese_ideas: "Siamese Ideas"
+ siamese_ideas_start: "Siamese Traditions"
+ siamese_ideas_bonus: "Siamese Ambition" 
+ ayu_ideas_1: "Crossroads of Imperialism"
+ ayu_ideas_2: "Bowring Treaty"
+ ayu_ideas_3: "Rapid Military Modernization"
+ ayu_ideas_4: "Nationalize Siam"
+ ayu_ideas_5: "Education Reforms"
+ ayu_ideas_6: "Reclaiming our Sovereignty"
+ ayu_ideas_7: "Banishing the Imperialists"

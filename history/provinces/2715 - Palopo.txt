@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = LUW
-controller = LUW
+owner = BNE
+controller = BNE
 culture = sulawesi
 religion = animism
 capital = "Palopo"
@@ -26,7 +26,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = LUW
+add_core = BNE
 
 
 

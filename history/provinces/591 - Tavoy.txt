@@ -17,6 +17,7 @@ discovered_by = high_american
 owner = GBR
 controller = GBR
 add_core = GBR
+add_core = AYU
 culture = mon
 religion = buddhism
 capital = "Tavoy"

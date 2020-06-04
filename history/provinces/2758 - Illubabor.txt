@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = ENA
-controller = ENA
-add_core = ENA
+owner = KAF
+controller = KAF
+add_core = KAF
 culture = sidamo
 religion = coptic
 capital = "Illubabor"
@@ -29,12 +29,3 @@ base_tax = 2
 base_production = 3
 discovered_by = east_african
 discovered_by = muslim
-
-1650.1.1 = {
-	culture = oromo
-}
-1710.1.1 = {
-	owner = ETH
-	controller = ETH
-	add_core = ETH
-}

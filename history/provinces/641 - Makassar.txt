@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = MKS
-controller = MKS
-add_core = MKS
+owner = NED
+controller = NED
+add_core = NED
 culture = sulawesi
 religion = sunni
 capital = "Makassar"

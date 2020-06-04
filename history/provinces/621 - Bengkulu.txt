@@ -18,9 +18,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = GBR
-controller = GBR
-add_core = GBR
+owner = NED
+controller = NED
+add_core = NED
 culture = sumatran
 religion = sunni
 capital = "Bengkulu"

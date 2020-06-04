@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = PTE
-controller = PTE
-add_core = PTE
+owner = OMA
+controller = OMA
+add_core = OMA
 culture = swahili
 religion = sunni
 capital = "Siyu"
@@ -35,6 +35,3 @@ discovered_by = central_african
 extra_cost = 8
 center_of_trade = 1
 
-
-1498.4.16 = { discovered_by = POR } 
-1600.1.1 = { discovered_by = TUR }

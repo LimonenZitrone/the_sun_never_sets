@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = NED
-controller = NED
-add_core = NED
+owner = TER
+controller = TER
+add_core = TER
 culture = dutch
 religion = reformed
 is_city = yes

@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = BAL
-controller = BAL
-add_core = BAL
+owner = PER
+controller = PER
+add_core = PER
 culture = baluchi
 religion = sunni
 capital = "Bampur"

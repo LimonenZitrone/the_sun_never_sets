@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = NED
-controller = NED
-add_core = NED
+owner = BNE
+controller = BNE
+add_core = BNE
 is_city = yes
 trade_goods = spices
 culture = sulawesi

@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = PTA
-controller = PTA
-add_core = PTA
+owner = EIC
+controller = EIC
+add_core = EIC
 culture = panjabi
 religion = sikhism
 capital = "Sirhind"

@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = BAN
-controller = BAN
-add_core = BAN
+owner = NED
+controller = NED
+add_core = NED
 culture = javanese
 religion = sunni
 capital = "Banten"

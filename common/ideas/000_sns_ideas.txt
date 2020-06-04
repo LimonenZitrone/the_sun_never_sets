@@ -474,7 +474,6 @@ siamese_ideas = {
 	free = yes
 	
 	ayu_ideas_1 = { #Crossroads of Imperialism
-		envoy_travel_time = -0.25
 		diplomats = 1
 	}
 	
@@ -484,7 +483,8 @@ siamese_ideas = {
 	}
 	
 	ayu_ideas_3 = { #Rapid Military Innovations
-		discipline = 0.05
+		fire_damage_received = -0.1
+		fire_damage = 0.1
 	}
 	
 	ayu_ideas_4 = { #Siamese Nationalization
@@ -501,6 +501,6 @@ siamese_ideas = {
 	}
 	
 	ayu_ideas_7 = { #Breaking Away from Europe
-		land_morale = 0.15
+		core_creation = -0.1
 	}
 }

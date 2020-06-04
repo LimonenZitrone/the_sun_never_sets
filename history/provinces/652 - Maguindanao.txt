@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = MGD
-controller = MGD
-add_core = MGD
+owner = SPA
+controller = SPA
+add_core = SPA
 culture = filipino
 religion = sunni
 capital = "Maguindanao"

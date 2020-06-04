@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = KHI
-controller = KHI
-add_core = KHI
+owner = PER
+controller = PER
+add_core = PER
 culture = turkmeni
 religion = sunni
 capital = "Nisa"

@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = EGY
-controller = EGY
-add_core = EGY
+owner = AFA
+controller = AFA
+add_core = AFA
 culture = afar
 religion = sunni
 capital = "Assab"

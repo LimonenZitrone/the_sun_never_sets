@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = TID
-controller = TID
-add_core = TID
+owner = TER
+controller = TER
+add_core = TER
 culture = moluccan
 religion = sunni
 capital = "Tidore"

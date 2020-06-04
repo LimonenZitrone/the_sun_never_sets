@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = CRB
-controller = CRB
-add_core = CRB
+owner = NED
+controller = NED
+add_core = NED
 culture = javanese
 religion = sunni
 capital = "Ciamis"

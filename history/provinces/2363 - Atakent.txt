@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = RUS
-controller = RUS
+owner = BUK
+controller = BUK
 culture = khazak
 religion = sunni
 capital = "Atakent"
@@ -27,7 +27,7 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 add_core = KZH
-add_core = RUS
+add_core = BUK
 add_core = TRS
 discovered_by = KAS
 discovered_by = muslim

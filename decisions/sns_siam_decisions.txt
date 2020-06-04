@@ -6,12 +6,7 @@ country_decisions = {
 		}
 		allow = {
 			treasury = 1000
-			GBR = {
-				has_opinion = {
-					who = ROOT
-					value = 100
-				}
-			}
+			technology_group = western
 		}
 		effect = {
 			GBR = {

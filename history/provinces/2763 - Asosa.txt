@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = DAM
-controller = DAM
-add_core = DAM
+owner = KAF
+controller = KAF
+add_core = KAF
 culture = amhara 
 religion = coptic
 capital = "Assosa"
@@ -32,9 +32,3 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
 
-
-1670.1.1 = { 
-	owner = ETH
-	controller = ETH
-	add_core = ETH
-}

@@ -15,8 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = PGR
-controller = PGR
+owner = ATJ
+controller = NED
+add_core = ATJ
 culture = sumatran
 religion = buddhism
 capital = "Pagarruyung"
@@ -26,7 +27,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = PGR
 
 
 
