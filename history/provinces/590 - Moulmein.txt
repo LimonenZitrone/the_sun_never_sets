@@ -14,8 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = AYU
-controller = AYU
+owner = GBR
+controller = GBR
+add_core = GBR
 add_core = AYU
 culture = mon
 religion = buddhism

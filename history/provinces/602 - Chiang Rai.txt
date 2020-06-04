@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = AYU
-controller = AYU
-add_core = AYU
+owner = LNA
+controller = LNA
+add_core = LNA
 culture = northern_thai
 religion = buddhism
 capital = "Chiang Rai"

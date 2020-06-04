@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = NUP
-controller = NUP
-add_core = NUP
+owner = SOK
+controller = SOK
+add_core = SOK
 is_city = yes
 culture = nupe  
 religion = shamanism 
@@ -35,18 +35,3 @@ native_hostileness = 9
 
 discovered_by = sub_saharan
 
-
-1484.1.1 = { unrest = 6 } 
-1670.1.1 = { owner = OYO controller = OYO add_core = OYO unrest = 3 } 
-1690.1.1 = { unrest = 6 } 
-1790.1.1 = { religion = sunni unrest = 3 } 
-1791.1.1 = {
-	unrest = 0
-	owner = NUP
-	controller = NUP
-} 
-1806.1.1 = {
-	owner = SOK
-	controller = SOK
-	add_core = SOK
-} 

@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = TAU
-controller = TAU
-add_core = TAU
+owner = EIC
+controller = EIC
+add_core = EIC
 culture = arakanese
 religion = buddhism
 capital = "Mrauk U"

@@ -3,6 +3,22 @@ country_decisions = {
 	SNS_siam_request_british_malaya = {
 		potential = {
 			tag = AYU
+			NOT = {
+				OR = {
+					2403 = {
+						owned_by = ROOT
+					}
+					2404 = {
+						owned_by = ROOT
+					}
+					591 = {
+						owned_by = ROOT
+					}
+					590 = {
+						owned_by = ROOT
+					}
+				}
+			}
 		}
 		allow = {
 			treasury = 1000

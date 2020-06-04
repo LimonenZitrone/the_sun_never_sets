@@ -15,10 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = MSI
-controller = MSI
-add_core = MSI
-add_core = YAT
+owner = ZAF
+controller = ZAF
+add_core = ZAF
 is_city = yes
 culture = bozo 
 religion = shamanism 
@@ -32,7 +31,3 @@ base_manpower = 1
 
 
 discovered_by = sub_saharan
-
-
-1484.1.1 = { owner = SON controller = SON add_core = SON } 
-1591.3.15 = { owner = YAT controller = YAT add_core = YAT } 

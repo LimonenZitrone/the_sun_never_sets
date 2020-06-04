@@ -56,6 +56,10 @@ country_event = { #Treaty of Bangkok
 			who = GBR
 			modifier = sns_treaty_of_bangkok_opinion 
 		}
+		2403 = {
+			cede_province = AYU
+			remove_core = GBR
+		}
 		591 = {
 			cede_province = AYU
 			remove_core = GBR
@@ -64,9 +68,9 @@ country_event = { #Treaty of Bangkok
 			cede_province = AYU
 			remove_core = GBR
 		}
-		2391 = {
+		590 = {
 			cede_province = AYU
-			remove_core = GBR
+			remove_core = GBR 
 		}
 		add_prestige = 20
 	}

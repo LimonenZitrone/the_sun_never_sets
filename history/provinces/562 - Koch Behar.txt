@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = KMT
-controller = KMT
-add_core = KMT
+owner = EIC
+controller = EIC
+add_core = EIC
 culture = kochi
 religion = hinduism
 capital = "Cooch Behar"

@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = GBR
-controller = GBR
+owner = AYU
+controller = AYU
 culture = malayan
 religion = sunni
 capital = "Thalang"
@@ -26,7 +26,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = GBR
 add_core = AYU
 
 

@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = YAO
-controller = YAO
-add_core = YAO
+owner = KBO
+controller = KBO
+add_core = KBO
 culture = bilala 
 religion = sunni
 capital = "Yao"

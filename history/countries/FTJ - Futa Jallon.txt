@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+religion = animism
+primary_culture = fulani
+technology_group = sub_saharan
+capital = 1117

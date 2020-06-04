@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = TMB
-controller = TMB 
-add_core = TMB
+owner = SOF
+controller = SOF 
+add_core = SOF
 is_city = yes
 culture = tuareg 
 religion = sunni
@@ -36,27 +36,3 @@ base_manpower = 1
 discovered_by = sub_saharan
 discovered_by = MOR
 
-
-1517.1.1 = {
-	owner = SON
-	controller = SON
-	add_core = SON 
-}
-1593.1.1 = {
-	owner = MOR
-	controller = MOR
-	add_core = MOR
-	remove_core = SON 
-} 
-1618.1.1 = {
-	owner = TMB
-	controller = TMB
-	add_core = TMB
-	remove_core = MOR 
-} 
-1670.1.1 = {
-	owner = SOF
-	controller = SOF
-	add_core = SOF
-	remove_core = TMB 
-} 

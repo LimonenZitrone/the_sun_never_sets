@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = MFY
-controller = MFY
-add_core = MFY
+owner = MIR
+controller = MIR
+add_core = MIR
 culture = madagasque
 religion = shamanism 
 capital = "Mahafaly"
