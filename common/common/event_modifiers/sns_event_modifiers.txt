@@ -1,0 +1,72 @@
+# Westernization
+westernization_help = {
+	westernization_influence = 0.5
+}
+
+westernization_help_cooldown = {
+}
+
+westernization_capital_lost = {
+	westernization_influence = -1.5
+}
+
+westernization_western_capital_captured = {
+	westernization_influence = 1
+}
+
+westernization_province_dev_for_westernization = {
+	westernization_influence = 0.3
+}
+
+westernization_hurts_province_dev_bad = {
+	local_unrest = 5
+	local_development_cost = 1
+}
+
+westernization_hurts_province_dev_good = {
+	local_unrest = -5
+	local_production_efficiency = 0.1
+}
+
+jap_westernization = {
+	westernization_influence = 1
+}
+
+# Sphere Influence
+influence_sphere_var_increased = {
+}
+
+SNS_internal_problems = {
+	global_unrest = 2
+	regiment_recruit_speed = 0.1
+}
+
+# Institutions
+birthplace_of_nationalism = {
+	local_culture_conversion_cost = 0.3
+	local_years_of_nationalism = 10
+}
+
+birthplace_of_imperialism = {
+	trade_value = 10
+}
+
+birthplace_of_electricity = {
+	local_development_cost = -0.2
+}
+
+SNS_wing_isolation = {
+	global_unrest = -5
+	diplomatic_reputation = -4
+	imperial_mandate = 0.1
+}
+
+SNS_qing_corrupt_army = {
+	land_forcelimit_modifier = -0.25
+	land_morale = -0.1
+}
+
+SNS_indian_tolerance = {
+	tolerance_heathen = 4
+	global_unrest = -2
+}

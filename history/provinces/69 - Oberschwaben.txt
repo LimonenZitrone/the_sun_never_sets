@@ -15,9 +15,9 @@ discovered_by = andean
 discovered_by = high_american
 
 culture = swabian
-owner = WUR
-controller = WUR
-add_core = WUR
+owner = PRU
+controller = PRU
+add_core = PRU
 capital = "Ravensburg"
 religion = protestant
 trade_goods = cloth
