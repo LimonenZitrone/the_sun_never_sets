@@ -5,13 +5,13 @@ country_event = {
 	title = sns_german_unification_events.1.t
 	desc = sns_german_unification_events.1.d
 	picture = DIPLOMACY_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	mean_time_to_happen = {
 		months = 30
 	}
-	
+
 	trigger = {
 		culture_group = germanic
 		capital_scope = {
@@ -31,12 +31,12 @@ country_event = {
 			NOT = { tag = ROOT }
 		}
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.1.a
-		
+
 		ai_chance = { factor = 80 }
-		
+
 		every_country = {
 			limit = {
 				culture_group = germanic
@@ -48,31 +48,31 @@ country_event = {
 			country_event = { id = sns_german_unification_events.2 }
 		}
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.1.b
-		
+
 		ai_chance = { factor = 20 }
 	}
 }
-	
+
 country_event = {
 	id = sns_german_unification_events.2
 	title = sns_german_unification_events.2.t
 	desc = sns_german_unification_events.2.d
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = sns_united_northern_germany
 		}
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.2.a
-		
+
 		ai_chance = {
 			factor = 20
 			modifier = {
@@ -80,7 +80,7 @@ country_event = {
 				is_subject_of = FROM
 			}
 		}
-		
+
 		FROM = {
 			create_subject = {
 				subject = ROOT
@@ -88,10 +88,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.2.b
-		
+
 		ai_chance = {
 			factor = 70
 			modifier = {
@@ -99,17 +99,17 @@ country_event = {
 				is_subject_of = FROM
 			}
 		}
-		
+
 		FROM = {
 			inherit = ROOT
 		}
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.2.c
-		
+
 		ai_chance = { factor = 10 }
-		
+
 		every_owned_province = {
 			limit = {
 				NOT = { is_core = FROM }
@@ -124,11 +124,11 @@ country_event = {
 	title = sns_german_unification_events.3.t
 	desc = sns_german_unification_events.3.d
 	picture = GER_GER_special_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
-		sns_united_northern_germany
+		has_country_flag = sns_united_northern_germany
 		NOT = { exists = NGC }
 		culture_group = germanic
 		capital_scope = {
@@ -139,20 +139,20 @@ country_event = {
 			culture_group = germanic
 			region = north_german_region
 			is_overseas = no
-		}	
+		}
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.3.a
-		
+
 		ai_chance = { factor = 100 }
-		
+
 		change_tag = NGC
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.3.b
-		
+
 		ai_chance = { factor = 0 }
 	}
 }
@@ -162,9 +162,9 @@ country_event = {
 	title = sns_german_unification_events.4.t
 	desc = sns_german_unification_events.4.d
 	picture = DIPLOMACY_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		exists = NGC
 		culture_group = germanic
@@ -173,26 +173,26 @@ country_event = {
 			region = north_german_region
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 10
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.4.a
-		
+
 		ai_chance = { factor = 90 }
-	
+
 		overlord = {
 			inherit = ROOT
 		}
 	}
-	
+
 	option = {
 		name = sns_german_unification_events.4.b
-		
+
 		ai_chance = { factor = 10 }
-		
+
 		add_liberty_desire = 10
 	}
 }

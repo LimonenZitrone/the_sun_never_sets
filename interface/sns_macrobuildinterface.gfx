@@ -1,0 +1,51 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_macrobuildbackground_bottom"
+		texturefile = "gfx//interface//macrobuildbackground_bottom.dds"
+	}
+	spriteType = {
+		name = "GFX_macrobuildbackground_buildings"
+		texturefile = "gfx//interface//macrobuildbackground_buildings.dds"
+	}
+	spriteType = {
+		name = "GFX_macrobuildbackground_close_button_frame"
+		texturefile = "gfx//interface//macrobuildbackground_close_button_frame.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_name_core"
+		texturefile = "gfx//interface//sort_name_core.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_time_missionary"
+		texturefile = "gfx//interface//sort_time_missionary.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_cost_missionary"
+		texturefile = "gfx//interface//sort_cost_missionary.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_name_dev"
+		texturefile = "gfx//interface//sort_name_dev.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_name_estates"
+		texturefile = "gfx//interface//sort_name_estates.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_loyalty_estates"
+		texturefile = "gfx//interface//sort_loyalty_estates.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_influence_estates"
+		texturefile = "gfx//interface//sort_influence_estates.dds"
+	}
+	textSpriteType = {
+		name = "GFX_sort_territory_estates"
+		texturefile = "gfx//interface//sort_territory_estates.dds"
+	}
+	textSpriteType = {
+		name = "GFX_build_interface_building_tab_macro_builder"
+		texturefile = "gfx//interface//build_interface_building_tab_macro_builder.dds"
+		noOfFrames = 2
+	}
+}
