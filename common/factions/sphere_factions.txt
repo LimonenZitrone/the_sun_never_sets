@@ -1,0 +1,11 @@
+yearly_sphere = {
+	allow = {
+		always = no
+	}
+	
+	monarch_power = DIP
+	always = yes
+
+	modifier = {	
+	}
+}
