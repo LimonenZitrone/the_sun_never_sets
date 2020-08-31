@@ -11,11 +11,19 @@ sphere = {
 			}
 			AND = {
 				NOT = { has_dlc = "Rights of Man" }
-				is_great_power_no_rom_trigger = yes
+				NOT = {
+					calc_true_if = {
+						all_country = {
+							technology_group = western
+							total_development = ROOT
+						}
+						amount = 8
+					}
+				}
 			}
 		}
 	}
-	
+
 	# Graphics:
 	sprite = GFX_icon_sphere
 	diplomacy_overlord_sprite = GFX_icon_has_sphere
@@ -33,7 +41,7 @@ sphere = {
 	share_rebel_popup = no
 	can_transfer_in_peace = yes
 	can_set_mil_focus = no
-	
+
 	max_government_rank = 1
 	cities_required_for_bonuses = 100000
 	trust_on_start = 0
@@ -43,9 +51,9 @@ sphere = {
 
 	relative_power_class = 1
 	diplomacy_view_class = 1
-	
+
 	restoration_cb = cb_restore_sphere
-	
+
 	can_fight = {
 		independent_nations = yes
 		same_overlord = sphere
@@ -66,16 +74,16 @@ sphere = {
 		same_overlord = sphere
 		other_overlord = all
 	}
-	
+
 	# Subject Interactions:
 	# (immediate)
 	bestow_gifts = yes
 	send_additional_troops = yes
 	demand_artifacts = yes
-	
+
 	# Modifiers:
 	modifier_subject = clear
-	
+
 	overlord_opinion_modifier = is_sphere
 	subject_opinion_modifier = is_sphere
 }
@@ -93,7 +101,15 @@ dominion = {
 			}
 			AND = {
 				NOT = { has_dlc = "Rights of Man" }
-				is_great_power_no_rom_trigger = yes
+				NOT = {
+					calc_true_if = {
+						all_country = {
+							technology_group = western
+							total_development = ROOT
+						}
+						amount = 8
+					}
+				}
 			}
 		}
 	}
@@ -110,7 +126,7 @@ dominion = {
 	share_rebel_popup = no
 	can_transfer_in_peace = yes
 	can_set_mil_focus = no
-	
+
 	max_government_rank = 1
 	cities_required_for_bonuses = 100000
 	trust_on_start = 0
@@ -120,7 +136,7 @@ dominion = {
 
 	relative_power_class = 1
 	diplomacy_view_class = 1
-	
+
 	can_fight = {
 		independent_nations = yes
 		other_overlord = all
@@ -137,13 +153,13 @@ dominion = {
 		independent_nations = yes
 		other_overlord = all
 	}
-	
+
 	# Subject Interactions:
 	# (immediate)
 	bestow_gifts = yes
 	send_additional_troops = yes
 	demand_artifacts = yes
-	
+
 	# Modifiers:
 	modifier_subject = clear
 }

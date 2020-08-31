@@ -1,0 +1,17 @@
+name="The Sun Never Sets"
+path="mod/the_sun_never_sets"
+replace_path="common/bookmarks"
+replace_path="common/estates"
+replace_path="common/estates_preload"
+replace_path="common/estate_privileges"
+replace_path="common/estate_agendas"
+replace_path="common/factions"
+replace_path="common/event_modifiers"
+replace_path="common/static_modifiers"
+replace_path="common/government_reforms"
+replace_path="history/provinces"
+tags={
+	"Gameplay"
+}
+picture="thumbnail.jpg"
+supported_version="1.30.*.*"
