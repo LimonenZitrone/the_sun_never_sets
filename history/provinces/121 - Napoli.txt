@@ -14,10 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = NAP
-controller = NAP
+owner = TTS
+controller = TTS
 add_core = TTS
-add_core = NAP
 culture = neapolitan 
 religion = catholic 
 hre = no 

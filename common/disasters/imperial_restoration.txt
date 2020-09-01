@@ -1,7 +1,6 @@
 imperial_restoration = {
 	potential = {
 		tag = JAP
-		has_reform = japanese_shogunate_reform
 	}
 	
 	can_start = {
