@@ -5,13 +5,13 @@ country_event = {
     title = sns_westernization_events.EVTNAME1
     desc = sns_westernization_events.EVTDESC1
     picture = INVENTION_eventPicture
-    
+
 	major = yes
     is_triggered_only = yes
 
     option = {
         name = sns_westernization_events1.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
     }
 }
@@ -21,15 +21,15 @@ country_event = {
     title = sns_westernization_events.EVTNAME2
     desc = sns_westernization_events.EVTDESC2
     picture = WESTERNISATION_eventPicture
-    
+
 	major = yes
     is_triggered_only = yes
 
     option = {
         name = sns_westernization_events2.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
-		
+
 		change_technology_group = western
 		change_unit_type = western
 		hidden_effect = {
@@ -43,15 +43,12 @@ country_event = {
     title = sns_westernization_events.EVTNAME3
     desc = sns_westernization_events.EVTDESC3
     picture = DIPLOMACY_eventPicture
-    
+
 	hidden = yes
     is_triggered_only = yes
-	
+
 	immediate = {
 		hidden_effect = {
-			add_adm_power = -1
-			add_dip_power = -1
-			add_mil_power = -1
 			if = {
 				limit = {
 					adm_power = 0
@@ -62,8 +59,7 @@ country_event = {
 					which = monthly_westernization
 					value = modifier:westernization_influence
 				}
-				# Round to two decimals
-				divide_variable = { monthly_westernization = 100 }
+				# Convert 0-1 to 0-100
 				multiply_variable = { monthly_westernization = 100 }
 				# Add to westernization progress
 				change_westernization = { variable = monthly_westernization }
@@ -76,7 +72,7 @@ country_event = {
 
     option = {
         name = sns_westernization_events3.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
     }
 }
@@ -86,9 +82,9 @@ country_event = {
     title = sns_westernization_events.EVTNAME4
     desc = sns_westernization_events.EVTDESC4
     picture = DIPLOMACY_eventPicture
-    
+
     is_triggered_only = yes
-	
+
 	trigger = {
 		NOT = { has_country_modifier = westernization_help }
 		NOT = { has_country_modifier = westernization_help_cooldown }
@@ -96,7 +92,7 @@ country_event = {
 			technology_group = western
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_ally = {
@@ -110,22 +106,18 @@ country_event = {
 
     option = {
         name = sns_westernization_events4.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
-		
-		custom_tooltip = add_westernization_help_tt
-		hidden_effect = {
-			change_variable = { monthly_westernization = 0.5 }
-			add_disaster_modifier = {
-				name = westernization_help
-				duration = 730
-				disaster = westernization
-			}
-			add_country_modifier = {
-				name = westernization_help_cooldown
-				duration = 1825
-				hidden = yes
-			}
+
+		add_disaster_modifier = {
+			name = westernization_help
+			duration = 730
+			disaster = westernization
+		}
+		add_country_modifier = {
+			name = westernization_help_cooldown
+			duration = 1825
+			hidden = yes
 		}
     }
 }
@@ -135,37 +127,37 @@ country_event = {
     title = sns_westernization_events.EVTNAME5
     desc = sns_westernization_events.EVTDESC5
     picture = BANKRUPTCY_eventPicture
-    
+
     is_triggered_only = yes
 
     option = {
         name = sns_westernization_events5.EVTOPT1
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				NOT = { years_of_income = 3 }
 			}
 		}
-		
+
 		add_years_of_income = -3
 		change_westernization = { value = 10 }
     }
-	
+
 	option = {
         name = sns_westernization_events5.EVTOPT2
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				years_of_income = 3
 			}
 		}
-		
+
 		change_westernization = { value = -10 }
     }
 }
@@ -175,37 +167,37 @@ country_event = {
     title = sns_westernization_events.EVTNAME6
     desc = sns_westernization_events.EVTDESC6
     picture = UNIVERSITY_eventPicture
-    
+
     is_triggered_only = yes
 
     option = {
         name = sns_westernization_events6.EVTOPT1
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				NOT = { adm_power = 100 }
 			}
 		}
-		
+
 		add_adm_power = -100
 		change_westernization = { value = 10 }
     }
-	
+
 	option = {
         name = sns_westernization_events6.EVTOPT2
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				adm_power = 100
 			}
 		}
-		
+
 		change_westernization = { value = -10 }
     }
 }
@@ -215,37 +207,37 @@ country_event = {
     title = sns_westernization_events.EVTNAME7
     desc = sns_westernization_events.EVTDESC7
     picture = LIBERUM_VETO_eventPicture
-    
+
     is_triggered_only = yes
 
     option = {
         name = sns_westernization_events7.EVTOPT1
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				NOT = { dip_power = 100 }
 			}
 		}
-		
+
 		add_dip_power = -100
 		change_westernization = { value = 10 }
     }
-	
+
 	option = {
         name = sns_westernization_events7.EVTOPT2
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				dip_power = 100
 			}
 		}
-		
+
 		change_westernization = { value = -10 }
     }
 }
@@ -255,37 +247,37 @@ country_event = {
     title = sns_westernization_events.EVTNAME8
     desc = sns_westernization_events.EVTDESC8
     picture = NATIVES_eventPicture
-    
+
     is_triggered_only = yes
 
     option = {
         name = sns_westernization_events8.EVTOPT1
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				NOT = { mil_power = 100 }
 			}
 		}
-		
+
 		add_mil_power = -100
 		change_westernization = { value = 10 }
     }
-	
+
 	option = {
         name = sns_westernization_events8.EVTOPT2
-        
+
         ai_chance = {
 			factor = 1
-			
+
 			modifier = {
 				factor = 0
 				mil_power = 100
 			}
 		}
-		
+
 		change_westernization = { value = -10 }
     }
 }
@@ -306,9 +298,9 @@ country_event = {
 		desc = sns_westernization_events.EVTDESC9.2
 	}
     picture = BORDER_TENSION_eventPicture
-    
+
     is_triggered_only = yes
-	
+
 	trigger = {
 		OR = {
 			is_at_war = yes
@@ -318,9 +310,9 @@ country_event = {
 
     option = {
         name = sns_westernization_events9.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
-		
+
 		change_westernization = { value = -10 }
     }
 }
@@ -330,7 +322,7 @@ country_event = {
     title = sns_westernization_events.EVTNAME10
     desc = sns_westernization_events.EVTDESC10
     picture = SIEGE_eventPicture
-	
+
 	trigger = {
 		has_disaster = westernization
 		NOT = { has_country_modifier = westernization_capital_lost }
@@ -338,25 +330,21 @@ country_event = {
 			NOT = { controlled_by = ROOT }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 1
 	}
 
     option = {
         name = sns_westernization_events10.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
-		
+
 		change_westernization = { value = -10 }
-		custom_tooltip = add_westernization_capital_lost_tt
-		hidden_effect = {
-			change_variable = { monthly_westernization = -1.5 }
-			add_disaster_modifier = {
-				name = westernization_capital_lost
-				duration = 1095
-				disaster = westernization
-			}
+		add_disaster_modifier = {
+			name = westernization_capital_lost
+			duration = 1095
+			disaster = westernization
 		}
     }
 }
@@ -366,9 +354,9 @@ country_event = {
     title = sns_westernization_events.EVTNAME11
     desc = sns_westernization_events.EVTDESC11
     picture = BATTLE_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_disaster = westernization
 		is_at_war = yes
@@ -381,7 +369,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_province = {
@@ -398,40 +386,36 @@ country_event = {
 			}
 		}
 	}
-	
+
     option = {
         name = sns_westernization_events11.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
-		
+
 		trigger = {
 			event_target:looted_tech_province = {
 				is_capital = yes
 			}
 		}
-		
-		custom_tooltip = add_westernization_western_capital_captured_tt
-		hidden_effect = {
-			change_variable = { monthly_westernization = 1 }
-			add_disaster_modifier = {
-				name = westernization_western_capital_captured
-				duration = 365
-				disaster = westernization
-			}
+
+		add_disaster_modifier = {
+			name = westernization_western_capital_captured
+			duration = 365
+			disaster = westernization
 		}
     }
-	
+
 	option = {
         name = sns_westernization_events11.EVTOPT2
-        
+
         ai_chance = { factor = 100 }
-		
+
 		trigger = {
 			event_target:looted_tech_province = {
 				is_capital = no
 			}
 		}
-		
+
 		change_westernization = { value = 5 }
     }
 }
@@ -441,9 +425,9 @@ country_event = {
     title = sns_westernization_events.EVTNAME12
     desc = sns_westernization_events.EVTDESC12
     picture = ANGRY_MOB_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		has_disaster = westernization
 		any_owned_province = {
@@ -456,7 +440,7 @@ country_event = {
 			controlled_by = ROOT
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -473,12 +457,12 @@ country_event = {
 			}
 		}
 	}
-	
+
     option = {
         name = sns_westernization_events12.EVTOPT1
-        
+
         ai_chance = { factor = 100 }
-		
+
 		event_target:province_dev_for_westernization = {
 			add_province_modifier = {
 				name = westernization_hurts_province_dev_bad
@@ -496,22 +480,18 @@ country_event = {
 				}
 			}
 		}
-		custom_tooltip = add_westernization_province_dev_for_westernization_tt
-		hidden_effect = {
-			change_variable = { monthly_westernization = 0.3 }
-			add_disaster_modifier = {
-				name = westernization_province_dev_for_westernization
-				duration = 730
-				disaster = westernization
-			}
+		add_disaster_modifier = {
+			name = westernization_province_dev_for_westernization
+			duration = 730
+			disaster = westernization
 		}
     }
-	
+
 	option = {
         name = sns_westernization_events12.EVTOPT2
-        
+
         ai_chance = { factor = 100 }
-		
+
 		event_target:province_dev_for_westernization = {
 			add_province_modifier = {
 				name = westernization_hurts_province_dev_good

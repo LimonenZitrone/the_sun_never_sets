@@ -31,8 +31,7 @@ country_event = {
 				which = yearly_sphere_influence
 				value = modifier:yearly_sphere_influence
 			}
-			# Round to two decimals
-			divide_variable = { yearly_sphere_influence = 100 }
+			# Convert 0-1 to 0-100
 			multiply_variable = { yearly_sphere_influence = 100 }
 			# Add to progress
 			change_variable = { which = influence_sphere which = yearly_sphere_influence }

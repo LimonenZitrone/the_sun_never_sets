@@ -1,0 +1,16 @@
+estate_for_custom_modifiers = {
+	modifier_definition = {
+		type = loyalty
+		key = yearly_sphere_influence
+		trigger = {
+			always = yes
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = westernization_influence
+		trigger = {
+			always = yes
+		}
+	}
+}

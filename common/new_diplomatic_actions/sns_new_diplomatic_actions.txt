@@ -21,6 +21,22 @@ add_to_soi = {
 	}
 
 	is_allowed = {
+		hidden_trigger = {
+			OR = {
+				AND = {
+					has_dlc = "Rights of Man"
+					is_great_power = yes
+				}
+				AND = {
+					NOT = { has_dlc = "Rights of Man" }
+					is_great_power_no_rom_trigger = yes
+				}
+				external_diplomacy_ideas = 1
+			}
+			FROM = {
+				is_subject = no
+			}
+		}
 		FROM = {
 			is_subject = no
 			if = {
@@ -42,7 +58,10 @@ add_to_soi = {
 				}
 			}
 		}
-		check_variable = { influence_sphere = 100 }
+		custom_trigger_tooltip = {
+			tooltip = HAS_100_SPHERE_INFLUENCE
+			check_variable = { influence_sphere = 100 }
+		}
 	}
 
 	on_accept = {
@@ -57,7 +76,7 @@ add_to_soi = {
 		}
 		log = "[Root.GetName] added [From.GetName] to its sphere."
 	}
-	
+
 	ai_will_do = {
 		always = yes
 	}
@@ -87,6 +106,23 @@ support_sphere_independence = {
 	}
 
 	is_allowed = {
+		hidden_trigger = {
+			OR = {
+				AND = {
+					has_dlc = "Rights of Man"
+					is_great_power = yes
+				}
+				AND = {
+					NOT = { has_dlc = "Rights of Man" }
+					is_great_power_no_rom_trigger = yes
+				}
+				external_diplomacy_ideas = 1
+			}
+			FROM = {
+				NOT = { is_subject_of = ROOT }
+				is_subject_of_type = sphere
+			}
+		}
 		FROM = {
 			is_subject_of_type = sphere
 		}
@@ -99,7 +135,10 @@ support_sphere_independence = {
 				}
 			}
 		}
-		check_variable = { influence_sphere = 100 }
+		custom_trigger_tooltip = {
+			tooltip = HAS_100_SPHERE_INFLUENCE
+			check_variable = { influence_sphere = 100 }
+		}
 	}
 
 	on_accept = {
@@ -124,7 +163,7 @@ support_sphere_independence = {
 		}
 		log = "[Root.GetName] supported [From.GetName]'s independence (former sphere)."
 	}
-	
+
 	ai_will_do = {
 		is_at_war = no
 		FROM = {
@@ -160,6 +199,24 @@ influence_nation = {
 	}
 
 	is_allowed = {
+		hidden_trigger = {
+			OR = {
+				AND = {
+					has_dlc = "Rights of Man"
+					is_great_power = yes
+				}
+				AND = {
+					NOT = { has_dlc = "Rights of Man" }
+					is_great_power_no_rom_trigger = yes
+				}
+				external_diplomacy_ideas = 1
+			}
+			NOT = { has_country_flag = is_influencing_@FROM }
+			FROM = {
+				NOT = { has_country_flag = influenced_by_@ROOT }
+				NOT = { is_subject_of = ROOT }
+			}
+		}
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
@@ -217,7 +274,7 @@ influence_nation = {
 		}
 		log = "[Root.GetName] started to influence [From.GetName]."
 	}
-	
+
 	ai_will_do = {
 		FROM = {
 			OR = {
@@ -253,7 +310,7 @@ influence_nation = {
 
 stop_influence_nation = {
 	category = influence
-	
+
 	require_acceptance = no
 
 	is_visible = {
@@ -266,6 +323,14 @@ stop_influence_nation = {
 	}
 
 	is_allowed = {
+		hidden_trigger = {
+			OR = {
+				has_country_flag = is_influencing_@FROM
+				FROM = {
+					has_country_flag = influenced_by_@ROOT
+				}
+			}
+		}
 		custom_trigger_tooltip = {
 			tooltip = IS_SPHERE_INFLUENCING_FROM
 			OR = {
@@ -285,7 +350,7 @@ stop_influence_nation = {
 		}
 		log = "[Root.GetName] stopped to influence [From.GetName]."
 	}
-	
+
 	ai_will_do = {
 		FROM = {
 			is_subject = yes
@@ -310,6 +375,12 @@ make_sphere_vassal = {
 	}
 
 	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = sphere
+			}
+		}
 		is_at_war = no
 		FROM = {
 			is_at_war = no
@@ -338,7 +409,7 @@ make_sphere_vassal = {
 		}
 		log = "[Root.GetName] transformed [From.GetName] (sphere) into a vassal."
 	}
-	
+
 	ai_will_do = {
 		num_of_free_diplomatic_relations = 1
 		dip_power = 200
@@ -358,6 +429,12 @@ grant_sphere_independence = {
 	}
 
 	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = sphere
+			}
+		}
 		is_at_war = no
 		FROM = {
 			is_at_war = no
@@ -382,7 +459,7 @@ grant_sphere_independence = {
 		add_prestige = -20
 		log = "[Root.GetName] released its former sphere [From.GetName]."
 	}
-	
+
 	ai_will_do = {
 		always = no
 	}

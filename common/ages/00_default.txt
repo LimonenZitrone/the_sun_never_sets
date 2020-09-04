@@ -1,23 +1,23 @@
 victorian_era = {
 	start = 1836
-	
+
 	can_start = {
 		always = yes
 	}
-	
+
 	absolutism = {
 		harsh_treatment = 1
 		stability = 1
 		decrease_autonomy_command = 1
 		strengthen_government = 2
-		
+
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
 		seat_in_parliament = -3
 		war_exhaustion = -1
 	}
-	
+
 	objectives = {
 		obj_victorian_era_1 = {
 			factory = 15
@@ -50,8 +50,8 @@ victorian_era = {
 		obj_victorian_era_7 = {
 			diplomatic_reputation = 5
 		}
-	}	
-	
+	}
+
 	abilities = {
 		ab_victorian_era_1 = {
 			modifier = {
@@ -115,7 +115,7 @@ victorian_era = {
 				factor = 1
 			}
 		}
-		
+
 		ab_gbr_victorian_era = {
 			allow = {
 				tag = GBR
@@ -171,24 +171,24 @@ victorian_era = {
 
 a_house_divided = {
 	start = 1860
-	
+
 	can_start = {
 		is_year = 1859
 	}
-	
+
 	absolutism = {
 		harsh_treatment = 1
 		stability = 1
 		decrease_autonomy_command = 1
 		strengthen_government = 2
-		
+
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
 		seat_in_parliament = -3
 		war_exhaustion = -1
 	}
-	
+
 	objectives = {
 		obj_a_house_divided_1_1 = {
 			allow = {
@@ -265,8 +265,8 @@ a_house_divided = {
 		obj_a_house_divided_7 = {
 	#		oil = 5
 		}
-	}	
-	
+	}
+
 	abilities = {
 		ab_a_house_divided_1 = {
 			modifier = {
@@ -324,7 +324,7 @@ a_house_divided = {
 				factor = 1
 			}
 		}
-		
+
 		ab_ita_a_house_divided = {
 			allow = {
 				OR = {
@@ -368,7 +368,7 @@ a_house_divided = {
 			}
 			modifier = {
 				technology_cost = -0.05
-				westernization_influence = 2
+				westernization_influence = 0.02
 			}
 			effect = {
 				custom_tooltip = age_ability_westernization_plus_two
@@ -382,24 +382,24 @@ a_house_divided = {
 
 age_of_empires = {
 	start = 1880
-	
+
 	can_start = {
 		is_year = 1879
 	}
-	
+
 	absolutism = {
 		harsh_treatment = 1
 		stability = 1
 		decrease_autonomy_command = 1
 		strengthen_government = 2
-		
+
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
 		seat_in_parliament = -3
 		war_exhaustion = -1
 	}
-	
+
 	objectives = {
 		obj_age_of_empires_1 = {
 			is_subject = no
@@ -466,8 +466,8 @@ age_of_empires = {
 		obj_age_of_empires_7 = {
 			is_socialist = yes
 		}
-	}	
-	
+	}
+
 	abilities = {
 		ab_age_of_empires_1 = {
 			modifier = {
@@ -536,7 +536,7 @@ age_of_empires = {
 				factor = 5
 			}
 		}
-		
+
 		ab_bel_age_of_empires = {
 			allow = {
 				tag = BEL
@@ -586,7 +586,7 @@ age_of_empires = {
 			}
 			modifier = {
 				diplomatic_upkeep = 3
-				yearly_sphere_influence = 2
+				yearly_sphere_influence = 0.02
 			}
 			effect = {
 				custom_tooltip = age_ability_sphere_influence_plus_two

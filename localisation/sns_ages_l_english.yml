@@ -67,8 +67,6 @@
  ab_csa_a_house_divided: "Dixie Land"
  ab_jap_a_house_divided: "Meiji Restoration"
  
- age_ability_westernization_plus_two: "Monthly Westernization: §G+2.00§!"
- 
  # Age of Empires:
  age_of_empires: "Age of Empires"
  age_of_empires_desc: "(Placeholder) \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great! \nPlaceholder Loc is great!"
@@ -101,5 +99,4 @@
  ab_gp_age_of_empires: "Great Power Diplomacy"
  
  cb_scramble_of_africa_enabled: "Enables the '§YScramble for Africa§!' Casus Belli."
- age_ability_sphere_influence_plus_two: "Yearly Sphere Influence when influencing nations: §G+2.00§!"
  

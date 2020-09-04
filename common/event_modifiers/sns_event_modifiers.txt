@@ -1,21 +1,21 @@
 # Westernization
 westernization_help = {
-	westernization_influence = 0.5
+	westernization_influence = 0.005
 }
 
 westernization_help_cooldown = {
 }
 
 westernization_capital_lost = {
-	westernization_influence = -1.5
+	westernization_influence = -0.015
 }
 
 westernization_western_capital_captured = {
-	westernization_influence = 1
+	westernization_influence = 0.01
 }
 
 westernization_province_dev_for_westernization = {
-	westernization_influence = 0.3
+	westernization_influence = 0.03
 }
 
 westernization_hurts_province_dev_bad = {
@@ -29,7 +29,7 @@ westernization_hurts_province_dev_good = {
 }
 
 jap_westernization = {
-	westernization_influence = 1
+	westernization_influence = 0.01
 }
 
 # Sphere Influence

@@ -14,14 +14,14 @@ westernization = {
 			has_country_flag = westernization_started
 		}
 	}
-	
+
 	can_stop = {
 		OR = {
 			NOT = { has_no_or_special_disaster = yes }
 			technology_group = western
 		}
 	}
-	
+
 	progress = {
 		modifier = {
 			factor = 100
@@ -29,9 +29,9 @@ westernization = {
 				tooltip = IS_WESTERNIZING
 				has_country_flag = westernization_started
 			}
-		}	
-	}	
-	
+		}
+	}
+
 	can_end = {
 		OR = {
 			technology_group = western
@@ -43,12 +43,15 @@ westernization = {
 	}
 
 	modifier = {
-		westernization_influence = 1
+		country_admin_power = -1
+		country_diplomatic_power = -1
+		country_military_power = -1
+		westernization_influence = 0.01
 	}
-	
+
 	on_start = sns_westernization_events.1
 	on_end = sns_westernization_events.2
-	
+
 	on_start_effect = {
 		if = {
 			limit = {
@@ -59,17 +62,21 @@ westernization = {
 					tag = JAP
 				}
 				change_variable = { westernization = 2 }
-				custom_tooltip = WESTERNIZATION_DISASTER_TT_1_2
+				tooltip = {
+					add_disaster_modifier = {
+						name = jap_westernization
+						duration = -1
+						disaster = westernization
+					}
+				}
 			}
 			else = {
 				change_variable = { westernization = 1 }
-				custom_tooltip = WESTERNIZATION_DISASTER_TT_1
 			}
 		}
 		else = {
-			custom_tooltip = WESTERNIZATION_DISASTER_TT_2
+			custom_tooltip = WESTERNIZATION_DISASTER_TT
 		}
-		custom_tooltip = WESTERNIZATION_DISASTER_TT_3
 		hidden_effect = {
 			set_country_flag = has_disaster_westernization
 			if = {
@@ -88,7 +95,7 @@ westernization = {
 			}
 		}
 	}
-	
+
 	on_monthly = {
 		events = {
 			sns_westernization_events.3

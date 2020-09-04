@@ -10,28 +10,13 @@
  DOES_NOT_HAVE_EVENT_IMPERIALISM: "The Event §Y'Age of Imperialism'§! Has not Happened"
  
  sns_influencing_potential_sphere_modifier: "Diplomatic Influence"
- desc_sns_influencing_potential_sphere_modifier: "Yearly Sphere Influence: §G+5.00§!"
  
  # Event Modifiers:
  westernization_help: "Foreign Help with Technology"
- desc_westernization_help: "Monthly Westernization: §G+0.50§!"
- add_westernization_help_tt: "[This.GetName] gets '§YForeign Help with Technology§!' for §Y730§! days unless §YWesternization§! is completed before, giving the following effects: \nMonthly Westernization: §G+0.50§!"
- 
  westernization_capital_lost: "Fallen Capital"
- desc_westernization_capital_lost: "Monthly Westernization: §R-1.50§!"
- add_westernization_capital_lost_tt: "[This.GetName] gets '§YFallen Capital§!' for §Y1095§! days unless §YWesternization§! is completed before, giving the following effects: \nMonthly Westernization: §R-1.50§!"
- 
  westernization_western_capital_captured: "Captured Western Capital"
- desc_westernization_western_capital_captured: "Monthly Westernization: §G+1.00§!"
- add_westernization_western_capital_captured_tt: "[This.GetName] gets '§YCaptured Western Capital§!' for §Y365§! days unless §YWesternization§! is completed before, giving the following effects: \nMonthly Westernization: §G+1.00§!"
- 
  westernization_province_dev_for_westernization: "Prioritizing Research"
- desc_westernization_province_dev_for_westernization: "Monthly Westernization: §G+0.30§!"
- add_westernization_province_dev_for_westernization_tt: "[This.GetName] gets '§YPrioritizing Research§!' for §Y730§! days unless §YWesternization§! is completed before, giving the following effects: \nMonthly Westernization: §G+0.30§!"
- 
  jap_westernization: "Japanese Traditions"
- desc_jap_westernization: "Monthly Westernization: §G+1.00§!"
- 
  westernization_hurts_province_dev_bad: "Prioritized Research"
  westernization_hurts_province_dev_good: "Prioritized People"
  

@@ -1,9 +1,8 @@
 ﻿l_english:
- string_westernization_progress_green_decimals_2: "§G+[Root.monthly_westernization.GetValue].00§!"
- string_westernization_progress_green_decimals: "§G+[Root.monthly_westernization.GetValue]0§!"
- string_westernization_progress_green: "§G+[Root.monthly_westernization.GetValue]§!"
- string_westernization_progress_yellow: "§Y+[Root.monthly_westernization.GetValue].00§!"
- string_westernization_progress_red_decimals_2: "§R[Root.monthly_westernization.GetValue].00§!"
- string_westernization_progress_red_decimals: "§R[Root.monthly_westernization.GetValue]0§!"
- string_westernization_progress_red: "§R[Root.monthly_westernization.GetValue]§!"
- 
+ string_westernization_progress_green_decimals_2: "§G+[Root.monthly_westernization.GetValue].00%§!"
+ string_westernization_progress_green_decimals: "§G+[Root.monthly_westernization.GetValue]0%§!"
+ string_westernization_progress_green: "§G+[Root.monthly_westernization.GetValue]%§!"
+ string_westernization_progress_yellow: "§Y+[Root.monthly_westernization.GetValue].00%§!"
+ string_westernization_progress_red_decimals_2: "§R[Root.monthly_westernization.GetValue].00%§!"
+ string_westernization_progress_red_decimals: "§R[Root.monthly_westernization.GetValue]0%§!"
+ string_westernization_progress_red: "§R[Root.monthly_westernization.GetValue]%§!"

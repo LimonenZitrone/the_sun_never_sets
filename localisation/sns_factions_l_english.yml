@@ -2,58 +2,48 @@
  monarchist_party: "Monarchist Party"
  monarchist_party_FACTION_DESC: "The §YMonarchist Party§! supports a government lead by a Monarch."
  monarchist_party_influence: "Support for the Monarchist Party"
- 
+
  religious_party: "Religious Party"
  religious_party_FACTION_DESC: "The §YReligious Party§! supports a government lead by a religious leader."
  religious_party_influence: "Support for the Religious Party"
- 
+
  democratic_party: "Democratic Party"
  democratic_party_FACTION_DESC: "The §YDemocratic Party§! supports a democratic government."
  democratic_party_influence: "Support for the Democratic Party"
- 
+
  libertarian_party: "Libertarian Party"
  libertarian_party_FACTION_DESC: "The §YLibertarian Party§! supports a rather democratic government, which has favors for the industrialists and the economy."
  libertarian_party_influence: "Support for the Libertarian Party"
- 
+
  nationalist_party: "Nationalist Party"
  nationalist_party_FACTION_DESC: "The §YNationalist Party§! supports a totalitarian government lead by one ruler. They also seek territorial expansion."
  nationalist_party_influence: "Support for the Nationalist Party"
- 
+
  communist_party: "Communist Party"
  communist_party_FACTION_DESC: "The §YCommunist Party§! respectively §YSocialist Party§! supports a totalitarian respectively autocratic government, which has favors for the state and seemingly for the workers."
  communist_party_influence: "Support for the Communist Party"
- 
+
  # Special Faction Names:
  deutsch_konservative_partei: "Deutsch-Konservative Partei"
  deutsch_konservative_partei_FACTION_DESC: "The §YMonarchist Party§! supports a government lead by a Monarch."
  deutsch_konservative_partei_influence: "Support for the Monarchist Party"
- 
+
  zentrums_partei: "Deutsche Zentrumspartei"
  zentrums_partei_FACTION_DESC: "The §YReligious Party§! supports a government lead by a religious leader."
  zentrums_partei_influence: "Support for the Religious Party"
- 
+
  sozialdemokratische_partei_deutschlands: "SPD"
  sozialdemokratische_partei_deutschlands_FACTION_DESC: "The §YSocial Democratic Party§! supports a democratic government."
  sozialdemokratische_partei_deutschlands_influence: "Support for the Social Democratic Party"
-  
+
  deutsche_reichspartei: "Deutsche Reichspartei"
  deutsche_reichspartei_FACTION_DESC: "The §YLibertarian Party§! supports a rather democratic government, which has favors for the industrialists and the economy."
  deutsche_reichspartei_influence: "Support for the Libertarian Party"
- 
+
  nationalliberale_partei: "Nationalliberale Partei"
  nationalliberale_partei_FACTION_DESC: "The §YNationalist Party§! supports a totalitarian government lead by one ruler. They also seek territorial expansion."
  nationalliberale_partei_influence: "Support for the Nationalist Party"
- 
+
  kommunistische_partei_deutschlands: "KPD"
  kommunistische_partei_deutschlands_FACTION_DESC: "The §YCommunist Party§! supports a totalitarian respectively autocratic government, which has favors for the state and seemingly for the workers."
  kommunistische_partei_deutschlands_influence: "Support for the Communist Party"
- 
- # Special Factions:
- westernization: "Westernization"
- westernization_FACTION_DESC: ""
- westernization_influence: "Monthly Westernization"
- 
- yearly_sphere: "Sphere Influence"
- yearly_sphere_FACTION_DESC: ""
- yearly_sphere_influence: "Yearly Sphere Influence"
- 
