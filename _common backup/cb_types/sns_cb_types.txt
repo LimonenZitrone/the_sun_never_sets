@@ -1,0 +1,56 @@
+cb_restore_sphere = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 24
+
+	war_goal = take_capital_disloyal_sphere
+}
+
+cb_scramble_of_africa = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_country_flag = cb_scramble_of_africa_enabled
+		capital_scope = {
+			continent = europe
+		}
+		FROM = {
+			capital_scope = {
+				continent = africa
+			}
+		}
+	}
+
+	war_goal = take_capital_imperial
+}
+
+cb_admit_hegemony = {
+	valid_for_subject = no
+	
+	prerequisites = {
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			is_great_power = yes
+		}
+		else = {
+			is_great_power_no_rom_trigger = yes
+		}
+		FROM = {
+			culture_group = ROOT
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				is_great_power = yes
+			}
+			else = {
+				is_great_power_no_rom_trigger = yes
+			}
+		}
+	}
+	
+	war_goal = admit_hegemony
+}

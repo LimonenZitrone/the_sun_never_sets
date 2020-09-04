@@ -1,0 +1,83 @@
+japanese_shogunate = {
+	icon = "shogunate"
+	allow_normal_conversion = no
+	potential = {
+		tag = JAP
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_government = yes
+	maintain_dynasty = yes
+	allow_vassal_war = no
+	allow_vassal_alliance = no
+	lock_level_when_selected = yes
+	monarchy = yes
+	modifiers = {
+		technology_cost = 0.1
+		max_absolutism = 10
+		yearly_absolutism = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+japanese_shogunate_reform = {
+	icon = "shogunate"
+	allow_normal_conversion = no
+	potential = {
+		tag = JAP
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_equivalent = japanese_shogunate
+	maintain_dynasty = yes
+	allow_vassal_war = no
+	allow_vassal_alliance = no
+	lock_level_when_selected = yes
+	
+	modifiers = {
+		technology_cost = 0.1
+		max_absolutism = 10
+		yearly_absolutism = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+socialist_regime = {
+	icon = "shogunate"
+	allow_normal_conversion = yes
+	potential = {
+		technology_group = western
+		has_global_flag = sns_allow_communism
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_government = yes
+	republic = yes
+	modifiers = {
+		build_cost = -0.1
+		global_unrest = -2
+		trade_goods_size_modifier = 0.05
+	}
+}	
+
+socialist_regime_reform = {
+	allow_normal_conversion = yes
+	potential = {
+		technology_group = western
+		has_global_flag = sns_allow_communism
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 50
+	legacy_equivalent = socialist_regime
+	modifiers = {
+		build_cost = -0.1
+		global_unrest = -2
+		trade_goods_size_modifier = 0.05
+	}
+}

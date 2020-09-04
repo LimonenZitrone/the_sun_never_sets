@@ -1,0 +1,131 @@
+monarchist_party = {
+	monarch_power = ADM
+	always = yes
+	
+	triggered_faction_name = {
+		name = deutsch_konservative_partei
+		
+		trigger = {
+			OR = {
+				tag = PRU
+				tag = GER
+			}
+		}
+	}
+
+	modifier = {
+		legitimacy = 1
+		yearly_absolutism = 0.25
+		stability_cost_modifier = -0.2
+	}
+}
+
+religious_party = {
+	monarch_power = ADM
+	always = yes
+	
+	triggered_faction_name = {
+		name = zentrums_partei
+		
+		trigger = {
+			OR = {
+				tag = PRU
+				tag = GER
+			}
+		}
+	}
+
+	modifier = {
+		devotion = 1
+		religious_unity = 0.1
+		tolerance_own = 1
+	}
+}
+
+democratic_party = {
+	monarch_power = DIP
+	always = yes
+	
+	triggered_faction_name = {
+		name = sozialdemokratische_partei_deutschlands
+		
+		trigger = {
+			OR = {
+				tag = PRU
+				tag = GER
+			}
+		}
+	}
+
+	modifier = {
+		diplomatic_reputation = 1
+		global_unrest = -2
+		republican_tradition = 0.5
+	}
+}
+
+libertarian_party = {
+	monarch_power = DIP
+	always = yes
+	
+	triggered_faction_name = {
+		name = deutsche_reichspartei
+		
+		trigger = {
+			OR = {
+				tag = PRU
+				tag = GER
+			}
+		}
+	}
+
+	modifier = {
+		production_efficiency = 0.2
+		state_maintenance_modifier = -0.1
+		development_cost = -0.1
+	}
+}
+
+nationalist_party = {
+	monarch_power = MIL
+	always = yes
+	
+	triggered_faction_name = {
+		name = nationalliberale_partei
+		
+		trigger = {
+			OR = {
+				tag = PRU
+				tag = GER
+			}
+		}
+	}
+
+	modifier = {
+		global_manpower_modifier = 0.1
+		discipline = 0.025
+		culture_conversion_cost = -0.2
+	}
+}
+
+communist_party = {
+	monarch_power = MIL
+	always = yes
+	
+	triggered_faction_name = {
+		name = kommunistische_partei_deutschlands
+		
+		trigger = {
+			OR = {
+				tag = PRU
+				tag = GER
+			}
+		}
+	}
+
+	modifier = {
+		global_autonomy = -0.05
+		global_tax_modifier = 0.1
+		build_cost = -0.1
+	}
+}

@@ -1,0 +1,108 @@
+westernization = {
+	potential = {
+		NOT = { technology_group = western }
+		OR = {
+			NOT = { has_country_flag = stopped_westernization }
+			had_country_flag = { flag = stopped_westernization days = 31 }
+		}
+	}
+
+	can_start = {
+		has_no_or_special_disaster = yes
+		custom_trigger_tooltip = {
+			tooltip = IS_WESTERNIZING
+			has_country_flag = westernization_started
+		}
+	}
+	
+	can_stop = {
+		OR = {
+			NOT = { has_no_or_special_disaster = yes }
+			technology_group = western
+		}
+	}
+	
+	progress = {
+		modifier = {
+			factor = 100
+			custom_trigger_tooltip = {
+				tooltip = IS_WESTERNIZING
+				has_country_flag = westernization_started
+			}
+		}	
+	}	
+	
+	can_end = {
+		OR = {
+			technology_group = western
+			custom_trigger_tooltip = {
+				tooltip = HAS_WESTERNIZATION_COMPLETED
+				check_variable = { westernization = 100 }
+			}
+		}
+	}
+
+	modifier = {
+		westernization_influence = 1
+	}
+	
+	on_start = sns_westernization_events.1
+	on_end = sns_westernization_events.2
+	
+	on_start_effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = has_disaster_westernization }
+			}
+			if = {
+				limit = {
+					tag = JAP
+				}
+				change_variable = { westernization = 2 }
+				custom_tooltip = WESTERNIZATION_DISASTER_TT_1_2
+			}
+			else = {
+				change_variable = { westernization = 1 }
+				custom_tooltip = WESTERNIZATION_DISASTER_TT_1
+			}
+		}
+		else = {
+			custom_tooltip = WESTERNIZATION_DISASTER_TT_2
+		}
+		custom_tooltip = WESTERNIZATION_DISASTER_TT_3
+		hidden_effect = {
+			set_country_flag = has_disaster_westernization
+			if = {
+				limit = {
+					tag = JAP
+				}
+				set_variable = { monthly_westernization = 2 }
+				add_disaster_modifier = {
+					name = jap_westernization
+					duration = -1
+					disaster = westernization
+				}
+			}
+			else = {
+				set_variable = { monthly_westernization = 1 }
+			}
+		}
+	}
+	
+	on_monthly = {
+		events = {
+			sns_westernization_events.3
+		}
+		random_events = {
+			2000 = 0
+			100 = sns_westernization_events.4
+			100 = sns_westernization_events.5
+			100 = sns_westernization_events.6
+			100 = sns_westernization_events.7
+			100 = sns_westernization_events.8
+			100 = sns_westernization_events.9
+			100 = sns_westernization_events.11
+			100 = sns_westernization_events.12
+		}
+	}
+}

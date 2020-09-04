@@ -1,0 +1,25 @@
+socialist_regime_name = {
+	rank = {
+		1 = SNS_SOCIALIST_REPUBLIC
+		2 = SNS_SOCIALIST_REPUBLIC
+		3 = SNS_SOCIALIST_REPUBLIC
+	}
+
+	ruler_male = {
+		1 = SNS_CHAIRMAN
+		2 = SNS_CHAIRMAN
+		3 = SNS_CHAIRMAN
+	}
+
+	ruler_female = {
+		1 = SNS_CHAIRMAN
+		2 = SNS_CHAIRMAN
+		3 = SNS_CHAIRMAN
+	}
+	
+	government_reform = socialist_regime_reform
+	
+	trigger = {
+		has_reform = socialist_regime_reform
+	}
+}
