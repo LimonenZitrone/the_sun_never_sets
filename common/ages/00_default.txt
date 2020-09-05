@@ -370,9 +370,6 @@ a_house_divided = {
 				technology_cost = -0.05
 				westernization_influence = 0.02
 			}
-			effect = {
-				custom_tooltip = age_ability_westernization_plus_two
-			}
 			ai_will_do = {
 				factor = 100
 			}
@@ -587,9 +584,6 @@ age_of_empires = {
 			modifier = {
 				diplomatic_upkeep = 3
 				yearly_sphere_influence = 0.02
-			}
-			effect = {
-				custom_tooltip = age_ability_sphere_influence_plus_two
 			}
 			ai_will_do = {
 				factor = 150

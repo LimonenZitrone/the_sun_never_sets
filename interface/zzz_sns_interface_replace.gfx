@@ -9,4 +9,16 @@ spriteTypes = {
 		horizontal = no
 		effectFile = "gfx//FX//progress.lua"
 	}
+
+	spriteType = {
+		name = "GFX_age_button"
+		texturefile = "gfx/interface/ages/age_button.dds"
+		#transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_age_button_golden"
+		texturefile = "gfx/interface/ages/age_button_golden.dds"
+		#transparencecheck = yes
+	}
 }
