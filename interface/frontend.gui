@@ -357,23 +357,24 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "single_player_button"
-					position = { x = 349 y = -35 }
+					position = { x = 343 y = -36 }
 					quadTextureSprite ="GFX_frontend_sp_button"
 				}
 
 				instantTextBoxType = {
 
 					name ="single_player_button_text"
-					position = { x = 380 y = -16 }
+					position = { x = 343 y = -16 }
 
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_SINGLE_PLAYER"
 					format = centre
-					maxWidth = 160
+					maxWidth = 208
 					maxHeight = 24
 					fixedsize = yes
 					alwaystransparent = yes
+					text_color_code = b
 				}
 
 				windowType = {
@@ -389,7 +390,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "continue_game_button"
-						position = { x = 0 y = 0 }
+						position = { x = 6 y = -4 }
 						quadTextureSprite ="GFX_frontend_continue_button"
 					}
 
@@ -397,46 +398,48 @@ guiTypes = {
 					{
 						name ="continue_game_shield"
 						spriteType = "standarddialogshield"
-						position = { x= -34 y = -26 }
+						position = { x= 0 y = -25 }
 					}
 
 					instantTextBoxType = {
 						name ="text"
-						position = { x = 50 y = 7 }
+						position = { x = 90 y = 3 }
 						font = "vic_22"
 						format = left
-						maxWidth = 400
+						maxWidth = 230
 						maxHeight = 100
 						fixedsize = yes
 						alwaystransparent = yes
+						text_color_code = b
 					}
 
 					iconType =
 					{
 						name ="ironman_icon"
 						spriteType = "GFX_ironman_icon"
-						position = { x= 275 y = 10 }
+						position = { x= 310 y = 7 }
 					}
 				}
 
 				guiButtonType = {
 					name = "multi_player_button"
-					position = { x = 553 y = -35}
+					position = { x = 555 y = -36}
 					quadTextureSprite ="GFX_frontend_mp_button"
 				}
 				instantTextBoxType = {
 
 					name ="multi_player_button_text"
-					position = { x = 563 y = -16 }
+					position = { x = 555 y = -16 }
 
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_MULTI_PLAYER"
 					format = centre
-					maxWidth = 160
+					maxWidth = 207
 					maxHeight = 24
 					fixedsize = yes
 					allwaystransparent = yes
+					text_color_code = b
 				}
 				###
 
@@ -469,58 +472,86 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "tutorial_button"
-					position = { x = 267 y = 27 }
+					position = { x = 225 y = 27 }
 					quadTextureSprite ="GFX_frontend_panel_button_left"
 				}
 				instantTextBoxType = {
 
 					name ="tutorial_button_text"
-					position = { x = 290 y = 42 }
+					position = { x = 225 y = 42 }
 
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_TUTORIAL"
 					format = centre
-					maxWidth = 125
+					maxWidth = 162
 					maxHeight = 20
 					fixedsize = yes
 					alwaystransparent = yes
+					text_color_code = b
 				}
 
 				guiButtonType = {
 					name = "credits_button"
-					position = { x = 413 y = 27	 }
+					position = { x = 391 y = 27	 }
 					quadTextureSprite ="GFX_frontend_panel_button_center"
-					buttonText = "FE_CREDITS"
-					buttonFont = "vic_22"
+				}
+				instantTextBoxType = {
+
+					name ="credits_button_text"
+					position = { x = 391 y = 42 }
+
+					font = "vic_22"
+					borderSize = {x = 0 y = 0}
+					text = "FE_CREDITS"
+					format = centre
+					maxWidth = 163
+					maxHeight = 20
+					fixedsize = yes
+					alwaystransparent = yes
+					text_color_code = b
 				}
 
 				guiButtonType = {
 					name = "settings_button"
-					position = { x = 553 y = 27 }
+					position = { x = 554 y = 27 }
 					quadTextureSprite ="GFX_frontend_panel_button_center"
-					buttonText = "FE_OPTIONS"
-					buttonFont = "vic_22"
+				}
+				instantTextBoxType = {
+
+					name ="settings_button_text"
+					position = { x = 554 y = 42 }
+
+					font = "vic_22"
+					borderSize = {x = 0 y = 0}
+					text = "FE_OPTIONS"
+					format = centre
+					maxWidth = 163
+					maxHeight = 20
+					fixedsize = yes
+					alwaystransparent = yes
+					text_color_code = b
 				}
 
 				guiButtonType = {
 					name = "exit_button"
-					position = { x = 692 y = 27 }
+					position = { x = 717 y = 27 }
 					quadTextureSprite ="GFX_frontend_panel_button_right"
 				}
 				instantTextBoxType = {
 
 					name ="exit_button_text"
-					position = { x = 692 y = 42 }
+					position = { x = 717 y = 42 }
 
 					font = "vic_22"
 					borderSize = {x = 0 y = 0}
 					text = "FE_EXIT"
 					format = centre
-					maxWidth = 125
+					maxWidth = 163
 					maxHeight = 20
 					fixedsize = yes
 					alwaystransparent = yes
+					text_color_code = b
 				}
 
 				#iconType =
@@ -985,7 +1016,7 @@ guiTypes = {
 					position = { x = 636 y = 125 }
 					quadTextureSprite ="GFX_standard_button_105"
 					buttonText = "SEND"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "UPPER_LEFT"
 				}
 
@@ -1003,7 +1034,7 @@ guiTypes = {
 					position = { x = 526 y = 125 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "SEND"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "UPPER_LEFT"
 				}
 
@@ -1463,7 +1494,7 @@ guiTypes = {
 					position = { x = 18 y = -104 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "MENU_BAR_GAME_OPTIONS"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "LOWER_LEFT"
 					clicksound = click
 					shortcut = "f"
@@ -1474,7 +1505,7 @@ guiTypes = {
 					position = { x = 18 y = -74 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "FIND"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "LOWER_LEFT"
 					clicksound = click
 					shortcut = "f"
@@ -1485,7 +1516,7 @@ guiTypes = {
 					position = { x = 18 y = -44 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "Options"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "LOWER_LEFT"
 					clicksound = click
 				}
@@ -1494,7 +1525,7 @@ guiTypes = {
 					position = { x = 18 y = -12 }
 					quadTextureSprite ="button_type_4"
 					buttonText = "FE_BACK"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "LOWER_LEFT"
 					clicksound = back_click
 				}
@@ -1771,22 +1802,22 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "create_team_button"
-						position = { x = 18 y = 500 }
-						quadTextureSprite = "GFX_frontend_create_team"
+						position = { x = -5 y = 499 }
+						quadTextureSprite = "button_type_4"
 						Orientation = "UPPER_LEFT"
 						buttonText = "CREATE_TEAM"
-						buttonFont = "vic_18"
+						buttonFont = "vic_18_black"
 						clicksound = click
 					}
 
 
 					guiButtonType = {
 						name = "leave_team_button"
-						position = { x = 18 y = 500 }
-						quadTextureSprite = "GFX_frontend_leave_team"
+						position = { x = -5 y = 499 }
+						quadTextureSprite = "button_type_4"
 						Orientation = "UPPER_LEFT"
 						buttonText = "LEAVE_TEAM"
-						buttonFont = "vic_18"
+						buttonFont = "vic_18_black"
 						clicksound = click
 					}
 
@@ -2331,9 +2362,9 @@ guiTypes = {
 				guiButtonType = {
 					name = "random_new_world_button"
 					position = { x = -241 y = -139 }
-					quadTextureSprite ="GFX_frontend_random_world"
+					quadTextureSprite ="button_type_4"
 					buttonText = "RANDOM_WORLD_START"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "LOWER_RIGHT"
 					clicksound = click
 				}
@@ -2348,18 +2379,18 @@ guiTypes = {
 				guiButtonType = {
 					name = "nation_designer_button"
 					position = { x = -241 y = -107 }
-					quadTextureSprite ="GFX_frontend_custom_nation"
+					quadTextureSprite ="button_type_4"
 					buttonText = "CUSTOM_NATION"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "LOWER_RIGHT"
 					clicksound = click
 				}
 				guiButtonType = {
 					name = "random_country_button"
 					position = { x = -241 y = -75 }
-					quadTextureSprite ="GFX_frontend_random_nation"
+					quadTextureSprite ="button_type_4"
 					buttonText = "RANDOM_COUNTRY"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					Orientation = "LOWER_RIGHT"
 					clicksound = click
 				}
