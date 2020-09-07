@@ -1,10 +1,10 @@
 guiTypes = {
 	#### country right-click menu.
-	windowType = 
+	windowType =
 	{
 		name = "ButtonMenuWindow"
 		backGround=""
-		position = { x= 0 y = 0 }	
+		position = { x= 0 y = 0 }
 		size = { x=0 y = 0 }
 		moveable = 0
 		dontRender = ""
@@ -13,20 +13,20 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "UPPER_LEFT"
 	}
-	
+
 	guiButtonType =
 	{
 		name ="ButtonMenuButton"
 		quadTextureSprite = "GFX_countryaction_gotolocation_big"
 		position = { x = 0 y = 0 }
 	}
-	
+
 	### Offset for right click buttons, x = when size is triggered, y = offset from center
 	positionType = {
 		name = "ButtonMenu_offset_5"
 		position = { x = 100 y = 78 }
 	}
-	
+
 	positionType = {
 		name = "ButtonMenu_offset_4"
 		position = { x = 75 y = 62 }
@@ -41,23 +41,23 @@ guiTypes = {
 		name = "ButtonMenu_offset_2"
 		position = { x = 34 y = 37 }
 	}
-	
+
 	positionType = {
 		name = "ButtonMenu_offset_1"
 		position = { x = 0 y = 31 }
 	}
-	
+
 	positionType = {
 		name = "revolution_flag_offset"
 		position = { x = 4 y = 5 }
 	}
-	
+
 	################################
-	
+
 	windowType = {
 		name ="waroverview_shieldItem"
 		backGround=""
-		position = { x= 0 y = 0 }	
+		position = { x= 0 y = 0 }
 		size = { x = 60 y = 40 }
 		moveable = 0
 		dontRender = ""
@@ -75,10 +75,10 @@ guiTypes = {
 			position = { x= -1 y = -14 }
 			hint_tag = "hint_waroverview"
 		}
-		
+
 		guiButtonType = {
 			name = "button_war_overview_item"
-			position = { x= -3 y = -15 }	
+			position = { x= -3 y = -15 }
 			quadTextureSprite ="GFX_button_war_overview"
 			hint_tag = "hint_waroverview"
 		}
@@ -93,27 +93,27 @@ guiTypes = {
 			maxHeight = 32
 			format = center
 		}
-		
+
 		iconType =
 		{
 			name ="war_enthusiasm_icon"
 			spriteType = "GFX_war_enthusiasm_high"
 			position = { x = 40 y = 20 }
-		}		
+		}
 	}
 
 
 	windowType = {
 		name = "logtext"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=700 y= 18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		guiButtonType = {
 				name = "messagelogbutton"
 				position = { x = 10 y = -6 }
@@ -127,15 +127,15 @@ guiTypes = {
 				size = { x = 700 y = 16  }
 				buttonFont = "vic_18"
 				format = left
-			}		
-		
+			}
+
 	}
 
 
 	windowType = {
 		name = "diplomessageicons_window"
 		backGround=""
-		position = { x=10 y=-62 }	
+		position = { x=10 y=-62 }
 		show_position = { x=10 y=-170 }
 		hide_position = { x=10 y=-60 }
 		animation_type = "decelerated"
@@ -152,7 +152,7 @@ guiTypes = {
 	windowType = {
 		name = "diplomessageicon_entry_window"
 		backGround=""
-		position = { x=0 y=-0 }	
+		position = { x=0 y=-0 }
 		size = { x=64 y= 64 }
 		moveable = 0
 		dontRender = ""
@@ -170,7 +170,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "diplomessageicon_button"
 			position = { x = 20 y = 20 }
-			quadTextureSprite ="GFX_messageicons"	
+			quadTextureSprite ="GFX_messageicons"
 		}
 
 		guiButtonType = {
@@ -178,7 +178,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_flag_smallest"
 			position = { x= 24 y = 49 }
 			Orientation = "UPPER_LEFT"
-		}			
+		}
 	}
 
 	positionType = {
@@ -186,14 +186,14 @@ guiTypes = {
 		position = { x = 20 y = 0 }
 	}
 
-	
+
 	######### MENU  ###################################
-		
+
 
 	windowType = {
 		name = "menu"
 		backGround=""
-		position = { x= -224 y = -262 }	
+		position = { x= -224 y = -262 }
 		size = { x=473 y = 524 }
 		moveable = 0
 		dontRender = ""
@@ -201,7 +201,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 		Orientation = "CENTER"
-		
+
 		iconType =
 		{
 			name ="menu"
@@ -209,11 +209,11 @@ guiTypes = {
 			position = { x= -10 y = -6 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		windowType = {
 			name ="menu_panel"
 			backGround=""
-			position = { x=46 y =24}	
+			position = { x=46 y =24}
 			size = { x=420 y =500}
 			moveable = 0
 			dontRender = ""
@@ -222,51 +222,51 @@ guiTypes = {
 			upsound = ""
 			downsound = ""
 			fullscreen=no
-			
+
 			guiButtonType = {
 				name = "menu_load_button"
 				position = { x = 86 y = 80 }
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_BAR_LOAD_GAME"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
-			
+
 			guiButtonType = {
 				name = "menu_save_button"
 				position = { x = 86 y = 115 }
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_BAR_SAVE_GAME"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
-			
+
 			guiButtonType = {
 				name = "menu_options_button"
 				position = { x = 86 y = 150}
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_BAR_GAME_OPTIONS"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
-			
+
 			guiButtonType = {
 				name = "menu_message_button"
 				position = { x = 86 y = 185}
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_BAR_MESSAGE_SETTINGS"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
-			
+
 			guiButtonType = {
 				name = "menu_ai_prefs_button"
 				position = { x = 86 y = 220 }
@@ -275,71 +275,71 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "PLAYER_AI_PREFS_HEADER"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
-			
+
 			guiButtonType = {
 				name = "menu_stats_button"
 				position = { x = 86 y = 255}
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "STATISTICS"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 			guiButtonType = {
 				name = "privacy_policy_button"
 				position = { x = 86 y = 290}
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				buttonText = "PRIVACY_POLICY"
-			}	
+			}
 
 			guiButtonType = {
 				name = "menu_resign_button"
 				position = { x = 86 y = 325 }
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_BAR_GAME_RESIGN"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 			guiButtonType = {
 				name = "menu_quit_button"
 				position = { x = 86 y = 360 }
-				quadTextureSprite ="button_type_8"	
+				quadTextureSprite ="button_type_8"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_BAR_QUIT"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
-							
+
 			guiButtonType = {
 				name = "menu_close_button"
 				position = { x = 142 y = 395 }
-				quadTextureSprite ="button_type_6"	
+				quadTextureSprite ="button_type_6"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				buttonText = "CLOSE"
 				shortcut = "ESCAPE"
 			}
 		}
-		
-		
-		
+
+
+
 	windowType = {
 		name = "menu_unsync"
-		position = { x= -224 y = -262 }	
+		position = { x= -224 y = -262 }
 		size = { x=473 y = 524 }
 		moveable = 0
 		dontRender = ""
@@ -347,32 +347,32 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 		Orientation = "CENTER"
-		
+
 		instantTextBoxType={
 			position = {x = 105 y = 65 }
 			name = "disk_space_needed"
 			font = "vic_18"
-			borderSize = {x = 8 y = 0}	
+			borderSize = {x = 8 y = 0}
 			maxWidth = 250
 			maxHeight = 20
-			text = "CLOUDSAVE_SPACE_NEEED"	
+			text = "CLOUDSAVE_SPACE_NEEED"
 			orientation = "UPPER_LEFT"
 			format = centre
 		}
-		
+
 		instantTextBoxType={
 			position = {x = 85 y = 85 }
 			name = "cloudsave_unsync_label"
 			font = "vic_18"
-			borderSize = {x = 8 y = 0}	
+			borderSize = {x = 8 y = 0}
 			maxWidth = 300
 			maxHeight = 20
-			text = "CLOUDSAVE_UNSYNC_LABEL"	
+			text = "CLOUDSAVE_UNSYNC_LABEL"
 			orientation = "UPPER_LEFT"
 			format = centre
 		}
-		
-		listboxType = 
+
+		listboxType =
 		{
 			name ="games"
 			position = { x=120 y =140}
@@ -384,34 +384,34 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			Orientation = "UPPER_LEFT"
 		}
-			
+
 		guiButtonType = {
 			name = "cancel"
 			position = { x = 146 y = 388 }
-			quadTextureSprite ="button_type_7"	
+			quadTextureSprite ="button_type_7"
 			buttonText = "FE_CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			clicksound = back_click
 		}
-		
+
 		guiButtonType = {
 			name = "exit"
 			position = { x = 146 y = 388 }
-			quadTextureSprite ="button_type_7"	
+			quadTextureSprite ="button_type_7"
 			buttonText = "MENU_BAR_GAME_RESIGN"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			clicksound = back_click
 		}
-		
-		
+
+
 	}
-		
+
 		######### MESSAGE SETTINGS  ###################################
-		
+
 		windowType = {
 			name ="menu_message_settings"
 			backGround=""
-			position = { x=-34 y =5 }	
+			position = { x=-34 y =5 }
 			size = { x=420 y =500}
 			moveable = 0
 			dontRender = ""
@@ -429,7 +429,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
-			listboxType = 
+			listboxType =
 			{
 				name ="settings"
 				position = { x=24 y =175}
@@ -448,10 +448,10 @@ guiTypes = {
 				position = {x = 209 y = 91 }
 				name = "messagesettings_label"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 100
 				maxHeight = 18
-				text = "MENU_BAR_MESSAGE_SETTINGS"	
+				text = "MENU_BAR_MESSAGE_SETTINGS"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
@@ -459,266 +459,266 @@ guiTypes = {
 			guiButtonType = {
 				name = "messagesettings_filter"
 				position = { x = 99465 y = 70 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "FILTER"
 				buttonFont = "vic_18"
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "all"
 				position = { x = -136 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_left"	
+				quadTextureSprite ="GFX_sort_button_message_left"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_ALL"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = -129 y = 119 }
 				name = "messagesettings_label_01"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "DIPLOMACY_FILTER_ALL"	
+				text = "DIPLOMACY_FILTER_ALL"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
-			
+
+
+
 			checkboxType = {
 				name = "dynasty"
 				position = { x = -57 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_DYNASTY"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = -50 y = 119 }
 				name = "messagesettings_label_02"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "ME_CATEGORY_DYNASTY"	
+				text = "ME_CATEGORY_DYNASTY"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "diplomacy"
 				position = { x = 22 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_DIPLOMACY"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 29 y = 119 }
 				name = "messagesettings_label_03"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_DIPLOMACY"	
+				text = "MENU_MESSAGES_DIPLOMACY"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "trade"
 				position = { x = 101 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_TRADE"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 108 y = 119 }
 				name = "messagesettings_label_04"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_TRADE"	
+				text = "MENU_MESSAGES_TRADE"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "religion"
 				position = { x = 180 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_RELIGION"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 187 y = 119 }
 				name = "messagesettings_label_05"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_RELIGION"	
+				text = "MENU_MESSAGES_RELIGION"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
-			
+
+
+
 			checkboxType = {
 				name = "events"
 				position = { x = 259 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_EVENTS"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 266 y = 119 }
 				name = "messagesettings_label_06"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_EVENTS"	
+				text = "MENU_MESSAGES_EVENTS"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
-			
+
+
+
 			checkboxType = {
 				name = "government"
 				position = { x = 338 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_GOVERNMENT"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 345 y = 119 }
 				name = "messagesettings_label_07"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_GOVERNMENT"	
+				text = "MENU_MESSAGES_GOVERNMENT"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "military"
 				position = { x = 417 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_MILITARY"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 424 y = 119 }
 				name = "messagesettings_label_08"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_MILITARY"	
+				text = "MENU_MESSAGES_MILITARY"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
-			
+
+
+
 			checkboxType = {
 				name = "combat"
 				position = { x = 496 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_middle"	
+				quadTextureSprite ="GFX_sort_button_message_middle"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_COMBAT"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 503 y = 119 }
 				name = "messagesettings_label_09"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_COMBAT"	
+				text = "MENU_MESSAGES_COMBAT"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
-			
+
+
+
 			checkboxType = {
 				name = "other"
 				position = { x = 584 y = 110 }
-				quadTextureSprite ="GFX_sort_button_message_right"	
+				quadTextureSprite ="GFX_sort_button_message_right"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_OTHER"
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = 579 y = 119 }
 				name = "messagesettings_label_10"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_MESSAGES_OTHER"	
+				text = "MENU_MESSAGES_OTHER"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
+
 			instantTextBoxType = {
 				position = {x = 30 y = 143 }
 				name = "header_search"
 				font = "vic_22"
 				maxWidth = 60
 				maxHeight = 18
-				text = "MESSAGE_BUTTON_SEARCH"	
+				text = "MESSAGE_BUTTON_SEARCH"
 				orientation = "UPPER_LEFT"
 				format = left
 			}
@@ -729,143 +729,143 @@ guiTypes = {
 				textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 				instantTextBoxType = no
 				font = "vic_18"
-				borderSize = { x = 8 y = 4  }	
+				borderSize = { x = 8 y = 4  }
 				size = { x=240 y=34 }
-				text = ""	
+				text = ""
 				orientation = "UPPER_LEFT"
 			}
-			
+
 			guiButtonType = {
 				name = "button_search"
 				position = { x = 323 y = 136 }
-				quadTextureSprite ="button_type_6"	
+				quadTextureSprite ="button_type_6"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MESSAGE_BUTTON_SEARCH"
 				buttonFont = "vic_18"
-			}	
-			
+			}
+
 			guiButtonType = {
 				name = "button_clear"
 				position = { x = 392 y = 136 }
-				quadTextureSprite ="button_type_6"	
+				quadTextureSprite ="button_type_6"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MESSAGE_BUTTON_CLEAR"
 				buttonFont = "vic_18"
-			}		
+			}
 
 			#### FILTER BUTTONS ##########
-			#### Theese 4 buttons are not yet linked so they can change filter ######### 
+			#### Theese 4 buttons are not yet linked so they can change filter #########
 			#### Old filterbutton messagesettings_filter is just moved out from screen ############
-			
+
 			checkboxType = {
 				name = "filter_button_01"
 				position = { x = -120 y = 165 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				
+
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = -85 y = 175 }
 				name = "messagesettings_filter_button_label_01"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "TO_ME"	
+				text = "TO_ME"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "filter_button_02"
 				position = { x = -120 y = 195 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				
+
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = -85 y = 205 }
 				name = "messagesettings_filter_button_label_02"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "FROM_ME"	
+				text = "FROM_ME"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "filter_button_03"
 				position = { x = -120 y = 225 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				
+
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = -85 y = 235 }
 				name = "messagesettings_filter_button_label_03"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "INTERESTING"	
+				text = "INTERESTING"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
+
+
 			checkboxType = {
 				name = "filter_button_04"
 				position = { x = -120 y = 255 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-				
+
 				buttonFont = "Main_14_black"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = -85 y = 265 }
 				name = "messagesettings_filter_button_label_04"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "OTHERS"	
+				text = "OTHERS"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
+
 			####
-			
+
 			#### SMALL SORTBUTTONS  ############
-			#### Not yet linked ###### 
+			#### Not yet linked ######
 			#### Function is to choose all icons that look like the one on the button ######
-			
+
 			#guiButtonType = {
 			#	name = "sort_button_01"
 			#	position = { x = 527 y = 140 }
-			#	quadTextureSprite ="GFX_icons_sort_button_message_pause"	
+			#	quadTextureSprite ="GFX_icons_sort_button_message_pause"
 			#	tooltip = ""
 			#	tooltipText =""
 			#	delayedTooltipText = ""
@@ -876,7 +876,7 @@ guiTypes = {
 			#guiButtonType = {
 			#	name = "sort_button_02"
 			#	position = { x = 547 y = 140 }
-			#	quadTextureSprite ="GFX_icons_sort_button_message_dialog"	
+			#	quadTextureSprite ="GFX_icons_sort_button_message_dialog"
 			#	tooltip = ""
 			#	tooltipText =""
 			#	delayedTooltipText = ""
@@ -887,7 +887,7 @@ guiTypes = {
 			#guiButtonType = {
 			#	name = "sort_button_03"
 			#	position = { x = 567 y = 140 }
-			#	quadTextureSprite ="GFX_icons_sort_button_message_message"	
+			#	quadTextureSprite ="GFX_icons_sort_button_message_message"
 			#	tooltip = ""
 			#	tooltipText =""
 			#	delayedTooltipText = ""
@@ -898,7 +898,7 @@ guiTypes = {
 			#guiButtonType = {
 			#	name = "sort_button_04"
 			#	position = { x = 587 y = 140 }
-			#	quadTextureSprite ="GFX_icons_sort_button_message_log"	
+			#	quadTextureSprite ="GFX_icons_sort_button_message_log"
 			#	tooltip = ""
 			#	tooltipText =""
 			#	delayedTooltipText = ""
@@ -909,72 +909,72 @@ guiTypes = {
 			#guiButtonType = {
 			#	name = "sort_button_05"
 			#	position = { x = 617 y = 140 }
-			#	quadTextureSprite ="GFX_icons_sort_button_message_map"	
+			#	quadTextureSprite ="GFX_icons_sort_button_message_map"
 			#	tooltip = ""
 			#	tooltipText =""
 			#	delayedTooltipText = ""
 			#	buttonText = "MENU_MESSAGES_ALL"
 			#	buttonFont = "Main_14_black"
 			#}
-			
+
 			########
-			
-			
+
+
 
 			guiButtonType = {
 				name = "reset"
 				position = { x = -120 y = 360 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-			
+
 				buttonFont = "vic_18"
 			}
-			
+
 			instantTextBoxType={
 				position = {x = -85 y = 368 }
 				name = "reset_label"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "PW_RESET"	
+				text = "PW_RESET"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
-					
+
+
+
 			guiButtonType = {
 				name = "close"
 				position = { x = -120 y = 390 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				shortcut = "ESCAPE"
 				buttonFont = "vic_18"
-			}	
+			}
 
 			instantTextBoxType={
 				position = {x = -85 y = 398 }
 				name = "close_label"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
-				text = "MENU_BAR_CLOSE"	
+				text = "MENU_BAR_CLOSE"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
-			
-			
-			
+
+
+
 			guiButtonType = {
 				name = "disable_all_messages"
 				position = { x = 99450 y = 385 }
-				quadTextureSprite ="button_type_7"	
+				quadTextureSprite ="button_type_7"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -982,14 +982,14 @@ guiTypes = {
 				buttonFont = "vic_18"
 			}
 		}
-		
+
 	}
-	
+
 		### MESSAGE ICONS
 	windowType = {
 		name = "message_icons"
 		backGround=""
-		position = { x=-254 y=-274 }	
+		position = { x=-254 y=-274 }
 		size = { x=256 y= 48 }
 		moveable = 0
 		dontRender = ""
@@ -998,7 +998,7 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "LOWER_RIGHT"
 
-		
+
 		OverlappingElementsBoxType = {
 			name = "combat"
 			position = { x = -84 y = 47 }
@@ -1007,7 +1007,7 @@ guiTypes = {
 			format = right
 			spacing = 1.0
 		}
-		
+
 		OverlappingElementsBoxType = {
 			name = "diplo"
 			position = { x = -84 y = 68 }
@@ -1016,7 +1016,7 @@ guiTypes = {
 			format = right
 			spacing = 1.0
 		}
-		
+
 		OverlappingElementsBoxType = {
 			name = "government"
 			position = { x = -84 y = 89 }
@@ -1025,7 +1025,7 @@ guiTypes = {
 			format = right
 			spacing = 1.0
 		}
-		
+
 		OverlappingElementsBoxType = {
 			name = "trade"
 			position = { x = -84 y = 110 }
@@ -1034,7 +1034,7 @@ guiTypes = {
 			format = right
 			spacing = 1.0
 		}
-		
+
 		OverlappingElementsBoxType = {
 			name = "event"
 			position = { x = -84 y = 131 }
@@ -1044,12 +1044,12 @@ guiTypes = {
 			spacing = 1.0
 		}
 	}
-	
+
 	positionType = {
 			name = "messageicons_offset"
 			position = { x = 40 y = 0 }
 		}
-		
+
 	#windowType = {
 	#	name = "messageicon_window"
 	#	backGround=""
@@ -1078,22 +1078,22 @@ guiTypes = {
 		#	position = { x= 2 y = 3 }
 		#	Orientation = "UPPER_RIGHT"
 		#	}
-		
+
 
 	#}
-	
+
 	##########
 	windowType = {
 		name = "message_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=128 y= 20 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		guiButtonType = {
 			name = "message"
 			position = { x=-2 y =-20 }
@@ -1109,10 +1109,10 @@ guiTypes = {
 			position = {x = 0 y = -19 }
 			name = "text"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 500
 			maxHeight = 16
-			text = ""	
+			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
 			fixedsize = yes
@@ -1128,7 +1128,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "Main_14_black"
 		}
-		
+
 		guiButtonType = {
 			name = "messageicon_dialog"
 			position = { x=518 y =-18 }
@@ -1138,7 +1138,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "Main_14_black"
 		}
-		
+
 		guiButtonType = {
 			name = "messageicon_icon"
 			position = { x=536 y =-20}
@@ -1148,7 +1148,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "Main_14_black"
 		}
-		
+
 		guiButtonType = {
 			name = "messageicon_log"
 			position = { x=560 y =-19}
@@ -1168,20 +1168,20 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "Main_14_black"
 		}
-		
+
 	}
-	
+
 	windowType = {
 		name = "save_game_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=320 y= 41 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		checkboxType = {
 			name = "save_game"
 			position = { x=14 y =0}
@@ -1195,16 +1195,16 @@ guiTypes = {
 			name = "save_game_dir_icon"
 			spriteType = "GFX_save_game_dir_icon"
 			position = { x = 18 y = 8 }
-		}		
+		}
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 48 y = 11 }
-			
+
 			font = "vic_18"
 			borderSize = {x = 1 y = 1}
-			text = ""	
+			text = ""
 			maxWidth = 180
-			maxHeight = 18	
+			maxHeight = 18
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
 		}
@@ -1213,14 +1213,14 @@ guiTypes = {
 	windowType = {
 		name = "province_finder_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=128 y= 24 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		checkboxType = {
 			name = "button"
 			position = { x=0 y =0}
@@ -1230,7 +1230,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 		}
-		
+
 		iconType =
 		{
 			name = "area_icon"
@@ -1243,64 +1243,64 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 34 y = 7 }
-			
+
 			font = "Main_14_bold"
 			borderSize = {x = 1 y = 1}
-			text = ""	
+			text = ""
 			maxWidth = 180
-			maxHeight = 18	
+			maxHeight = 18
 			fixedsize = yes
 			Orientation = "UPPER_LEFT"
 		}
 	}
-	
+
 	windowType = {
 		name = "chat_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=512 y= 18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		instantTextBoxType={
 			position = {x = 4 y = 5 }
 			name = "text_shadow"
 			font = "Main_16"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 512
 			maxHeight = 18
-			text = ""	
+			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
 			allwaystransparent = yes
 		}
-		
+
 		instantTextBoxType={
 			position = {x = 3 y = 4 }
 			name = "text"
 			font = "Main_16"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 512
 			maxHeight = 18
-			text = ""	
+			text = ""
 			orientation = "UPPER_LEFT"
 			format = left
 			allwaystransparent = yes
 		}
 
-		
-		
+
+
 	}
 
 
-	windowType = 
+	windowType =
 	{
 		name = "menubar"
 		backGround=""
-		position = { x=-134 y=0 }	
+		position = { x=-134 y=0 }
 		size = { x=2048 y=100 }
 		moveable = 0
 		dontRender = ""
@@ -1311,9 +1311,9 @@ guiTypes = {
 		show_position = { x = 0 y = 0 }
 		hide_position = { x = 0 y = 375 }
 		animation_type = "decelerated"
-		animation_time = 600	
+		animation_time = 600
 
-		windowType = 
+		windowType =
 		{
 			name = "WarOverviewButtonWindow"
 			backGround=""
@@ -1324,9 +1324,9 @@ guiTypes = {
 			animation_time = 1000
 			size = { x= 300 y = 40 }
 			orientation = "LOWER_RIGHT"
-		
+
 			# Most be here to make it animate when open log.
-			OverlappingElementsBoxType = { 
+			OverlappingElementsBoxType = {
 				name = "WarOverviewButtonList"
 				position = { x = -20 y = 0 }
 				size = { x= 300 y = 40 }
@@ -1334,17 +1334,17 @@ guiTypes = {
 				spacing = 1.0
 			}
 		}
-		
-		windowType = 
+
+		windowType =
 		{
 			name = "messagelog_window"
 			backGround=""
-			position = { x=-1450 y=-100 }	
+			position = { x=-1450 y=-100 }
 			show_position = { x=-1450 y=-100 }
 			hide_position = { x=-1450 y=10 }
 			animation_type = "decelerated"
 			animation_time = 1000
-			size = { x=770 y=100 }	
+			size = { x=770 y=100 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -1360,7 +1360,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
-			listboxType = 
+			listboxType =
 			{
 				name ="messagelog"
 				position = { x = 120 y = 10 }
@@ -1372,44 +1372,44 @@ guiTypes = {
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}
 			}
-			
-			
-			
+
+
+
 			checkboxType = {
 				name = "messagecat_combat"
 				position = { x=225 y=-110 }
 				quadTextureSprite ="GFX_msg_log_combat"
 				Orientation = "LOWER_LEFT"
 			}
-		
+
 			checkboxType = {
 				name = "messagecat_diplomacy"
 				position = { x=200 y=-110 }
 				quadTextureSprite ="GFX_msg_log_diplo"
 				Orientation = "LOWER_LEFT"
 			}
-			
+
 			checkboxType = {
 				name = "messagecat_government"
 				position = { x=175 y=-110 }
 				quadTextureSprite ="GFX_msg_log_gov"
 				Orientation = "LOWER_LEFT"
 			}
-			
+
 			checkboxType = {
 				name = "messagecat_trade"
 				position = { x=150 y=-110 }
 				quadTextureSprite ="GFX_msg_log_trade"
 				Orientation = "LOWER_LEFT"
 			}
-			
+
 			checkboxType = {
 				name = "messagecat_events"
 				position = { x=125 y=-110 }
 				quadTextureSprite ="GFX_msg_log_event"
 				Orientation = "LOWER_LEFT"
 			}
-			
+
 			checkboxType = {
 				name = "logfilter_me"
 				position = { x=96 y=-101 }
@@ -1434,15 +1434,15 @@ guiTypes = {
 		windowType = {
 			name = "chat_window"
 			backGround="chat_bg"
-			position = { x=0 y=-100 }	
-			size = { x=720 y=150 }	
+			position = { x=0 y=-100 }
+			size = { x=720 y=150 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
 			verticalBorder= ""
 			fullScreen = no
 			Orientation = "LOWER_LEFT"
-	
+
 
 
 			guiButtonType = {
@@ -1452,7 +1452,7 @@ guiTypes = {
 			}
 
 
-			#listboxType = 
+			#listboxType =
 			#{
 			#	name ="playerlist"
 			#	position = { x = 90 y = 10 }
@@ -1464,7 +1464,7 @@ guiTypes = {
 			#	scrollbartype = "standardlistbox_slider"
 			#	borderSize = {x = 0 y = 0}
 			#}
-			
+
 			guiButtonType = {
 				name = "none"
 				position = { x = 20 y = 5 }
@@ -1478,7 +1478,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				shortcut = ""
 			}
-			
+
 			guiButtonType = {
 				name = "allies"
 				position = { x = 20 y = 25 }
@@ -1492,7 +1492,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				shortcut = ""
 			}
-			
+
 			guiButtonType = {
 				name = "enemies"
 				position = { x = 20 y = 45 }
@@ -1506,7 +1506,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				shortcut = ""
 			}
-			
+
 			guiButtonType = {
 				name = "all"
 				position = { x = 20 y = 65 }
@@ -1520,7 +1520,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				shortcut = ""
 			}
-			
+
 			guiButtonType = {
 				name = "closebutton"
 				position = { x = 978 y = -26  }
@@ -1534,22 +1534,22 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				shortcut = "ESCAPE"
 			}
-			
+
 			editBoxType = {
 				position = { x = 90 y = 46 }
 				name = "chat_message"
 				#textureFile = "gfx\\interface\\small_tiles_dialog.dds"
-				 
+
 				font = "Main_16"
-				borderSize = { x = 8 y = 8 }	
+				borderSize = { x = 8 y = 8 }
 				size = { x=600 y=32 }
-				text = ""	
-				
+				text = ""
+
 				orientation = "UPPER_LEFT"
 			}
 		}
-		
-		listBoxType = 
+
+		listBoxType =
 		{
 			name ="chat_list"
 			background = ""
@@ -1559,16 +1559,16 @@ guiTypes = {
 			size = { x=265 y=246 }
 			borderSize = {x = 32 y = 32}
 			allwaystransparent = yes
-		}	
-		
-	
+		}
+
+
 		windowType = {
 			name = "message_window_container"
 			position = { x = -66 y = -460 }
 			#show_position = { x= -200 y = -460 }
-			#hide_position = { x= 10 y = -460 }	
+			#hide_position = { x= 10 y = -460 }
 			animation_type = "decelerated"
-			animation_time = 300	
+			animation_time = 300
 			size = { x=241 y= 186 }
 			Orientation = "LOWER_RIGHT"
 			backGround=""
@@ -1577,14 +1577,14 @@ guiTypes = {
 			horizontalBorder= ""
 			verticalBorder= ""
 			fullScreen = no
-		
+
 			windowType = {
 				name = "message_window"
 				position = { x = 0 y = -60 }
 				show_position = { x= 0 y = -40 }
-				hide_position = { x= 210 y = -40 }	
+				hide_position = { x= 210 y = -40 }
 				animation_type = "decelerated"
-				animation_time = 300	
+				animation_time = 300
 				size = { x=241 y= 186 }
 				Orientation = "UPPER_LEFT"
 				backGround=""
@@ -1593,30 +1593,30 @@ guiTypes = {
 				horizontalBorder= ""
 				verticalBorder= ""
 				fullScreen = no
-			
+
 				iconType = {
 					name = "menubar_bg"
 					spriteType = "GFX_messageinterface_bg"
 					position = { x= -41 y = 72 }
 					Orientation = "UPPER_LEFT"
-				}		
-			
+				}
+
 				### Filterbuttons over the icons
-				
+
 				checkboxType = {
 					name = "msg_icons_filter_me"
 					position = { x = -15 y = 222 }
 					quadTextureSprite ="GFX_messages_logfilter_me"
 					Orientation = "UPPER_LEFT"
 				}
-				
+
 				checkboxType = {
 					name = "msg_icons_filter_interesting"
 					position = { x = 30 y = 222 }
 					quadTextureSprite ="GFX_messages_logfilter_interesting"
 					Orientation = "UPPER_LEFT"
 				}
-				
+
 				checkboxType = {
 					name = "msg_icons_filter_other"
 					position = { x = 77 y = 222 }
@@ -1631,8 +1631,8 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					clicksound = click
 				}
-				
-				listBoxType = 
+
+				listBoxType =
 				{
 					name ="message_list"
 					background = ""
@@ -1643,7 +1643,7 @@ guiTypes = {
 					scrollbartype = "standardlistbox_slider"
 				}
 			}
-			
+
 			windowType = {
 				name = "toggle_message_interface_window"
 				position = { x = 146 y = -35 }
@@ -1655,7 +1655,7 @@ guiTypes = {
 				horizontalBorder= ""
 				verticalBorder= ""
 				fullScreen = no
-			
+
 				iconType = {
 					name = "ToggleMessageBackground"
 					spriteType = "GFX_toggle_messageinterface_bg"
@@ -1669,11 +1669,11 @@ guiTypes = {
 					quadTextureSprite ="GFX_togglemessageinterface"
 					Orientation = "UPPER_LEFT"
 					clicksound = click
-				}			
+				}
 			}
 		}
-		
-	########### 
+
+	###########
 
 
 		windowType = {
@@ -1684,7 +1684,7 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			animation_type = "decelerated"
 			animation_time = 300
-		
+
 			iconType =
 			{
 				name ="menubar_floating_bg_1"
@@ -1714,14 +1714,14 @@ guiTypes = {
 				position = { x= -497 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
-			
+
 			iconType =
 			{
 				name ="menubar_floating_bg_5"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -542 y = -36 }
 				Orientation = "LOWER_RIGHT"
-			}		
+			}
 			iconType =
 			{
 				name ="menubar_floating_bg_6"
@@ -1743,113 +1743,113 @@ guiTypes = {
 				position = { x= -707 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
-			
+
 			instantTextBoxType = {
 				name = "floating_number_1"
 				position = { x = -364 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
 			}
 			instantTextBoxType = {
 				name = "floating_number_2"
 				position = { x = -408 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
 			}
-			
+
 			instantTextBoxType = {
 				name = "floating_number_3"
 				position = { x = -454 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
-			}		
+			}
 			instantTextBoxType = {
 				name = "floating_number_4"
 				position = { x = -499 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
-			}	
+			}
 			instantTextBoxType = {
 				name = "floating_number_5"
 				position = { x = -548 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
-			}		
+			}
 			instantTextBoxType = {
 				name = "floating_number_6"
 				position = { x = -596 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
 			}
 			instantTextBoxType = {
 				name = "floating_number_7"
 				position = { x = -644 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
 			}
 			instantTextBoxType = {
 				name = "floating_number_8"
 				position = { x = -692 y = -18 }
-				
+
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "100"	
+				text = "100"
 				maxWidth = 50
 				maxHeight = 32
-				format = centre	
+				format = centre
 
 				Orientation = "LOWER_RIGHT"
 			}
-	 
+
 			guiButtonType = {
 				name = "f_button_1"
 				position = { x = -360 y = -58 }
@@ -1861,8 +1861,8 @@ guiTypes = {
 				Orientation = "LOWER_RIGHT"
 				hint_tag = "hint_papacy"
 			}
-		
-			
+
+
 			guiButtonType = {
 				name = "f_button_2"
 				position = { x = -405 y = -58 }
@@ -1874,16 +1874,16 @@ guiTypes = {
 				Orientation = "LOWER_RIGHT"
 				hint_tag = "hint_papacy"
 			}
-			
-			
+
+
 			iconType =
 			{
 				name ="hre_strip_glow"
 				spriteType = "GFX_hre_strip_glow"
 				position = { x= -406 y = -58 }
 				Orientation = "LOWER_RIGHT"
-			}			
-			
+			}
+
 			# Can be moved using the positionType "revolution_flag_offset"
 			guiButtonType = {
 				name = "f_button_3"
@@ -1897,7 +1897,7 @@ guiTypes = {
 				Orientation = "LOWER_RIGHT"
 				hint_tag = "hint_papacy"
 			}
-			
+
 			guiButtonType = {
 				name = "f_button_4"
 				position = { x = -495 y = -58 }
@@ -1910,7 +1910,7 @@ guiTypes = {
 				Orientation = "LOWER_RIGHT"
 				hint_tag = "hint_papacy"
 			}
-			
+
 			guiButtonType = {
 				name = "f_button_5"
 				position = { x = -540 y = -58 }
@@ -1922,8 +1922,8 @@ guiTypes = {
 
 				Orientation = "LOWER_RIGHT"
 				hint_tag = "hint_papacy"
-			}		
-			
+			}
+
 			guiButtonType = {
 				name = "f_button_6"
 				position = { x = -585 y = -58 }
@@ -1936,7 +1936,7 @@ guiTypes = {
 				Orientation = "LOWER_RIGHT"
 				hint_tag = "hint_papacy"
 			}
-			
+
 			guiButtonType = {
 				name = "f_button_7"
 				position = { x = -630 y = -58 }
@@ -1962,22 +1962,22 @@ guiTypes = {
 				Orientation = "LOWER_RIGHT"
 				hint_tag = "hint_celestial"
 			}
-			
+
 			iconType =
 			{
 				name ="revolution_flag"
 				spriteType = "GFX_rev_target"
 				position = { x = -446 y = -54 }
-				Orientation = "LOWER_RIGHT"				
+				Orientation = "LOWER_RIGHT"
 			}
 		}
-			
-		
+
+
 		######
 
-			
-			
-		
+
+
+
 		iconType =
 		{
 			name ="mapmode_bg"
@@ -1991,16 +1991,16 @@ guiTypes = {
 			spriteType = "GFX_mapmode_bg"
 			position = { x= -99282 y = -126 }
 			Orientation = "LOWER_RIGHT"
-		}	
+		}
 
-	
+
 		iconType =
 		{
 			name ="observer_bg"
 			spriteType = "GFX_observer_bg"
 			position = { x= -316 y = -153}
 			Orientation = "LOWER_RIGHT"
-		}			
+		}
 
 		guiButtonType = {
 			name = "observer_select_country"
@@ -2012,7 +2012,7 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 			Orientation = "LOWER_RIGHT"
 		}
-			
+
 		guiButtonType = {
 			name = "observer_unselect"
 			position = { x = -309 y = -97 }
@@ -2032,7 +2032,7 @@ guiTypes = {
 		position = { x= -420 y = -219 }
 		Orientation = "UPPER_LEFT"
 	}
-	
+
 	iconType =
 	{
 		name ="minimap_pic"
@@ -2045,7 +2045,7 @@ guiTypes = {
 		name = "minimap_size"
 		position = { x=268 y=98 }
 	}
-		
+
 	windowType = {
 		name = "message_item"
 		position = { x = 0 y = 0 }
@@ -2057,59 +2057,59 @@ guiTypes = {
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		guiButtonType = {
 			name = "background"
 			quadTextureSprite = "GFX_message_bg_button"
 			position = { x = 0 y = 0 }
 		}
-		
+
 		iconType = {
 			name = "new_flash"
 			position = { x = 0 y = 0 }
 			spriteType ="GFX_message_new_flash"
-		}		
-		
+		}
+
 		iconType = {
 			name = "icon"
 			position = { x = -3 y = 0 }
 			spriteType ="GFX_msg_combat"
 		}
-		
+
 		instantTextBoxType = {
 			name = "flag"
 			position = { x = 27 y = 3 }
-			
+
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 50
 			maxHeight = 32
 			format = left
 			allwaystransparent = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 52 y = 4 }
-			
+
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 110
 			maxHeight = 10
 			format = left
 			fixedsize = yes
 			allwaystransparent = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "other_flag"
 			position = { x = 170 y = 3 }
-			
+
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 50
 			maxHeight = 32
 			format = left
@@ -2122,58 +2122,58 @@ guiTypes = {
 	windowType = {
 		name = "ingamesavegameentry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=320 y= 41 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		checkboxType = {
-			name = "save_game"	
+			name = "save_game"
 			quadTextureSprite = "GFX_save_load_entry_bg"
 			tooltip = ""
-			tooltipText =""	
+			tooltipText =""
 			delayedTooltipText = ""
 			position = { x=14 y =0}
 		}
-		
+
 		guiButtonType = {
 			name ="save_game_shield"
 			position = { x = 17 y = 5 }
 			quadTextureSprite = "GFX_shield_small"
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
-			tooltipText =""	
+			tooltipText =""
 			delayedTooltipText = ""
 		}
-		
+
 		instantTextBoxType = {
 			name = "save_game_title"
 			position = { x = 48 y = 5 }
-			
+
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 156
-			maxHeight = 20	
+			maxHeight = 20
 			fixedsize = yes
 			truncate = yes
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		instantTextBoxType = {
 			name = "save_game_date"
 			position = { x = 49 y = 22 }
-			
+
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 156
-			maxHeight = 20	
+			maxHeight = 20
 			fixedsize = yes
-		
+
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -2182,7 +2182,7 @@ guiTypes = {
 			spriteType = "GFX_cloud_file"
 			position = { x = 180 y = 12 }
 		}
-		
+
 		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
@@ -2192,18 +2192,18 @@ guiTypes = {
 			name = "unsafe_savegame_icon"
 			spriteType = "GFX_unsafe_savegame_icon"
 			position = { x = 252 y = 8 }
-		}	
+		}
 
 		guiButtonType = {
 			name ="delete_save_file_button"
 			position = { x = 256 y = 5 }
 			quadTextureSprite = "GFX_button_delete_savegame"
 			tooltip = ""
-			tooltipText =""	
+			tooltipText =""
 			delayedTooltipText = ""
 		}
 
-	}	
+	}
 
 	positionType = {
 		name = "chat_shield_start"
@@ -2224,19 +2224,19 @@ guiTypes = {
 		name = "war_overview_list_start"
 		position = { x = -390 y = -184 }
 	}
-	
+
 	windowType = {
 		name = "short_player_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x = 26 y = 26 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-	
-		checkboxType = 
+
+		checkboxType =
 		{
 			name = "shield"
 			position = { x=0 y =0}
@@ -2246,7 +2246,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "Main_14_black"
 		}
-		
+
 		iconType =
 		{
 			name ="minishield_strikeout"
@@ -2255,11 +2255,11 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 	}
-		
+
 	windowType = {
 		name = "player_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=128 y= 18 }
 		moveable = 0
 		dontRender = ""
@@ -2277,7 +2277,7 @@ guiTypes = {
 			buttonText = "..."
 			buttonFont = "Main_14_black"
 		}
-		
+
 		checkboxType = {
 			name = "shield"
 			position = { x=0 y =0}
@@ -2287,7 +2287,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "Main_14_black"
 		}
-		
+
 		iconType =
 		{
 			name ="minishield_strikeout"
@@ -2295,11 +2295,11 @@ guiTypes = {
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
-		
-			
+
+
 	}
 		##########
-		
+
 	windowType = {
 		name = "messageicon_entry_window"
 		backGround=""
@@ -2316,38 +2316,38 @@ guiTypes = {
 		guiButtonType = {
 				name = "messageicon_button"
 				position = { x = 9 y = -21 }
-				quadTextureSprite ="GFX_message_background"	
+				quadTextureSprite ="GFX_message_background"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonFont = ""
 			}
-			
+
 		instantTextBoxType = {
 			name = "flag"
 			position = { x = 10 y =-19 }
 			format = centre
-			
+
 
 			font = "garamond_14"
 			allwaystransparent = yes
 
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 32
-			maxHeight = 32	
-			Orientation = "UPPER_LEFT"			
+			maxHeight = 32
+			Orientation = "UPPER_LEFT"
 		}
-		
+
 		iconType =
 		{
 			name ="msgTypeIcon"
 			spriteType = "GFX_msg_combat"
 			position = { x= 28 y = -21 }
 		}
-		
-		
-			
+
+
+
 	}
 
 	#### DIPLO ICONS

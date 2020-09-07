@@ -64,7 +64,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "event_goto_province"
-			position = { x = 0 y = 14 }
+			position = { x = 49 y = 4 }
 			quadTextureSprite ="GFX_event_goto_province"
 			buttonFont = "Main_14_black"
 			shortcut = "f"
@@ -113,7 +113,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "event_option_goto_button"
-			position = { x = -60 y = 0 }
+			position = { x = -55 y = -2 }
 			quadTextureSprite ="GFX_event_option_goto_province"
 			buttonFont = "Main_14_black"
 			clicksound = click

@@ -177,7 +177,7 @@ guiTypes = {
 			position = { x=77 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -186,7 +186,7 @@ guiTypes = {
 			position = { x=274 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -249,7 +249,7 @@ guiTypes = {
 			position = { x=175 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -328,7 +328,7 @@ guiTypes = {
 			position = { x=175 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -482,7 +482,7 @@ guiTypes = {
 			position = { x=77 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -491,7 +491,7 @@ guiTypes = {
 			position = { x=274 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -502,7 +502,7 @@ guiTypes = {
 			position = { x=175 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -595,7 +595,7 @@ guiTypes = {
 			position = { x=77 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -604,7 +604,7 @@ guiTypes = {
 			position = { x=274 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -661,7 +661,7 @@ guiTypes = {
 			position = { x=77 y =153}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -670,7 +670,7 @@ guiTypes = {
 			position = { x=304 y =153}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -743,7 +743,7 @@ guiTypes = {
 			position = { x=77 y =153}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -752,7 +752,7 @@ guiTypes = {
 			position = { x=304 y =153}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -907,7 +907,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -921,7 +921,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "GOTO"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 
 		}
 
@@ -1448,7 +1448,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -1462,7 +1462,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "GOTO"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 
 		}
 
@@ -1912,7 +1912,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -1927,7 +1927,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -2018,7 +2018,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -2033,7 +2033,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -2145,7 +2145,7 @@ guiTypes = {
 			position = { x=77 y =153}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -2154,7 +2154,7 @@ guiTypes = {
 			position = { x=304 y =153}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -2271,7 +2271,7 @@ guiTypes = {
 			position = { x=77 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "z"
 			extra_shortcut = "ESCAPE"
 		}
@@ -2280,7 +2280,7 @@ guiTypes = {
 			position = { x=274 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click
@@ -2291,7 +2291,7 @@ guiTypes = {
 			position = { x=220 y =270}
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "c"
 			extra_shortcut = "RETURN"
 			clicksound = ok_click

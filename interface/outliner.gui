@@ -5,18 +5,18 @@ guiTypes = {
 	windowType = {
 		name = "outliner"
 		backGround=""
-		position = { x=10 y=80 }	
+		position = { x=10 y=80 }
 		show_position = { x=-256 y=80 }
-		hide_position = { x=10 y=80 }	
+		hide_position = { x=10 y=80 }
 		animation_type = "decelerated"
-		animation_time = 250	
+		animation_time = 250
 		size = { x=256 y=100 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		orientation = "UPPER_RIGHT"	
+		orientation = "UPPER_RIGHT"
 
 		iconType =
 		{
@@ -33,8 +33,8 @@ guiTypes = {
 			delayedTooltipText = ""
 			position = { x = 19 y = 14 }
 		}
-		
-		listboxType = 
+
+		listboxType =
 			{
 			name ="outliner_list"
 			position = { x = 0 y = 34 }
@@ -58,14 +58,14 @@ guiTypes = {
 		spriteType = "GFX_outliner_bottom"
 		position = { x= -83 y = 45 }
 	}
-	
+
 
 
 
 	windowType = {
 		name = "outliner_configuration"
 		backGround="Background"
-			position = { x=-430 y= 91 }	
+			position = { x=-430 y= 91 }
 			size = { x=192 y=345 }
 			moveable = 0
 			dontRender = ""
@@ -75,16 +75,16 @@ guiTypes = {
 			orientation = "UPPER_RIGHT"
 
 			guiButtonType = {
-				name = "Background"	
+				name = "Background"
 				quadTextureSprite ="opaque_blue"
-				tooltip = ""	
+				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
-			}	
+			}
 
 
 
-			listboxType = 
+			listboxType =
 				{
 				name ="outliner_configuration_list"
 				position = { x = 30 y = 40 }
@@ -100,14 +100,14 @@ guiTypes = {
 
 
 			guiButtonType = {
-				name = "close_button"	
+				name = "close_button"
 				position = {x = 22 y = 294 }
 				quadTextureSprite ="button_type_7"
-				tooltip = ""	
+				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "CLOSE"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				clicksound = close_window
 			}
 
@@ -118,17 +118,17 @@ guiTypes = {
 
 
 
-	windowType = 
+	windowType =
 	{
 		name = "outliner_configuration_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=16 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 
 
@@ -136,7 +136,7 @@ guiTypes = {
 			checkboxType = {
 				name = "outliner_checkbox"
 				position = { x = -11  y = 0 }
-				quadTextureSprite ="GFX_checkbox_small"	
+				quadTextureSprite ="GFX_checkbox_small"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -155,16 +155,16 @@ guiTypes = {
 				position = {x = 10 y = 0 }
 				name = "outliner_list_text"
 				font = "vic_18"
-				borderSize = {x = 0 y = 0}	
+				borderSize = {x = 0 y = 0}
 				maxWidth = 172
 				maxHeight = 18
-				text = ""	
+				text = ""
 				orientation = "UPPER_LEFT"
 				format = left
 			}
 	}
 
-	windowType = 
+	windowType =
 	{
 		name = "outliner_standard_entry"
 		backGround=""
@@ -174,7 +174,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
@@ -192,14 +192,14 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 14
 				alwaystransparent = yes
 				format = right
 				fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
@@ -215,24 +215,24 @@ guiTypes = {
 		}
 	}
 
-	windowType = 
+	windowType =
 	{
 		name = "outliner_province_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
-		
-		
+		fullScreen = no
+
+
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -245,7 +245,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				fixedsize = yes
@@ -259,7 +259,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 52
 				maxHeight = 32
 				alwaystransparent = yes
@@ -275,22 +275,22 @@ guiTypes = {
 			}
 	}
 
-	windowType = 
+	windowType =
 	{
 		name = "outliner_siege_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -303,44 +303,44 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				alwaystransparent = yes
 				format = right
 				fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 120
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
 		}
 	}
-	
-	windowType = 
+
+	windowType =
 	{
 		name = "outliner_combat_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -350,24 +350,24 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
-				textureFile = "" 
+				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 120
 				maxHeight = 32
 				alwaystransparent = yes
 			 	format = left
 				fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 				name = "entry_text"
 				position = { x = 76  y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				alwaystransparent = yes
@@ -376,29 +376,29 @@ guiTypes = {
 		}
 
 	}
-	
-	windowType = 
+
+	windowType =
 	{
 		name = "outliner_buildarmy_entry"
 		backGround=""
-		position = { x=0 y=0 }	
-		size = { x=256 y=18 } 
+		position = { x=0 y=0 }
+		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonFont = "Main_14"
 		}
-		
+
 		iconType =
 		{
 			name ="unit_type"
@@ -407,27 +407,27 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth =102
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
 		}
-		
+
 		instantTextBoxType = {
 				name = "entry_text"
 				position = { x = 76 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				alwaystransparent = yes
@@ -435,23 +435,23 @@ guiTypes = {
 				fixedsize = yes
 		}
 	}
-	
-	windowType = 
+
+	windowType =
 	{
 		name = "outliner_buildnavy_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -466,27 +466,27 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 100
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
 		}
-		
+
 		instantTextBoxType = {
 				name = "entry_text"
 				position = { x = 76 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				alwaystransparent = yes
@@ -495,23 +495,23 @@ guiTypes = {
 		}
 
 	}
-	
-	windowType = 
+
+	windowType =
 	{
 		name = "outliner_buildcolony_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -524,21 +524,21 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				alwaystransparent = yes
 				format = right
 				fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 100
 				maxHeight = 32
 				alwaystransparent = yes
@@ -554,22 +554,22 @@ guiTypes = {
 		}
 	}
 
-	windowType = 
+	windowType =
 	{
 		name = "outliner_merchant_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -582,21 +582,21 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 110
 				maxHeight = 32
 				alwaystransparent = yes
 				format = right
 				fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 34 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 80
 				maxHeight = 32
 				alwaystransparent = yes
@@ -612,8 +612,8 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
-	windowType = 
+
+	windowType =
 	{
 		name = "outliner_unit_entry"
 		backGround=""
@@ -641,27 +641,27 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				alwaystransparent = yes
 				format = right
 				fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 100
 				maxHeight = 32
 				alwaystransparent = yes
 				format = left
 		}
-		
+
 		iconType = {
 			name ="action"
 			spriteType = "GFX_outliner_action"
@@ -673,22 +673,22 @@ guiTypes = {
 	}
 
 
-	windowType = 
+	windowType =
 	{
 		name = "outliner_mp_playerlist_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -704,14 +704,14 @@ guiTypes = {
 			frame = 1
 			scale = 0.7
 		}
-			
+
 		instantTextBoxType = {
 			name = "entry_text"
 			position = { x = 106 y = 0 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 136
 			maxHeight = 26
 			format = right
@@ -719,14 +719,14 @@ guiTypes = {
 			truncate = yes
 			alwaystransparent = yes
 		}
-		
+
 		instantTextBoxType = {
 			name = "info_text"
 			position = { x = 36 y = 0 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
-			text = ""	
+			text = ""
 			maxWidth = 96
 			maxHeight = 26
 			format = left
@@ -736,23 +736,23 @@ guiTypes = {
 		}
 
 	}
-	
-	windowType = 
+
+	windowType =
 	{
 		name = "outliner_disabled_alert_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
+		fullScreen = no
 
 		guiButtonType = {
 			name = "outliner_standard"
 			position = { x=0 y =0 }
-			quadTextureSprite ="GFX_outliner_standard"	
+			quadTextureSprite ="GFX_outliner_standard"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -765,21 +765,21 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 154
 				maxHeight = 32
 				alwaystransparent = yes
 				format = right
 				fixedsize = yes
 		}
-		
+
 		instantTextBoxType = {
 				name = "info_text"
 				position = { x = 36 y = 0 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 256
 				maxHeight = 32
 				alwaystransparent = yes
@@ -787,19 +787,19 @@ guiTypes = {
 		}
 
 	}
-	
-	windowType = 
+
+	windowType =
 	{
 		name = "outliner_header_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=256 y=18 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
-		fullScreen = no	
-		
+		fullScreen = no
+
 		iconType =
 		{
 			name ="outliner_header"
@@ -817,11 +817,11 @@ guiTypes = {
 		#guiButtonType = {
 		#	name = "outliner_header"
 		#	position = { x=0 y =0 }
-		#	quadTextureSprite ="GFX_outliner_header"	
+		#	quadTextureSprite ="GFX_outliner_header"
 		#	tooltip = ""
 		#	tooltipText =""
 		#	delayedTooltipText = ""
-		#	no 
+		#	no
 		#	b uttonFont = "vic_18"
 		#}
 
@@ -831,7 +831,7 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_18_black"
 				borderSize = {x = 4 y = 0}
-				text = ""	
+				text = ""
 				maxWidth = 180
 				maxHeight = 20
 				fixedsize = yes
