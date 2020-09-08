@@ -5,14 +5,7 @@ add_to_soi = {
 
 	is_visible = {
 		OR = {
-			AND = {
-				has_dlc = "Rights of Man"
-				is_great_power = yes
-			}
-			AND = {
-				NOT = { has_dlc = "Rights of Man" }
-				is_great_power_no_rom_trigger = yes
-			}
+			is_great_power_or_alternative = yes
 			external_diplomacy_ideas = 1
 		}
 		FROM = {
@@ -23,14 +16,7 @@ add_to_soi = {
 	is_allowed = {
 		hidden_trigger = {
 			OR = {
-				AND = {
-					has_dlc = "Rights of Man"
-					is_great_power = yes
-				}
-				AND = {
-					NOT = { has_dlc = "Rights of Man" }
-					is_great_power_no_rom_trigger = yes
-				}
+				is_great_power_or_alternative = yes
 				external_diplomacy_ideas = 1
 			}
 			FROM = {
@@ -39,15 +25,7 @@ add_to_soi = {
 		}
 		FROM = {
 			is_subject = no
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
-				}
-				is_great_power = no
-			}
-			else = {
-				NOT = { is_great_power_no_rom_trigger = yes }
-			}
+			NOT = { is_great_power_or_alternative = yes }
 		}
 		custom_trigger_tooltip = {
 			tooltip = IS_SPHERE_INFLUENCING_FROM
@@ -89,14 +67,7 @@ support_sphere_independence = {
 
 	is_visible = {
 		OR = {
-			AND = {
-				has_dlc = "Rights of Man"
-				is_great_power = yes
-			}
-			AND = {
-				NOT = { has_dlc = "Rights of Man" }
-				is_great_power_no_rom_trigger = yes
-			}
+			is_great_power_or_alternative = yes
 			external_diplomacy_ideas = 1
 		}
 		FROM = {
@@ -108,14 +79,7 @@ support_sphere_independence = {
 	is_allowed = {
 		hidden_trigger = {
 			OR = {
-				AND = {
-					has_dlc = "Rights of Man"
-					is_great_power = yes
-				}
-				AND = {
-					NOT = { has_dlc = "Rights of Man" }
-					is_great_power_no_rom_trigger = yes
-				}
+				is_great_power_or_alternative = yes
 				external_diplomacy_ideas = 1
 			}
 			FROM = {
@@ -181,14 +145,7 @@ influence_nation = {
 
 	is_visible = {
 		OR = {
-			AND = {
-				has_dlc = "Rights of Man"
-				is_great_power = yes
-			}
-			AND = {
-				NOT = { has_dlc = "Rights of Man" }
-				is_great_power_no_rom_trigger = yes
-			}
+			is_great_power_or_alternative = yes
 			external_diplomacy_ideas = 1
 		}
 		NOT = { has_country_flag = is_influencing_@FROM }
@@ -201,14 +158,7 @@ influence_nation = {
 	is_allowed = {
 		hidden_trigger = {
 			OR = {
-				AND = {
-					has_dlc = "Rights of Man"
-					is_great_power = yes
-				}
-				AND = {
-					NOT = { has_dlc = "Rights of Man" }
-					is_great_power_no_rom_trigger = yes
-				}
+				is_great_power_or_alternative = yes
 				external_diplomacy_ideas = 1
 			}
 			NOT = { has_country_flag = is_influencing_@FROM }
@@ -217,32 +167,15 @@ influence_nation = {
 				NOT = { is_subject_of = ROOT }
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "Rights of Man"
-			}
-			FROM = {
-				OR = {
-					is_subject = no
-					AND = {
-						is_subject_of_type = sphere
-						NOT = { is_subject_of = ROOT }
-					}
+		FROM = {
+			OR = {
+				is_subject = no
+				AND = {
+					is_subject_of_type = sphere
+					NOT = { is_subject_of = ROOT }
 				}
-				is_great_power = no
 			}
-		}
-		else = {
-			FROM = {
-				OR = {
-					is_subject = no
-					AND = {
-						is_subject_of_type = sphere
-						NOT = { is_subject_of = ROOT }
-					}
-				}
-				NOT = { is_great_power_no_rom_trigger = yes }
-			}
+			NOT = { is_great_power_or_alternative = yes }
 		}
 		custom_trigger_tooltip = {
 			tooltip = IS_NOT_SPHERE_INFLUENCING_FROM

@@ -29,15 +29,7 @@ victorian_era = {
 			technology_group = western
 		}
 		obj_victorian_era_4 = {
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
-				}
-				is_great_power = yes
-			}
-			else = {
-				is_great_power_no_rom_trigger = yes
-			}
+			is_great_power_or_alternative = yes
 		}
 		obj_victorian_era_5 = {
 			has_institution = industrialization_institution
@@ -218,22 +210,10 @@ a_house_divided = {
 			}
 		}
 		obj_a_house_divided_3 = {
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
-				}
-				is_great_power = yes
-				any_country = {
-					war_with = ROOT
-					is_great_power = yes
-				}
-			}
-			else = {
-				is_great_power_no_rom_trigger = yes
-				any_country = {
-					war_with = ROOT
-					is_great_power_no_rom_trigger = yes
-				}
+			is_great_power_or_alternative = yes
+			any_country = {
+				war_with = ROOT
+				is_great_power_or_alternative = yes
 			}
 		}
 		obj_a_house_divided_4 = {
@@ -411,17 +391,8 @@ age_of_empires = {
 			}
 		}
 		obj_age_of_empires_3 = {
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
-				}
-				is_great_power = yes
-				NOT = { great_power_rank = 2 }
-			}
-			else = {
-				is_great_power_no_rom_trigger = yes
-				is_great_power_rank_no_rom_trigger = { rank = 1 }
-			}
+			is_great_power_or_alternative = yes
+			is_better_great_power_rank_or_alternative = { rank = 2 }
 		}
 		obj_age_of_empires_4 = {
 			if = {
@@ -571,15 +542,7 @@ age_of_empires = {
 		}
 		ab_gp_age_of_empires = {
 			allow = {
-				if = {
-					limit = {
-						has_dlc = "Rights of Man"
-					}
-					is_great_power = yes
-				}
-				else = {
-					is_great_power_no_rom_trigger = yes
-				}
+				is_great_power_or_alternative = yes
 			}
 			modifier = {
 				diplomatic_upkeep = 3

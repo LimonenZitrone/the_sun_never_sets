@@ -5,19 +5,19 @@ country_event = {
 	title = sns_minor.1.t
 	desc = sns_minor.1.d
 	picture = CITY_VIEW_eventPicture
-	
+
 	trigger = {
 		current_age = victorian_era
 		technology_group = western
 	}
-	
+
 	mean_time_to_happen = {
 		months = 60
 	}
-	
+
 	option = {
 		name = sns_minor.1.a
-		
+
 		random_owned_province = {
 			random_list = {
 				33 = {
@@ -39,34 +39,34 @@ country_event = {
 	title = sns_minor.2.t
 	desc = sns_minor.2.d
 	picture = ANGRY_MOB_eventPicture
-	
+
 	trigger = {
 		NOT = { technology_group = western }
 		total_development = 100
 		NOT = { has_disaster = westernization }
 		NOT = { has_country_modifier = SNS_internal_problems }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 79
 	}
-	
+
 	option = {
 		name = sns_minor.2.a
-		
+
 		ai_chance = { factor = 0.5 }
-		
+
 		add_country_modifier = {
 			name = SNS_internal_problems
 			duration = 7300
 		}
 	}
-	
+
 	option = {
 		name = sns_minor.2.b
-		
+
 		ai_chance = { factor = 0.5 }
-		
+
 		random_list = {
 			33 = {
 				add_mil_power = -100
@@ -86,7 +86,7 @@ country_event = {
 	title = sns_minor.3.t
 	desc = sns_minor.3.d
 	picture = GOOD_WITH_MONARCH_eventPicture
-	
+
 	trigger = {
 		technology_group = western
 		NOT = { ADM = 5 }
@@ -94,16 +94,16 @@ country_event = {
 		NOT = { MIL = 5 }
 		NOT = { has_ruler_flag = SNS_improved_ruler }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 260
 	}
-	
+
 	option = {
 		name = sns_minor.3.a
-		
+
 		ai_chance = { factor = 0.75 }
-		
+
 		random_list = {
 			33 = {
 				change_mil = 1
@@ -117,12 +117,12 @@ country_event = {
 		}
 		set_ruler_flag = SNS_improved_ruler
 	}
-	
+
 	option = {
 		name = sns_minor.3.b
-		
+
 		ai_chance = { factor = 0.25 }
-		
+
 		add_adm_power = 50
 		add_dip_power = 50
 		add_mil_power = 50
@@ -135,32 +135,23 @@ country_event = {
 	title = sns_minor.4.t
 	desc = sns_minor.4.d
 	picture = COLONIZATION_eventPicture
-	
+
 	major = yes
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { has_global_flag = sns_allow_colonies }
 		has_institution = imperialism_institution
-		OR = {
-			AND = {
-				has_dlc = "Rights of Man"
-				is_great_power = yes
-			}
-			AND = {
-				NOT = { has_dlc = "Rights of Man" }
-				is_great_power_no_rom_trigger = yes
-			}
-		}
+		is_great_power_or_alternative = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 50
 	}
-	
+
 	option = {
 		name = sns_minor.4.a
-		
+
 		set_global_flag = sns_allow_colonies
 		custom_tooltip = sns_allows_colonies.tooltip
 		add_prestige = 20
@@ -172,22 +163,22 @@ country_event = {
 	title = sns_minor.5.t
 	desc = sns_minor.5.d
 	picture = COMMUNISM_special_eventPicture
-	
+
 	major = yes
 	fire_only_once = yes
-	
+
 	trigger = {
 		is_year = 1860
 		technology_group = western
 	}
-	
+
 	mean_time_to_happen = {
 		months = 150
 	}
-	
+
 	option = {
 		name = sns_minor.5.a
-		
+
 		set_global_flag = sns_allow_communism
 		custom_tooltip = sns_communism_activated.tooltip
 	}
@@ -198,23 +189,23 @@ country_event = {
 	title = sns_minor.6.t
 	desc = sns_minor.6.d
 	picture = COMMUNISM_special_eventPicture
-	
+
 	major = yes
 	fire_only_once = yes
-	
+
 	trigger = {
 		technology_group = western
 		has_global_flag = sns_allow_communism
 		total_development = 200
 	}
-	
+
 	mean_time_to_happen = {
 		months = 70
 	}
-	
+
 	option = {
 		name = sns_minor.6.a
-		
+
 		random_owned_province = {
 			spawn_rebels = {
 				type = socialist_rebels

@@ -27,30 +27,14 @@ cb_scramble_of_africa = {
 
 cb_admit_hegemony = {
 	valid_for_subject = no
-	
+
 	prerequisites = {
-		if = {
-			limit = {
-				has_dlc = "Rights of Man"
-			}
-			is_great_power = yes
-		}
-		else = {
-			is_great_power_no_rom_trigger = yes
-		}
+		is_great_power_or_alternative = yes
 		FROM = {
 			culture_group = ROOT
-			if = {
-				limit = {
-					has_dlc = "Rights of Man"
-				}
-				is_great_power = yes
-			}
-			else = {
-				is_great_power_no_rom_trigger = yes
-			}
+			is_great_power_or_alternative = yes
 		}
 	}
-	
+
 	war_goal = admit_hegemony
 }

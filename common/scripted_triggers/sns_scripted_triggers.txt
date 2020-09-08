@@ -1,28 +1,50 @@
-is_great_power_no_rom_trigger = {
-	custom_trigger_tooltip = {
-		tooltip = IS_NO_ROM_GREAT_POWER
-		NOT = {
-			calc_true_if = {
-				all_country = {
-					technology_group = western
-					total_development = ROOT
+is_great_power_or_alternative = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Rights of Man"
+				has_dlc = "Emperor"
+			}
+		}
+		is_great_power = yes
+	}
+	else = {
+		custom_trigger_tooltip = {
+			tooltip = IS_NO_ROM_GREAT_POWER
+			NOT = {
+				calc_true_if = {
+					all_country = {
+						technology_group = western
+						total_development = ROOT
+					}
+					amount = 8
 				}
-				amount = 8
 			}
 		}
 	}
 }
 
-is_great_power_rank_no_rom_trigger = {
-	custom_trigger_tooltip = {
-		tooltip = IS_NO_ROM_GREAT_POWER_RANK_$rank$
-		NOT = {
-			calc_true_if = {
-				all_country = {
-					technology_group = western
-					total_development = ROOT
+is_better_great_power_rank_or_alternative = {
+	if = {
+		limit = {
+			OR = {
+				has_dlc = "Rights of Man"
+				has_dlc = "Emperor"
+			}
+		}
+		NOT = { great_power_rank = $rank$ }
+	}
+	else = {
+		custom_trigger_tooltip = {
+			tooltip = IS_NO_ROM_GREAT_POWER_RANK_$rank$
+			NOT = {
+				calc_true_if = {
+					all_country = {
+						technology_group = western
+						total_development = ROOT
+					}
+					amount = $rank$
 				}
-				amount = $rank$
 			}
 		}
 	}

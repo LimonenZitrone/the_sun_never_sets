@@ -76,10 +76,10 @@ country_event = {
 	title = sns_sphere_events.EVTNAME3
 	desc = sns_sphere_events.EVTDESC3
 	picture = DIPLOMACY_eventPicture
-	
+
 	hidden = yes
 	is_triggered_only = yes
-	
+
 	trigger = {
 		is_subject_of_type = sphere
 		war_with = FROM
@@ -94,7 +94,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			overlord = {
@@ -103,10 +103,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = sns_sphere_events3.EVTOPT1
-		
+
 		ai_chance = { factor = 100 }
 	}
 }
@@ -116,31 +116,20 @@ country_event = {
 	title = sns_sphere_events.EVTNAME4
 	desc = sns_sphere_events.EVTDESC4
 	picture = DIPLOMACY_eventPicture
-	
+
 	hidden = yes
-	
+
 	trigger = {
 		is_subject_of_type = sphere
 		overlord = {
-			NOT = {
-				OR = {
-					AND = {
-						has_dlc = "Rights of Man"
-						is_great_power = yes
-					}
-					AND = {
-						NOT = { has_dlc = "Rights of Man" }
-						is_great_power_no_rom_trigger = yes
-					}
-				}
-			}
+			NOT = { can_be_overlord = sphere }
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 1
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			overlord = {
@@ -149,10 +138,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = sns_sphere_events4.EVTOPT1
-		
+
 		ai_chance = { factor = 100 }
 	}
 }
@@ -162,12 +151,12 @@ country_event = {
 	title = sns_sphere_events.EVTNAME5
 	desc = sns_sphere_events.EVTDESC5
 	picture = DIPLOMACY_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = sns_sphere_events5.EVTOPT1
-		
+
 		overlord = {
 			ROOT = { grant_independence = yes }
 			hidden_effect = {

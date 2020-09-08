@@ -1,11 +1,11 @@
 po_become_sphere = {
-	# The following strings need localization: 
+	# The following strings need localization:
 	#		"po_become_sphere_desc" (uses text processing, supporting bracket notation) ("[FROM.GetName] becomes a [THIS.GetName] Dummy")
 	#		"CB_ALLOWED_po_become_sphere" (uses plain localization) ("Enforced Dumbness")
 	#		"PEACE_po_become_sphere" (uses plain localization, but with support for $TAKER$, $TAKERS$, $GIVER$ and $GIVERS$) ("Become $TAKERS$ Dummy")
 
 	# Values default to 0 or "no" unless otherwise stated
-	
+
 	category = 6 # Any number between 0 and 6. Represents the tab under which it will be listed. 6 corresponds to "treaties". This value currently defaults to 6.
 	power_projection = vassalized_rival # "power_projection" will only be applied if giver is your rival.
 	power_cost_base = 0.0 # Base factor for diplomatic power cost when treaty is not allowed by casus belli. Scales with war score cost.
@@ -26,18 +26,9 @@ po_become_sphere = {
 	requires_demand_independence = yes # Whether this can be demanded by the former subject in an independence war without also demanding independence.
 	is_make_subject = yes # This will make the treaty mutually exclusive with other treaties that makes the giver a subject, or that explicitly frees the giver from their current overlord.
 	requires_is_allowed = yes # If set to "yes", treaty will only be visible when explicitly allowed by casus belli. If not, it will be available but cost diplomatic power.
-	
+
 	is_visible = { # Defaults to equivalent of "always = yes"
-		OR = {
-			AND = {
-				has_dlc = "Rights of Man"
-				is_great_power = yes
-			}
-			AND = {
-				NOT = { has_dlc = "Rights of Man" }
-				is_great_power_no_rom_trigger = yes
-			}
-		}
+		is_great_power_or_alternative = yes
 	}
 	is_allowed = { # Defaults to equivalent of "always = yes"
 		FROM = {
