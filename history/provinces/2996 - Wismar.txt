@@ -39,4 +39,3 @@ discovered_by = ottoman
 1531.1.1  = { religion = protestant }
 1648.10.24 = { owner = SWE controller = SWE add_core = SWE } 
 1803.1.1 = { owner = MKL controller = MKL add_core = MKL } 
-1806.7.12 = { hre = no } 

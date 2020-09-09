@@ -8,6 +8,33 @@ NDefines.NGame.AGE_USHER_IN_TIME = 12
 NDefines.NCountry.GOLDEN_ERA_YEARS = 25
 NDefines.NCountry.PS_FACTION_BOOST = 9999
 
+-- HRE stuff
+NDefines.NCountry.HRE_MAX_RANK = 3
+NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 3
+NDefines.NDiplomacy.DESIRED_NUM_OF_ELECTORS = 0
+NDefines.NDiplomacy.MAX_NUM_OF_ELECTORS = 4
+NDefines.NDiplomacy.LACK_OF_ELECTORS_HIT = 0
+NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 1
+NDefines.NDiplomacy.IMPERIAL_AUTHORITY_FROM_PRINCES = 0.025
+NDefines.NDiplomacy.IMPERIAL_CITY_IA = 0.1
+NDefines.NDiplomacy.HRE_FOREIGN_CONTROL_PENALTY = -0.01
+NDefines.NDiplomacy.HRE_HERETIC_PENALTY = 0
+NDefines.NDiplomacy.HRE_VOTE_ENEMY = -200
+NDefines.NDiplomacy.HRE_VOTE_LEGUE_ENEMY = -200
+NDefines.NDiplomacy.HRE_VOTE_LEAGUE_LEADER = 50
+NDefines.NDiplomacy.HRE_VOTE_LEAGUE_LEADER_FRIEND = 100
+NDefines.NDiplomacy.HRE_VOTE_HERETIC = -25
+NDefines.NDiplomacy.HRE_VOTE_OVERLORD = 50
+NDefines.NDiplomacy.HRE_VOTE_VASSAL_ELECTOR = -25
+NDefines.NDiplomacy.HRE_VOTE_TOO_SMALL = -50
+NDefines.NDiplomacy.HRE_VOTE_BIG_COUNTRY = 25
+NDefines.NDiplomacy.HRE_VOTE_VERY_BIG_COUNTRY = 50
+NDefines.NDiplomacy.HRE_VOTE_NON_MEMBER = -1000
+NDefines.NDiplomacy.HRE_VOTE_SAME_CULTURE_GROUP = 0
+NDefines.NDiplomacy.HRE_VOTE_ALLIANCE = 50
+NDefines.NDiplomacy.HRE_VOTE_ROYAL_MARRIAGE = 25
+NDefines.NDiplomacy.HRE_VOTE_CORE_CLAIM = -50
+
 -- Minimap stuff
 NDefines.NGraphics.MINIMAP_WATER_COLOR_R = 255
 NDefines.NGraphics.MINIMAP_WATER_COLOR_G = 255

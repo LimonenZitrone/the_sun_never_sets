@@ -62,6 +62,7 @@ add_core = BOH
 	remove_core = BOH 
 }# Tilly beats the Winterking, but HAB gives the province to Saxony as security against a loan.
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1815.6.8 = { hre = yes }
 1815.6.9 = {
 	owner = PRU
 	controller = PRU

@@ -49,3 +49,4 @@ add_core = ING
 1777.1.1 = { unrest = 3 } # Bavarian line of the Wittlelsbach family dies out and is replaced by the Pwesternate branch of the family. The people in Munich hate the new duke.
 1779.1.1 = { unrest = 0 }
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1815.6.8 = { hre = yes }

@@ -64,3 +64,4 @@ add_core = VER
 	add_core = HAN
 	remove_core = FRA
 }# Napoleon abdicated unconditionally
+1815.6.8 = { hre = yes }

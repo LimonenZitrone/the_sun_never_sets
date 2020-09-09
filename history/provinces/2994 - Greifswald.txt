@@ -58,3 +58,4 @@ discovered_by = ottoman
 	add_core = PRU
 	remove_core = DAN
 }
+1815.6.8 = { hre = yes }

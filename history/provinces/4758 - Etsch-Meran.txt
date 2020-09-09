@@ -65,3 +65,4 @@ base_production = 8 } # Maximilian's economic reforms
 	add_core = HAB
 	remove_core = BAV
 } # Treaty of Paris, ceded to the Habsburgs
+1815.6.8 = { hre = yes }

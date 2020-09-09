@@ -35,3 +35,4 @@ discovered_by = ottoman
 1790.8.1 = { unrest = 5 } 
 1791.1.1 = { unrest = 0 }
 1806.7.12 = { hre = no } 
+1815.6.8 = { hre = yes }

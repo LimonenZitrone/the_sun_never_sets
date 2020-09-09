@@ -26,3 +26,4 @@ trade_goods = livestock
 base_manpower = 3
 capital = "Slesvig"
 is_city = yes
+hre = no

@@ -46,3 +46,4 @@ discovered_by = ottoman
 	remove_core = BRA
 }
 1806.7.12 = { hre = no } 
+1815.6.8 = { hre = yes }

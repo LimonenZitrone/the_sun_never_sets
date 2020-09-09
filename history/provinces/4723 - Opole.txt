@@ -52,3 +52,4 @@ discovered_by = QAS
 base_production = 5 base_manpower = 3}
 1763.1.1 = { remove_core = HAB } # End of 3rd Silesian war
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1815.6.8 = { hre = yes }

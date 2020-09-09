@@ -42,7 +42,7 @@ discovered_by = ottoman
 1650.1.1 = { base_manpower = 4 }
 1700.1.1 = { base_manpower = 6 }
 1806.7.12 = { hre = no } 
-
+1815.6.8 = { hre = yes }
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

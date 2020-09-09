@@ -53,7 +53,7 @@ discovered_by = ottoman
 1525.5.1 = { unrest = 8 } 
 1526.1.1 = { unrest = 0 }
 1806.7.12 = { hre = no } 
-
+1815.6.8 = { hre = yes }
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

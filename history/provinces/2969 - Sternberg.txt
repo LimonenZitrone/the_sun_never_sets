@@ -54,3 +54,4 @@ discovered_by = ottoman
 1806.7.12 = { hre = no } 
 1806.10.27 = { controller = FRA }
 1807.7.9 = { controller = PRU } 
+1815.6.8 = { hre = yes }

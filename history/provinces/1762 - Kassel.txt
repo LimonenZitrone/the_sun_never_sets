@@ -46,3 +46,4 @@ discovered_by = ottoman
 	controller = HES
 	remove_core = WES
 } 
+1815.6.8 = { hre = yes }

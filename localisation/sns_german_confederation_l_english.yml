@@ -1,0 +1,31 @@
+﻿l_english:
+ german_federal_act_title: "German Federal Act"
+ german_federal_act_desc: ""
+
+ zollverein_title: "Zollverein"
+ zollverein_desc: ""
+
+ lesser_germany_title: "Lesser Germany"
+ lesser_germany_desc: ""
+
+ the_leaders_might_title: "The Leader's Might"
+ the_leaders_might_desc: ""
+
+ defensive_pact_title: "Defensive Pact"
+ defensive_pact_desc: ""
+
+ pan_germanism_title: "Pan-Germanism"
+ pan_germanism_desc: ""
+
+ internal_peace_title: "Internal Peace"
+ internal_peace_desc: ""
+
+ frankfurt_reform_act_title: "Frankfurt Reform Act"
+ frankfurt_reform_act_desc: ""
+
+ REFORM_ZOLLVEREIN_ON_TT: "§YMembers of the German Confederation cannot issue embargoes on each other anymore.§!"
+ REFORM_ZOLLVEREIN_OFF_TT: "§YMembers of the German Confederation can issue embargoes on each other again.§!"
+ REFORM_DEFENSIVE_PACT_ON_TT: "§YAll members and the Leader sign mutual Defensive Pacts. This means all members of the German Confederation are called to arms when one of them is attacked. \nIn such a defensive war, the Leader has the possibility to unite Germany to one state.§!"
+ REFORM_DEFENSIVE_PACT_OFF_TT: "§YThe Defensive Pacts between the members are dissolved.§!"
+ REFORM_LESSER_GERMANY_ON_TT: "§YAllows the unification of Germany.§!"
+ REFORM_LESSER_GERMANY_OFF_TT: "§YDisallows the unification of Germany.§!"

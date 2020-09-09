@@ -26,5 +26,5 @@ trade_goods = wine
 base_manpower = 2
 fort_15th = yes 
 capital = "Würzburg"
-hre = no
+hre = yes
 is_city = yes

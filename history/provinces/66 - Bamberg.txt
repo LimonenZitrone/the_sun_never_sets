@@ -25,4 +25,4 @@ trade_goods = wine
 base_manpower = 2
 capital = "Bamberg"
 is_city = yes
-hre = no
+hre = yes

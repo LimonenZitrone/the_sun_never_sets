@@ -25,4 +25,4 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Laibach"
 is_city = yes
-hre = no
+hre = yes

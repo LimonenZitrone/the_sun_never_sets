@@ -35,3 +35,4 @@ center_of_trade = 1
 	add_core = AHE
 	remove_core = HAB
 }
+1815.6.8 = { hre = yes }

@@ -34,3 +34,4 @@ add_core = THU
 1790.8.1 = { unrest = 5 } # Peasant revolt
 1791.1.1 = { unrest = 0 }
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1815.6.8 = { hre = yes }

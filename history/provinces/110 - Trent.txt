@@ -33,3 +33,4 @@ is_city = yes
 	add_core = AHE
 	remove_core = HAB
 }
+1815.6.8 = { hre = yes }

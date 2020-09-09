@@ -57,3 +57,4 @@ is_city = yes
 	add_core = PRU
 	remove_core = WES
 } # The kingdom is dissolved
+1815.6.8 = { hre = yes }

@@ -54,3 +54,4 @@ add_core = STY
 	controller = HAB
 	remove_core = FRA
 } # Austria regains Trieste
+1815.6.8 = { hre = yes }

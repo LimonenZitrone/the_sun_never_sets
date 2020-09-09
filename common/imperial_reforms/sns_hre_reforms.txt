@@ -1,0 +1,190 @@
+# Center
+german_federal_act = {
+	empire = hre
+	gui_container = mainline
+
+	member = {
+		legitimacy = 0.5
+		republican_tradition = 0.25
+		devotion = 0.25
+		horde_unity = 0.5
+		meritocracy = 0.5
+	}
+	emperor = {
+		legitimacy = 1
+	}
+	on_effect = {
+		imperial_ban_allowed = yes
+		custom_tooltip = " "
+	}
+	off_effect = {
+		imperial_ban_allowed = no
+	}
+}
+
+zollverein = {
+	empire = hre
+	gui_container = mainline
+	required_reform = german_federal_act
+
+	all = {
+		caravan_power = 0.1
+		trade_efficiency = 0.1
+	}
+	emperor = {
+		trade_steering = 0.1
+	}
+	on_effect = {
+		custom_tooltip = REFORM_ZOLLVEREIN_ON_TT
+		custom_tooltip = " "
+	}
+	off_effect = {
+		custom_tooltip = REFORM_ZOLLVEREIN_OFF_TT
+	}
+}
+
+# Left
+lesser_germany = {
+	empire = hre
+	gui_container = left_branch
+	required_reform = zollverein
+	disabled_by = pan_germanism
+
+	war = yes
+
+	all = {
+		culture_conversion_cost = -0.5
+	}
+	on_effect = {
+		custom_tooltip = REFORM_LESSER_GERMANY_ON_TT
+		# Austria War stuff
+		custom_tooltip = " "
+	}
+	off_effect = {
+		custom_tooltip = REFORM_LESSER_GERMANY_OFF_TT
+	}
+}
+
+the_leaders_might = {
+	empire = hre
+	gui_container = left_branch
+	required_reform = lesser_germany
+
+	member = {
+		diplomatic_reputation = 1
+	}
+	emperor = {
+		land_forcelimit_modifier = 0.25
+	}
+	on_effect = {
+		hre_inheritable = yes
+		custom_tooltip = " "
+	}
+	off_effect = {
+		hre_inheritable = no
+	}
+}
+
+defensive_pact = {
+	empire = hre
+	gui_container = left_branch
+	required_reform = the_leaders_might
+
+	member = {
+		land_forcelimit_modifier = 0.1
+	}
+	emperor = {
+		diplomatic_reputation = 1
+	}
+	on_effect = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = german_confederation_internal_peace }
+			}
+			internal_hre_cb = no
+		}
+		custom_tooltip = REFORM_DEFENSIVE_PACT_ON_TT
+		custom_tooltip = " "
+	}
+	off_effect = {
+		if = {
+			limit = {
+				NOT = { has_global_flag = german_confederation_internal_peace }
+			}
+			internal_hre_cb = yes
+		}
+		custom_tooltip = REFORM_DEFENSIVE_PACT_OFF_TT
+	}
+}
+
+# Right
+pan_germanism = {
+	empire = hre
+	gui_container = right_branch
+	required_reform = zollverein
+	disabled_by = lesser_germany
+
+	war = yes
+
+	all = {
+		num_accepted_cultures = 2
+	}
+	on_effect = {
+		# Prussia War stuff
+		custom_tooltip = " "
+	}
+	off_effect = {
+	}
+}
+
+internal_peace = {
+	empire = hre
+	gui_container = right_branch
+	required_reform = pan_germanism
+
+	all = {
+		diplomatic_reputation = 1
+	}
+	emperor = {
+		diplomats = 1
+	}
+	on_effect = {
+		internal_hre_cb = no
+		custom_tooltip = " "
+	}
+	off_effect = {
+		internal_hre_cb = yes
+	}
+}
+
+frankfurt_reform_act = {
+	empire = hre
+	gui_container = right_branch
+	required_reform = internal_peace
+
+	member = {
+		prestige = 0.5
+	}
+	emperor = {
+		max_electors = 2
+		prestige = 1
+	}
+	on_effect = {
+		if = {
+			limit = {
+				has_dlc = "Emperor"
+			}
+			enable_imperial_realm_war = yes
+			custom_tooltip = REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER
+		}
+		custom_tooltip = " "
+	}
+	off_effect = {
+		if = {
+			limit = {
+				has_dlc = "Emperor"
+			}
+			enable_imperial_realm_war = no
+		}
+	}
+}

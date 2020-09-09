@@ -25,4 +25,4 @@ base_tax = 14
 base_production = 14
 base_manpower = 2
 is_city = yes
-hre = no
+hre = yes

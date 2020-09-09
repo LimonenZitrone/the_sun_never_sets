@@ -490,7 +490,7 @@ national_focus = ADM
 1793.4.19 = {
 	heir = {
 		name = "Ferdinand"
-		monarch_name = "Ferdinand I"	
+		monarch_name = "Ferdinand I"
 		dynasty = "von Habsburg"
 		birth_date = 1793.4.19
 		death_date = 1875.6.29
@@ -575,4 +575,9 @@ national_focus = ADM
 		dip = 2
 		mil = 0
 	}
+}
+
+1815.6.8 = {
+	set_hre_religion_treaty = yes
+	elector = yes
 }

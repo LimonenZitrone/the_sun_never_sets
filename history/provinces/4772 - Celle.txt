@@ -48,3 +48,4 @@ is_city = yes
 	controller = HAN
 	remove_core = WES
 } # Westfalia is dissolved after the Battle of Leipsig
+1815.6.8 = { hre = yes }

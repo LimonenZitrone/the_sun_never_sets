@@ -44,3 +44,5 @@ capital = 50 # Berlin
 }
 
 1807.1.1 = { leader = { name = "August von Gneisenau"	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1831.8.23 } }
+
+1815.6.8 = { elector = yes }

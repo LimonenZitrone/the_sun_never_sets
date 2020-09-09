@@ -112,9 +112,7 @@ capital = 4716	# Weimar
 	}
 }
 
-1464.9.7 = { elector = yes }
-
-1482.9.17 = {
+1464.9.7 = { elector = yes }1482.9.17 = {
 	monarch = {
 		name = "Ernst I"
 		dynasty = "von Wettin"
@@ -138,7 +136,7 @@ capital = 4716	# Weimar
 		mil = 3
 	}
 }
-	
+
 
 1486.8.26 = {
 	monarch = {
@@ -219,7 +217,7 @@ capital = 4716	# Weimar
 
 #Saxe-Weimar branch
 
-1554.3.3 = {	
+1554.3.3 = {
 	monarch = {
 		name = "Johann Wilhelm I"
 		dynasty = "von Wettin"
@@ -268,7 +266,7 @@ capital = 4716	# Weimar
 	}
 }
 
-1586.2.11 = {	
+1586.2.11 = {
 	monarch = {
 		name = "Friedrich Wilhelm I"
 		dynasty = "von Wettin"
@@ -293,7 +291,7 @@ capital = 4716	# Weimar
 	}
 }
 
-1602.7.7 = {	
+1602.7.7 = {
 	monarch = {
 		name = "Johann III"
 		dynasty = "von Wettin"
@@ -318,7 +316,7 @@ capital = 4716	# Weimar
 	}
 }
 
-1605.10.31 = {	
+1605.10.31 = {
 	monarch = {
 		name = "Johann Ernst I"
 		dynasty = "von Wettin"
@@ -520,3 +518,5 @@ add_government_reform = autocracy_reform }
 		mil = 1
 	}
 }
+
+1815.6.8 = { elector = no }

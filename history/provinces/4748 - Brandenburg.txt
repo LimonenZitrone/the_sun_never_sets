@@ -42,3 +42,4 @@ is_city = yes
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
 1806.10.27 = { controller = FRA }
 1807.7.9 = { controller = PRU } # The Second treaty of Tilsit
+1815.6.8 = { hre = yes }

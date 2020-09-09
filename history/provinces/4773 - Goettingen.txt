@@ -52,3 +52,4 @@ add_core = BRU
 	add_core = BRU
 	remove_core = WES
 } # The kingdom is dissolved
+1815.6.8 = { hre = yes }

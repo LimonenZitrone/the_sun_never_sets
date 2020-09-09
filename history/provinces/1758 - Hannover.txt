@@ -65,3 +65,4 @@ discovered_by = ottoman
 	add_core = HAN
 	remove_core = WES
 } 
+1815.6.8 = { hre = yes }

@@ -26,4 +26,4 @@ base_manpower = 2
 fort_15th = yes 
 capital	= "Landshut" 
 is_city = yes
-hre = no
+hre = yes

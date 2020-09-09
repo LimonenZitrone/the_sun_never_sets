@@ -25,4 +25,4 @@ trade_goods = glass
 base_manpower = 1
 capital = "Freiburg" 
 is_city = yes
-hre = no
+hre = yes

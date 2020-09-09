@@ -50,3 +50,4 @@ is_city = yes
 	add_core = HES
 	remove_core = FRN
 } # Congress of Vienna
+1815.6.8 = { hre = yes }

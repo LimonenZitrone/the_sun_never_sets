@@ -26,7 +26,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-
+1815.6.8 = { hre = yes }
 1867.6.8 = {
 	owner = AHE
 	controller = AHE

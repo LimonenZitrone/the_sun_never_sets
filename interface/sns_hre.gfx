@@ -1,0 +1,56 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_german_federal_act"
+		texturefile = "gfx/interface/imperial_diet_reforms/german_federal_act.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_zollverein"
+		texturefile = "gfx/interface/imperial_diet_reforms/zollverein.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_lesser_germany"
+		texturefile = "gfx/interface/imperial_diet_reforms/lesser_germany.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_the_leaders_might"
+		texturefile = "gfx/interface/imperial_diet_reforms/the_leaders_might.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_defensive_pact"
+		texturefile = "gfx/interface/imperial_diet_reforms/defensive_pact.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_pan_germanism"
+		texturefile = "gfx/interface/imperial_diet_reforms/pan_germanism.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_internal_peace"
+		texturefile = "gfx/interface/imperial_diet_reforms/internal_peace.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_frankfurt_reform_act"
+		texturefile = "gfx/interface/imperial_diet_reforms/frankfurt_reform_act.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_german_confederation_league_button"
+		texturefile = "gfx/interface/german_confederation_league_button.dds"
+		loadType = "INGAME"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_german_confederation_heretic_league_button"
+		texturefile = "gfx/interface/german_confederation_heretic_league_button.dds"
+		loadType = "INGAME"
+		noOfFrames = 2
+	}
+}

@@ -26,4 +26,4 @@ base_manpower = 5
 fort_15th = yes 
 capital = "Klagenfurt" 
 is_city = yes
-hre = no
+hre = yes

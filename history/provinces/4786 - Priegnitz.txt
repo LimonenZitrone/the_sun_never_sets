@@ -38,3 +38,4 @@ is_city = yes
 	remove_core = BRA
 } # Friedrich III becomes king of Prussia
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
+1815.6.8 = { hre = yes }

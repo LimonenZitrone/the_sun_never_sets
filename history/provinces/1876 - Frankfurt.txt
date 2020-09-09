@@ -47,3 +47,4 @@ base_production = 10}
 1792.12.3 = { controller = FRN } 
 1806.7.12 = { hre = no } 
 1810.1.1 = { fort_15th = no fort_18th = yes }
+1815.6.8 = { hre = yes }

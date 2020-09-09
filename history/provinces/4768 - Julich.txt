@@ -45,3 +45,4 @@ hre = yes
 	add_core = PRU
 	remove_core = FRA
 } # Napoleon abdicates
+1815.6.8 = { hre = yes }

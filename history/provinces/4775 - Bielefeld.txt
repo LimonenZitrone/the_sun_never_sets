@@ -52,3 +52,4 @@ hre = yes
 	controller = PRU
 	add_core = PRU
 }
+1815.6.8 = { hre = yes }
