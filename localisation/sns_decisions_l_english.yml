@@ -2,79 +2,87 @@
  # Westernization:
  start_westernization_title: "Start Westernization"
  start_westernization_desc: "In order to keep up with new western technologies, we must westernize."
- 
+
  stop_westernization_title: "Stop Westernization"
  stop_westernization_desc: "We have other things to do, this westernization is slowing us down and not helping us."
- 
+
  DID_NOT_STOP_WESTERNIZATION_RECENTLY: "Did NOT stop the §YWesternization§! within the last §Y31 days§!"
  START_WESTERNIZATION_TT: "The §YWesternization§! will start in the next month."
- 
+
  # Great Projects:
  construct_eiffel_tower_title: "Construct the Eiffel Tower"
  construct_eiffel_tower_desc: ""
  cancel_eiffel_tower_title: "Cancel the Eiffel Tower construction"
  cancel_eiffel_tower_desc: "Cancel the construction of the great project §YEiffel Tower§!."
- 
+
  construct_old_museum_title: "Construct the Royal Museum"
  construct_old_museum_desc: ""
  cancel_old_museum_title: "Cancel the Royal Museum construction"
  cancel_old_museum_desc: "Cancel the construction of the great project §YRoyal Museum§!."
- 
+
  construct_crystal_palace_title: "Construct the Crystal Palace"
  construct_crystal_palace_desc: ""
  cancel_crystal_palace_title: "Cancel the Crystal Palace construction"
  cancel_crystal_palace_desc: "Cancel the construction of the great project §YCrystal Palace§!."
- 
+
  construct_gyeonbokgung_palace_title: "Rebuild the Gyeonbokgung Palace"
  construct_gyeonbokgung_palace_desc: ""
  cancel_gyeonbokgung_palace_title: "Cancel the Gyeonbokgung Palace construction"
  cancel_gyeonbokgung_palace_desc: "Cancel the construction of the great project §YGyeonbokgung Palace§!."
- 
+
  construct_palais_garnier_title: "Construct the Palais Garnier"
  construct_palais_garnier_desc: ""
  cancel_palais_garnier_title: "Cancel the Palais Garnier construction"
  cancel_palais_garnier_desc: "Cancel the construction of the great project §YPalais Garnier§!."
- 
+
  construct_california_state_capitol_title: "Construct the California State Capitol"
  construct_california_state_capitol_desc: ""
  cancel_california_state_capitol_title: "Cancel the California State Capitol construction"
  cancel_california_state_capitol_desc: "Cancel the construction of the great project §YCalifornia State Capitol§!."
- 
+
  construct_scots_church_title: "Construct the Scot's Church"
  construct_scots_church_desc: ""
  cancel_scots_church_title: "Cancel the Scot's Church construction"
  cancel_scots_church_desc: "Cancel the construction of the great project §YScot's Church§!."
- 
+
  construct_cologne_cathedral_title: "Finish the Cologne Cathedral"
  construct_cologne_cathedral_desc: ""
  cancel_cologne_cathedral_title: "Cancel the Cologne Cathedral construction"
  cancel_cologne_cathedral_desc: "Cancel the construction of the great project §YCologne Cathedral§!."
- 
+
  construct_arc_de_triomphe_title: "Construct the Arc de Triomphe de l'Étoile"
  construct_arc_de_triomphe_desc: ""
  cancel_arc_de_triomphe_title: "Cancel the Arc de Triomphe de l'Étoile construction"
  cancel_arc_de_triomphe_desc: "Cancel the construction of the great project §YArc de Triomphe de l'Étoile§!."
- 
+
  construct_arc_de_triomphe_title: "Construct the Arc de Triomphe de l'Étoile"
  construct_arc_de_triomphe_desc: ""
  cancel_arc_de_triomphe_title: "Cancel the Arc de Triomphe de l'Étoile construction"
  cancel_arc_de_triomphe_desc: "Cancel the construction of the great project §YArc de Triomphe de l'Étoile§!."
- 
+
  construct_sanssouci_title: "Modify the Sanssouci Palace"
  construct_sanssouci_desc: ""
  cancel_sanssouci_title: "Cancel the Sanssouci Palace construction"
  cancel_sanssouci_desc: "Cancel the construction of the great project §YSanssouci Palace§!."
- 
+
  construct_herimitage_museum_title: "Construct the Herimitage Museum"
  construct_herimitage_museum_desc: ""
  cancel_herimitage_museum_title: "Cancel the Herimitage Museum construction"
  cancel_herimitage_museum_desc: "Cancel the construction of the great project §YHerimitage Museum§!."
- 
- #Formables
+
+ # Formables:
  reform_gran_colombia_title: "Restore Bolivar's Colombia"
  reform_gran_colombia_desc: "Simon Bolivar once had a dream of a South America united against imperialism, but that dream echoes of irony today as he could not save even his own nation from falling into pieces. Bolivar may be dead, but his ideals lives in the hearts of anyone who lives in Gran Colombia. We must reunite the pieces of his nation and prove once and for all that Colombia is the bastion against European imperialism!"
- 
+
+ form_germany_conquer_title: "Unite Germany"
+ form_germany_conquer_desc: "Regardless of the absence of a strong, central authority, our nation is prospering. The Hanseatic League, formed by hundreds of towns in northern Germany, has contributed to the prosperity of our nation. Intellectual growth, combined with sea and overland trading, has also helped spur the development and transform our country into a wealthy manufacturing center."
+
+ form_germany_diplo_title: "Unite the German Confederation"
+ form_germany_diplo_desc: "Regardless of the absence of a strong, central authority, our nation is prospering. The Hanseatic League, formed by hundreds of towns in northern Germany, has contributed to the prosperity of our nation. Intellectual growth, combined with sea and overland trading, has also helped spur the development and transform our country into a wealthy manufacturing center."
+
+ at_least_4_german_confederation_members_in_defensive_war_with_this: " members of the §YGerman Confederation§! are in defensive war together with §Y[Root.GetName]§! in which this country is the war leader of the attacking side"
+ all_german_confederation_members_in_defensive_war_with_this: "All members of the §YGerman Confederation§! are in defensive war together with §Y[Root.GetName]§! in which this country is the war leader of the attacking side"
+
  #Flavor decisions
  SNS_siam_request_british_malaya_title: "Request the Tenasserim Coast"
  SNS_siam_request_british_malaya_desc: "After we ovetthrew the chains of Burmese hegemony, the British took advantage of the discord and seized the Tenasserism coast. The people living there are primarily Thai, and the land belonged to the Ayutthaya kingdom before the Burmese conquest. With us having become civilized in western standards, the British might listen to us if we request these lands back."
- 

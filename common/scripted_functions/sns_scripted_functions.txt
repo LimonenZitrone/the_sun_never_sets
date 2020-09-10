@@ -1,0 +1,73 @@
+# Hard-coded functions made fully or partly scripted
+#
+# Note that most functions use unique mechanics
+
+# ROOT = country
+can_join_hre_league = {
+	condition = {
+		tooltip = "CANNOT_JOIN_LEAGUE_AT_WAR"
+		potential = {
+		}
+		allow = {
+			is_at_war = no
+		}
+	}
+	condition = {
+		tooltip = "CANNOT_JOIN_LEAGUE_IF_NOT_IN_EMPIRE"
+		potential = {
+		}
+		allow = {
+			OR = {
+				is_part_of_hre = yes
+				any_ally = {
+					is_league_leader = yes
+				}
+			}
+		}
+	}
+}
+
+# ROOT = province, FROM = country
+can_add_province_to_hre = {
+	condition = {
+		potential = {
+		}
+		allow = {
+			culture_group = germanic
+			FROM = {
+				culture_group = germanic
+			}
+		}
+	}
+}
+
+
+### Special functions
+# Called by can_add_province_to_hre
+is_possible_hre_province = {
+	condition = {
+		tooltip = "APH_ONLY_CENTRAL_EUROPE"
+		potential = {
+		}
+		allow = {
+			OR = {
+				region = north_german_region
+				region = south_german_region
+				region = poland_region
+				region = low_countries_region
+				region = baltic_region
+			}
+		}
+	}
+	condition = {
+		tooltip = "APH_ONLY_GERMANIC"
+		potential = {
+		}
+		allow = {
+			culture_group = germanic
+		}
+	}
+}
+
+will_demand_annexation = {
+}

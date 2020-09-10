@@ -72,46 +72,6 @@ country_event = {
 }
 
 country_event = {
-	id = sns_sphere_events.3
-	title = sns_sphere_events.EVTNAME3
-	desc = sns_sphere_events.EVTDESC3
-	picture = DIPLOMACY_eventPicture
-
-	hidden = yes
-	is_triggered_only = yes
-
-	trigger = {
-		is_subject_of_type = sphere
-		war_with = FROM
-		overlord = {
-			NOT = { war_with = FROM }
-		}
-		liberty_desire = 50
-		overlord = {
-			reverse_has_opinion_modifier = {
-				who = ROOT
-				modifier = refused_join_war
-			}
-		}
-	}
-
-	immediate = {
-		hidden_effect = {
-			overlord = {
-				ROOT = { grant_independence = yes }
-				country_event = { id = sns_sphere_events.2 }
-			}
-		}
-	}
-
-	option = {
-		name = sns_sphere_events3.EVTOPT1
-
-		ai_chance = { factor = 100 }
-	}
-}
-
-country_event = {
 	id = sns_sphere_events.4
 	title = sns_sphere_events.EVTNAME4
 	desc = sns_sphere_events.EVTDESC4

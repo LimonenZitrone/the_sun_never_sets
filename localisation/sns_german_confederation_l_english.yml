@@ -1,4 +1,5 @@
 ﻿l_english:
+ # Reforms:
  german_federal_act_title: "German Federal Act"
  german_federal_act_desc: ""
 
@@ -25,7 +26,18 @@
 
  REFORM_ZOLLVEREIN_ON_TT: "§YMembers of the German Confederation cannot issue embargoes on each other anymore.§!"
  REFORM_ZOLLVEREIN_OFF_TT: "§YMembers of the German Confederation can issue embargoes on each other again.§!"
- REFORM_DEFENSIVE_PACT_ON_TT: "§YAll members and the Leader sign mutual Defensive Pacts. This means all members of the German Confederation are called to arms when one of them is attacked. \nIn such a defensive war, the Leader has the possibility to unite Germany to one state.§!"
- REFORM_DEFENSIVE_PACT_OFF_TT: "§YThe Defensive Pacts between the members are dissolved.§!"
- REFORM_LESSER_GERMANY_ON_TT: "§YAllows the unification of Germany.§!"
- REFORM_LESSER_GERMANY_OFF_TT: "§YDisallows the unification of Germany.§!"
+ REFORM_DEFENSIVE_PACT_ON_TT: "§YAll members and the Leader sign mutual Defensive Pacts. This means all members of the German Confederation are called to arms when one of them is attacked. \nIn such a defensive war, the Leader has the possibility to unite Germany to one state.§! \n§YAllows the unification of Germany.§!"
+ REFORM_DEFENSIVE_PACT_OFF_TT: "§YThe Defensive Pacts between the members are dissolved.§! \n§YDisallows the unification of Germany.§!"
+ REFORM_FRANKFURT_REFORM_ACT_ON_TT: "§YThe Leader can grant the title of a Major State to any member as long as there are less than 6.§!"
+ REFORM_FRANKFURT_REFORM_ACT_OFF: "§YThe tile of a Major State is fixed again to specific countries.§!"
+ REFORM_INTERNAL_PEACE_ON_TT: "§YAllows the Leader to join defensive wars of the members.§!"
+ REFORM_INTERNAL_PEACE_OFF_TT: "§YDisallows the Leader to join defensive wars of the members.§!"
+ REFORM_LESSER_GERMANY_ON_TT: "§YAll Swiss, Austrian, Dutch, Flemish and non-germanic members are removed from the Confederation. \nThis might lead to a major war.§!"
+
+ # Diplo Actions:
+ CANNOT_JOIN_LEAGUE_IF_NOT_IN_EMPIRE: "§RYou must be a member of the German Confederation or be allied to an Alliance's leader to join an Alliance.§!"
+ APH_ONLY_CENTRAL_EUROPE: "You can only add provinces in the following regions: §YNorth Germany§!, §YSouth Germany§!, §YLow Countries§!, §YBaltic§! and §YPoland§!."
+ APH_ONLY_GERMANIC: "You can only add provinces in the §YGermanic§! culture group."
+
+ GERMAN_CONFEDERATION_NO_INTERNAL_EMBARGO: "§RThe Federal Reform §YZollverein§! disables embargoing other members of the German Confederation.§W"
+ GERMAN_CONFEDERATION_CANNOT_GRANT_ELECTORATE_WITHOUT_REFORM: "§RWithout the Federal Reform §YFrankfurt Reform Act§! enacted, the Major State status is locked to @HAB §Y[HAB.GetName]§!, @PRU §Y[PRU.GetName]§!, @BAV §Y[BAV.GetName]§! and @HAN §Y[HAN.GetName]§!.§W"

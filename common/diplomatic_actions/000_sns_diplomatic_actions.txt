@@ -18,8 +18,58 @@ declarewar = {
 				}
 			}
 			FROM = {
-				country_event = { id = sns_sphere_events.3 days = 70 }
+				overlord = {
+					join_all_defensive_wars_of = PREV
+				}
 			}
+		}
+		if = {
+			limit = {
+				hre_reform_passed = defensive_pact
+				is_part_of_hre = no
+				FROM = {
+					is_part_of_hre = yes
+				}
+			}
+			every_country = {
+				limit = {
+					is_part_of_hre = yes
+					NOT = { tag = FROM }
+					OR = {
+						is_subject = no
+						overlord = {
+							is_part_of_hre = yes
+						}
+					}
+				}
+				join_all_defensive_wars_of = FROM
+			}
+		}
+	}
+}
+
+embargoaction = {
+	condition = {
+		tooltip = GERMAN_CONFEDERATION_NO_INTERNAL_EMBARGO
+		potential = {
+			is_part_of_hre = yes
+			FROM = {
+				is_part_of_hre = yes
+			}
+		}
+		allow = {
+			NOT = { hre_reform_passed = zollverein }
+		}
+	}
+}
+
+grant_electorate = {
+	condition = {
+		tooltip = GERMAN_CONFEDERATION_CANNOT_GRANT_ELECTORATE_WITHOUT_REFORM
+		potential = {
+		}
+		allow = {
+			hre_reform_passed = frankfurt_reform_act
 		}
 	}
 }

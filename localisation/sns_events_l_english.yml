@@ -1,134 +1,151 @@
 ﻿l_english:
  # German Unification Events:
- sns_german_unification_events.1.t: "German Unification"
- sns_german_unification_events.1.d: ""
- sns_german_unification_events.1.a: "Unite Germany!"
- sns_german_unification_events.1.b: "We don't need this."
- 
- sns_german_unification_events.2.t: "German Unification"
- sns_german_unification_events.2.d: ""
- sns_german_unification_events.2.a: "Become a member of their sphere."
- sns_german_unification_events.2.b: "Become a member of the North German Confederation."
- sns_german_unification_events.2.c: "We will never agree to this!"
- 
- sns_german_unification_events.3.t: "North German Confederation\n\n\n\n\n[GetDateText]"
- sns_german_unification_events.3.d: ""
- sns_german_unification_events.3.a: "Form the North German Confederation."
- sns_german_unification_events.3.b: "We don't need this."
- 
- sns_german_unification_events.4.t: "Unification"
- sns_german_unification_events.4.d: ""
- sns_german_unification_events.4.a: "Join the North German Confederation."
- sns_german_unification_events.4.b: "We don't need this."
- 
+ sns_german_unification_events.EVTNAME1: "One German Nation? \n\n\n\n\n[GetDateText]"
+ sns_german_unification_events.EVTDESC1: "After the war declaration of [german_unification_crown_prov.Owner.GetName] the German Confederation stood together. This defensive war against a common German enemy united the German states. \nNow that [german_unification_crown_prov.GetName] was captured, the residence of the [german_unification_crown_prov.Owner.GetAdjective] [german_unification_crown_prov.Owner.Monarch.GetTitle], we can fully unite the German lands under one Emperor - [Root.Monarch.GetName]."
+ sns_german_unification_events1.EVTOPT1: "Let's see how the members of the German Confederation will react."
+
+ sns_german_unification_events.EVTNAME2: "One German Nation? \n\n\n\n\n[GetDateText]"
+ sns_german_unification_events.EVTDESC2: "After the war declaration of [german_unification_crown_prov.Owner.GetName] the German Confederation stood together. This defensive war against a common German enemy united the German states. \nNow that [german_unification_crown_prov.GetName] was captured, the residence of the [german_unification_crown_prov.Owner.GetAdjective] [german_unification_crown_prov.Owner.Monarch.GetTitle], [From.GetName] suggests to fully unite the German lands under one Emperor - [From.Monarch.GetName]."
+ sns_german_unification_events2.EVTOPT1: "A united Germany will become the new hegemon in Europe!"
+ sns_german_unification_events2.EVTOPT1: "Who does §Y[From.GetName]§! think they are? We will not concede to this aggressive move!"
+
+ sns_german_unification_events.EVTNAME3: "The German Unification \n\n\n\n\n[GetDateText]"
+ sns_german_unification_events.EVTDESC3: "After the war declaration of [german_unification_crown_prov.Owner.GetName] the German Confederation stood together. This defensive war against a common German enemy united the German states. \nAfter serious discussions between the German rulers, §Y[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName]§!, [Root.Monarch.GetTitle] of @[Root.GetTag] §Y[Root.GetName]§! was crowned §YEmperor of Germany§! in [german_unification_crown_prov.GetName]. \n\nOtto von Bismarck proclaimed: \n"Wir übernehmen die kaiserliche Würde in dem Bewußtsein der Pflicht, in deutscher Treue die Rechte des Reiches und seiner Glieder zu schützen, den Frieden zu wahren, die Unabhängigkeit Deutschlands, gestützt auf die geeinte Kraft seines Volkes, zu verteidigen. Wir nehmen sie an in der Hoffnung, daß dem deutschen Volk vergönnt sein wird, den Lohn seiner heißen und opfermutigen Kämpfe in dauerndem Frieden und innerhalb der Grenzen zu genießen, welche dem Vaterlande die seit Jahrhunderten entbehrte Sicherung gegen erneute Angriffe Frankreichs gewähren. Uns aber und unseren Nachfolgern an der Kaiserkrone wolle Gott verleihen, allezeit Mehrer des Deutschen Reiches zu sein, nicht an kriegerischen Eroberungen, sondern an Gütern und Gaben des Friedens auf dem Gebiete nationaler Wohlfahrt, Freiheit und Ordnung.""
+ sns_german_unification_events3.EVTOPT1: "Long live the Emperor!"
+
+ sns_german_unification_events.1.tt: "The event '§YOne German Nation?§!' happens."
+ sns_german_unification_events.2.tt: "The event '§YOne German Nation?§!' happens in §Y1§! days."
+ VOTED_IN_GERMAN_UNIFICATION_YES_TT: "@[Root.GetTag] §Y[Root.GetName]§! §Gagrees§! to unite with @[emperor.GetTag] §Y[emperor.GetName]§! under §Y[emperor.Monarch.GetName]'s§! rule."
+ VOTED_IN_GERMAN_UNIFICATION_NO_TT: "@[Root.GetTag] §Y[Root.GetName]§! §Rreguses§! to unite with @[emperor.GetTag] §Y[emperor.GetName]§!, granting them a Casus Belli against us."
+ UNITE_GERMAN_CONFEDERATION_TT: "Every member that agreed to this unification, is integrated. \n@GER §Y[GER.GetName]§! receives a vassalization casus belli against the other members.\n"
+
+ # German Confederation Events:
+ sns_german_confederation_events.EVTNAME2: "Lesser Germany Focus"
+ sns_german_confederation_events.EVTDESC2: "The German Confederation under [emperor.GetName] has focused on the lesser German areas. This means that all non-core German nations have to leave the Confederation - or fight the leader."
+ sns_german_confederation_events2.EVTOPT1: "If they don't want us, we will gladly leave."
+ sns_german_confederation_events2.EVTOPT2: "This decision is unacceptable! This means war!"
+
+ sns_german_confederation_events.EVTNAME3: "The Brothers War \n\n\n\n\n[GetDateText]"
+ sns_german_confederation_events.EVTDESC3: "The decision of §Y[Root.Monarch.GetName]§! (@[Root.GetTag] §Y[Root.GetName]§!) to focus on lesser Germany, effectively going towards the kleindeutsche Lösung for the formation of a unified Germany, has angered the other German states. Especially @[emperor_enemy.GetTag] §Y[emperor_enemy.GetName]§! was not willing to accept the decision to leave the Confederation and declared the war."
+ sns_german_confederation_events3.EVTOPT1: "War it is then."
+
+ sns_german_confederation_events.EVTNAME4: "Participation in the Brothers War?"
+ sns_german_confederation_events.EVTDESC4: "The war between [From.GetName] and [emperor_enemy.GetName] is still raging and may demand from us to support one of the sides."
+ sns_german_confederation_events4.EVTOPT1: "We will support @[From.GetTag] §Y[From.GetName]§!."
+ sns_german_confederation_events4.EVTOPT2: "We will support @[emperor_enemy.GetTag] §Y[emperor_enemy.GetName]§!."
+ sns_german_confederation_events4.EVTOPT3: "This conflict does not concern us."
+
+ sns_german_confederation_events.3.tt: "Currently still neutral members of the German Confederation may join on one of the sides soon..."
+ leave_german_confederation_tt: "§Y[This.GetName]§! will no longer be a part of the German Confederation."
+
  # Westernization Events:
  sns_westernization_events.EVTNAME1: "Begin of the Westernization"
  sns_westernization_events.EVTDESC1: "The next years won't be easy, but with enough effort, money and power we can manage to reach the western technological advancements and become a technological advanced country as well."
  sns_westernization_events1.EVTOPT1: "Wonderful."
- 
+
  sns_westernization_events.EVTNAME2: "Westernization Completed"
  sns_westernization_events.EVTDESC2: "All our efforts were successful. We finally managed to understand and reconstruct most of the foreign technologies. We now are on the same technological level as the most advanced nations in the world!"
  sns_westernization_events2.EVTOPT1: "Finally."
- 
+
  sns_westernization_events.EVTNAME4: "Foreign Help"
  sns_westernization_events.EVTDESC4: "Our friends in [westernization_help_ally.GetName] decided to help us understand and reconstruct some of their technologies. \nThis definitely will help us in our westernization efforts."
  sns_westernization_events4.EVTOPT1: "This for sure will be helpful."
- 
+
  sns_westernization_events.EVTNAME5: "Costly Researches"
  sns_westernization_events.EVTDESC5: "While we're trying to reconstruct the technologies of the western foreigners, we are struggling to understand a specific technology. \nUnless we pay foreign advisors to help us, it will take us much longer than expected to understand all the western technologies."
  sns_westernization_events5.EVTOPT1: "Money is not a problem."
  sns_westernization_events5.EVTOPT2: "We can't afford that, they have to do it on their own."
- 
+
  sns_westernization_events.EVTNAME6: "Lack of Organization"
  sns_westernization_events.EVTDESC6: "While we're trying to understand the technologies of the western foreigners, we noticed that some of our scientists are not qualified to do this job correctly. \nUnless we provide better education, it will take us much longer than expected to understand all the western technologies."
  sns_westernization_events6.EVTOPT1: "We already should have provided better education ages ago."
  sns_westernization_events6.EVTOPT2: "We can't afford that, their education has to be sufficient."
- 
+
  sns_westernization_events.EVTNAME7: "Diplomatic Conflicts"
  sns_westernization_events.EVTDESC7: "While we're trying to research the technologies of the western foreigners, there were a few diplomatic conflicts with the foreign supporters and people that helped us. \nUnless manage to get rid of these diplomatic problems, it will take us much longer than expected to understand all the western technologies."
  sns_westernization_events7.EVTOPT1: "Let's show or best side."
  sns_westernization_events7.EVTOPT2: "That's not our fault, they have to apologize."
- 
+
  sns_westernization_events.EVTNAME8: "Military Protests"
  sns_westernization_events.EVTDESC8: "While we're trying to research the technologies of the western foreigners, our military leaders tend to protest or even prevent our scientists from making progress. \nUnless we can convince them from the importance of this project, it will take us much longer than expected to understand all the western technologies."
  sns_westernization_events8.EVTOPT1: "Try to convince them."
  sns_westernization_events8.EVTOPT2: "They might slow us down, but they won't prevent us from westernizing."
- 
+
  sns_westernization_events.EVTNAME9: "Looted Cities"
  sns_westernization_events.EVTDESC9.1: "While being at war, our scientists can't work as efficient as we would want them to. But even worse, they become victims of looting enemies or local marauders, which not only makes their work even more difficult. They may even get killed, which greatly hurts our westernization efforts."
  sns_westernization_events.EVTDESC9.2: "While having rebels, revolts and other internal problems, our scientists can't work as efficient as we would want them to. But even worse, they become victims of looting rebels or local marauders, which not only makes their work even more difficult. They may even get killed, which greatly hurts our westernization efforts."
  sns_westernization_events9.EVTOPT1: "That's terrible!"
- 
+
  sns_westernization_events.EVTNAME10: "The Capital has fallen"
  sns_westernization_events.EVTDESC10: "Our capital, [Root.Capital.GetName], has been occupied and our scientists had to flee! Some of them were killed and they had to leave behind their notes."
  sns_westernization_events10.EVTOPT1: "That's horrible!"
- 
+
  sns_westernization_events.EVTNAME11: "Looted Technology"
  sns_westernization_events.EVTDESC11: "We have captured the city of a more technological advanced enemy. While looting the city we found some of said technology, which will help us to understand it better and faster."
  sns_westernization_events11.EVTOPT1: "Not only technology itself, there also were many, many plans!"
  sns_westernization_events11.EVTOPT2: "That's what I call good news."
- 
+
  sns_westernization_events.EVTNAME12: "The People Protest"
  sns_westernization_events.EVTDESC12: "While we're trying to research the technologies of the western foreigners, the people in some of our provinces that have the most important research facilities, are getting angry and protest. While giving resources to our scientists and helping them with all of their problems, we neglected the simple people."
  sns_westernization_events12.EVTOPT1: "The people aren't important, the research is."
  sns_westernization_events12.EVTOPT2: "That's true, we should prioritize the people for now."
- 
+
  # Institution Events:
  sns_institutions.1.t: "Birth of Nationalism"
  sns_institutions.1.d: "PLACEHOLDER"
  sns_institutions.1.a: "Great!"
- 
+
  sns_institutions.2.t: "Birth of Imperialism"
  sns_institutions.2.d: "PLACEHOLDER"
  sns_institutions.2.a: "Great!"
- 
+
  sns_institutions.11.t: "Birth of Nationalism"
  sns_institutions.11.d: "PLACEHOLDER"
  sns_institutions.11.a: "Great!"
- 
+
  sns_institutions.22.t: "Birth of Imperialism"
  sns_institutions.22.d: "PLACEHOLDER"
  sns_institutions.22.a: "Great!"
- 
+
  sns_institutions.3.t: "Birth of Electricity"
  sns_institutions.3.d: "PLACEHOLDER"
  sns_institutions.3.a: "Great!"
- 
+
  sns_institutions.33.t: "Birth of Electricity"
  sns_institutions.33.d: "PLACEHOLDER"
  sns_institutions.33.a: "Great!"
- 
+
  # Minor Events:
  sns_minor.1.t: "Industrialization!"
  sns_minor.1.d: "In recent year, many people have been able to construct freely things such as factories, roads, or even museums. This had led into a serious development of our land."
  sns_minor.1.a: "A bright future is ahead."
- 
+
  sns_minor.2.t: "National Decline"
  sns_minor.2.d: "As our nation grows, our administration grows outdated into the face of vast land. Since our system isn't like the Western one, many protest for their rights, though their demands will surely ruin our nation."
  sns_minor.2.b: "As if we have another choice"
  sns_minor.2.a: "They shall listen only to the sword!"
- 
+
  sns_minor.3.t: "Enlightened Ruler"
  sns_minor.3.d: "The age of Freedom and Liberty is at its finest. Those ideas have spread even to our ruler, which has decided to study them. He now has a different opinion of the world."
  sns_minor.3.a: "The opinion of a more capable ruler."
  sns_minor.3.d: "The opinion of a stronger state."
- 
+
  sns_minor.4.t: "Age of Imperialism"
  sns_minor.4.d: "PLACEHOLDER"
  sns_minor.4.a: "Great!"
- 
+
  sns_minor.5.t: "Das Kapital\n\n\n\n\n[GetDateText]"
  sns_minor.5.d: "In [GetDateText] Karl Marx, a philosopher of the newly formed Socialist ideology has written a new book called Das Kapital. The book itself explains the evil deeds of capitalism, as well as the exploitation and harm it has caused across the globe."
  sns_minor.5.a: "I have a bad feeling about this..."
- 
+
  sns_minor.6.t: "The First International\n\n\n\n\n[GetDateText]"
  sns_minor.6.d: "Ever since Karl Marx has written Das Kapital, his followers have not been sitting idly. This newly formed ideology has been gaining rapid support, mainly on the working class, seeking to to spread its values across the world. Our nation is their first target."
  sns_minor.6.a: "Better Dead Than Red!"
- 
+
  sns_allows_colonies.tooltip: "Allows Establishments of Colonies"
  sns_communism_activated.tooltip: "Activates Socialist Events and Reforms"
- 
- 
+
+
  #Flavor Events:
  meiji_restoration.1.t: "The Imperialists Rise Up"
  meiji_restoration.1.d: "Despite our efforts to keep the Emperor as a mere puppet, many imperialist supporters have risen up, and demand to restore the Emperor peacefully, or Japan will fall into another a civil war."
@@ -136,17 +153,17 @@
  meiji_restoration.1.b: "Death to the Imperialists!"
  sns_shogunate: "For the Shogun!"
  sns_imperialists: "For Emperor Meiji!"
- 
+
  sns_flavour_NED.1.t: "The London Treaty"
  sns_flavour_NED.1.d: "In 1830, Belgium managed to break free from our rule, this led into the Treaty of London, which recognized Belgium as an independent Kingdom in Europe. This is a serious insult to our prestige. Something has to be done."
  sns_flavour_NED.1.a: "Trying to act against the treaty will be our downfall."
  sns_flavour_NED.1.b: "We will not let the major powers move us like a pawn. We shall not obey!"
- 
+
  sns_flavour_EGY.1.t: "The Oriental Crisis"
  sns_flavour_EGY.1.d: "The Ottomans are weak! Their failure in the Balkans has been shown around the world, where the Sultan was forced to give us more power in order to support him into a losing conflict. Most of Syria however has not been given to us. Perhaps it is time to strike."
  sns_flavour_EGY.1.a: "To War! Kill the Turkish Scums!"
  sns_flavour_EGY.1.b: "It would not be wise to fight our masters just yet."
- 
+
  sns_flavour_AYU.1.t: "The Thai Request Tenasserim"
  sns_flavour_AYU.1.d: "The Thai have come to us requesting the return of Thai lands in Burma with a large sum of cash to boot. The cash alone is enough to sway certain members of parliament, but one must consider if it is worth giving up influence in the East Indies."
  sns_flavour_AYU.1.a: "We need money, give the Thai their land."

@@ -37,4 +37,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/COMMUNISM_special_eventPicture.dds"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "HAB_PRU_special_eventPicture"
+		texturefile = "gfx/event_pictures/HAB_PRU_special_eventPicture.dds"
+		allwaystransparent = yes
+	}
 }

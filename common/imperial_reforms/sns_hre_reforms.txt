@@ -15,7 +15,6 @@ german_federal_act = {
 	}
 	on_effect = {
 		imperial_ban_allowed = yes
-		custom_tooltip = " "
 	}
 	off_effect = {
 		imperial_ban_allowed = no
@@ -36,7 +35,6 @@ zollverein = {
 	}
 	on_effect = {
 		custom_tooltip = REFORM_ZOLLVEREIN_ON_TT
-		custom_tooltip = " "
 	}
 	off_effect = {
 		custom_tooltip = REFORM_ZOLLVEREIN_OFF_TT
@@ -56,12 +54,36 @@ lesser_germany = {
 		culture_conversion_cost = -0.5
 	}
 	on_effect = {
-		custom_tooltip = REFORM_LESSER_GERMANY_ON_TT
-		# Austria War stuff
-		custom_tooltip = " "
+		if = {
+			limit = {
+				NOT = { has_global_flag = lesser_germany_enacted }
+			}
+			custom_tooltip = REFORM_LESSER_GERMANY_ON_TT
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = lesser_germany_enacted }
+				}
+				every_country = {
+					limit = {
+						NOT = { tag = ROOT }
+						is_part_of_hre = yes
+						OR = {
+							NOT = { culture_group = germanic }
+							primary_culture = swiss
+							primary_culture = austrian
+							primary_culture = dutch
+							primary_culture = flemish
+						}
+					}
+					country_event = { id = sns_german_confederation_events.2 }
+				}
+			}
+			set_global_flag = lesser_germany_enacted
+		}
 	}
 	off_effect = {
-		custom_tooltip = REFORM_LESSER_GERMANY_OFF_TT
 	}
 }
 
@@ -78,7 +100,6 @@ the_leaders_might = {
 	}
 	on_effect = {
 		hre_inheritable = yes
-		custom_tooltip = " "
 	}
 	off_effect = {
 		hre_inheritable = no
@@ -104,7 +125,6 @@ defensive_pact = {
 			internal_hre_cb = no
 		}
 		custom_tooltip = REFORM_DEFENSIVE_PACT_ON_TT
-		custom_tooltip = " "
 	}
 	off_effect = {
 		if = {
@@ -131,7 +151,6 @@ pan_germanism = {
 	}
 	on_effect = {
 		# Prussia War stuff
-		custom_tooltip = " "
 	}
 	off_effect = {
 	}
@@ -150,10 +169,11 @@ internal_peace = {
 	}
 	on_effect = {
 		internal_hre_cb = no
-		custom_tooltip = " "
+		custom_tooltip = REFORM_INTERNAL_PEACE_ON_TT
 	}
 	off_effect = {
 		internal_hre_cb = yes
+		custom_tooltip = REFORM_INTERNAL_PEACE_OFF_TT
 	}
 }
 
@@ -177,7 +197,7 @@ frankfurt_reform_act = {
 			enable_imperial_realm_war = yes
 			custom_tooltip = REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER
 		}
-		custom_tooltip = " "
+		custom_tooltip = REFORM_FRANKFURT_REFORM_ACT_ON_TT
 	}
 	off_effect = {
 		if = {
@@ -185,6 +205,17 @@ frankfurt_reform_act = {
 				has_dlc = "Emperor"
 			}
 			enable_imperial_realm_war = no
+		}
+		custom_tooltip = REFORM_FRANKFURT_REFORM_ACT_OFF_TT
+		every_country = {
+			limit = {
+				is_elector = yes
+				NOT = { tag = PRU }
+				NOT = { tag = HAN }
+				NOT = { tag = BAV }
+				NOT = { tag = HAB }
+			}
+			elector = no
 		}
 	}
 }

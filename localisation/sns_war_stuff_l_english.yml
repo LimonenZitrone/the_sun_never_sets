@@ -2,18 +2,32 @@
  # CB Types:
  cb_restore_sphere: "Restore Sphere"
  cb_restore_sphere_desc: "They have left our Sphere. As a Great Power, we cannot accept that."
- 
+
  cb_scramble_of_africa: "Scramble for Africa"
  cb_scramble_of_africa_desc: "Africa is a continent we need to secure provinces on. Luckily, this country has provinces in Africa and is weaker than us."
- 
+
+ cb_brother_war: "Brothers War"
+ cb_brother_war_desc: "The situation in the German Confederation demands a reaction."
+
  # War Goal Types:
  take_capital_disloyal_sphere: "Take Capital"
  take_capital_disloyal_sphere_desc: "The wargoal is to take the capital of the target."
- 
+
+ take_capital_brother_war: "Take Capital"
+ take_capital_brother_war_desc: "The wargoal is to take the capital of the target."
+
  SPHERE_WAR_NAME: "$ORDER$ War of the $FIRST$ Sphere against $SECOND_NAME$"
- 
+ BROTHERS_WAR_NAME: "The Brothers War"
+
  # Peace Treaties:
  po_become_sphere_desc: "@[From.GetTag] §Y[From.GetName]§! becomes a @[Root.GetTag] §Y[Root.GetAdjective]§! Sphere."
  CB_ALLOWED_po_become_sphere: "Add to Sphere"
  PEACE_po_become_sphere: "Add to $TAKERS$ Sphere"
- 
+
+ po_brothers_war_prussia_desc: "@[From.GetTag] §Y[From.GetName]§! and all non-core german nations are removed from the §YGerman Confederation§!. \nThe §YGerman Confederation§! signs an Internal Peace."
+ CB_ALLOWED_po_brothers_war_prussia: "Remove from German Confederation"
+ PEACE_po_brothers_war_prussia: "Remove from Confederation"
+
+ po_brothers_war_austria_desc: "@[Root.GetTag] §Y[Root.GetName]§! stays in the §YGerman Confederation§!, gains §G25§! legitimacy and a permanent claim on all @[From.GetTag] §Y[From.GetName]§! provinces that are part of the §YGerman Confederation§!. \nIf possible, the Federal Reform §YLesser Germany§! is revoked."
+ CB_ALLOWED_po_brothers_war_austria: "Revoke Decision of the German Confederation"
+ PEACE_po_brothers_war_austria: "Revoke Decision"
