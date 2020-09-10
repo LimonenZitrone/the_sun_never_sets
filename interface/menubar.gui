@@ -1214,7 +1214,7 @@ guiTypes = {
 		name = "province_finder_entry"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=128 y= 24 }
+		size = { x=128 y= 25 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""

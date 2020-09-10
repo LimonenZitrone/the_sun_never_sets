@@ -1,4 +1,6 @@
 ﻿l_english:
+ COUNTRY_NAME_WILL_CHANGE_IN:0 "Country name will change to $NAME|Y$.\n"
+
  IS_SUBJECT_TYPE: "Is a §Y$SUBJECTTYPE$§!"
 
  AFTER_GOLDEN_AGE_TEXT: "Golden Era was $START$ - $END$"

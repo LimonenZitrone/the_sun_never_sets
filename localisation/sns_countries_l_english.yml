@@ -7,10 +7,6 @@
  CSA_ADJ: "American"
  EIC: "East India Company"
  EIC_ADJ: "East Indian"
- NGC: "North German Confederation"
- NGC_ADJ: "North German"
- TTS: "Two Sicilies"
- TTS_ADJ: "Sicilian"
  ECU: "Ecuador"
  ECU_ADJ: "Ecuadoran"
  PBL: "Peru-Bolivia"
@@ -43,3 +39,6 @@
  FTJ_ADJ: "Jallon"
  ABY: "Abyssinia"
  ABY_ADJ: "Abyssinian"
+
+ NORTH_GERMAN_CONFEDERATION: "North German Confederation"
+ NORTH_GERMAN_CONFEDERATION_ADJ: "North German"

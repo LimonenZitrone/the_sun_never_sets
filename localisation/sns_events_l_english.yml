@@ -35,8 +35,19 @@
  sns_german_confederation_events4.EVTOPT2: "We will support @[emperor_enemy.GetTag] §Y[emperor_enemy.GetName]§!."
  sns_german_confederation_events4.EVTOPT3: "This conflict does not concern us."
 
+ sns_german_confederation_events.EVTNAME7: "The North German Confederation \n\n\n\n\n[GetDateText]"
+ sns_german_confederation_events.EVTDESC7: "After the focusing on the lesser Germany, §Y[Root.Monarch.GetName]§! can get one step closer to a unified Germany by proclaiming the §YNorth German Confederation§!, which would unite the North German states into one state."
+ sns_german_confederation_events7.EVTOPT1: "Found the §YNorth German Confederation§!."
+ sns_german_confederation_events7.EVTOPT2: "There is no need for another Confederation."
+
+ sns_german_confederation_events.EVTNAME8: "Invitation into the North German Confederation \n\n\n\n\n[GetDateText]"
+ sns_german_confederation_events.EVTDESC8: "The §YNorth German Confederation§! was founded by §Y[From.Monarch.GetName]§!. They invited us to become part of this larger state within the §YGerman Confederation§!."
+ sns_german_confederation_events8.EVTOPT1: "Together we stand."
+ sns_german_confederation_events8.EVTOPT2: "This is a weird request. We will not join."
+
  sns_german_confederation_events.3.tt: "Currently still neutral members of the German Confederation may join on one of the sides soon..."
  leave_german_confederation_tt: "§Y[This.GetName]§! will no longer be a part of the German Confederation."
+ sns_german_confederation_events.7.tt: "The event '§YInvitation into the North German Confederation§!' happens."
 
  # Westernization Events:
  sns_westernization_events.EVTNAME1: "Begin of the Westernization"

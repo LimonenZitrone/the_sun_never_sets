@@ -17,3 +17,12 @@ sns_refused_treaty_of_bangkok = {
 	yearly_decay = 4
 }
 
+created_north_german_confederation_opinion = {
+	opinion = -100
+	yearly_decay = 3
+}
+
+refused_to_join_north_german_confederation_opinion = {
+	opinion = -100
+	yearly_decay = 3
+}
