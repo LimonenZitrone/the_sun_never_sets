@@ -6,6 +6,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_macrobuildbackground_buildings"
 		texturefile = "gfx//interface//macrobuildbackground_buildings.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_macrobuildbackground_mercs"
+		texturefile = "gfx//interface//macrobuildbackground_mercs.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_macrobuildbackground_army_template"
+		texturefile = "gfx//interface//macrobuildbackground_army_template.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_macrobuildbackground_navy_template"
+		texturefile = "gfx//interface//macrobuildbackground_navy_template.dds"
+		transparencecheck = yes
 	}
 	spriteType = {
 		name = "GFX_macrobuildbackground_close_button_frame"
