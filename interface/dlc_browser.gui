@@ -151,7 +151,7 @@ guiTypes = {
 			quadTextureSprite = "button_type_1"
 			position = { x=200 y=675 }
 			buttonText = "BACK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 		}
 
 		guiButtonType = {
@@ -159,7 +159,7 @@ guiTypes = {
 			quadTextureSprite = "button_type_1"
 			position = { x=570 y=675 }
 			buttonText = "VIEW_ON_STORE"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 		}
 
 		guiButtonType = {
@@ -167,7 +167,7 @@ guiTypes = {
 			quadTextureSprite = "button_type_4"
 			position = { x= -117 y = 353 }
 			buttonText = "CLOSE"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "ESCAPE"
 			Orientation = "CENTER"
 		}
@@ -274,7 +274,7 @@ guiTypes = {
 			quadTextureSprite = "button_type_7"
 			position = { x=240 y=630 }
 			buttonText = "BACK"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 		}
 
 		guiButtonType = {
@@ -282,7 +282,7 @@ guiTypes = {
 			quadTextureSprite = "button_type_7"
 			position = { x=540 y=630 }
 			buttonText = "VIEW_ON_STORE"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 		}
 
 		guiButtonType = {
@@ -290,7 +290,7 @@ guiTypes = {
 			quadTextureSprite = "button_type_1"
 			position = { x=-74 y=308 }
 			buttonText = "CLOSE"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			shortcut = "ESCAPE"
 			Orientation = "CENTER"
 		}

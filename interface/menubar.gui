@@ -435,7 +435,7 @@ guiTypes = {
 				position = { x=24 y =175}
 				#backGround="SandboxFloaterBackground"
 				backGround=""
-				size = { x=626 y =240}
+				size = { x=633 y =240}
 				horizontal = 0
 				spacing = 2
 				scrollbartype = "standardlistbox_slider"
@@ -445,9 +445,9 @@ guiTypes = {
 
 
 			instantTextBoxType={
-				position = {x = 209 y = 91 }
+				position = {x = 209 y = 94 }
 				name = "messagesettings_label"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 100
 				maxHeight = 18
@@ -464,7 +464,7 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "FILTER"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 
@@ -480,9 +480,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -129 y = 119 }
+				position = {x = -129 y = 117 }
 				name = "messagesettings_label_01"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -505,9 +505,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -50 y = 119 }
+				position = {x = -50 y = 117 }
 				name = "messagesettings_label_02"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -529,9 +529,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 29 y = 119 }
+				position = {x = 29 y = 117 }
 				name = "messagesettings_label_03"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -553,9 +553,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 108 y = 119 }
+				position = {x = 108 y = 117 }
 				name = "messagesettings_label_04"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -577,9 +577,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 187 y = 119 }
+				position = {x = 187 y = 117 }
 				name = "messagesettings_label_05"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -602,9 +602,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 266 y = 119 }
+				position = {x = 266 y = 117 }
 				name = "messagesettings_label_06"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -627,9 +627,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 345 y = 119 }
+				position = {x = 345 y = 117 }
 				name = "messagesettings_label_07"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -651,9 +651,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 424 y = 119 }
+				position = {x = 424 y = 117 }
 				name = "messagesettings_label_08"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -676,9 +676,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 503 y = 119 }
+				position = {x = 503 y = 117 }
 				name = "messagesettings_label_09"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -701,9 +701,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 579 y = 119 }
+				position = {x = 579 y = 117 }
 				name = "messagesettings_label_10"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -721,6 +721,7 @@ guiTypes = {
 				text = "MESSAGE_BUTTON_SEARCH"
 				orientation = "UPPER_LEFT"
 				format = left
+				text_color_code = b
 			}
 
 			editBoxType = {
@@ -737,24 +738,24 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "button_search"
-				position = { x = 323 y = 136 }
+				position = { x = 323 y = 137 }
 				quadTextureSprite ="button_type_6"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MESSAGE_BUTTON_SEARCH"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 			guiButtonType = {
 				name = "button_clear"
-				position = { x = 392 y = 136 }
+				position = { x = 392 y = 137 }
 				quadTextureSprite ="button_type_6"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MESSAGE_BUTTON_CLEAR"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 			#### FILTER BUTTONS ##########
@@ -773,9 +774,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 175 }
+				position = {x = -85 y = 173 }
 				name = "messagesettings_filter_button_label_01"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -797,9 +798,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 205 }
+				position = {x = -85 y = 203 }
 				name = "messagesettings_filter_button_label_02"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -821,9 +822,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 235 }
+				position = {x = -85 y = 233 }
 				name = "messagesettings_filter_button_label_03"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -845,9 +846,9 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = -85 y = 265 }
+				position = {x = -85 y = 263 }
 				name = "messagesettings_filter_button_label_04"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -929,13 +930,13 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 			instantTextBoxType={
 				position = {x = -85 y = 368 }
 				name = "reset_label"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -954,13 +955,13 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				shortcut = "ESCAPE"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 			instantTextBoxType={
 				position = {x = -85 y = 398 }
 				name = "close_label"
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 79
 				maxHeight = 18
@@ -979,7 +980,7 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "MENU_MESSAGES_DISABLE_ALL"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 		}
 

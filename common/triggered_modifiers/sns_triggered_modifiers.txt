@@ -69,6 +69,7 @@ sns_50_blockade = {
 sns_75_blockade = {
 	potential = {
 		is_at_war = yes
+		NOT = { blockade = 1 }
 	}
 	trigger = {
 		blockade = 0.75
@@ -82,6 +83,7 @@ sns_75_blockade = {
 sns_100_blockade = {
 	potential = {
 		is_at_war = yes
+		blockade = 1
 	}
 	trigger = {
 		blockade = 1
