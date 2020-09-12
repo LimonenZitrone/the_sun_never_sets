@@ -1,4 +1,6 @@
 ﻿l_english:
+ SNS_TUTORIAL_DESC: "§GThe Sun Never Sets§! doesn't support a tutorial. \n\nIf you want to play a tutorial, you need to disable the mod first."
+
  COUNTRY_NAME_WILL_CHANGE_IN:0 "Country name will change to $NAME|Y$.\n"
 
  IS_SUBJECT_TYPE: "Is a §Y$SUBJECTTYPE$§!"

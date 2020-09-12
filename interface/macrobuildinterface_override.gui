@@ -605,14 +605,14 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "PW_DIPLOMACY_ACTION"
-			buttonFont = "vic_18_black"
+			buttonFont = "vic_18"
 			clicksound = click
 		}
 
 		instantTextBoxType={
 			name = "num_accepting_label"
 			position = {x = 215 y = 6 }
-			font = "vic_18_black"
+			font = "vic_18"
 			text = ""
 			borderSize = {x = 0 y = 0}
 			maxWidth = 40
@@ -655,7 +655,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "country"
 			position = {x = 32 y = 6 }
-			font = "vic_18_black"
+			font = "vic_18"
 			text = "PW_DIPLOMACY_ACTION"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 254
@@ -1161,9 +1161,9 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "label"
-				position = { x = 15 y = 13 }
+				position = { x = 15 y = 19 }
 				textureFile = ""
-				font = "vic_18_black"
+				font = "vic_18"
 				text = "ND_SELECT_CULTURE"
 				maxWidth = 280
 				maxHeight = 24
@@ -1173,9 +1173,9 @@ guiTypes = {
 
 			listboxType = {
 				name ="listbox"
-				position = { x = 19 y = 40 }
+				position = { x = 19 y = 60 }
 				backGround=""
-				size = { x= 272 y = 420 }
+				size = { x= 272 y = 400 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -1468,32 +1468,32 @@ guiTypes = {
 			###### DIPLOMACY BUTTONS ######
 
 			iconType = {
-				name ="macro_diplomacy_line"
+				name ="land_units_line"
 				spriteType = "GFX_macro_diplomacy_line"
-				position = { x= -11 y = 39 }
+				position = { x= -12 y = 52 }
 			}
 
 			guiButtonType = {
 				name = "relations_button"
-				position = { x= -8 y = -6 }
+				position = { x= -12 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_relations"
 				shortcut = "a"
 			}
 			guiButtonType = {
 				name = "alliances_button"
-				position = { x= 43 y = -6 }
+				position = { x= 40 y = -6 }
 				quadTextureSprite = "GFX_macro_diplomacy_tab_alliance"
 				shortcut = "s"
 			}
 			guiButtonType = {
 				name = "influence_button"
-				position = { x= 94 y = -6 }
+				position = { x= 92 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_influence"
 				shortcut = "d"
 			}
 			guiButtonType = {
 				name = "dynastic_button"
-				position = { x= 145 y = -6 }
+				position = { x= 144 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_dynastic"
 				shortcut = "g"
 			}
@@ -1505,19 +1505,19 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "papal_button"
-				position = { x= 247 y = -6 }
+				position = { x= 248 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_papal"
 				shortcut = "x"
 			}
 			guiButtonType = {
 				name = "hre_button"
-				position = { x= 298 y = -6 }
+				position = { x= 300 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_hre"
 				shortcut = "c"
 			}
 			guiButtonType = {
 				name = "great_power_button"
-				position = { x= 349 y = -6 }
+				position = { x= 352 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_great_power"
 				shortcut = "v"
 			}
@@ -1544,7 +1544,7 @@ guiTypes = {
 				name = "label"
 				position = { x = 15 y = 13 }
 				textureFile = ""
-				font = "vic_18_black"
+				font = "vic_18"
 				text = "MACRO_IMPROVE_RELATIONS"
 				maxWidth = 290
 				maxHeight = 24
@@ -1566,7 +1566,7 @@ guiTypes = {
 
 			listboxType = {
 				name ="rule_button_list"
-				position = { x = 98 y = 120 }
+				position = { x = 98 y = 100 }
 				backGround=""
 				size = { x= 200 y = 360 }
 				horizontal = 0
@@ -1591,14 +1591,14 @@ guiTypes = {
 			iconType = {
 				name ="select_diplo_action_type_BG"
 				spriteType = "GFX_macro_diplomacy_overlay1"
-				position = { x= -9 y = 4 }
+				position = { x= -9 y = 14 }
 			}
 
 			instantTextBoxType = {
 				name = "action_type_label"
-				position = { x = 15 y = 11 }
+				position = { x = 15 y = 21 }
 				textureFile = ""
-				font = "vic_18_black"
+				font = "vic_18"
 				text = "<Action Type>"
 				maxWidth = 290
 				maxHeight = 24
@@ -1609,7 +1609,7 @@ guiTypes = {
 
 			listboxType = {
 				name ="action_type_list"
-				position = { x = 26 y = 40 }
+				position = { x = 26 y = 50 }
 				backGround=""
 				size = { x= 264 y = 136 }
 				horizontal = 0
@@ -1638,7 +1638,7 @@ guiTypes = {
 				name = "label"
 				position = { x = 20 y = 194 }
 				textureFile = ""
-				font = "vic_18_black"
+				font = "vic_18"
 				text = ""
 				maxWidth = 364
 				maxHeight = 24
@@ -2432,14 +2432,14 @@ guiTypes = {
 			iconType = {
 				name ="macro_diplomacy_line"
 				spriteType = "GFX_macro_diplomacy_line"
-				position = { x= -11 y = 39 }
+				position = { x= -12 y = 52 }
 			}
 
 			gridBoxType = {
 				name = "tabs_gridbox"
-				position = { x = -8 y = -8 }
+				position = { x = -8 y = -6 }
 				size = { width = 208 height = 55 }
-				slotsize = { width = 52 height = 55 }
+				slotsize = { width = 54 height = 55 }
 				max_slots_horizontal = 4
 				max_slots_vertical = 1
 				format = "UPPER_LEFT"
@@ -2460,12 +2460,18 @@ guiTypes = {
 			verticalBorder= ""
 			fullScreen = no
 
+			iconType = {
+				name ="background"
+				spriteType = "GFX_macrobuildbackground_states"
+				position = { x= -55 y = -100 }
+			}
+
 			guiButtonType = {
 				name = "name_button"
 				position = { x= -37 y = 9 }
 				quadTextureSprite ="GFX_sort_127"
 				buttonText = "NAME"
-				buttonFont = "vic_18_black"
+				buttonFont = "vic_18"
 			}
 
 			guiButtonType = {
@@ -2476,25 +2482,25 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "provinces_button"
-				position = { x= 130 y = 9 }
+				position = { x= 131 y = 9 }
 				quadTextureSprite ="GFX_sort_states_provinces"
 			}
 
 			guiButtonType = {
 				name = "development_button"
-				position = { x= 171 y = 9 }
+				position = { x= 173 y = 9 }
 				quadTextureSprite ="GFX_sort_state_development"
 			}
 
 			guiButtonType = {
 				name = "income_button"
-				position = { x= 212 y = 9 }
+				position = { x= 215 y = 9 }
 				quadTextureSprite ="GFX_sort_states_income"
 			}
 
 			guiButtonType = {
 				name = "prosperity_button"
-				position = { x= 253 y = 9 }
+				position = { x= 258 y = 9 }
 				quadTextureSprite ="GFX_sort_states_prosperity"
 			}
 
@@ -2502,7 +2508,7 @@ guiTypes = {
 				name ="listbox"
 				position = { x = -35 y = 30 }
 				backGround=""
-				size = { x= 393 y = 415 }
+				size = { x= 393 y = 430 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2523,20 +2529,26 @@ guiTypes = {
 			verticalBorder= ""
 			fullScreen = no
 
+			iconType = {
+				name ="background"
+				spriteType = "GFX_macrobuildbackground_states"
+				position = { x= -55 y = -100 }
+			}
+
 			guiButtonType = {
 				name = "name_button"
-				position = { x= -35 y = 7 }
+				position = { x= -29 y = 7 }
 				quadTextureSprite ="GFX_sort_160"
 				buttonText = "NAME"
-				buttonFont = "vic_18_black"
+				buttonFont = "vic_18"
 			}
 
 			guiButtonType = {
 				name = "edict_button"
-				position = { x= 124 y = 7 }
+				position = { x= 127 y = 7 }
 				quadTextureSprite ="GFX_sort_160"
 				buttonText = "EDICT"
-				buttonFont = "vic_18_black"
+				buttonFont = "vic_18"
 			}
 
 			guiButtonType = {
@@ -2549,7 +2561,7 @@ guiTypes = {
 				name ="listbox"
 				position = { x = -35 y = 30 }
 				backGround=""
-				size = { x= 393 y = 415 }
+				size = { x= 393 y = 430 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2661,7 +2673,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "inf"
 			position = { x= 211 y = 13 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
 			maxWidth =64
@@ -2672,7 +2684,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "cav"
 			position = { x= 255 y = 13 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
 			maxWidth =64
@@ -2683,7 +2695,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "art"
 			position = { x= 300 y = 13 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
 			maxWidth =64
@@ -2727,7 +2739,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "heavy"
 			position = { x= 172 y = 13 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
 			maxWidth =64
@@ -2738,7 +2750,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "light"
 			position = { x= 212 y = 13 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
 			maxWidth =64
@@ -2749,7 +2761,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "galley"
 			position = { x= 252 y = 13 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
 			maxWidth =64
@@ -2760,7 +2772,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "transport"
 			position = { x= 292 y = 13 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "45"
 			maxWidth =64
@@ -3168,7 +3180,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "state_name"
 			position = {x = 5 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 156
 			maxHeight = 18
@@ -3191,7 +3203,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "provinces"
 			position = {x = 170 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 18
@@ -3202,7 +3214,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "development"
 			position = {x = 212 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 18
@@ -3213,7 +3225,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "income"
 			position = {x = 249 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 44
 			maxHeight = 18
@@ -3224,7 +3236,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "prosperity"
 			position = {x = 293 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 36
 			maxHeight = 18
@@ -3272,7 +3284,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "state_name"
 			position = {x = 6 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 156
 			maxHeight = 18
@@ -3282,7 +3294,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "current_edict"
 			position = {x = 166 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 156
 			maxHeight = 18
@@ -3292,7 +3304,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "time"
 			position = {x = 325 y = 8 }
-			font = "vic_18_black"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 30
 			maxHeight = 18

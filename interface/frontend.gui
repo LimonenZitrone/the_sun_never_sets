@@ -720,49 +720,49 @@ guiTypes = {
 			guiButtonType = {
 				name ="tutorial_select_tab1"
 				spriteType = "GFX_tutorial_select_tab"
-				position = { x= -132 y = 325 }
+				position = { x= -11132 y = 325 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			guiButtonType = {
 				name ="tutorial_select_tab2"
 				spriteType = "GFX_tutorial_select_tab"
-				position = { x= -132 y = 428 }
+				position = { x= -11132 y = 428 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			guiButtonType = {
 				name ="tutorial_select_tab3"
 				spriteType = "GFX_tutorial_select_tab"
-				position = { x= -132 y = 531 }
+				position = { x= -11132 y = 531 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			iconType = {
 				name ="tutorial_part_bas_pic"
 				spriteType = "GFX_basic_tut"
-				position = { x= -122 y = 338 }
+				position = { x= -11122 y = 338 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			iconType = {
 				name ="tutorial_part_adv_pic"
 				spriteType = "GFX_advanced_tut"
-				position = { x= -122 y = 441 }
+				position = { x= -11122 y = 441 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			iconType = {
 				name ="tutorial_part_cam_pic"
 				spriteType = "GFX_Spa_empire_tut"
-				position = { x= -122 y = 544 }
+				position = { x= -11122 y = 544 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 
 				name ="tutorial_part_bas_title"
-				position = { x = -50 y = 350 }
+				position = { x = -11150 y = 350 }
 
 				font = "vic_18"
 				#borderSize = {x = 9 y = -21}
@@ -774,7 +774,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_adv_title"
-				position = { x = -50 y = 464 }
+				position = { x = -11150 y = 464 }
 
 				font = "vic_18"
 				#borderSize = {x = 9 y = -21}
@@ -786,7 +786,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_cam_title"
-				position = { x = -50 y = 565 }
+				position = { x = -11150 y = 565 }
 
 				font = "vic_18"
 				#borderSize = {x = 9 y = -21}
@@ -812,7 +812,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_title"
-				position = { x = 230 y = 330}
+				position = { x = -11230 y = 330}
 
 				font = "vic_22"
 				borderSize = {x = 10 y = 6}
@@ -825,7 +825,7 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_desc"
-				position = { x = 350 y = 480 }
+				position = { x = -11000 y = 480 }
 
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -838,18 +838,32 @@ guiTypes = {
 			instantTextBoxType = {
 
 				name ="tutorial_part_desc"
-				position = { x = 125 y = 380 }
+				position = { x = -11000 y = 360 }
 
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 0 y = 0}
 				text = "Description of the part of the tutorial."
 				maxWidth = 440
 				maxHeight = 200
 			}
 
+			instantTextBoxType = {
+
+				name ="sns_tutorial_desc"
+				position = { x = 20 y = 340 }
+
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "SNS_TUTORIAL_DESC"
+				maxWidth = 440
+				maxHeight = 200
+				format = center
+				text_color_code = b
+			}
+
 			listboxType = {
 				name ="tutorial_list"
-				position = { x = 100 y = 450 }
+				position = { x = -11000 y = 450 }
 				backGround=""
 				size = { x=137 y = 300}
 				horizontal = 0
@@ -860,24 +874,24 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x = -110 y = 635 }
+				position = { x = 160 y = 470 }
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "BACK"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 
 			guiButtonType = {
 				name = "play_button"
-				position = { x = 400 y = 635 }
+				position = { x = -11000 y = 635 }
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "PLAY"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 			}
 		}
 

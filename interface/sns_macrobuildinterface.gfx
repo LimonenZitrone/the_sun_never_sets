@@ -24,6 +24,11 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	spriteType = {
+		name = "GFX_macrobuildbackground_states"
+		texturefile = "gfx//interface//macrobuildbackground_states.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
 		name = "GFX_macrobuildbackground_close_button_frame"
 		texturefile = "gfx//interface//macrobuildbackground_close_button_frame.dds"
 	}

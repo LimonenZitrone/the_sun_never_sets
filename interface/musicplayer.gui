@@ -1,5 +1,5 @@
 guiTypes = {
-	
+
 	extendedScrollbarType = {
                 name = "right_vertical_slider"
                 position = { x = -8 y = 0 }
@@ -7,7 +7,7 @@ guiTypes = {
                 startValue = 0
 
 		slider = {
-			name = "Slider"	
+			name = "Slider"
 			quadTextureSprite = "GFX_scroll_drager"
 			position = { x=-2 y = -1 }
 		}
@@ -17,14 +17,14 @@ guiTypes = {
 			quadTextureSprite = "GFX_scroll_track"
 			position = { x=1 y = 3 }
 			alwaystransparent = yes
-		}	
+		}
 
 		decreaseButton = {
 			name = "Decrease"
 			quadTextureSprite = "GFX_scroll_up"
 			position = { x=-1 y = 1 }
 		}
-		
+
 		increaseButton = {
 			name = "Increase"
 			quadTextureSprite = "GFX_scroll_down"
@@ -50,14 +50,14 @@ guiTypes = {
 		buttonType = {
 			name = "music_pause_button"
 			quadTextureSprite ="GFX_button_music_player_play_s"
-			position = { x= -155 y = 5 }
+			position = { x= -170 y = 5 }
 			Orientation = "UPPER_RIGHT"
 		}
 
 		buttonType = {
 			name = "music_next_button"
 			quadTextureSprite ="GFX_button_next_s"
-			position = { x= -120 y = 5 }
+			position = { x= -130 y = 5 }
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "MUSICPLAYER_NEXT"
 		}
@@ -65,7 +65,7 @@ guiTypes = {
 		buttonType = {
 			name = "musicplayer_button"
 			quadTextureSprite ="GFX_button_list"
-			position = { x= -190 y = 5 }
+			position = { x= -210 y = 5 }
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "MUSICPLAYER_OPEN_PLAYER"
 		}
@@ -80,12 +80,12 @@ guiTypes = {
 		fade_time = 200
 		fade_type = linear
 		click_to_front = yes
-		
+
 		background = {
-			name = "Background"	
+			name = "Background"
 			quadTextureSprite ="GFX_music_player_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "window_title"
 			position = { x = 121 y = 36 }
@@ -94,7 +94,7 @@ guiTypes = {
 			maxWidth = 300
 			maxHeight = 20
 			format = center
-		}		
+		}
 
 #		iconType ={
 #			name ="musicplayer_header_bg"
@@ -119,7 +119,7 @@ guiTypes = {
 			maxHeight = 25
 			format = left
 		}
-		
+
 		instantTextboxType = {
 			name = "track_elapsed"
 			position = { x = 380 y = 136 }
@@ -129,7 +129,7 @@ guiTypes = {
 			maxHeight = 25
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "track_duration"
 			position = { x = 426 y = 136 }
@@ -145,7 +145,7 @@ guiTypes = {
 			position = { x = 5 y = 70 }
 			size = { width = 590 height = 46 }
 			margin = {top=0 left=13 bottom=0 right=13}
-			
+
 			buttonType = {
 				name = "prev_button"
 				position = { x = 6 y = -44 }
@@ -155,7 +155,7 @@ guiTypes = {
 				clicksound = click
 				pdx_tooltip = "MUSICPLAYER_PREV"
 			}
-			
+
 			buttonType = {
 				name = "play_button"
 				position = { x = 60 y = -44 }
@@ -164,7 +164,7 @@ guiTypes = {
 				Orientation = "LOWER_LEFT"
 				clicksound = click
 			}
-			
+
 			buttonType = {
 				name = "next_button"
 				position = { x = 114 y = -44 }
@@ -174,8 +174,8 @@ guiTypes = {
 				clicksound = click
 				pdx_tooltip = "MUSICPLAYER_NEXT"
 			}
-			
-			
+
+
 			buttonType = {
 				name = "shuffle_button"
 				position = { x = 168 y = -44 }
@@ -200,14 +200,14 @@ guiTypes = {
 				Orientation = "LOWER_LEFT"
 				clicksound = click
 			}
-			
+
 			iconType = {
 				name = "weights_active"
 				position = { x = 217 y = 2 }
 				quadTextureSprite ="GFX_unitpanel_button_large_glow"
 				scale = 1.16
 			}
-			
+
 			extendedScrollbarType = {
 				name = "volume_slider"
 				position = { x = 279 y = 23 }
@@ -218,29 +218,29 @@ guiTypes = {
 				stepSize =1.32
 				startValue = 50
 				horizontal = yes
-				
+
 				slider = {
-					name = "Slider"	
+					name = "Slider"
 					quadTextureSprite = "GFX_scroll_drager"
 					position = { x=0 y = -2 }
 					pdx_tooltip = "MUSICPLAYER_ADJUST_VOL"
 				}
-		
+
 				track = {
 					name = "Track"
 					quadTextureSprite = "GFX_volume_track"
 					position = { x=0 y = 15 }
 					alwaystransparent = yes
 					pdx_tooltip = "MUSICPLAYER_ADJUST_VOL"
-				}	
-		
+				}
+
 				decreaseButton = {
 					name = "Decrease"
 					quadTextureSprite = "GFX_button_volume_minus"
 					position = { x=3 y = -21 }
 					pdx_tooltip = "MUSICPLAYER_DECREASE_VOL"
 				}
-				
+
 				increaseButton = {
 					name = "Increase"
 					quadTextureSprite = "GFX_button_volume_plus"
@@ -249,20 +249,20 @@ guiTypes = {
 				}
 			}
 		}
-		
+
 		containerWindowType = {
 			name = "default_playlist_window"
 			position = { x = 15 y = 166 }
 			size = { width = 507 height = -88 }
 			verticalScrollbar = "right_vertical_slider"
 #			margin = {top=15 left=13 bottom=13 right=0}
-			
+
 			background = {
-				name = "Background"	
+				name = "Background"
 				quadTextureSprite ="gfx_transparency"
 				alwaystransparent = yes
-			}				
-			
+			}
+
 			gridBoxType = {
 				name = "tracks_grid"
 				position = { x = 12 y = 0 }
@@ -272,27 +272,27 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 		}
-		
+
 		ButtonType = {
 			name = "close_button"
 			position = { x=197 y =570}
-			quadTextureSprite ="button_type_1"	
+			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "PAPACY_CLOSE"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 
 			clicksound = close_window
 			shortcut = "ESCAPE"
 			pdx_tooltip = "CLOSE"
 		}
 	}
-	
+
 	containerWindowType={
 		name = "music_track_entry"
 		size = { width = 557 height = 44 }
-		
+
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_music_tile"
@@ -300,7 +300,7 @@ guiTypes = {
 
 		iconType = {
 			name = "current_track"
-			position = {x=5 y=6}	
+			position = {x=5 y=6}
 			quadTextureSprite ="GFX_selected_track"
 			allwaystransparent = yes
 		}
@@ -311,7 +311,7 @@ guiTypes = {
 			position = { x= 4 y = 6 }
 			pdx_tooltip = "MUSICPLAYER_PLAY_TRACK"
 		}
-		
+
 		instantTextboxType = {
 			name = "track_label"
 			position = { x = 39 y = 11 }
@@ -322,7 +322,7 @@ guiTypes = {
 			fixedsize= yes
 			allwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "track_length"
 			position = { x = -158 y = 13 }

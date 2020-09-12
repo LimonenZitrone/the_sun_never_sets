@@ -12,6 +12,7 @@ replace_path="common/event_modifiers"
 replace_path="common/static_modifiers"
 replace_path="common/government_reforms"
 replace_path="history/provinces"
+replace_path="tutorial"
 tags={
 	"Gameplay"
 }
