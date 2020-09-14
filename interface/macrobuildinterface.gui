@@ -139,8 +139,6 @@ guiTypes = {
 			maxHeight = 32
 			format = left
 			allwaystransparent = yes
-			fixedsize = yes
-			truncate = yes
 		}
 
 		instantTextBoxType = {

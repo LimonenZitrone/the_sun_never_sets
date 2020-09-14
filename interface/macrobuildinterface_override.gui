@@ -2386,9 +2386,9 @@ guiTypes = {
 		smoothListboxType =
 		{
 			name ="content_list"
-			position = { x = 5 y = 84 }
+			position = { x = 10 y = 94 }
 			backGround=""
-			size = { x= 400 y = 426 }
+			size = { x= 400 y = 415 }
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
