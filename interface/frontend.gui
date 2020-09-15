@@ -1322,7 +1322,7 @@ guiTypes = {
 						position = { x = 75 y = 475 }
 						quadTextureSprite ="button_type_7"
 						buttonText = "MENU_BAR_CLOUDGAMES"
-						buttonFont = "Main_16"
+						buttonFont = "vic_18_black"
 					}
 
 					guiButtonType = {
@@ -1330,7 +1330,7 @@ guiTypes = {
 						position = { x = 75 y = 510 }
 						quadTextureSprite ="button_type_7"
 						buttonText = "MENU_BAR_DELETE_ALL"
-						buttonFont = "Main_16"
+						buttonFont = "vic_18_black"
 					}
 
 				}

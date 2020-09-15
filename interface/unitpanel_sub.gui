@@ -119,10 +119,10 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "send_merchant"
-			position = { x= 252 y = -1 }
+			position = { x= 252 y = 0 }
 			quadTextureSprite ="GFX_button_straight_67_32"
 			buttonText = "SEND"
-			buttonFont = "vic_18"
+			buttonFont = "vic_18_black"
 			clicksound = click
 		}
 	}
@@ -662,7 +662,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "title"
-				position = { x = 182 y = 80 }
+				position = { x = 182 y = 77 }
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}
 				text = "SUPPRESSED_AREAS"
@@ -674,7 +674,7 @@ guiTypes = {
 		instantTextBoxType = {
 				name = "click_map_text"
 				position = { x = 75 y = 270 }
-				font = "vic_22"
+				font = "vic_22_black"
 				borderSize = {x = 4 y = 4}
 				text = "CLICK_MAP_TO_ADD_AREAS"
 				maxWidth = 330
@@ -686,9 +686,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="arealist"
-			position = { x = 80 y = 113 }
+			position = { x = 80 y = 121 }
 			backGround=""
-			size = { x=330  y =340 }
+			size = { x=340  y =320 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -701,7 +701,7 @@ guiTypes = {
 				position = { x=262 y=442 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "ACCEPT"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				clicksound = back_click
 				shortcut = "RETURN"
 		}
@@ -711,7 +711,7 @@ guiTypes = {
 				position = { x=62 y=442 }
 				quadTextureSprite ="button_type_7"
 				buttonText = "CANCEL"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				clicksound = back_click
 				shortcut = "ESCAPE"
 		}

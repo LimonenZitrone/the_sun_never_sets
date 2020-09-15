@@ -843,16 +843,16 @@ guiTypes = {
 		}
 		iconType = {
 			name ="mission_icon"
-			spriteType = "468"
-			position = { x= 34 y = 360 }
+			spriteType = "GFX_outliner_action"
+			position = { x= 34 y = 364 }
 			Orientation = "LOWER_LEFT"
 			frame = 1
 		}
 		instantTextBoxType = {
 			name = "mission_desc"
-			position = { x = 46 y = 455 }
+			position = { x = 46 y = 460 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 290
