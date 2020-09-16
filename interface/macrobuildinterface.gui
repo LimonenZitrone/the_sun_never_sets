@@ -461,7 +461,7 @@ guiTypes = {
 		name = "new_buildings_entry"
 		backGround=""
 		position = { x=0 y =0}
-		size = { x=400 y = 320}
+		size = { x=410 y = 320}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -472,7 +472,7 @@ guiTypes = {
 		{
 			name ="background"
 			spriteType = "GFX_macrobuildbackground_buildings"
-			position = { x= -10 y = -62 }
+			position = { x= -15 y = -62 }
 			Orientation = "UPPER_LEFT"
 		}
 
