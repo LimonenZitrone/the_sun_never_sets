@@ -1974,7 +1974,7 @@ guiTypes = {
 					name = "miltech_value"
 					position = { x = 202 y = 28 }
 					textureFile = ""
-					font = "vic_18"
+					font = "vic_18_black"
 					borderSize = {x = 4 y = 4}
 					text = "?"
 					maxWidth = 32
@@ -2529,7 +2529,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="view_edicts_button"
 				quadTextureSprite = "button_type_1"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				buttonText = "VIEW_STATE_EDICTS"
 
 				position = { x = 326 y = 157 }
@@ -2557,7 +2557,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "sort_state_development"
 				quadTextureSprite = "GFX_sort_state_development"
-				position = { x = 200 y = 231 }
+				position = { x = 199 y = 231 }
 			}
 			guiButtonType = {
 				name = "sort_state_religion"
@@ -2722,7 +2722,7 @@ guiTypes = {
 		windowType = {
 			name = "buildings_window"
 			backGround=""
-			position = { x=480 y=13 }
+			position = { x=480 y=14 }
 			size = { x=475 y=480 }
 			dontRender = ""
 			horizontalBorder= ""
@@ -3044,7 +3044,7 @@ guiTypes = {
 					tooltipText =""
 					delayedTooltipText = ""
 					buttonText = "DOMESTIC_BACK"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					shortcut = "ESCAPE"
 					clicksound = back_click
 				}
@@ -3104,7 +3104,7 @@ guiTypes = {
 					tooltipText =""
 					delayedTooltipText = ""
 					buttonText = "DOMESTIC_BACK"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					shortcut = "ESCAPE"
 					clicksound = back_click
 				}
@@ -3581,8 +3581,8 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "building_close_button"
-				position = { x = 304 y = 123 }
-				quadTextureSprite ="GFX_closebutton2"
+				position = { x = 295 y = 135 }
+				quadTextureSprite ="GFX_closebutton"
 				clicksound = close_window
 			}
 		}
@@ -4552,13 +4552,13 @@ guiTypes = {
 		{
 			name ="building"
 			quadTextureSprite = "GFX_building_default"
-			position = { x = 10 y = 10 }
+			position = { x = 10 y = 9 }
 		}
 
 		instantTextBoxType =
 		{
 			name = "required_development"
-			position = { x = 4 y = 8 }
+			position = { x = 4 y = 10 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "0"
@@ -4571,21 +4571,21 @@ guiTypes = {
 		{
 			name ="building_status"
 			spriteType = "GFX_building_status_strip"
-			position = { x= 10 y = 10 }
+			position = { x= 10 y = 9 }
 		}
 
 		iconType =
 		{
 			name ="building_progress"
 			spriteType = "GFX_building_progress"
-			position = { x= 10 y = 10 }
+			position = { x= 10 y = 9 }
 		}
 
 		iconType =
 		{
 			name ="building_currentlybuilding"
 			spriteType = "GFX_building_currentlybuilding"
-			position = { x= 10 y = 10 }
+			position = { x= 10 y = 9 }
 		}
 
 
@@ -4600,7 +4600,7 @@ guiTypes = {
 		{
 			name ="building_destroy"
 			quadTextureSprite = "GFX_building_destroy"
-			position = { x = 10 y = 10 }
+			position = { x = 10 y = 9 }
 		}
 	}
 
@@ -5465,7 +5465,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "marketplace_cost"
 			position = {x = 9 y = 82 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5481,7 +5481,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "trade_depot_cost"
 			position = {x = 61 y = 82 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5503,7 +5503,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "stock_exchange_cost"
 			position = {x = 113 y = 82 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5548,7 +5548,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "town_hall_cost"
 			position = {x = 268 y = 82 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5564,7 +5564,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "courthouse_cost"
 			position = {x = 216 y = 82 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5586,7 +5586,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "university_cost"
 			position = {x = 320 y = 82 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5629,7 +5629,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "dock_cost"
 			position = {x = 9 y = 179 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5645,7 +5645,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "drydock_cost"
 			position = {x = 61 y = 179 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5667,7 +5667,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "shipyard_cost"
 			position = {x = 113 y = 179 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5683,7 +5683,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "grand_shipyard_cost"
 			position = {x = 165 y = 179 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5728,7 +5728,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "workshop_cost"
 			position = {x = 268 y = 179 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5744,7 +5744,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "counting_house_cost"
 			position = {x = 320 y = 179 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5793,7 +5793,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "barracks_cost"
 			position = {x = 9 y = 276 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5809,7 +5809,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "training_fields_cost"
 			position = {x = 61 y = 276 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5831,7 +5831,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "regimental_camp_cost"
 			position = {x = 113 y = 276 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5847,7 +5847,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "conscription_center_cost"
 			position = {x = 165 y = 276 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5892,7 +5892,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "temple_cost"
 			position = {x = 268 y = 276 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5908,7 +5908,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "cathedral_cost"
 			position = {x = 320 y = 276 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5957,7 +5957,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "fort_15th_cost"
 			position = {x = 9 y = 373 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5973,7 +5973,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "fort_16th_cost"
 			position = {x = 61 y = 373 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -5995,7 +5995,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "fort_17th_cost"
 			position = {x = 113 y = 373 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6017,7 +6017,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "fort_18th_cost"
 			position = {x = 165 y = 373 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6064,7 +6064,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "coastal_defence_cost"
 			position = {x = 268 y = 372 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6080,7 +6080,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "naval_battery_cost"
 			position = {x = 320 y = 372 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6128,7 +6128,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "manufactory_cost"
 			position = {x = 9 y = 470 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6144,7 +6144,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "ramparts_cost"
 			position = {x = 61 y = 470 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6160,7 +6160,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "impressment_offices_cost"
 			position = {x = 113 y = 470 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6176,7 +6176,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "state_house_cost"
 			position = {x = 165 y = 470 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6192,7 +6192,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "soldier_households_cost"
 			position = {x = 217 y = 470 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
@@ -6208,7 +6208,7 @@ guiTypes = {
 		instantTextBoxType={
 			name = "furnace_cost"
 			position = {x = 269 y = 470 }
-			font = "vic_18"
+			font = "vic_18_black"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18

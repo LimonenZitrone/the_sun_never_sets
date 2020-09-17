@@ -1,0 +1,143 @@
+monarch_power = ADM
+
+# applied when a country is ahead of time in this technology
+ahead_of_time = {
+	production_efficiency = 0.2
+	yearly_corruption = -0.05
+}
+
+# Pre-era techs
+technology = { #revolutionary thoughts
+	# Tech 0
+	year = 1820
+
+}
+
+technology = { #early victorian administration
+	# Tech 1
+	year = 1835
+
+	administrative_efficiency = 0.02
+
+}
+
+technology = { #libertarianism
+	# Tech 2
+	year = 1840
+
+	may_force_march = yes
+	may_support_rebels = yes
+	allowed_idea_groups = 1
+}
+
+technology = { #mechanical production
+	# Tech 3
+	year = 1845
+
+	production_efficiency = 0.02
+}
+
+technology = { #factories
+	# Tech 4
+	year = 1850
+
+	factory = yes
+	allowed_idea_groups = 2
+}
+
+technology = { #Romanticism
+	# Tech 5
+	year = 1855
+
+	#placeholder for now
+
+}
+
+technology = { #banking
+	# Tech 6
+	year = 1860
+
+	banks = yes
+	allowed_idea_groups = 3
+}
+
+technology = { #Railroads
+	# Tech 7
+	year = 1865
+
+	railroads = yes
+	administrative_efficiency = 0.05
+}
+
+technology = { #Socialism
+	# Tech 8
+
+	year = 1870
+	max_states = 5
+	allowed_idea_groups = 4
+}
+
+technology = { #Market Regulations
+	# Tech 9
+	year = 1875
+
+	#placeholder for now
+
+
+}
+
+technology = { #Imperialism
+	# Tech 10
+	year = 1880
+
+	allowed_idea_groups = 5
+	#allow imperialism cb
+	#If MoH is not owned allow scramble for Africa cb
+}
+
+technology = { #Mass Production
+	# Tech 11
+	year = 1885
+
+	better_factory = yes
+
+}
+
+technology = { #Oil
+	# Tech 12
+	year = 1890
+
+	production_efficiency = 0.05
+	allowed_idea_groups = 6
+	oil_field = yes
+}
+
+technology = { #Investment banks
+	# Tech 13
+	year = 1895
+
+	#placeholder
+}
+
+technology = { #Social Science
+	# Tech 14
+	year = 1900
+
+	allowed_idea_groups	= 7
+}
+
+technology = { #Electricity
+	# Tech 15
+	year = 1905
+
+	#placeholder
+
+}
+
+technology = { #Expressionism
+	# Tech 16
+	year = 1910
+
+	allowed_idea_groups = 8
+
+}
