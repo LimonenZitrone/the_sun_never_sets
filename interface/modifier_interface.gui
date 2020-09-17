@@ -32,9 +32,9 @@ guiTypes = {
 
 		listboxType = 	{
 			name ="modifier_list"
-			position = { x = 20 y = 56 }
+			position = { x = 20 y = 50 }
 			backGround=""
-			size = { x=725  y =499}
+			size = { x=725  y =510}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"

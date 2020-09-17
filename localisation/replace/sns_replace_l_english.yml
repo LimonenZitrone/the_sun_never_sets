@@ -8,6 +8,9 @@
  AFTER_GOLDEN_AGE_TEXT: "Golden Era was $START$ - $END$"
  IN_GOLDEN_AGE_TEXT: "§Y$WHOS$ Golden Era!§!"
 
+ INCOME_IN_TRADE:0 "We earn §G$VAL$§!¤ here."
+ TRANSFER_IN_TRADE:0 "We transfer §G$VAL$§!¤ to $WHERE$."
+
  #TAGS
  AYU: "Siam"
  AYU_ADJ: "Siamese"

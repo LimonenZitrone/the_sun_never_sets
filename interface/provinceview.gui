@@ -2610,7 +2610,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="raise_banners_button"
 				quadTextureSprite = "button_type_4"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				buttonText = "RAISE_MANCHU_BANNERS"
 
 				position = { x = 24 y = 427 }
@@ -2647,7 +2647,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="consecrate_patriarch_button"
 				quadTextureSprite = "button_type_8"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				buttonText = "CONSECRATE_BUTTON"
 
 				position = { x = 30 y = 427 }
@@ -2670,7 +2670,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="add_pasha_button"
 				quadTextureSprite = "button_type_8"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				buttonText = "ADD_PASHA_BUTTON"
 
 				position = { x = 30 y = 427 }
@@ -2686,7 +2686,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="create_janissaries_button"
 				quadTextureSprite = "button_type_8"
-				buttonFont = "vic_18"
+				buttonFont = "vic_18_black"
 				buttonText = "CREATE_JANISSARIES_BUTTON"
 
 				position = { x = 283 y = 427 }
@@ -2695,7 +2695,7 @@ guiTypes = {
 			windowType = {
 				name = "investment_offset"
 				backGround=""
-				position = { x=12 y=419 }
+				position = { x=12 y=425 }
 				if_resolution = {
 					max_height = 800
 					size= { x=458 y=150 }
