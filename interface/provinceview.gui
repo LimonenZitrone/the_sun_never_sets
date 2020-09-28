@@ -1144,7 +1144,7 @@ guiTypes = {
 				name = "occupied_by"
 				position = { x = 309 y = 228}
 				textureFile = ""
-				font = "vic_18"
+				font = "vic_18_black"
 				borderSize = {x = 2 y = 2}
 				text = "PROVVIEW_OCCUPIED_BY"
 				maxWidth = 165
@@ -2124,7 +2124,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "transfer_occupation_header"
-					position = { x = 47 y = 11 }
+					position = { x = 47 y = 19 }
 					textureFile = ""
 					font = "vic_22"
 					borderSize = {x = 4 y = 4}
@@ -2142,7 +2142,7 @@ guiTypes = {
 					tooltipText =""
 					delayedTooltipText = ""
 					buttonText = "DOMESTIC_BACK"
-					buttonFont = "vic_18"
+					buttonFont = "vic_18_black"
 					shortcut = "z"
 					extra_shortcut = "ESCAPE"
 					clicksound = back_click
