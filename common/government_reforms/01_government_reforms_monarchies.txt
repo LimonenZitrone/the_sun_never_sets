@@ -155,13 +155,13 @@ indian_sultanate_reform = {
 
 shogunate = {
 	icon = "shogunate"
-	allow_normal_conversion = yes
+	allow_normal_conversion = no
 	potential = {
 		NOT = { has_country_flag = formed_japan_flag }
 		OR = {
 			AND = {
 				capital_scope = {
-					province_id = 1020
+					province_id = 1028
 				}
 				culture_group = japanese_g
 				NOT = { exists = JAP }
@@ -178,7 +178,7 @@ shogunate = {
 		culture_group = japanese_g
 		technology_group = chinese
 		capital_scope = { region = japan_region }
-		owns = 1020
+		owns = 1028
 	}
 	legacy_equivalent = shogunate_legacy
 	fixed_rank = 2

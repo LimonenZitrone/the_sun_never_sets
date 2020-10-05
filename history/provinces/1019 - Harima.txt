@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = JAP
-controller = JAP
+owner = MRI
+controller = MRI
 culture = japanese
 religion = shinto
 capital = "Himeji"
@@ -26,7 +26,7 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 is_city = yes
-add_core = JAP
+add_core = MRI
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

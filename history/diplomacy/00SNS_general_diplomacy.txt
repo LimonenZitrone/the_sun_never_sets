@@ -288,3 +288,17 @@ vassal = {
 	start_date = 1830.1.1
 	end_date - 1910.1.1
 }
+
+vassal = {
+	first = TKG
+	second = IJP
+	start_date = 1821.1.1
+	end_date = 1864.7.1
+}
+
+vassal = {
+	first = TKG
+	second = TDA
+	start_date = 1821.1.1
+	end_date = 1864.7.1
+}

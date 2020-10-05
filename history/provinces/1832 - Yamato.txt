@@ -15,8 +15,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = JAP
-controller = JAP
+owner = TKG
+controller = TKG
 culture = japanese
 religion = shinto
 capital = "Nara"
@@ -26,7 +26,7 @@ base_tax = 4
 base_manpower = 2
 base_production = 3
 is_city = yes
-add_core = JAP
+add_core = TKG
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

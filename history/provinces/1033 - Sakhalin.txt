@@ -15,9 +15,6 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = JAP
-controller = JAP
-add_core = JAP
 culture = japanese
 religion = shinto
 capital = "Sakhalin"

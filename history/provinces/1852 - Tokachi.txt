@@ -19,9 +19,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = JAP
-controller = JAP
-add_core = JAP
+owner = TKG
+controller = TKG
+add_core = TKG
 is_city = yes
 culture = japanese
 religion = shinto
