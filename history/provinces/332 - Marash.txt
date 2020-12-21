@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = EGY
+controller = EGY
+add_core = EGY
 culture = turkish
 religion = sunni
 capital = "Maras"

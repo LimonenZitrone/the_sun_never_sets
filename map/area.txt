@@ -1,4 +1,4 @@
-# A province can only belong to one area!
+﻿# A province can only belong to one area!
 
 #Sea Areas:
 #No restriction on size.
@@ -327,7 +327,7 @@ massif_central_area = { #3
 }
 
 savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy 
-	203 204 205 4719
+	203 204 205 4719 4157
 }
 
 lorraine_area = { #4
@@ -471,7 +471,7 @@ po_valley_area = { #3
 	109 4739 107
 }
 
-piedmont_area = { #4
+piedmont_area = { 4806  #4
 	103 1875 2981 4727
 }
 
@@ -970,8 +970,8 @@ hinter_pommern_area = { #3
 	48 2995 4746
 }
 
-tirol_area = { #5
-	73 110 1768 4710 4758
+tirol_area = { 4805  4804  #5
+	73 110 1768 4710 4758 4160
 }
 
 austria_proper_area = { #5
@@ -988,7 +988,7 @@ carinthia_area = { #4 # Carniola in-game
 	129 130 1769 4738 4751
 }
 
-switzerland_area = { #4
+switzerland_area = { 4803  #4
 	166 1869 1870 1873 4722
 }
 
@@ -1056,7 +1056,7 @@ macedonia_area = { #5 (Macedonia)
 	148 1853 3001 4702 4780
 }
 
-morea_area = { #4 Central Greece & Crete
+morea_area = { 4802  4801  #4 Central Greece & Crete
 	145 146 163 1773 4701 4790
 }
 
@@ -1356,8 +1356,8 @@ gulf_of_arabia_area = { #5
 	365 2315 2320 2321
 }
 
-al_wahat_area = { #3
-	1233 2318 4323
+al_wahat_area = { 4800  4799  4798  4797  4796  4795  4794  4793  #3
+	1233 2318 4323 1795
 }
 
 delta_area = { #3
@@ -1747,8 +1747,8 @@ te_waipounamu_area = { #3
 # West Africa					       #
 ########################################
 
-western_sahara_area = { #5
-    1127 1128 1129 1130 2271
+western_sahara_area = { 4812  4811  4810  4809  4808  4807  #5
+    1127 1128 1129 1130 2271 1794
 }
 
 cap_verde_area = { #2 
@@ -3314,8 +3314,8 @@ columbia_river_area = { #4
     873 2486 2487 2488
 }
 
-snake_river_area = { #4
-    2019 2020 2489 2490
+snake_river_area = { 4792  4791  4790  #4
+    2019 2020 2489 2490 2608 1808
 }
 
 salish_sea_area = { #3

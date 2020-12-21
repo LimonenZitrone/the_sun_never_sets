@@ -16,8 +16,8 @@ discovered_by = andean
 discovered_by = high_american
 
 
-owner = SHY
-controller = SHY
+owner = RUS
+controller = RUS
 culture = khazak
 religion = sunni
 capital = "Ekibastuz"
@@ -27,12 +27,4 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = KZH
-add_core = SHY
-
-
-1465.1.1 = { controller = KZH }
-1468.1.1 = { owner = KZH remove_core = SHY } # Kazakhs take over
-1622.1.1 = { discovered_by = RUS }
-1740.1.1 = { owner = ZUN controller = ZUN } # Dzungarian invasion
-1755.1.1 = { owner = KZH controller = KZH }
+add_core = RUS

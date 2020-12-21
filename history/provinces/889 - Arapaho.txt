@@ -14,9 +14,9 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-owner = USA
-controller = USA
-add_core = USA
+owner = MEX
+controller = MEX
+add_core = MEX
 culture = american
 religion = protestant
 capital = "Arapaho"

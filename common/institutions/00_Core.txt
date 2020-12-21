@@ -1,0 +1,398 @@
+industrialization_institution = {
+	penalty = 2
+	bonus = {
+		production_efficiency = 0.1
+	}
+
+	trade_company_efficiency = 0.3
+
+	history = {
+		OR = {
+			AND = {
+				continent = europe
+				owner = { technology_group = western }
+			}
+			AND = {
+				continent = north_america
+				owner = { technology_group = western }
+			}
+			AND = {
+				is_year = 1836
+				continent = europe
+			}
+			AND = {
+				is_year = 1850
+				superregion = near_east_superregion
+				continent = south_america
+			}
+			AND = {
+				is_year = 1870
+				continent = oceania
+			}
+		}
+	}
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.1
+			scale = yes
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+				industrialization_institution = 100
+			}
+		}
+		
+		modifier = {
+			factor = 0.1
+			scale = yes
+			owner = {
+				ruler_has_personality = industrious_personality
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+nationalism_institution = {
+	penalty = 0.5
+	
+	bonus = {
+		culture_conversion_cost = -0.3
+	}
+	
+	trade_company_efficiency = 0.0
+	
+	historical_start_date = 1840.1.1
+	historical_start_province = 183 #Paris
+	
+	history = {
+		OR = {
+			AND = {
+				is_year = 1840
+				superregion = europe_superregion
+			}
+			AND = {
+				is_year = 1850
+				continent = south_america
+			}
+			AND = {
+				is_year = 1850
+				continent = north_america
+			}
+			AND = {
+				is_year = 1855
+				superregion = eastern_europe_superregion
+			}			
+		}
+	}
+	
+	can_start = {
+		is_year = 1840
+		is_in_capital_area = yes
+		is_island = no
+		is_state = yes
+		industrialization_institution = 100
+		development = 25
+		owner = {
+			technology_group = western
+		}
+	}
+	
+	start_chance = 10		#in 100 for when a province can_start
+	
+	on_start = sns_institutions.1
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.1
+			scale = yes
+			any_friendly_coast_border_province = {
+				nationalism_institution = 100
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+				industrialization_institution = 100
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			owner = {
+				technology_group = western
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+imperialism_institution = {
+	penalty = 0.5
+	
+	bonus = {
+		global_colonial_growth = 20
+	}
+	
+	trade_company_efficiency = 0.0
+	
+	historical_start_date = 1870.1.1
+	historical_start_province = 1744 #Antwerpen, ask Kongo and Rwanda before judging my decision
+	
+	history = {
+		OR = {
+			AND = {
+				is_year = 1870
+				superregion = europe_superregion
+			}
+			AND = {
+				is_year = 1870
+				continent = north_america
+			}
+			AND = {
+				is_year = 1870
+				continent = south_america
+			}
+			AND = {
+				is_year = 1900
+				superregion = eastern_europe_superregion
+			}			
+		}
+	}
+	
+	can_start = {
+		is_year = 1870
+		is_in_capital_area = yes
+		is_island = no
+		is_state = yes
+		owner = {
+			capital_scope = {
+				continent = europe
+			}
+			OR = {
+				africa = {
+					country_or_non_sovereign_subject_holds = PREV
+				}
+				oceania = {
+					country_or_non_sovereign_subject_holds = PREV
+				}	
+				asia = {
+					country_or_non_sovereign_subject_holds = PREV
+				}
+			}
+		}
+	}
+	
+	start_chance = 10		#in 100 for when a province can_start
+	
+	on_start = sns_institutions.2
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						imperialism_institution = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				technology_group = western
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+electricity_institution = {
+	penalty = 0.5
+	
+	bonus = {
+		technology_cost = -0.05
+	}
+	
+	trade_company_efficiency = 0.0
+	
+	historical_start_date = 1900.1.1
+	historical_start_province = 1744 #Placeholder
+	
+	history = {
+		OR = {
+			AND = {
+				is_year = 1900
+				superregion = europe_superregion
+			}
+			AND = {
+				is_year = 1900
+				continent = north_america
+			}
+			AND = {
+				is_year = 1900
+				continent = south_america
+			}
+			AND = {
+				is_year = 1900
+				superregion = eastern_europe_superregion
+			}			
+		}
+	}
+	
+	can_start = {
+		is_year = 1870
+		is_in_capital_area = yes
+		is_island = no
+		is_state = yes
+		owner = {
+			capital_scope = {
+				continent = europe
+			}
+			adm_tech = 22
+		}
+	}
+	
+	start_chance = 10		#in 100 for when a province can_start
+	
+	on_start = sns_institutions.3
+	
+	can_embrace = {
+		always = yes
+	}
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						electricity_institution = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				technology_group = western
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}

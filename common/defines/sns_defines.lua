@@ -7,6 +7,7 @@ NDefines.NGame.END_DATE = "9999.12.31"
 NDefines.NGame.AGE_USHER_IN_TIME = 12
 NDefines.NCountry.GOLDEN_ERA_YEARS = 25
 NDefines.NCountry.PS_FACTION_BOOST = 9999
+NDefines.NDiplomacy.GREAT_POWER_SUBJECT_CONTRIBUTION = 1
 
 -- HRE stuff
 NDefines.NCountry.HRE_MAX_RANK = 3
